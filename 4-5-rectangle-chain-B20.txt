@@ -1,0 +1,1074 @@
+# workset Minecraft-4-5-rectangle-chain-B20-A10 (generated on Mon Feb 18, 2019 at 10:02:36 for user coqc)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (c16 / chain-link :pl +)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :part (c10 / composite-entity
+                  :configuration (c17 / chain-link)
+                  :color (r5 / red))
+                  :ARG1-of (c9 / cartesian-framework-91
+                        :ARG2 (x6 / x-axis
+                              :size (d / dimension-entity :value 4))
+                        :ARG3 (y6 / y-axis
+                              :size (d2 / dimension-entity :value 3))
+                        :ARG4 (z6 / z-axis)
+                        :FR (i4 / intrinsic)))
+            :part (c11 / composite-entity
+                  :configuration (c18 / chain-link)
+                  :color (p / purple))
+                  :ARG1-of (c12 / cartesian-framework-91
+                        :ARG2 (x7 / x-axis
+                              :size (d3 / dimension-entity :value 4))
+                        :ARG3 (y7 / y-axis
+                              :size (d4 / dimension-entity :value 3))
+                        :ARG4 (z7 / z-axis)
+                        :FR (i5 / intrinsic)))
+            :part (c13 / composite-entity
+                  :configuration (c19 / chain-link)
+                  :color (b3 / blue))
+                  :ARG1-of (c14 / cartesian-framework-91
+                        :ARG2 (x8 / x-axis
+                              :size (d5 / dimension-entity :value 4))
+                        :ARG3 (y8 / y-axis
+                              :size (d6 / dimension-entity :value 3))
+                        :ARG4 (z8 / z-axis)
+                        :FR (i6 / intrinsic)))
+            :part (c15 / composite-entity
+                  :configuration (c20 / chain-link)
+                  :color (g2 / green))
+                  :ARG1-of (c14 / cartesian-framework-91
+                        :ARG2 (x9 / x-axis
+                              :size (d7 / dimension-entity :value 4))
+                        :ARG3 (y9 / y-axis
+                              :size (d8 / dimension-entity :value 3))
+                        :ARG4 (z9 / z-axis)
+                        :FR (i6 / intrinsic))))
+      :snt9 (p2 / parallel-01
+            :ARG0 y
+            :ARG1 (a6 / and
+                  :op1 z6
+                  :op2 y7
+                  :op3 y8
+                  :op4 z9))
+      :snt10 (p3 / parallel-01
+            :ARG0 x
+            :ARG1 (a7 / and
+                  :op1 x6
+                  :op2 z7
+                  :op3 x8
+                  :op4 x9))
+      :snt11 (p4 / parallel-01
+            :ARG0 z
+            :ARG1 (a8 / and
+                  :op1 y6
+                  :op2 x7
+                  :op3 z8
+                  :op4 y9)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.1 ::date 2019-01-16T15:58:58
+# ::snt <Builder> Mission has started.
+# ::save-date Wed Jan 16, 2019 ::user kristinwb ::file col_1179_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.2 ::date 2019-01-16T16:00:21
+# ::snt <Architect> so this entire structure lays on/above a footprint of a 7 by 6 gird
+# ::save-date Wed Jan 16, 2019 ::user kristinwb ::file col_1179_2.txt
+(l / lie-07
+      :ARG1 (s / structure
+            :mod (t / this)
+            :mod (e / entire))
+      :ARG2 (s2 / slash
+            :op1 (s3 / space :pl +
+                  :ARG1-of (o / on-top-03
+                        :ARG2 (f / footprint
+                              :consist-of (g / grid
+                                    :size (d / dimension-entity :value 7)
+                                    :size (d2 / dimension-entity :value 6)))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b / build-space))))
+            :op2 (s4 / space :pl +
+                  :ARG1-of (a / above-01
+                        :ARG2 f
+                        :ARG3 c))))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.3 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:1 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_3.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -3)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.4 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_4.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 2)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.5 ::date 2019-01-16T16:07:05
+# ::snt <Builder> im just marking for myself
+# ::save-date Wed Jan 16, 2019 ::user kristinwb ::file col_1179_5.txt
+(m / mark-02
+      :ARG0 (i / i)
+      :mod (j / just)
+      :beneficiary i)
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.6 ::date 2019-01-16T16:07:42
+# ::snt <Architect> actually, that is a really good start
+# ::save-date Wed Jan 16, 2019 ::user kristinwb ::file col_1179_6.txt
+(t / thing
+      :ARG2-of (s / start-01)
+      :ARG1-of (g / good-02
+            :degree (r / really))
+      :ARG1-of (a / actual-02)
+      :mod (t2 / that))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.7 ::date 2019-01-16T16:09:59
+# ::snt <Architect> start from the top blck and make a row toward the other of four purple blocks
+# ::save-date Mon Feb 18, 2019 ::user coqc ::file col_1179_7.txt
+(s / start-01
+      :ARG1 (m / make-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (r / row
+                  :ARG4-of (t2 / toward-01
+                        :ARG2 (t3 / thing
+                              :ARG1-of (o / other-01))
+                        :ARG3 b2))
+            :ARG2 (b / block :quant 4
+                  :color (p / purple)
+                  :ARG2-of (i2 / include-91
+                        :ARG1 b2)))
+      :sourc (b2 / block
+            :ARG1-of (t / top-06
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (w / white-square)))))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.8 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:2 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_8.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 2)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.9 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:2 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_9.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 1)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.10 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_10.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 0)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.11 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:2 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z -1)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.12 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:-1 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_12.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 2)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.13 ::date 2019-01-16T16:20:24
+# ::snt <Architect> fill in underthat as well.
+# ::save-date Wed Jan 16, 2019 ::user kristinwb ::file col_1179_13.txt
+(f / fill-in-05 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (s / space :pl +
+            :ARG1-of (u / under-01
+                  :ARG2 (t / thing
+                        :mod (t2 / that))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b / build-space))))
+      :mod (a / as-well))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.14 ::date 2019-01-16T16:23:21
+# ::snt <Builder> tok
+# ::save-date Wed Jan 16, 2019 ::user kristinwb ::file col_1179_14.txt
+(o / okay-04)
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.15 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_15.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 2)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.16 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 1)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.17 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_17.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 0)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.18 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -1)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.19 ::date 2019-01-16T16:23:48
+# ::snt <Architect> and another row on top of that of purple
+# ::save-date Wed Jan 16, 2019 ::user kristinwb ::file col_1179_19.txt
+(a / and
+      :op2 (b / be-destined-for-91
+            :ARG1 (r / row
+                  :mod (a2 / another)
+                  :consist-of (t / thing :pl +
+                        :color (p / purple)))
+            :ARG2 (s / space :pl +
+                  :ARG1-of (o / on-top-03
+                        :ARG2 (t2 / thing
+                              :mod (t3 / that))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b2 / build-space))))))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.20 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 2)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.21 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:3 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_21.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 1)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.22 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_22.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.23 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:3 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_23.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z -1)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.24 ::date 2019-01-16T16:25:26
+# ::snt <Architect> and you can remove taht other one
+# ::save-date Mon Feb 18, 2019 ::user coqc ::file col_1179_24.txt
+(a / and
+      :op3 (p / permit-01
+            :ARG1 (r / remove-01 :mode imperative
+                  :ARG0 (y / you)
+                  :ARG1 (o / one
+                        :mod (t / that)
+                        :ARG1-of (o2 / other-01)))))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.25 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:-1 Y:1 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_25.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -3)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.26 ::date 2019-01-16T16:27:34
+# ::snt <Architect> okay. so on right end of the strucure, on the second level, there are red blocks kind of making a ring off the end. So i would start with a red block second from the right on the second levle of this purple thing
+# ::save-date Mon Feb 18, 2019 ::user coqc ::file col_1179_26.txt
+(m / multi-sentence
+      :snt1 (o5 / okay-04)
+      :snt2 (m2 / make-01
+            :ARG1 (r2 / ring)
+            :ARG2 (b / block :pl +
+                  :color (r / red))
+            :degree (k / kind-of)
+            :location (s4 / space :pl +
+                  :ARG1-of (o2 / off-06
+                        :ARG2 (t4 / thing
+                              :ARG1-of (e / end-05)
+                              :ARG1-of (r3 / right-10
+                                    :ARG2 (s / structure)
+                                    :ARG3 (c2 / cartesian-framework-91
+                                          :ARG1 (b4 / builder)))))
+                  :location (l / level
+                        :ord (o3 / ordinal-entity :value 2))))
+      :snt3 (r4 / recommend-01
+            :ARG0 (i / i)
+            :ARG1 (s2 / start-01
+                  :ARG0 (y / you)
+                  :ARG2 (b2 / block
+                        :color (r5 / red))
+                  :location (s3 / space
+                        :ARG1-of (n / next-to-02
+                              :ARG2 (t5 / thing
+                                    :ord (o / ordinal-entity :value 2
+                                          :range-start (t / thing
+                                                :ARG1-of (r6 / right-10
+                                                      :ARG2 t2
+                                                      :ARG3 (c / cartesian-framework-91
+                                                            :ARG1 y))))
+                                    :location (l2 / level
+                                          :ord (o4 / ordinal-entity :value 2)
+                                          :part-of (t2 / thing
+                                                :mod (t3 / this)
+                                                :color (p / purple))))
+                              :ARG3 (c3 / cartesian-framework-91
+                                    :ARG1 (b3 / build-space)))))))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.27 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_27.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 0)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.28 ::date 2019-01-16T16:38:21
+# ::snt <Architect> one more in the same direction
+# ::save-date Wed Jan 16, 2019 ::user kristinwb ::file col_1179_28.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing
+            :ARG1-of (h / have-quant-91
+                  :ARG2 1
+                  :ARG3 (m / more)))
+      :ARG2 (s / space
+            :direction (d / direction
+                  :ARG3-of (s2 / same-01))))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.29 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:1 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_29.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 0)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.30 ::date 2019-01-16T16:40:49
+# ::snt <Architect> lay two to the right of that
+# ::save-date Wed Jan 16, 2019 ::user kristinwb ::file col_1179_30.txt
+(l / lay-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing :quant 2)
+      :ARG2 (s / space :pl +
+            :ARG1-of (r / right-04
+                  :ARG2 (t2 / thing
+                        :mod (t3 / that))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 y))))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.31 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:1 Y:2 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_31.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z -1)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.32 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:1 Y:2 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_32.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z -2)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.33 ::date 2019-01-16T16:42:05
+# ::snt <Architect> now three going up from that
+# ::save-date Mon Feb 18, 2019 ::user coqc ::file col_1179_33.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing :quant 3)
+      :ARG2 (s / space :pl +
+            :ARG1-of (g / go-35
+                  :ARG3 (t3 / thing
+                        :mod (t4 / that))
+                  :direction (t2 / trajectory
+                        :ARG2-of (u / up-10
+                              :ARG4 t3
+                              :ARG5 (b2 / builder)))))
+      :time (n / now))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.34 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:2 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_34.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -2)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.35 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-1 Y:2 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_35.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z -2)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.36 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-2 Y:2 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_36.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z -2)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.37 ::date 2019-01-16T16:44:52
+# ::snt <Architect> and two more wrapping around the purple
+# ::save-date Mon Feb 18, 2019 ::user coqc ::file col_1179_37.txt
+(a / and
+      :op2 (b / be-destined-for-91
+            :ARG1 (t / thing
+                  :ARG1-of (h / have-quant-91
+                        :ARG2 2
+                        :ARG3 (m / more)))
+            :ARG2 (s / space :pl +
+                  :ARG2-of (w / wrap-01
+                        :ARG1 (t2 / thing
+                              :color (p / purple))
+                        :path (t3 / trajectory
+                              :ARG1-of (a2 / around-02
+                                    :ARG2 t2))))))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.38 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-2 Y:2 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_38.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z -1)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.39 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-2 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_39.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 0)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.40 ::date 2019-01-16T16:47:51
+# ::snt <Architect> yep! next lets do the green blocks.
+# ::save-date Mon Feb 18, 2019 ::user coqc ::file col_1179_40.txt
+(m / multi-sentence
+      :snt1 (c / confirm-01)
+      :snt2 (d / do-02 :mode imperative
+            :ARG0 (w / we)
+            :ARG3 (b / block :pl +
+                  :color (g / green))
+            :time (n / next)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.41 ::date 2019-01-16T16:49:04
+# ::snt <Architect> okay, so basically the same thing happens on the second level with the green. except the ring is bigger on your side
+# ::save-date Mon Feb 18, 2019 ::user coqc ::file col_1179_41.txt
+(t / thing
+      :ARG1-of (s / same-01)
+      :mod (b / basic)
+      :instrument (t2 / thing
+            :color (g / green))
+      :location (l / level
+            :ord (o / ordinal-entity :value 2))
+      :ARG2-of (e / except-01
+            :ARG1 (h3 / have-degree-91
+                  :ARG1 (r / ring)
+                  :ARG2 (b2 / big-01
+                        :ARG1 r)
+                  :ARG3 (m2 / more)
+                  :location (s2 / side
+                        :location-of (y / you)))))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.42 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:2 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_42.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 1)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.43 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-3 Y:2 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_43.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z 1)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.44 ::date 2019-01-16T16:49:38
+# ::snt <Architect> yep!
+# ::save-date Wed Jan 16, 2019 ::user kristinwb ::file col_1179_44.txt
+(c / confirm-01)
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.45 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-3 Y:2 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_45.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z 2)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.46 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-3 Y:2 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_46.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z 3)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.47 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:2 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_47.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 3)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.48 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-1 Y:2 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_48.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 3)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.49 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:2 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_49.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 1)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.50 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:2 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_50.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 2)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.51 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:2 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_51.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 3)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.52 ::date 2019-01-16T16:49:54
+# ::snt <Architect> okay, quick change. the blocks you can't "see" in the original purple rectangle shouldnt be there.
+# ::save-date Mon Feb 18, 2019 ::user coqc ::file col_1179_52.txt
+(m / multi-sentence
+      :snt1 (a / and
+            :op1 (o2 / okay-04)
+            :op2 (c / change-01
+                  :ARG1-of (q / quick-02)))
+      :snt2 (r / recommend-01
+            :ARG1 (b / be-located-91 :polarity -
+                  :ARG1 (b2 / block :pl +
+                        :ARG1-of (s / see-01
+                              :ARG0 (y / you)
+                              :ARG1-of (p / possible-01 :polarity -))
+                        :part-of (r2 / rectangle
+                              :mod (o / original)
+                              :color (p2 / purple)))
+                  :ARG2 (t / there))))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.53 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:-1 Y:3 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_53.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 1)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.54 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:-1 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_54.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.55 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:-1 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_55.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 0)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.56 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:-1 Y:2 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_56.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 1)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.57 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_57.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.58 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:3 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_58.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 1)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.59 ::date 2019-01-16T16:58:20
+# ::snt <Architect> or, morethey should be replaced with red and green to continue the rectangles youre building around them
+# ::save-date Fri Jan 18, 2019 ::user kristinwb ::file col_1179_59.txt
+(o / or
+      :op2 (r / recommend-01
+            :ARG1 (r2 / replace-01
+                  :ARG1 (t / they)
+                  :ARG2 (a / and
+                        :op1 (t2 / thing
+                              :color (r3 / red))
+                        :op2 (t3 / thing
+                              :color (g / green)))
+                  :purpose (c / continue-01
+                        :ARG1 (r4 / rectangle :pl +
+                              :ARG1-of (b / build-01
+                                    :ARG0 (y / you)
+                                    :location (s / space :pl +
+                                          :ARG1-of (a2 / around-02
+                                                :ARG2 t))))))
+            :ARG1-of (h / have-degree-91
+                  :ARG3 (m / more))))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.60 ::date 2019-01-16T16:58:37
+# ::snt <Builder> ah okay
+# ::save-date Wed Jan 16, 2019 ::user kristinwb ::file col_1179_60.txt
+(a / and
+      :op1 (a2 / ah :mode expressive)
+      :op2 (o / okay-04))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.61 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:-1 Y:3 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_61.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 1)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.62 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-1 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_62.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 0)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.63 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-1 Y:2 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_63.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 1)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.64 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:3 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_64.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 1)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.65 ::date 2019-01-16T16:59:44
+# ::snt <Architect> great!
+# ::save-date Wed Jan 16, 2019 ::user kristinwb ::file col_1179_65.txt
+(h / have-mod-91
+      :ARG2 (g / great))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.66 ::date 2019-01-16T16:59:58
+# ::snt <Architect> the final is a blue rectangle, like the ones you just build
+# ::save-date Mon Feb 18, 2019 ::user coqc ::file col_1179_66.txt
+(r / rectangle
+      :ARG1-of (r2 / resemble-01
+            :ARG2 (t2 / thing :pl +
+                  :ARG1-of (b2 / build-01
+                        :ARG0 (y / you)
+                        :time (j / just))))
+      :color (b / blue)
+      :domain (t / thing
+            :ord (o / ordinal-entity :value "-1")))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.67 ::date 2019-01-16T17:04:26
+# ::snt <Architect> *built
+# ::save-date Wed Jan 16, 2019 ::user kristinwb ::file col_1179_67.txt
+(m / mean-01
+      :ARG2 (s2 / string-entity :value "built"))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.68 ::date 2019-01-16T17:05:05
+# ::snt <Builder> where do I put it?
+# ::save-date Wed Jan 16, 2019 ::user kristinwb ::file col_1179_68.txt
+(p / put-01
+      :ARG0 (i / i)
+      :ARG1 (i2 / it)
+      :ARG2 (a / amr-unknown))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.69 ::date 2019-01-16T17:05:39
+# ::snt <Architect> it is perpindicular to the purple and green
+# ::save-date Wed Jan 16, 2019 ::user kristinwb ::file col_1179_69.txt
+(p / perpendicular-01
+      :ARG1 (i2 / it)
+      :ARG2 (a / and
+            :op1 (t / thing
+                  :color (p2 / purple))
+            :op2 (t2 / thing
+                  :color (g / green))))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.70 ::date 2019-01-16T17:06:49
+# ::snt <Architect> so start in the empty spot of the green rectangle,
+# ::save-date Thu Jan 17, 2019 ::user kristinwb ::file col_1179_70.txt
+(c / cause-01
+      :ARG1 (s / start-01 :mode imperative
+            :ARG0 (y / you)
+            :location (s2 / spot
+                  :ARG1-of (e / empty-02)
+                  :location (r / rectangle
+                        :color (g / green)))))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.71 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-2 Y:2 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_71.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 2)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.72 ::date 2019-01-16T17:08:02
+# ::snt <Architect> one blue on top of that
+# ::save-date Wed Jan 16, 2019 ::user kristinwb ::file col_1179_72.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing :quant 1
+            :color (b2 / blue))
+      :ARG2 (s / space
+            :ARG1-of (o / on-top-03
+                  :ARG2 (t2 / thing
+                        :mod (t3 / that))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b3 / build-space)))))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.73 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-2 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_73.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 2)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.74 ::date 2019-01-16T17:08:43
+# ::snt <Architect> three more toward you
+# ::save-date Mon Feb 18, 2019 ::user coqc ::file col_1179_74.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing
+            :ARG1-of (h / have-quant-91
+                  :ARG2 3
+                  :ARG3 (m / more)))
+      :ARG2 (s / space :pl +
+            :ARG4-of (t2 / toward-01
+                  :ARG2 (y / you))))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.75 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-3 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_75.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z 2)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.76 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-4 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_76.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 3 :z 2)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.77 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-5 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_77.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -5 :y 3 :z 2)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.78 ::date 2019-01-16T17:10:05
+# ::snt <Architect> two down
+# ::save-date Mon Feb 18, 2019 ::user coqc ::file col_1179_78.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing :quant 2)
+      :ARG2 (s / space :pl +
+            :ARG1-of (d / down-03
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.79 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-5 Y:2 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_79.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -5 :y 2 :z 2)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.80 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-5 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_80.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -5 :y 1 :z 2)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.81 ::date 2019-01-16T17:11:29
+# ::snt <Builder> fill in the rest? or is it a ring?
+# ::save-date Mon Feb 18, 2019 ::user coqc ::file col_1179_81.txt
+(a2 / amr-choice
+      :op1 (f / fill-in-05
+            :ARG1 (r2 / rest))
+      :op2 (h / have-configuration-91
+            :ARG1 (i2 / it)
+            :ARG2 (r3 / ring)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.82 ::date 2019-01-16T17:13:39
+# ::snt <Architect> and then connect itwith three more back toward the start
+# ::save-date Mon Feb 18, 2019 ::user coqc ::file col_1179_82.txt
+(a / and
+      :op2 (c / connect-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (i2 / it)
+            :ARG3 (t2 / thing
+                  :ARG1-of (h / have-quant-91
+                        :ARG2 3
+                        :ARG3 (m / more)))
+            :time (t / then)
+            :direction (t3 / trajectory
+                  :ARG1-of (t4 / toward-01
+                        :ARG2 (t5 / thing
+                              :ARG2-of (s / start-01)))
+                  :mod (b / back))))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.83 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-2 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_83.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 2)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.84 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-3 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_84.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z 2)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.85 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-4 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1179_85.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 1 :z 2)))
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.86 ::date 2019-01-16T17:17:42
+# ::snt <Builder> cool
+# ::save-date Wed Jan 16, 2019 ::user kristinwb ::file col_1179_86.txt
+(c / cool-04)
+
+# ::id minecraft-4-5-rectangle-chain-b20-a10_1179.87 ::date 2019-01-16T17:17:51
+# ::snt <Architect> done
+# ::save-date Wed Jan 16, 2019 ::user kristinwb ::file col_1179_87.txt
+(b / be-done-08)

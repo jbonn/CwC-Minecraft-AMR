@@ -1,0 +1,981 @@
+# workset Minecraft-4-5-overlapping-reticles-B38-A28 (generated on Tue Feb 19, 2019 at 19:03:37 for user coqc)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (r5 / reticle :pl +)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :FR (i4 / intrinsic)))
+      :snt9 (p / parallel-01
+            :ARG0 z
+            :ARG1 z6))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.1 ::date 2019-01-22T16:40:22
+# ::snt <Builder> Mission has started.
+# ::save-date Tue Jan 22, 2019 ::user kristinwb ::file col_1201_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.2 ::date 2019-01-22T16:41:21
+# ::snt <Architect> hey
+# ::save-date Tue Jan 22, 2019 ::user kristinwb ::file col_1201_2.txt
+(h / hey)
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.3 ::date 2019-01-22T16:41:42
+# ::snt <Builder> Hello
+# ::save-date Tue Jan 22, 2019 ::user kristinwb ::file col_1201_3.txt
+(h / hello)
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.4 ::date 2019-01-22T16:41:53
+# ::snt <Architect> alright
+# ::save-date Tue Jan 22, 2019 ::user kristinwb ::file col_1201_4.txt
+(a / all-right)
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.5 ::date 2019-01-22T16:43:34
+# ::snt <Architect> can you get blue green and purple blocks
+# ::save-date Tue Jan 22, 2019 ::user kristinwb ::file col_1201_5.txt
+(g / get-01 :mode imperative :polite +
+      :ARG0 (y / you)
+      :ARG1 (a / and
+            :op1 (b / block :pl +
+                  :color (b2 / blue))
+            :op2 (b3 / block :pl +
+                  :color (g2 / green))
+            :op3 (b4 / block :pl +
+                  :color (p / purple))))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.6 ::date 2019-01-22T16:44:44
+# ::snt <Builder> Yup
+# ::save-date Tue Jan 22, 2019 ::user kristinwb ::file col_1201_6.txt
+(c / confirm-01)
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.7 ::date 2019-01-22T16:44:52
+# ::snt <Architect> alright can you go a little bit to the right so we have space
+# ::save-date Tue Feb 19, 2019 ::user coqc ::file col_1201_7.txt
+(g / go-02 :mode imperative :polite +
+      :ARG0 (y / you)
+      :ARG4 (s / space)
+      :direction (t / trajectory
+            :ARG4-of (r / right-04
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 y)))
+      :extent (b / bit
+            :mod (l / little))
+      :purpose (h / have-03
+            :ARG0 (w / we)
+            :ARG1 (s2 / space)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.8 ::date 2019-01-22T16:52:31
+# ::snt <Builder> Did you get the technical issues fixed on your end?
+# ::save-date Tue Feb 19, 2019 ::user coqc ::file col_1201_8.txt
+(g / get-04
+      :ARG0 (y / you)
+      :ARG1 (f / fix-02
+            :ARG1 (i2 / issue-02
+                  :ARG1 y
+                  :mod (t / technical)))
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.9 ::date 2019-01-22T16:55:32
+# ::snt <Architect> yeah sorry
+# ::save-date Tue Jan 22, 2019 ::user kristinwb ::file col_1201_9.txt
+(a / and
+      :op1 (c / confirm-01)
+      :op2 (s / sorry-01))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.10 ::date 2019-01-22T16:55:45
+# ::snt <Builder> Ok, is around here god?
+# ::save-date Sat Jan 26, 2019 ::user kristinwb ::file col_1201_10.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (g / good-02
+            :ARG1 (s / space
+                  :ARG1-of (a2 / around-01
+                        :ARG2 (h / here)))
+            :polarity (a3 / amr-unknown)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.11 ::date 2019-01-22T17:00:31
+# ::snt <Builder> good*
+# ::save-date Tue Jan 22, 2019 ::user kristinwb ::file col_1201_11.txt
+(m / mean-01
+      :ARG2 (s2 / string-entity :value "good"))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.12 ::date 2019-01-22T17:01:03
+# ::snt <Architect> yeah
+# ::save-date Tue Jan 22, 2019 ::user kristinwb ::file col_1201_12.txt
+(c / confirm-01)
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.13 ::date 2019-01-22T17:01:10
+# ::snt <Architect> can you put a blue block down
+# ::save-date Tue Jan 22, 2019 ::user kristinwb ::file col_1201_13.txt
+(p / put-down-17 :mode imperative :polite +
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (b2 / blue)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.14 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:1 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_14.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -2)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.15 ::date 2019-01-22T17:02:09
+# ::snt <Architect> and then one on top of that
+# ::save-date Tue Jan 22, 2019 ::user kristinwb ::file col_1201_15.txt
+(a / and
+      :op2 (b / be-destined-for-91
+            :ARG1 (t4 / thing :quant 1)
+            :ARG2 (s / space
+                  :ARG1-of (o2 / on-top-03
+                        :ARG2 (t2 / thing
+                              :mod (t3 / that))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b2 / build-space))))
+            :time (t / then)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.16 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:1 Y:2 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z -2)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.17 ::date 2019-01-22T17:02:50
+# ::snt <Builder> ok
+# ::save-date Tue Jan 22, 2019 ::user kristinwb ::file col_1201_17.txt
+(o / okay-04)
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.18 ::date 2019-01-22T17:02:58
+# ::snt <Architect> and then one to the left of the top blue block
+# ::save-date Tue Jan 22, 2019 ::user kristinwb ::file col_1201_18.txt
+(a / and
+      :op3 (b3 / be-destined-for-91 :mode imperative
+            :ARG1 (t3 / thing :quant 1)
+            :ARG2 (s / space
+                  :ARG1-of (l / left-20
+                        :ARG2 (b / block
+                              :color (b2 / blue)
+                              :ARG1-of (t2 / top-06
+                                    :ARG3 (c2 / cartesian-framework-91
+                                          :ARG1 (b5 / build-space))))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b4 / builder))))
+            :time (t / then)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.19 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:1 Y:3 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z -2)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.20 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:2 Y:3 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z -2)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.21 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a blue block at X:1 Y:3 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_21.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z -2)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.22 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a blue block at X:2 Y:3 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_22.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z -2)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.23 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:2 Y:2 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_23.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z -2)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.24 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a blue block at X:2 Y:3 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_24.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z -2)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.25 ::date 2019-01-22T17:05:29
+# ::snt <Builder> sorry about that
+# ::save-date Tue Jan 22, 2019 ::user kristinwb ::file col_1201_25.txt
+(s / sorry-01
+      :ARG2 (t / that))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.26 ::date 2019-01-22T17:05:42
+# ::snt <Architect> and then one to the right of it
+# ::save-date Sat Jan 26, 2019 ::user kristinwb ::file col_1201_26.txt
+(a / and
+      :op4 (b / be-destined-for-91 :mode imperative
+            :ARG1 (t2 / thing :quant 1)
+            :ARG2 (s / space
+                  :ARG1-of (r / right-04
+                        :ARG2 (i2 / it)
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b2 / builder))))
+            :time (t / then)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.27 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:2 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_27.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -2)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.28 ::date 2019-01-22T17:07:19
+# ::snt <Architect> and then one on top of 2 blue blocks
+# ::save-date Tue Jan 22, 2019 ::user kristinwb ::file col_1201_28.txt
+(a / and
+      :op5 (b3 / be-destined-for-91 :mode imperative
+            :ARG1 (t2 / thing :quant 1)
+            :ARG2 (s / space :pl +
+                  :ARG1-of (o2 / on-top-03
+                        :ARG2 (c / composite-entity
+                              :consist-of (b / block :quant 2
+                                    :color (b2 / blue)))
+                        :ARG3 (c2 / cartesian-framework-91
+                              :ARG1 (b4 / build-space))))
+            :time (t / then)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.29 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:1 Y:3 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_29.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z -2)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.30 ::date 2019-01-22T17:11:41
+# ::snt <Architect> alright
+# ::save-date Tue Jan 22, 2019 ::user kristinwb ::file col_1201_30.txt
+(a / all-right)
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.31 ::date 2019-01-22T17:11:47
+# ::snt <Builder> like a plus?
+# ::save-date Tue Jan 22, 2019 ::user kristinwb ::file col_1201_31.txt
+(r / resemble-01
+      :ARG2 (p / plus)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.32 ::date 2019-01-22T17:13:02
+# ::snt <Architect> and then can you go on the other side
+# ::save-date Tue Jan 22, 2019 ::user kristinwb ::file col_1201_32.txt
+(a / and
+      :op6 (g / go-02 :mode imperative :polite +
+            :ARG0 (y / you)
+            :ARG4 (s / side
+                  :ARG1-of (o / other-01))
+            :time (t / then)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.33 ::date 2019-01-22T17:14:20
+# ::snt <Architect> yeah you're doing perfect
+# ::save-date Tue Feb 19, 2019 ::user coqc ::file col_1201_33.txt
+(a / and
+      :op1 (c / confirm-01)
+      :op2 (d / do-02
+            :ARG0 (y / you)
+            :ARG1-of (p / perfect-02)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.34 ::date 2019-01-22T17:15:23
+# ::snt <Builder> yup
+# ::save-date Tue Jan 22, 2019 ::user kristinwb ::file col_1201_34.txt
+(c / confirm-01)
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.35 ::date 2019-01-22T17:15:34
+# ::snt <Architect> can you put a green block on the center of the blue block
+# ::save-date Tue Jan 22, 2019 ::user kristinwb ::file col_1201_35.txt
+(p / put-01 :mode imperative :polite +
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (g / green))
+      :ARG2 (s / space
+            :ARG1-of (o / on-06
+                  :ARG2 (s2 / space
+                        :ARG1-of (c / center-03
+                              :ARG1 (c2 / composite-entity
+                                    :consist-of (b2 / block :pl +
+                                          :color (b3 / blue))))))))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.36 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:1 Y:2 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_36.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z -1)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.37 ::date 2019-01-23T08:00:56
+# ::snt <Builder> Yup
+# ::save-date Wed Jan 23, 2019 ::user kristinwb ::file col_1201_37.txt
+(c / confirm-01)
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.38 ::date 2019-01-23T08:01:12
+# ::snt <Architect> one to the right of that one
+# ::save-date Tue Feb 19, 2019 ::user coqc ::file col_1201_38.txt
+(b / be-destined-for-91
+      :ARG1 (t2 / thing :quant 1)
+      :ARG2 (s / space
+            :ARG1-of (r / right-04
+                  :ARG2 (o2 / one
+                        :mod (t / that))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / builder))
+                  :quant (d / distance-quantity :quant 1))))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.39 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:2 Y:2 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_39.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z -1)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.40 ::date 2019-01-23T08:02:52
+# ::snt <Builder> are we repeating the pattern?
+# ::save-date Wed Jan 23, 2019 ::user kristinwb ::file col_1201_40.txt
+(r / repeat-01
+      :ARG0 (w / we)
+      :ARG1 (t / thing
+            :ARG2-of (p / pattern-01))
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.41 ::date 2019-01-23T08:08:39
+# ::snt <Architect> yea
+# ::save-date Wed Jan 23, 2019 ::user kristinwb ::file col_1201_41.txt
+(c / confirm-01)
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.42 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:1 Y:3 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_42.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z -1)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.43 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:2 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_43.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -1)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.44 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:1 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_44.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -1)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.45 ::date 2019-01-23T08:09:11
+# ::snt <Builder> again with purple?
+# ::save-date Tue Feb 19, 2019 ::user coqc ::file col_1201_45.txt
+(e / event
+      :mod (a2 / again)
+      :instrument (t2 / thing
+            :color (p2 / purple))
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.46 ::date 2019-01-23T08:13:48
+# ::snt <Architect> oh wait not exactly
+# ::save-date Tue Feb 19, 2019 ::user coqc ::file col_1201_46.txt
+(a / and
+      :op1 (w / wait-01 :mode imperative
+            :ARG1 (y / you)
+            :mod (o / oh :mode expressive))
+      :op2 (c / confirm-01
+            :degree (e / exact :polarity -)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.47 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:1 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_47.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -1)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.48 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:2 Y:2 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_48.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z -1)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.49 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:0 Y:2 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_49.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -1)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.50 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:1 Y:2 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_50.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z -1)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.51 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:2 Y:2 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_51.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z -1)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.52 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:1 Y:2 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_52.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z -1)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.53 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:1 Y:3 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_53.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z -1)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.54 ::date 2019-01-23T08:16:00
+# ::snt <Builder> sorry
+# ::save-date Wed Jan 23, 2019 ::user kristinwb ::file col_1201_54.txt
+(s / sorry-01)
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.55 ::date 2019-01-23T08:16:09
+# ::snt <Architect> shifted to the right one
+# ::save-date Wed Jan 23, 2019 ::user kristinwb ::file col_1201_55.txt
+(s / shift-01 :mode imperative
+      :ARG2 (s2 / space :pl +
+            :ARG1-of (r / right-04
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b / builder))
+                  :quant (d / distance-quantity :quant 1))))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.56 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:2 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_56.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -1)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.57 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:2 Y:3 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_57.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z -1)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.58 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:3 Y:2 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_58.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z -1)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.59 ::date 2019-01-23T08:17:46
+# ::snt <Architect> yeah great
+# ::save-date Wed Jan 23, 2019 ::user kristinwb ::file col_1201_59.txt
+(c / confirm-01
+      :ARG1 (h / have-mod-91
+            :ARG2 (g / great)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.60 ::date 2019-01-23T08:18:08
+# ::snt <Builder> Ok,
+# ::save-date Wed Jan 23, 2019 ::user kristinwb ::file col_1201_60.txt
+(o / okay-04)
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.61 ::date 2019-01-23T08:18:25
+# ::snt <Architect> okay now take purple and put it on the left most green block
+# ::save-date Wed Jan 23, 2019 ::user kristinwb ::file col_1201_61.txt
+(a / and
+      :op1 (t / take-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (t2 / thing
+                  :color (p / purple)))
+      :op2 (p2 / put-01 :mode imperative
+            :ARG0 y
+            :ARG1 t2
+            :ARG2 (s / space
+                  :ARG1-of (o / on-06
+                        :ARG2 (b / block
+                              :color (g / green)
+                              :ARG1-of (l / left-24
+                                    :ARG3 (c / cartesian-framework-91
+                                          :ARG1 y)
+                                    :ARG2-of (h / have-degree-91
+                                          :ARG1 b
+                                          :ARG3 (m / most)))))))
+      :time (n / now))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.62 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:1 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_62.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 0)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.63 ::date 2019-01-23T08:36:55
+# ::snt <Builder> to the side or above?
+# ::save-date Wed Jan 23, 2019 ::user kristinwb ::file col_1201_63.txt
+(b / be-destined-for-91
+      :ARG2 (a / amr-choice
+            :op1 (s / space
+                  :ARG1-of (n / next-to-02
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b2 / build-space))))
+            :op2 (s3 / space
+                  :ARG1-of (a2 / above-01
+                        :ARG3 c))))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.64 ::date 2019-01-23T08:39:51
+# ::snt <Architect> alright one more purple block to the left
+# ::save-date Tue Feb 19, 2019 ::user coqc ::file col_1201_64.txt
+(b / be-destined-for-91
+      :ARG1 (b2 / block
+            :color (p / purple)
+            :ARG1-of (h / have-quant-91
+                  :ARG2 1
+                  :ARG3 (m / more)))
+      :ARG2 (s / space
+            :ARG1-of (l / left-20
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b3 / builder))))
+      :mod (a2 / all-right))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.65 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_65.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 0)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.66 ::date 2019-01-23T08:41:21
+# ::snt <Builder> is it another +
+# ::save-date Tue Feb 19, 2019 ::user coqc ::file col_1201_66.txt
+(h / have-configuration-91
+      :ARG1 (i2 / it)
+      :ARG2 (t / thing
+            :mod (a / another)
+            :mod (s / string-entity :value +))
+      :polarity (a2 / amr-unknown))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.67 ::date 2019-01-23T08:42:09
+# ::snt <Builder> ?
+# ::save-date Wed Jan 23, 2019 ::user kristinwb ::file col_1201_67.txt
+(a / amr-empty)
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.68 ::date 2019-01-23T08:42:38
+# ::snt <Architect> yes except shifted to the left one
+# ::save-date Tue Feb 19, 2019 ::user coqc ::file col_1201_68.txt
+(c / confirm-01
+      :ARG2-of (e / except-01
+            :ARG1 (s / shift-01
+                  :ARG2 (s2 / space :pl +
+                        :ARG1-of (l / left-20
+                              :ARG3 (c2 / cartesian-framework-91
+                                    :ARG1 (b / builder))
+                              :quant (d / distance-quantity :quant 1))))))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.69 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:1 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_69.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 0)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.70 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:2 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_70.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z 0)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.71 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:1 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_71.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 0)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.72 ::date 2019-01-23T08:46:06
+# ::snt <Builder> ok
+# ::save-date Wed Jan 23, 2019 ::user kristinwb ::file col_1201_72.txt
+(o / okay-04)
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.73 ::date 2019-01-23T08:46:27
+# ::snt <Architect> uhh
+# ::save-date Wed Jan 23, 2019 ::user kristinwb ::file col_1201_73.txt
+(u / uhh :mode expressive)
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.74 ::date 2019-01-23T08:47:11
+# ::snt <Builder> Are we goint to repeat this pattern?
+# ::save-date Tue Feb 19, 2019 ::user coqc ::file col_1201_74.txt
+(r / repeat-01
+      :ARG0 (w / we)
+      :ARG1 (t / thing
+            :ARG2-of (p / pattern-01)
+            :mod (t2 / this))
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.75 ::date 2019-01-23T08:48:09
+# ::snt <Architect> can you shift the purple cross to the left
+# ::save-date Wed Jan 23, 2019 ::user kristinwb ::file col_1201_75.txt
+(s / shift-01 :mode imperative :polite +
+      :ARG0 (y / you)
+      :ARG1 (c / cross
+            :color (p / purple))
+      :ARG2 (s2 / space :pl +
+            :ARG1-of (l / left-20
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 y))))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.76 ::date 2019-01-23T08:49:19
+# ::snt <Builder> How many blocks?
+# ::save-date Wed Jan 23, 2019 ::user kristinwb ::file col_1201_76.txt
+(d / distance-quantity
+      :quant (a / amr-unknown)
+      :unit (b / block))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.77 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:1 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_77.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 0)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.78 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:2 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_78.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z 0)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.79 ::date 2019-01-23T08:59:41
+# ::snt <Architect> just one
+# ::save-date Wed Jan 23, 2019 ::user kristinwb ::file col_1201_79.txt
+(h / have-quant-91
+      :ARG2 1
+      :mod (j / just))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.80 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:1 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_80.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 0)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.81 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:1 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_81.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 0)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.82 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_82.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 0)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.83 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:1 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_83.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 0)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.84 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_84.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.85 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_85.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 0)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.86 ::date 2019-01-23T09:00:12
+# ::snt <Builder> like that?
+# ::save-date Wed Jan 23, 2019 ::user kristinwb ::file col_1201_86.txt
+(r / resemble-01
+      :ARG2 (t / that)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.87 ::date 2019-01-23T09:00:41
+# ::snt <Architect> yeah! and then can you punch out the middle blocks of all of the three crosses
+# ::save-date Tue Feb 19, 2019 ::user coqc ::file col_1201_87.txt
+(a / and
+      :op1 (c / confirm-01)
+      :op2 (p / punch-out-02 :mode imperative :polite +
+            :ARG0 (y / you)
+            :ARG1 (b / block :pl +
+                  :ARG1-of (m2 / middle-01
+                        :ARG2 (c2 / cross :quant 3
+                              :mod (a2 / all))))
+            :ARG2 c2
+            :time (t / then)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.88 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:1 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_88.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 0)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.89 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:1 Y:2 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_89.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z -1)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.90 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a blue block at X:1 Y:2 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_90.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z -2)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.91 ::date 2019-01-23T09:04:21
+# ::snt <Builder> ok
+# ::save-date Wed Jan 23, 2019 ::user kristinwb ::file col_1201_91.txt
+(o / okay-04)
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.92 ::date 2019-01-23T09:04:29
+# ::snt <Builder> is that it?
+# ::save-date Wed Jan 23, 2019 ::user kristinwb ::file col_1201_92.txt
+(b / be-it-08
+      :ARG1 (t / that)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.93 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:1 Y:2 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_93.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z -1)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.94 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:2 Y:2 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_94.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z -1)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.95 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:1 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_95.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 0)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.96 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:0 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1201_96.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 0)))
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.97 ::date 2019-01-23T09:05:25
+# ::snt <Architect> yeah!
+# ::save-date Wed Jan 23, 2019 ::user kristinwb ::file col_1201_97.txt
+(c / confirm-01)
+
+# ::id minecraft-4-5-overlapping-reticles-b38-a28_1201.98 ::date 2019-01-23T09:05:33
+# ::snt <Architect> great job
+# ::save-date Wed Jan 23, 2019 ::user kristinwb ::file col_1201_98.txt
+(j / job
+      :mod (g / great))

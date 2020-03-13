@@ -1,0 +1,985 @@
+# workset Minecraft-4-4-concentric-semicircles (generated on Mon Jan 21, 2019 at 09:15:18 for user coqc)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-4-concentric-semicircles_1139.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (a7 / arch :pl +)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :FR (i4 / intrinsic)))
+      :snt9 (p / parallel-01
+            :ARG0 z
+            :ARG1 z6))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.1 ::date 2018-11-15T12:15:17
+# ::snt <Builder> Mission has started.
+# ::save-date Thu Nov 15, 2018 ::user kristinwb ::file col_1139_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.2 ::date 2018-11-15T12:15:45
+# ::snt <Architect> ok get some yellow blocks
+# ::save-date Thu Nov 15, 2018 ::user kristinwb ::file col_1139_2.txt
+(g / get-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :quant (s / some)
+            :color (y2 / yellow)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.3 ::date 2018-11-15T12:19:41
+# ::snt <Architect> in the center of the row, there's a floating block with z=1
+# ::save-date Mon Jan 21, 2019 ::user coqc ::file col_1139_3.txt
+(c / center-03
+      :ARG1 (b2 / block
+            :ARG1-of (f / float-01
+                  :location (s / space
+                        :location (c2 / cartesian-coordinate-entity :z 1))))
+      :ARG2 (r / row))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.4 ::date 2018-11-27T01:30:05
+# ::snt <Architect> like in the xyz coordinate plane
+# ::save-date Mon Jan 21, 2019 ::user coqc ::file col_1139_4.txt
+(c / concern-02
+      :ARG1 (m / mathematical-concept :wiki "Cartesian_coordinate_system" :name (n2 / name :op1 "xyz" :op2 "coordinate" :op3 "plane")
+            :domain (c2 / cartesian-framework-91)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.5 ::date 2018-11-27T01:38:19
+# ::snt <Builder> center of which row?
+# ::save-date Mon Jan 21, 2019 ::user coqc ::file col_1139_5.txt
+(c / center-03
+      :ARG1 (r / row
+            :mod (a / amr-unknown)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.6 ::date 2018-11-27T01:55:59
+# ::snt <Architect> we only need one entire row for this
+# ::save-date Mon Jan 21, 2019 ::user coqc ::file col_1139_6.txt
+(n / need-01
+      :ARG0 (w / we)
+      :ARG1 (r / row :quant 1
+            :mod (o / only)
+            :mod (e / entire))
+      :purpose (t / thing
+            :mod (t2 / this)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.7 ::date 2018-11-27T01:59:52
+# ::snt <Architect> so it doesn't matter which row
+# ::save-date Tue Nov 27, 2018 ::user kristinwb ::file col_1139_7.txt
+(c / cause-01
+      :ARG1 (m / matter-01 :polarity -
+            :ARG1 (r / row)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.8 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_8.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.9 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:2 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_9.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.10 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:0 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_10.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.11 ::date 2018-11-27T09:51:37
+# ::snt <Architect> yeah now place two on the sides except they're on the ground, z = 0
+# ::save-date Mon Jan 21, 2019 ::user coqc ::file col_1139_11.txt
+(a / and
+      :op1 (c / confirm-01)
+      :op2 (p / place-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (t / thing :quant 2)
+            :ARG2 (s2 / space :pl +
+                  :ARG1-of (n2 / next-to-02
+                        :ARG2 (s / side :pl +)
+                        :ARG3 (c3 / cartesian-framework-91
+                              :ARG1 y)))
+            :time (n / now)
+            :ARG2-of (e / except-01
+                  :ARG1 (a2 / and
+                        :op1 (o / on-top-03
+                              :ARG1 t
+                              :ARG2 (g / ground)
+                              :ARG3 (c4 / cartesian-framework-91
+                                    :ARG1 (b / build-space)))
+                        :op2 (b2 / be-located-at-91
+                              :ARG1 t
+                              :ARG2 (c2 / cartesian-coordinate-entity :z 0))))))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.12 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:-1 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_12.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.13 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:1 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_13.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.14 ::date 2018-11-27T09:59:33
+# ::snt <Architect> ok so now two units from each yellow block on the ground, place a purple block
+# ::save-date Mon Jan 21, 2019 ::user coqc ::file col_1139_14.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :pl +
+            :color (p2 / purple))
+      :ARG2 (s / space :pl +
+            :ARG1-of (f / from-boundary-01
+                  :ARG2 (d / distance-quantity :quant 2
+                        :unit (u / unit))
+                  :ARG3 (b2 / block :pl +
+                        :color (y2 / yellow)
+                        :ARG1-of (o / on-top-03
+                              :ARG2 (g / ground)
+                              :ARG3 (c / cartesian-framework-91
+                                    :ARG1 (b3 / build-space))))))
+      :time (n / now)
+      :frequency (r / rate-entity-91
+            :ARG1 (b4 / block :quant 1
+                  :ARG1-of (i2 / include-91
+                        :ARG2 b))
+            :ARG2 (b5 / block
+                  :mod (e / each)
+                  :ARG1-of (i3 / include-91
+                        :ARG2 b2))))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.15 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:3 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_15.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.16 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-3 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.17 ::date 2018-11-27T15:49:07
+# ::snt <Architect> now place two purple blocks like before, except two units away from the yellow floating block
+# ::save-date Fri Dec 7, 2018 ::user kristinwb ::file col_1139_17.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :quant 2
+            :color (p2 / purple))
+      :ARG2 (s2 / space :pl +
+            :ARG1-of (r / resemble-01
+                  :ARG2 (t / thing
+                        :time (b3 / before))
+                  :ARG2-of (e / except-01
+                        :ARG2 (a / away-01
+                              :ARG1 s2
+                              :ARG2 (b4 / block
+                                    :color (y2 / yellow)
+                                    :ARG1-of (f / float-01))
+                              :quant (d / distance-quantity :quant 2
+                                    :unit (u / unit))))))
+      :time (n / now))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.18 ::date 2018-11-27T15:56:50
+# ::snt <Architect> meaning z =1
+# ::save-date Mon Jan 21, 2019 ::user coqc ::file col_1139_18.txt
+(m / mean-01
+      :ARG2 (b / be-located-at-91
+            :ARG2 (c / cartesian-coordinate-entity :z 1)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.19 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-3 Y:2 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.20 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:3 Y:2 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.21 ::date 2018-11-27T16:11:18
+# ::snt <Builder> on top of the other purples?
+# ::save-date Tue Nov 27, 2018 ::user kristinwb ::file col_1139_21.txt
+(o / on-top-03
+      :ARG2 (t / thing :pl +
+            :color (p / purple)
+            :ARG1-of (o2 / other-01))
+      :ARG3 (c / cartesian-framework-91
+            :ARG1 (b / build-space))
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.22 ::date 2018-11-27T16:12:47
+# ::snt <Architect> uh no right next to the ones you just placed, one horizontal space
+# ::save-date Mon Jan 21, 2019 ::user coqc ::file col_1139_22.txt
+(a / and
+      :op1 (c / confirm-01 :polarity -
+            :mod (u / uh :mode expressive))
+      :op2 (s / space :pl +
+            :ARG1-of (n / next-to-02
+                  :ARG2 (o / one :pl +
+                        :ARG1-of (p / place-01
+                              :ARG0 (y / you)
+                              :time (j / just)))
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 y)
+                  :mod (r / right-yy)
+                  :quant (d / distance-quantity :quant 1
+                        :unit (s2 / space
+                              :ARG1-of (h / horizontal-02
+                                    :ARG3 c2))))
+            :ARG1-of (i2 / instead-of-91)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.23 ::date 2018-11-27T16:25:17
+# ::snt <Builder> so connecting the purple and yellow diagonally?
+# ::save-date Mon Jan 21, 2019 ::user coqc ::file col_1139_23.txt
+(i2 / infer-01
+      :ARG1 (c / connect-01
+            :ARG1 (t / thing
+                  :color (p / purple))
+            :ARG2 (t2 / thing
+                  :color (y / yellow))
+            :ARG3 (t3 / thing)
+            :manner (d / diagonal-01
+                  :ARG1 t3
+                  :ARG2 t)
+            :manner (d2 / diagonal-01
+                  :ARG1 t3
+                  :ARG2 t2)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.24 ::date 2018-11-27T16:30:07
+# ::snt <Architect> yea
+# ::save-date Tue Nov 27, 2018 ::user kristinwb ::file col_1139_24.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-concentric-semicircles_1139.25 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:3 Y:2 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_25.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.26 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:2 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_26.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.27 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:2 Y:2 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_27.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.28 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:2 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_28.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.29 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:-3 Y:2 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_29.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.30 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-2 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_30.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.31 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:-2 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_31.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.32 ::date 2018-11-27T16:34:38
+# ::snt <Architect> yeah like that
+# ::save-date Tue Nov 27, 2018 ::user kristinwb ::file col_1139_32.txt
+(c / confirm-01
+      :ARG1 (r / resemble-01
+            :ARG2 (t / that)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.33 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-2 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_33.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.34 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-2 Y:2 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_34.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.35 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:-2 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_35.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.36 ::date 2018-11-27T16:36:09
+# ::snt <Architect> then 3 purple stacked horizontally on top of the yellow floating block
+# ::save-date Mon Jan 21, 2019 ::user coqc ::file col_1139_36.txt
+(s / stack-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t2 / thing :quant 3
+            :color (p / purple))
+      :ARG2 (b / block
+            :color (y2 / yellow)
+            :ARG1-of (f / float-01))
+      :time (t / then)
+      :manner (h / horizontal-01
+            :ARG1 c
+            :ARG2 c2)
+      :manner (o / on-top-03
+            :ARG1 c
+            :ARG2 b
+            :ARG3 (c2 / cartesian-framework-91
+                  :ARG1 (b2 / build-space))))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.37 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:3 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_37.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.38 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:3 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_38.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.39 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:1 Y:3 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_39.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.40 ::date 2018-11-27T16:42:33
+# ::snt <Architect> the on the very ends place red blocks
+# ::save-date Mon Jan 21, 2019 ::user coqc ::file col_1139_40.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :pl +
+            :color (r / red))
+      :ARG2 (s / space :pl +
+            :ARG1-of (n / next-to-02
+                  :ARG2 (t2 / thing :pl +
+                        :ARG1-of (e / end-05
+                              :degree (v / very)))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 y)))
+      :time (t / then))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.41 ::date 2018-11-27T16:48:49
+# ::snt <Architect> the row ends
+# ::save-date Tue Nov 27, 2018 ::user kristinwb ::file col_1139_41.txt
+(t / thing :pl +
+      :ARG1-of (e / end-05
+            :ARG2 (r / row)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.42 ::date 2018-11-27T17:01:34
+# ::snt <Builder> of which row?
+# ::save-date Mon Jan 21, 2019 ::user coqc ::file col_1139_42.txt
+(r / row
+      :mod (a / amr-unknown))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.43 ::date 2018-11-27T17:08:18
+# ::snt <Architect> the same row
+# ::save-date Tue Nov 27, 2018 ::user kristinwb ::file col_1139_43.txt
+(r / row
+      :ARG1-of (s / same-01))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.44 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:2 Y:3 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_44.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.45 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-2 Y:3 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_45.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.46 ::date 2018-11-27T17:08:46
+# ::snt <Architect> oh sorry i meant on the ground
+# ::save-date Tue Nov 27, 2018 ::user kristinwb ::file col_1139_46.txt
+(a / and
+      :op1 (s / sorry-01)
+      :op2 (m / mean-01
+            :ARG0 (i / i)
+            :ARG2 (o / on-top-03
+                  :ARG2 (g / ground)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b / build-space)))))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.47 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:-2 Y:3 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_47.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.48 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:2 Y:3 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_48.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.49 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:4 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_49.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.50 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-5 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_50.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -5 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.51 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:-5 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_51.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -5 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.52 ::date 2018-11-27T17:13:24
+# ::snt <Architect> not conected to the other blocks
+# ::save-date Tue Nov 27, 2018 ::user kristinwb ::file col_1139_52.txt
+(c / connect-01 :polarity -
+      :ARG2 (b / block :pl +
+            :ARG1-of (o / other-01))
+      :ARG1-of (i2 / instead-of-91))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.53 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-4 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_53.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.54 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:4 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_54.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.55 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:5 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_55.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.56 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:-4 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_56.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.57 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-5 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_57.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -5 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.58 ::date 2018-11-27T17:17:04
+# ::snt <Architect> yeah
+# ::save-date Tue Nov 27, 2018 ::user kristinwb ::file col_1139_58.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-concentric-semicircles_1139.59 ::date 2018-11-27T17:17:13
+# ::snt <Architect> so like the yellow and the purple stack diagonally
+# ::save-date Mon Jan 21, 2019 ::user coqc ::file col_1139_59.txt
+(r / resemble-01
+      :ARG2 (s / stack-01
+            :ARG1 (t / thing
+                  :color (p / purple))
+            :ARG2 (t2 / thing
+                  :color (y / yellow))
+            :manner (d / diagonal-01
+                  :ARG1 t
+                  :ARG2 t2)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.60 ::date 2018-11-27T17:22:16
+# ::snt <Architect> stack the red ones diagonally in the air
+# ::save-date Mon Jan 21, 2019 ::user coqc ::file col_1139_60.txt
+(s / stack-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (o / one :pl +
+            :color (r / red))
+      :manner (d / diagonal-01
+            :ARG1 o)
+      :location (a / air))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.61 ::date 2018-11-27T17:39:43
+# ::snt <Builder> okay how many?
+# ::save-date Mon Jan 21, 2019 ::user coqc ::file col_1139_61.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (h / have-quant-91
+            :ARG2 (a2 / amr-unknown)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.62 ::date 2018-11-27T17:41:18
+# ::snt <Architect> till z = 4
+# ::save-date Mon Jan 21, 2019 ::user coqc ::file col_1139_62.txt
+(u / until
+      :op1 (b / be-located-at-91
+            :ARG2 (c / cartesian-coordinate-entity :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.63 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:4 Y:1 Z:5]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_63.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 5)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.64 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:4 Y:1 Z:5]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_64.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 5)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.65 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:4 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_65.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.66 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:4 Y:2 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_66.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 2 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.67 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:4 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_67.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.68 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:2 Y:3 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_68.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.69 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:3 Y:3 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_69.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.70 ::date 2018-11-27T17:45:48
+# ::snt <Architect> yeah like that
+# ::save-date Tue Nov 27, 2018 ::user kristinwb ::file col_1139_70.txt
+(c / confirm-01
+      :ARG1 (r / resemble-01
+            :ARG2 (t / that)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.71 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:2 Y:4 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_71.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 4 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.72 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:2 Y:3 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_72.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.73 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-4 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_73.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.74 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-4 Y:2 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_74.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 2 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.75 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-3 Y:2 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_75.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.76 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-3 Y:3 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_76.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.77 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-2 Y:3 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_77.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.78 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-2 Y:4 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_78.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 4 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.79 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:-2 Y:3 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_79.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.80 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:-3 Y:2 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_80.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.81 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:-3 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_81.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.82 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:-4 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_82.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.83 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-3 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_83.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.84 ::date 2018-11-27T17:46:33
+# ::snt <Architect> then place 3 red ones directly on top ot the purple ones directly on top
+# ::save-date Mon Jan 21, 2019 ::user coqc ::file col_1139_84.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (o3 / one :quant 3
+            :color (r / red))
+      :ARG2 (s / space :pl +
+            :ARG1-of (o2 / on-top-03
+                  :ARG2 (t3 / thing :pl +
+                        :color (p2 / purple)
+                        :ARG1-of (o / on-top-03
+                              :ARG3 c
+                              :ARG1-of (d2 / direct-02)))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b / build-space))
+                  :ARG1-of (d / direct-02)))
+      :time (t / then))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.85 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-1 Y:4 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_85.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.86 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:4 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_86.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.87 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:1 Y:4 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1139_87.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 4 :z 4)))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.88 ::date 2018-11-27T17:50:48
+# ::snt <Architect> ok we're done
+# ::save-date Tue Nov 27, 2018 ::user kristinwb ::file col_1139_88.txt
+(b / be-done-08
+      :ARG0 (w / we))
+
+# ::id minecraft-4-4-concentric-semicircles_1139.89 ::date 2018-11-27T17:52:24
+# ::snt <Builder> nice
+# ::save-date Tue Nov 27, 2018 ::user kristinwb ::file col_1139_89.txt
+(n / nice-01)

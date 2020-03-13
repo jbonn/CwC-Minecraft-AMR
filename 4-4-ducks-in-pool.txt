@@ -1,0 +1,511 @@
+# workset Minecraft-4-4-ducks-in-pool (generated on Sat Jan 19, 2019 at 12:27:30 for user coqc)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-4-ducks-in-pool_1151.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (d / ducks-in-pool)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :FR (i4 / intrinsic))))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.1 ::date 2018-12-07T12:32:22
+# ::snt <Builder> Mission has started.
+# ::save-date Fri Dec 7, 2018 ::user kristinwb ::file col_1151_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.2 ::date 2018-12-07T12:33:02
+# ::snt <Architect> start with a 5x4 blue rectangle
+# ::save-date Fri Jan 18, 2019 ::user coqc ::file col_1151_2.txt
+(s / start-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (r / rectangle
+            :color (b / blue)
+            :size (d / dimension-entity :value 5)
+            :size (d2 / dimension-entity :value 4)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.3 ::date 2018-12-07T12:34:53
+# ::snt <Architect> don't fill it in
+# ::save-date Fri Dec 7, 2018 ::user kristinwb ::file col_1151_3.txt
+(f / fill-in-05 :polarity - :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (i2 / it))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.4 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:1 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_4.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -2)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.5 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:1 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_5.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -1)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.6 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:1 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_6.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 0)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.7 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:1 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_7.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 1)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.8 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:1 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_8.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 2)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.9 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_9.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 2)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.10 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-1 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_10.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 2)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.11 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-2 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 2)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.12 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-2 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_12.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 1)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.13 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-2 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_13.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 0)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.14 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-2 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_14.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z -1)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.15 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_15.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -2)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.16 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-1 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -2)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.17 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-2 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_17.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z -2)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.18 ::date 2018-12-07T12:36:15
+# ::snt <Architect> pick a side to stand on
+# ::save-date Fri Jan 18, 2019 ::user coqc ::file col_1151_18.txt
+(p / pick-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (s / side)
+      :purpose (s2 / stand-01
+            :ARG1 y
+            :ARG2 s))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.19 ::date 2018-12-07T12:38:05
+# ::snt <Builder> south side
+# ::save-date Fri Dec 7, 2018 ::user kristinwb ::file col_1151_19.txt
+(s / side
+      :ARG1-of (s2 / south-02
+            :ARG3 (c / cartesian-framework-91
+                  :ARG1 (w / white-square))))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.20 ::date 2018-12-07T12:40:38
+# ::snt <Architect> third block away from you on the left side is actually yellow
+# ::save-date Sat Jan 19, 2019 ::user coqc ::file col_1151_20.txt
+(h / have-color-91
+      :ARG1 (b / block
+            :ord (o / ordinal-entity :value 3
+                  :range-trajectory (t / trajectory
+                        :ARG3-of (a / away-01
+                              :ARG2 (y2 / you)))
+                  :range-start y2
+                  :range (s / side
+                        :ARG1-of (l / left-24
+                              :ARG3 (c / cartesian-framework-91
+                                    :ARG1 y2)))))
+      :ARG2 (y / yellow
+            :ARG1-of (i2 / instead-of-91))
+      :ARG1-of (a2 / actual-02))
+
+
+# ::id minecraft-4-4-ducks-in-pool_1151.21 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a blue block at X:0 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_21.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -2)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.22 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_22.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -2)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.23 ::date 2018-12-07T13:05:01
+# ::snt <Architect> and fourth block to the right on your side is yellow
+# ::save-date Sat Jan 19, 2019 ::user coqc ::file col_1151_23.txt
+(a / and
+      :op2 (y / yellow
+            :color-of (b / block
+                  :ord (o / ordinal-entity :value 4
+                        :range-trajectory (t / trajectory
+                              :ARG4-of (r2 / right-04
+                                    :ARG3 y2
+                                    :ARG3 (c / cartesian-framework-91
+                                          :ARG1 y2)))
+                        :range (s / side
+                              :location (y2 / you))))))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.24 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a blue block at X:-2 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_24.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 1)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.25 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-2 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_25.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 1)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.26 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a blue block at X:-2 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_26.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 1)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.27 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:-2 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_27.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 1)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.28 ::date 2018-12-07T13:19:18
+# ::snt <Architect> now fill in the blocks right next to the two yellow blocks as yello
+# ::save-date Sat Jan 19, 2019 ::user coqc ::file col_1151_28.txt
+(f / fill-in-05 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :pl +
+            :ARG1-of (n2 / next-to-02
+                  :ARG2 (b3 / block :quant 2
+                        :color (y3 / yellow))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b4 / build-space))
+                  :mod (r / right-yy)))
+      :ARG2 (t / thing :pl +
+            :color (y2 / yellow))
+      :time (n / now))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.29 ::date 2018-12-07T13:28:23
+# ::snt <Architect> and the rest of the middle is blue
+# ::save-date Sat Jan 19, 2019 ::user coqc ::file col_1151_29.txt
+(a / and
+      :op2 (b / blue
+            :color-of (r2 / rest
+                  :part-of (t / thing
+                        :ARG1-of (m / middle-01)))))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.30 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:-1 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_30.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 1)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.31 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_31.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -1)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.32 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_32.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.33 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_33.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.34 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-1 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_34.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -1)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.35 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-1 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_35.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 0)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.36 ::date 2018-12-07T13:30:37
+# ::snt <Architect> build a yellow block on top of each edge yellow block
+# ::save-date Fri Jan 18, 2019 ::user coqc ::file col_1151_36.txt
+(b / build-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (o / on-top-03
+            :ARG1 (b2 / block :pl +
+                  :color (y2 / yellow))
+            :ARG2 (b3 / block :pl +
+                  :part-of (e2 / edge)
+                  :color (y3 / yellow))
+            :ARG3 (c / cartesian-framework-91
+                  :ARG1 (b4 / build-space)))
+      :frequency (r / rate-entity-91
+            :ARG1 (b5 / block :quant 1
+                  :ARG1-of (i2 / include-91
+                        :ARG2 b2))
+            :ARG2 (b6 / block
+                  :mod (e / each)
+                  :ARG1-of (i3 / include-91
+                        :ARG2 b3))))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.37 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:2 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_37.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -2)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.38 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:-2 Y:2 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_38.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 1)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.39 ::date 2018-12-07T13:33:31
+# ::snt <Architect> and then a yellow block out of the rectangle next to each of those
+# ::save-date Sat Jan 19, 2019 ::user coqc ::file col_1151_39.txt
+(a / and
+      :op2 (b / build-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b2 / block :pl +
+                  :color (y2 / yellow))
+            :time (t / then)
+            :location (s / space :pl +
+                  :ARG1-of (o / out-06
+                        :ARG2 (r / rectangle))
+                  :ARG1-of (n / next-to-02
+                        :ARG2 (t2 / that :pl +)
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b4 / build-space))))
+            :frequency (r2 / rate-entity-91
+                  :ARG1 (b3 / block :quant 1
+                        :ARG1-of (i2 / include-91
+                              :ARG2 b2))
+                  :ARG2 (t3 / thing
+                        :mod (e / each)
+                        :ARG1-of (i3 / include-91
+                              :ARG2 t2)))))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.40 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:-3 Y:2 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_40.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z 1)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.41 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:2 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1151_41.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -3)))
+
+# ::id minecraft-4-4-ducks-in-pool_1151.42 ::date 2018-12-07T13:38:31
+# ::snt <Architect> that's it!
+# ::save-date Fri Dec 7, 2018 ::user kristinwb ::file col_1151_42.txt
+(b / be-it-08
+      :ARG1 (t / that))

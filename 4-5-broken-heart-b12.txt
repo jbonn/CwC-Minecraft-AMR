@@ -1,0 +1,1051 @@
+# workset Minecraft-4-5-broken-heart-B12-A26 (generated on Sun Feb 17, 2019 at 20:10:54 for user coqc)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (b4 / broken-heart)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :FR (i4 / intrinsic)))
+      :snt9 (p / parallel-01
+            :ARG0 z
+            :ARG1 z6))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.1 ::date 2019-01-09T12:11:08
+# ::snt <Builder> Mission has started.
+# ::save-date Wed Jan 9, 2019 ::user kristinwb ::file col_1191_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.2 ::date 2019-01-09T12:11:42
+# ::snt <Builder> ready
+# ::save-date Wed Jan 9, 2019 ::user kristinwb ::file col_1191_2.txt
+(r / ready-02)
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.3 ::date 2019-01-09T12:12:24
+# ::snt <Architect> Sorry, there were some technical difficulties so we restarted
+# ::save-date Sun Feb 17, 2019 ::user coqc ::file col_1191_3.txt
+(s / sorry-01
+      :ARG2 (r / restart-01
+            :ARG0 (w / we)
+            :ARG1-of (c / cause-01
+                  :ARG0 (d / difficulty
+                        :mod (t / technical)))))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.4 ::date 2019-01-09T12:15:32
+# ::snt <Builder> no problem
+# ::save-date Wed Jan 9, 2019 ::user kristinwb ::file col_1191_4.txt
+(p / problem :polarity -)
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.5 ::date 2019-01-09T12:17:37
+# ::snt <Architect> Now we'll be building broken heart object
+# ::save-date Wed Jan 9, 2019 ::user kristinwb ::file col_1191_5.txt
+(b / build-01
+      :ARG0 (w / we)
+      :ARG1 (o / object
+            :configuration (h / heart
+                  :ARG1-of (b2 / break-01)))
+      :time (n / now))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.6 ::date 2019-01-09T12:23:15
+# ::snt <Builder> red?
+# ::save-date Wed Jan 9, 2019 ::user kristinwb ::file col_1191_6.txt
+(h / have-color-91
+      :ARG2 (r / red)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.7 ::date 2019-01-09T12:24:06
+# ::snt <Architect> And so we'll start with a red brick in the middle of the ground
+# ::save-date Wed Jan 9, 2019 ::user kristinwb ::file col_1191_7.txt
+(s / start-01
+      :ARG0 (w / we)
+      :ARG2 (b / brick
+            :ARG1-of (m / middle-01
+                  :ARG2 (g / ground))
+            :color (r / red)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.8 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_8.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.9 ::date 2019-01-09T12:31:06
+# ::snt <Architect> Now on the next level we want red-blackspace-red
+# ::save-date Sun Feb 17, 2019 ::user coqc ::file col_1191_9.txt
+(w / want-01
+      :ARG0 (w2 / we)
+      :ARG1 (s / spatial-sequence-91
+            :ARG2 (t / thing
+                  :color (r / red))
+            :ARG3 (s2 / space
+                  :mod (b / blank))
+            :ARG4 (t2 / thing
+                  :color (r2 / red))
+            :location (l / level
+                  :mod (n3 / next)
+                  :ARG3-of (s3 / spatial-sequence-91)))
+      :time (n / now))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.10 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_10.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.11 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:1 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.12 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-1 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_12.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.13 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:0 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_13.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.14 ::date 2019-01-09T12:36:21
+# ::snt <Builder> what is a blackspace?
+# ::save-date Sun Feb 17, 2019 ::user coqc ::file col_1191_14.txt
+(a / amr-unknown
+      :domain (b / blackspace))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.15 ::date 2019-01-09T12:38:29
+# ::snt <Architect> Oh oops i meant blank space
+# ::save-date Sun Feb 17, 2019 ::user coqc ::file col_1191_15.txt
+(m / mean-01
+      :ARG0 (i / i)
+      :ARG2 (s / space
+            :mod (b / blank))
+      :mod (o / oops :mode expressive)
+      :mod (o2 / oh :mode expressive))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.16 ::date 2019-01-09T12:43:21
+# ::snt <Builder> ok
+# ::save-date Wed Jan 9, 2019 ::user kristinwb ::file col_1191_16.txt
+(o / okay-04)
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.17 ::date 2019-01-09T12:43:32
+# ::snt <Architect> You did the right thing
+# ::save-date Wed Jan 9, 2019 ::user kristinwb ::file col_1191_17.txt
+(d / do-02
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :ARG2-of (r / right-06)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.18 ::date 2019-01-09T12:44:19
+# ::snt <Architect> We'll do the same thing on the third level, so three blank spaces this time
+# ::save-date Sun Feb 17, 2019 ::user coqc ::file col_1191_18.txt
+(d / do-02
+      :ARG0 (w / we)
+      :ARG1 (t / thing
+            :ARG1-of (s / same-01))
+      :location (l / level
+            :ord (o / ordinal-entity :value 3))
+      :ARG2-of (i2 / infer-01
+            :ARG1 (s2 / space :quant 3
+                  :mod (b / blank)
+                  :time (t2 / time
+                        :mod (t3 / this)))))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.19 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-1 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.20 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-2 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.21 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_21.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.22 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:1 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_22.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.23 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:2 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_23.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.24 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:1 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_24.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.25 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:0 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_25.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.26 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:-1 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_26.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.27 ::date 2019-01-09T12:51:00
+# ::snt <Architect> Cool, and again on the fourth
+# ::save-date Sun Feb 17, 2019 ::user coqc ::file col_1191_27.txt
+(a / and
+      :op1 (c / cool-04)
+      :op2 (d / do-02
+            :mod (a2 / again)
+            :location (t / thing
+                  :ord (o / ordinal-entity :value 4))))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.28 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-2 Y:4 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_28.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 4 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.29 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-3 Y:4 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_29.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 4 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.30 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:-2 Y:4 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_30.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 4 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.31 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:2 Y:3 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_31.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z -1)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.32 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:2 Y:4 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_32.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 4 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.33 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:3 Y:4 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_33.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 4 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.34 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:2 Y:3 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_34.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z -1)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.35 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:2 Y:4 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_35.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 4 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.36 ::date 2019-01-09T12:55:17
+# ::snt <Architect> On the fifth level, we will make a line of seven red bricks
+# ::save-date Sun Feb 17, 2019 ::user coqc ::file col_1191_36.txt
+(m / make-01
+      :ARG0 (w / we)
+      :ARG1 (l / line)
+      :ARG2 (b / brick :quant 7
+            :color (r / red))
+      :location (l2 / level
+            :ord (o / ordinal-entity :value 5)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.37 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:3 Y:5 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_37.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 5 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.38 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:2 Y:5 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_38.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 5 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.39 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:1 Y:5 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_39.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 5 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.40 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:5 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_40.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.41 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-1 Y:5 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_41.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 5 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.42 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-2 Y:5 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_42.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 5 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.43 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-3 Y:5 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_43.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 5 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.44 ::date 2019-01-09T12:56:28
+# ::snt <Architect> Cool, now add a brick under the middle brick on the fifth level
+# ::save-date Wed Jan 9, 2019 ::user kristinwb ::file col_1191_44.txt
+(a / and
+      :op1 (c / cool-04)
+      :op2 (a2 / add-02 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / brick)
+            :time (n / now)
+            :location (s / space
+                  :ARG1-of (u / under-01
+                        :ARG2 (b2 / brick
+                              :ARG1-of (m / middle-01)
+                              :location (l / level
+                                    :ord (o / ordinal-entity :value 5)))
+                        :ARG3 (c2 / cartesian-framework-91
+                              :ARG1 (b3 / build-space))))))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.45 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:4 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_45.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.46 ::date 2019-01-09T12:58:36
+# ::snt <Architect> Then remove the brick above the one just added
+# ::save-date Wed Jan 9, 2019 ::user kristinwb ::file col_1191_46.txt
+(r / remove-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / brick
+            :ARG1-of (a / above-01
+                  :ARG2 (o / one
+                        :ARG1-of (a2 / add-02
+                              :time (j / just)))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space))))
+      :time (t / then))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.47 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:0 Y:5 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_47.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.48 ::date 2019-01-09T13:00:23
+# ::snt <Architect> Great! We have a heart. Now let's add a broken symbol
+# ::save-date Thu Jan 10, 2019 ::user kristinwb ::file col_1191_48.txt
+(m / multi-sentence
+      :snt1 (h / have-mod-91
+            :ARG2 (g / great))
+      :snt2 (h2 / have-03
+            :ARG0 (w / we)
+            :ARG1 (h3 / heart))
+      :snt3 (a / add-02
+            :ARG0 (w2 / we)
+            :ARG1 (t / thing
+                  :ARG1-of (s2 / symbolize-01
+                        :ARG2 (b / break-01)))
+            :time (n / now)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.49 ::date 2019-01-09T13:13:02
+# ::snt <Architect> First, we will add three brown bricks
+# ::save-date Wed Jan 9, 2019 ::user kristinwb ::file col_1191_49.txt
+(a / add-02 :li 1
+      :ARG0 (w / we)
+      :ARG1 (b / brick :quant 3
+            :color (b2 / brown)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.50 ::date 2019-01-09T13:14:15
+# ::snt <Builder> will orange do?
+# ::save-date Mon Jan 14, 2019 ::user kristinwb ::file col_1191_50.txt
+(d / do-02
+      :ARG0 (t / thing
+            :color (o / orange))
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.51 ::date 2019-01-09T13:19:17
+# ::snt <Builder> I have no brown
+# ::save-date Wed Jan 9, 2019 ::user kristinwb ::file col_1191_51.txt
+(h / have-03 :polarity -
+      :ARG0 (i / i)
+      :ARG1 (t / thing
+            :color (b / brown)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.52 ::date 2019-01-09T13:19:46
+# ::snt <Architect> They will be diagonal down right through the heart
+# ::save-date Fri Jan 11, 2019 ::user kristinwb ::file col_1191_52.txt
+(h3 / have-path-91
+      :ARG1 (t / they)
+      :ARG2 (t4 / trajectory
+            :ARG4-of (d3 / diagonal-02)
+            :ARG4-of (d4 / down-03
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (b / build-space)))
+            :ARG4-of (t5 / through-02
+                  :ARG2 (h6 / heart)
+                  :mod (r2 / right-yy))))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.53 ::date 2019-01-09T13:37:38
+# ::snt <Architect> That might do, let me ask
+# ::save-date Sun Feb 17, 2019 ::user coqc ::file col_1191_53.txt
+(a2 / and
+      :op1 (p / possible-01
+            :ARG1 (d / do-02
+                  :ARG0 (t / that)))
+      :op2 (l / let-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (a / ask-01
+                  :ARG0 (i / i)
+                  :ARG1 (t2 / truth-value
+                        :polarity-of d))))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.54 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:1 Y:4 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_54.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 4 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.55 ::date 2019-01-09T15:45:33
+# ::snt <Architect> It is orange
+# ::save-date Sun Feb 17, 2019 ::user coqc ::file col_1191_55.txt
+(i2 / it
+      :color (o / orange))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.56 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:0 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_56.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.57 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:2 Y:6 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_57.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 6 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.58 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:2 Y:6 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_58.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 6 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.59 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:3 Y:6 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_59.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 6 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.60 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:-2 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_60.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.61 ::date 2019-01-09T15:47:45
+# ::snt <Architect> You're close. Move the brick on the bottom right to the right one square
+# ::save-date Sun Feb 17, 2019 ::user coqc ::file col_1191_61.txt
+(m / multi-sentence
+      :snt1 (c / close-10
+            :ARG1 (y / you))
+      :snt2 (m2 / move-01 :mode imperative
+            :ARG0 (y2 / you)
+            :ARG1 (b / brick
+                  :ARG1-of (b2 / bottom-03
+                        :ARG3 (c2 / cartesian-framework-91
+                              :ARG1 (b3 / build-space)))
+                  :ARG1-of (r / right-10
+                        :ARG3 (c3 / cartesian-framework-91
+                              :ARG1 y2)))
+            :ARG2 (s / space
+                  :ARG1-of (r2 / right-04
+                        :ARG3 c3
+                        :quant (d / distance-quantity :quant 1
+                              :unit (s2 / square))))))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.62 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:-2 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_62.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.63 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:-3 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_63.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.64 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:-2 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_64.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.65 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:-1 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_65.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.66 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:0 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_66.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.67 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:1 Y:4 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_67.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 4 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.68 ::date 2019-01-09T16:02:53
+# ::snt <Architect> Nice!
+# ::save-date Wed Jan 9, 2019 ::user kristinwb ::file col_1191_68.txt
+(n / nice-01)
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.69 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:2 Y:6 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_69.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 6 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.70 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:3 Y:6 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_70.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 6 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.71 ::date 2019-01-09T16:04:24
+# ::snt <Builder> what else?
+# ::save-date Wed Jan 9, 2019 ::user kristinwb ::file col_1191_71.txt
+(a / amr-unknown
+      :mod (e / else))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.72 ::date 2019-01-09T16:06:24
+# ::snt <Architect> We will now make a small L-shape with three orange bricks on the top
+# ::save-date Sun Feb 17, 2019 ::user coqc ::file col_1191_72.txt
+(m / make-01
+      :ARG0 (w / we)
+      :ARG1 (t / thing
+            :ARG1-of (s / shape-01
+                  :ARG2 (s2 / string-entity :value "L"))
+            :size (s3 / small))
+      :ARG2 (b / brick :quant 3
+            :color (o / orange))
+      :time (n / now)
+      :location (s4 / space :pl +
+            :ARG1-of (o2 / on-top-03
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.73 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:1 Y:6 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_73.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 6 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.74 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:2 Y:7 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_74.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 7 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.75 ::date 2019-01-10T12:14:01
+# ::snt <Architect> The L will be oriented so that the right angle is facing the diagonal of orange blocks
+# ::save-date Sun Feb 17, 2019 ::user coqc ::file col_1191_75.txt
+(o / orient-01
+      :ARG1 (t / thing
+            :configuration (s / string-entity :value "L"))
+      :ARG2 (f / face-01
+            :ARG1 (t2 / thing
+                  :consist-of (b / block :pl +
+                        :color (o2 / orange))
+                  :ARG1-of (d2 / diagonal-02)))
+      :ARG3 (a / angle
+            :part-of t
+            :quant (a2 / angle-quantity :quant 90
+                  :unit (d / degree))))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.76 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:1 Y:6 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_76.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 6 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.77 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:1 Y:7 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_77.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 7 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.78 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:2 Y:7 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_78.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 7 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.79 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:3 Y:6 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_79.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 6 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.80 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:3 Y:7 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_80.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 7 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.81 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:2 Y:7 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_81.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 7 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.82 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:2 Y:6 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_82.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 6 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.83 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:1 Y:7 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_83.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 7 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.84 ::date 2019-01-10T12:25:36
+# ::snt <Architect> Nice! you have the right structure and orientation, but the L should float one more level up and to the left
+# ::save-date Sun Feb 17, 2019 ::user coqc ::file col_1191_84.txt
+(m / multi-sentence
+      :snt1 (n / nice-01)
+      :snt2 (c / contrast-01
+            :ARG1 (h / have-03
+                  :ARG0 (y / you)
+                  :ARG1 (a / and
+                        :op1 (s / structure)
+                        :op2 (o / orient-01)
+                        :ARG2-of (r / right-06)))
+            :ARG2 (r3 / recommend-01
+                  :ARG1 (f / float-01
+                        :ARG1 (t / thing
+                              :configuration (s2 / string-entity :value "L"))
+                        :location (s3 / space :pl +
+                              :ARG1-of (u / up-03
+                                    :ARG5 (c2 / cartesian-framework-91
+                                          :ARG1 (b / build-space))
+                                    :quant (d / distance-quantity
+                                          :unit (l / level)
+                                          :ARG1-of (h2 / have-quant-91
+                                                :ARG2 1
+                                                :ARG3 (m2 / more))))
+                              :ARG1-of (l2 / left-20
+                                    :ARG3 (c3 / cartesian-framework-91
+                                          :ARG1 y)))))))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.85 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:2 Y:8 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_85.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 8 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.86 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:3 Y:8 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_86.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 8 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.87 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:4 Y:8 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_87.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 8 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.88 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:4 Y:7 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_88.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 7 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.89 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:2 Y:8 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_89.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 8 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.90 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:3 Y:7 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_90.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 7 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.91 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:3 Y:6 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_91.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 6 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.92 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:2 Y:7 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_92.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 7 :z 0)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.93 ::date 2019-01-10T12:39:12
+# ::snt <Architect> Great we only need one more brick
+# ::save-date Thu Jan 10, 2019 ::user kristinwb ::file col_1191_93.txt
+(a / and
+      :op1 (h / have-mod-91
+            :ARG2 (g / great))
+      :op2 (n / need-01
+            :ARG0 (w / we)
+            :ARG1 (b / brick
+                  :ARG1-of (h2 / have-quant-91
+                        :ARG2 1
+                        :ARG3 (m / more)))
+            :mod (o / only)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.94 ::date 2019-01-10T12:39:44
+# ::snt <Architect> Place the brick right where you're standing
+# ::save-date Sun Feb 17, 2019 ::user coqc ::file col_1191_94.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / brick)
+      :ARG2 (s / space
+            :ARG2-of (s2 / stand-01
+                  :ARG1 y)
+            :mod (r / right-yy)))
+
+# ::id minecraft-4-5-broken-heart-b12-a26_1191.95 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:2 Y:6 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1191_95.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 6 :z 0)))

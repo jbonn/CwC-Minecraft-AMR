@@ -1,0 +1,988 @@
+# workset Minecraft-4-5-3d-diagonals-B13-A30 (generated on Sat Feb 16, 2019 at 00:21:53 for user coqc)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (s / staircase :pl +)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.1 ::date 2019-02-05T09:48:29
+# ::snt <Builder> Mission has started.
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1221_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.2 ::date 2019-02-05T09:50:35
+# ::snt <Architect> start on one edge of the space and build a staircase towards the middle with yellow block that is 3 stairs high
+# ::save-date Fri Feb 15, 2019 ::user coqc ::file col_1221_2.txt
+(s / start-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / build-01
+            :ARG0 y
+            :ARG1 (s3 / staircase
+                  :ARG1-of (h / high-05
+                        :ARG2 (d / distance-quantity :quant 3
+                              :unit (s4 / stair))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b3 / build-space))))
+            :ARG2 (b2 / block :pl +
+                  :color (y2 / yellow))
+            :direction (t3 / trajectory
+                  :ARG4-of (t / toward-01
+                        :ARG2 (t2 / thing
+                              :ARG1-of (m / middle-01
+                                    :ARG2 s2))
+                        :ARG3 e)))
+      :location (e / edge :quant 1
+            :part-of (s2 / space)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.3 ::date 2019-02-05T10:20:35
+# ::snt <Builder> ok, tell me if this is right...
+# ::save-date Fri Feb 15, 2019 ::user coqc ::file col_1221_3.txt
+(t / tell-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t2 / truth-value
+            :polarity-of (r / right-06
+                  :ARG2 (t3 / this)))
+      :ARG2 (i / i))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.4 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:4 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_4.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 4)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.5 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:4 Y:1 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_5.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 3)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.6 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:4 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_6.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 2)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.7 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:4 Y:2 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_7.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 2 :z 3)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.8 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:4 Y:2 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_8.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 2 :z 2)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.9 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:4 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_9.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 3 :z 2)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.10 ::date 2019-02-05T10:22:39
+# ::snt <Architect> exactly right but can you move it towards the middle
+# ::save-date Fri Feb 15, 2019 ::user coqc ::file col_1221_10.txt
+(c2 / contrast-01
+      :ARG1 (c / confirm-01
+            :ARG1 (r / right-06
+                  :mod (e / exact)))
+      :ARG2 (m / move-01 :mode imperative :polite +
+            :ARG0 (y / you)
+            :ARG1 (i2 / it)
+            :direction (t / trajectory
+                  :ARG4-of (t2 / toward-01
+                        :ARG2 (t3 / thing
+                              :ARG1-of (m2 / middle-01))))))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.11 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:4 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_11.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 3 :z 2)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.12 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:4 Y:2 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_12.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 2 :z 2)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.13 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:4 Y:2 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_13.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 2 :z 3)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.14 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:4 Y:1 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_14.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 3)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.15 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:4 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_15.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 2)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.16 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:4 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_16.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 4)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.17 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:1 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_17.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 4)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.18 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:1 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 2)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.19 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:1 Y:1 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 3)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.20 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:1 Y:2 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 2)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.21 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:1 Y:2 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_21.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 3)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.22 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:1 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_22.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 2)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.23 ::date 2019-02-05T10:31:55
+# ::snt <Architect> yes exactly! ok now delete the boxes underneath, leaving only the steps
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1221_23.txt
+(m / multi-sentence
+      :snt1 (c / confirm-01
+            :ARG1 (h / have-mod-91
+                  :ARG2 (e / exact)))
+      :snt2 (d / delete-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / box :pl +
+                  :ARG1-of (u / under-01))
+            :time (n / now)
+            :manner (l / leave-14 :mode imperative
+                  :ARG0 y
+                  :ARG1 (s / step :pl +
+                        :mod (o / only)))))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.24 ::date 2019-02-05T10:44:11
+# ::snt <Builder> so far we've built an L, a large duck, a funky staircase, and a cube shaped house. How would you describe the end goal of this build?
+# ::save-date Fri Feb 15, 2019 ::user coqc ::file col_1221_24.txt
+(m / multi-sentence
+      :snt1 (b / build-01
+            :ARG0 (w / we)
+            :ARG1 (a / and
+                  :op1 (t / thing
+                        :configuration (s2 / string-entity :value "L"))
+                  :op2 (d / duck
+                        :size (l / large))
+                  :op3 (s3 / staircase
+                        :mod (f / funky))
+                  :op4 (h / house
+                        :ARG1-of (s4 / shape-01
+                              :ARG2 (c / cube))))
+            :time (s / so-far))
+      :snt2 (d2 / describe-01
+            :ARG0 (y / you)
+            :ARG1 (g / goal
+                  :purpose-of (b2 / build-01
+                        :mod (t2 / this))
+                  :time (e / end-01
+                        :ARG1 b2))
+            :ARG2 (a2 / amr-unknown)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.25 ::date 2019-02-05T11:04:21
+# ::snt <Architect> abstract. there are a lot of stair type pieces in red yellow and orange
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1221_25.txt
+(m / multi-sentence
+      :snt1 (h / have-mod-91
+            :ARG2 (a / abstract))
+      :snt2 (p / piece
+            :quant (l / lot)
+            :mod (t / type
+                  :mod (s / stair))
+            :ARG2-of (i2 / include-91
+                  :ARG1 (a2 / and
+                        :op1 (t2 / thing
+                              :color (r / red))
+                        :op2 (t3 / thing
+                              :color (y / yellow))
+                        :op3 (t4 / thing
+                              :color (o / orange))))))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.26 ::date 2019-02-05T11:16:38
+# ::snt <Builder> cool, that might help, maybe...haha
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1221_26.txt
+(a / and
+      :op1 (c / cool-04)
+      :op2 (p / possible-01
+            :ARG1 (h / help-01
+                  :ARG0 (t / thing
+                        :mod (t2 / that)))
+            :mod (h2 / haha :mode expressive)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.27 ::date 2019-02-05T11:18:37
+# ::snt <Architect> lol. ok now delete the bottom pieces of the stairs leaving only the parts you would use for steps
+# ::save-date Fri Feb 15, 2019 ::user coqc ::file col_1221_27.txt
+(m / multi-sentence
+      :snt1 (l / laugh-01 :mode expressive
+            :ARG0 (i / i)
+            :manner (l2 / loud))
+      :snt2 (d / delete-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (p / piece :pl +
+                  :ARG1-of (b / bottom-03
+                        :ARG2 (s / stair :pl +)
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b2 / build-space))))
+            :time (n / now)
+            :manner (l3 / leave-14
+                  :ARG0 y
+                  :ARG1 (p2 / part :pl +
+                        :part-of s
+                        :mod (o / only)
+                        :ARG1-of (u / use-01
+                              :ARG0 y
+                              :ARG2 (s2 / step :pl +))))))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.28 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:1 Y:2 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_28.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 2)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.29 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:1 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_29.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 2)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.30 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:1 Y:1 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_30.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 3)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.31 ::date 2019-02-05T15:20:28
+# ::snt <Architect> now stand as if you were standing at the bottom stair
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1221_31.txt
+(s / stand-01 :mode imperative
+      :ARG0 y
+      :ARG1 (y / you)
+      :time (n / now)
+      :conj-as-if (s2 / stand-01
+            :ARG1 y
+            :ARG2 (s4 / stair
+                  :ARG1-of (b / bottom-03
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b2 / build-space))))))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.32 ::date 2019-02-05T15:29:21
+# ::snt <Architect> ok now 4 blocks to the left and 3 blocks forward place a red blocks
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1221_32.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (r / red))
+      :ARG2 (s / space
+            :ARG1-of (l / left-20
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 y)
+                  :quant (d / distance-quantity :quant 4
+                        :unit (b2 / block)))
+            :ARG1-of (f / forward-02
+                  :ARG1 5
+                  :quant (d2 / distance-quantity :quant 3
+                        :unit (b3 / block))))
+      :time (n / now))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.33 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-3 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_33.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z 2)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.34 ::date 2019-02-05T15:32:06
+# ::snt <Architect> yes!
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1221_34.txt
+(c / confirm-01)
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.35 ::date 2019-02-05T15:32:13
+# ::snt <Architect> now it will be a diagonal staircase with 4 steps angling towards the middle
+# ::save-date Sat Feb 16, 2019 ::user coqc ::file col_1221_35.txt
+(i2 / it
+      :configuration (s / staircase
+            :consist-of (s2 / step :quant 4)
+            :time (n / now)
+            :ARG1-of (d / diagonal-02)
+            :ARG0-of (a / angle-01
+                  :ARG1 (t / trajectory
+                        :ARG4-of (t2 / toward-01
+                              :ARG2 (t3 / thing
+                                    :ARG1-of (m / middle-01)))))))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.36 ::date 2019-02-05T15:37:13
+# ::snt <Architect> if that makes sense
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1221_36.txt
+(r / relevant-01
+      :condition (s / sense-02
+            :ARG1 (t / that)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.37 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-2 Y:1 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_37.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 3)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.38 ::date 2019-02-05T15:41:02
+# ::snt <Builder> diagonal staircase with this orientation?
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1221_38.txt
+(s / staircase
+      :ARG1-of (d / diagonal-02)
+      :orientation (t / this)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.39 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-1 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_39.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 4)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.40 ::date 2019-02-05T15:45:58
+# ::snt <Architect> towards where the yellow blocks are pointing
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1221_40.txt
+(o / orient-01
+      :ARG2 (t / thing
+            :ARG2-of (p / point-01
+                  :ARG1 (b / block :pl +
+                        :color (y / yellow)))))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.41 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:-1 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_41.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 4)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.42 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:-2 Y:1 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_42.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 3)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.43 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-2 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_43.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 1)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.44 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-1 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_44.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 0)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.45 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_45.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -1)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.46 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-2 Y:2 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_46.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 1)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.47 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-1 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_47.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 0)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.48 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:2 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_48.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -1)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.49 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-2 Y:3 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_49.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 1)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.50 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:-2 Y:3 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_50.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 1)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.51 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-1 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_51.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.52 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:3 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_52.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -1)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.53 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:-1 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_53.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.54 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-1 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_54.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.55 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:4 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_55.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z -1)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.56 ::date 2019-02-05T15:51:34
+# ::snt <Architect> and then delete all the boxes under the steps
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1221_56.txt
+(a / and
+      :op2 (d / delete-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / box :pl +
+                  :mod (a2 / all)
+                  :ARG1-of (u / under-01
+                        :ARG2 (s / step :pl +)
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b2 / build-space))))
+            :time (t / then)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.57 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:0 Y:3 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_57.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -1)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.58 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:0 Y:2 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_58.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -1)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.59 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:0 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_59.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -1)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.60 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:-1 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_60.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 0)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.61 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:-1 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_61.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 0)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.62 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:-2 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_62.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 1)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.63 ::date 2019-02-05T15:54:14
+# ::snt <Architect> ok now there will be an orange staircase with 4 steps starting one row ahead of the red on the other side of the yellow also pointing towards the middle
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1221_63.txt
+(a3 / and
+      :op1 (o3 / okay-04)
+      :op2 (s / staircase
+            :color (o / orange)
+            :consist-of (s2 / step :quant 4)
+            :ARG1-of (s3 / start-01
+                  :location (s4 / space
+                        :ARG1-of (a / ahead-02
+                              :ARG2 (t / thing
+                                    :color (r / red))
+                              :ARG4 (c / cartesian-framework-91
+                                    :ARG1 (b / builder))
+                              :quant (d / distance-quantity :quant 1
+                                    :unit (r2 / row)))
+                        :location (s5 / side
+                              :ARG1-of (o2 / other-01)
+                              :part-of (t2 / thing
+                                    :color (y / yellow)))))
+            :ARG1-of (p / point-01
+                  :ARG2 (t3 / thing
+                        :ARG1-of (m / middle-01))
+                  :mod (a2 / also))
+            :time (n / now)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.64 ::date 2019-02-05T16:02:40
+# ::snt <Builder> is it also three spaces out from the yellow blocks?
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1221_64.txt
+(o / out-08
+      :ARG1 (i2 / it)
+      :ARG2 (b / block :pl +
+            :color (y / yellow))
+      :quant (d / distance-quantity :quant 3
+            :unit (s / space))
+      :mod (a / also)
+      :polarity (a2 / amr-unknown))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.65 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:5 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_65.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 1 :z 1)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.66 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:4 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_66.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 0)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.67 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:3 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_67.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z -1)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.68 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:2 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_68.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -2)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.69 ::date 2019-02-05T16:05:04
+# ::snt <Architect> yes
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1221_69.txt
+(c / confirm-01)
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.70 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:4 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_70.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 2 :z 0)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.71 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:3 Y:2 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_71.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z -1)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.72 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:2 Y:2 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_72.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z -2)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.73 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:3 Y:3 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_73.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z -1)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.74 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:2 Y:3 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_74.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z -2)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.75 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:2 Y:4 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_75.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 4 :z -2)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.76 ::date 2019-02-05T16:05:18
+# ::snt <Architect> and then delete everything but the steps
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1221_76.txt
+(a / and
+      :op2 (d / delete-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (e / everything
+                  :ARG2-of (e2 / except-01
+                        :ARG1 (s / step :pl +)))
+            :time (t / then)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.77 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:2 Y:3 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_77.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z -2)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.78 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:2 Y:2 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_78.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z -2)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.79 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:2 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_79.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -2)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.80 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:3 Y:2 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_80.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z -1)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.81 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:3 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_81.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z -1)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.82 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:4 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_82.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 0)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.83 ::date 2019-02-05T16:06:35
+# ::snt <Architect> and then delete the bottom orange stair
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1221_83.txt
+(a / and
+      :op3 (d / delete-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (s / stair
+                  :color (o / orange)
+                  :ARG1-of (b / bottom-03
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b2 / build-space))))
+            :time (t / then)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.84 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:5 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1221_84.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 1 :z 1)))
+
+# ::id minecraft-4-5-3d-diagonals-b13-a30_1221.85 ::date 2019-02-05T16:07:34
+# ::snt <Architect> thats it!
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1221_85.txt
+(b / be-it-08
+      :ARG1 (t / that))

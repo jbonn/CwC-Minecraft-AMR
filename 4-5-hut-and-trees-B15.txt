@@ -1,0 +1,960 @@
+# workset Minecraft-4-5-hut-and-trees-B15-A27 (generated on Sun Feb 24, 2019 at 13:25:08 for user jbonn)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6
+                  :op5 y7
+                  :op6 y8))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (h / hut-and-trees)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :part (c10 / composite-entity
+                  :configuration (h2 / hut))
+                  :ARG1-of (c9 / cartesian-framework-91
+                        :ARG2 (x6 / x-axis)
+                        :ARG3 (y6 / y-axis)
+                        :ARG4 (z6 / z-axis)
+                        :FR (i4 / intrinsic)))
+            :part (c11 / composite-entity
+                  :configuration (s / string-entity :value "T"))
+                  :ARG1-of (c12 / cartesian-framework-91
+                        :ARG2 (x7 / x-axis)
+                        :ARG3 (y7 / y-axis)
+                        :ARG4 (z7 / z-axis)
+                        :hand (r5 / right-handed)
+                        :FR (i5 / intrinsic)))
+            :part (c13 / composite-entity
+                  :configuration (s2 / string-entity :value "T"))
+                  :ARG1-of (c14 / cartesian-framework-91
+                        :ARG2 (x8 / x-axis)
+                        :ARG3 (y8 / y-axis)
+                        :ARG4 (z8 / z-axis)
+                        :hand (r6 / right-handed)
+                        :FR (i6 / intrinsic))))
+      :snt9 (p / parallel-01
+            :ARG0 x
+            :ARG1 z8)
+      :snt10 (p2 / parallel-01
+            :ARG0 z
+            :ARG1 z7))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.1 ::date 2019-02-15T09:13:08
+# ::snt <Builder> Mission has started.
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1222_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.2 ::date 2019-02-15T09:13:38
+# ::snt <Builder> ready!
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1222_2.txt
+(r / ready-02)
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.3 ::date 2019-02-15T09:14:11
+# ::snt <Architect> go to a corner and go to the second spot on the diagonal
+# ::save-date Sun Feb 24, 2019 ::user jbonn ::file col_1222_3.txt
+(a / and
+      :op1 (g / go-02 :mode imperative
+            :ARG0 (y / you)
+            :ARG4 (t / thing
+                  :ARG1-of (c / corner-02)))
+      :op2 (g2 / go-02 :mode imperative
+            :ARG0 y
+            :ARG4 (s / spot
+                  :ord (o / ordinal-entity :value 2
+                        :range (t2 / thing
+                              :ARG4-of (d / diagonal-01
+                                    :ARG1 t
+                                    :ARG2 s))))))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.4 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:4 Y:1 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_4.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z -4)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.5 ::date 2019-02-15T09:20:01
+# ::snt <Architect> there and make it blue
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1222_5.txt
+(a / and
+      :op1 (c / confirm-01
+            :ARG1 (b / be-located-at-91
+                  :ARG2 (t / there)))
+      :op2 (m / make-02 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b2 / blue
+                  :color-of (i2 / it))))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.6 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:4 Y:1 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_6.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z -4)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.7 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:4 Y:1 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_7.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z -4)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.8 ::date 2019-02-15T09:21:24
+# ::snt <Architect> we want a tower of three blue blocks
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1222_8.txt
+(w / want-01
+      :ARG0 (w2 / we)
+      :ARG1 (t / tower
+            :consist-of (b / block :quant 3
+                  :color (b2 / blue))))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.9 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:4 Y:2 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_9.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 2 :z -4)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.10 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:4 Y:3 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_10.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 3 :z -4)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.11 ::date 2019-02-15T09:22:24
+# ::snt <Architect> with an orange on top
+# ::save-date Sun Feb 24, 2019 ::user jbonn ::file col_1222_11.txt
+(o2 / on-top-03
+      :ARG1 (t / thing
+            :color (o / orange
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b / build-space)))))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.12 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:4 Y:4 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_12.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 4 :z -4)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.13 ::date 2019-02-15T09:23:17
+# ::snt <Architect> there are going to be 3 more pillars like this in a square so two of those will be 4 spaces to the right and 4 up
+# ::save-date Sun Feb 24, 2019 ::user jbonn ::file col_1222_13.txt
+(a / and
+      :op1 (h / have-configuration-91
+            :ARG1 (p / pillar
+                  :ARG1-of (r / resemble-01
+                        :ARG2 (t / thing
+                              :mod (t2 / this)))
+                  :ARG1-of (h2 / have-quant-91
+                        :ARG2 3
+                        :ARG3 (m / more)))
+            :ARG2 (s / square))
+      :op2 (b / be-located-at-91
+            :ARG1 (p2 / pillar :quant 2
+                  :ARG1-of (i2 / include-91
+                        :ARG2 p))
+            :ARG2 (a2 / and
+                  :op1 (s2 / space
+                        :ARG1-of (r2 / right-04
+                              :ARG2 t
+                              :ARG3 (c / cartesian-framework-91
+                                    :ARG1 (b2 / builder))
+                              :quant (d / distance-quantity :quant 4
+                                    :unit (s3 / space))))
+                  :op2 (s4 / space
+                        :ARG1-of (u / up-03
+                              :ARG4 t
+                              :ARG5 (c2 / cartesian-framework-91
+                                    :ARG1 (w / white-square))
+                              :quant (d2 / distance-quantity :quant 4
+                                    :unit (s5 / space)))))))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.14 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-1 Y:1 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_14.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -4)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.15 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a blue block at X:-1 Y:1 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_15.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -4)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.16 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:1 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -4)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.17 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:4 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_17.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 0)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.18 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.19 ::date 2019-02-15T09:32:58
+# ::snt <Architect> one twon many
+# ::save-date Tue Feb 19, 2019 ::user kristinwb ::file col_1222_19.txt
+(h / have-quant-91
+      :ARG2 (m / many)
+      :ARG3 (t / too :quant 1))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.20 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:2 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -4)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.21 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:3 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_21.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -4)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.22 ::date 2019-02-15T09:33:19
+# ::snt <Architect> thats good
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1222_22.txt
+(g / good-02
+      :ARG1 (t / that))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.23 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_23.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 0)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.24 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_24.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 0)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.25 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:4 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_25.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 2 :z 0)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.26 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:4 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_26.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 3 :z 0)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.27 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:4 Y:4 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_27.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 4 :z 0)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.28 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:0 Y:4 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_28.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z 0)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.29 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:0 Y:4 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_29.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z -4)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.30 ::date 2019-02-15T09:33:36
+# ::snt <Architect> the middle is going to have 5 orange blocks they will be floating
+# ::save-date Sun Feb 24, 2019 ::user jbonn ::file col_1222_30.txt
+(m / middle-02
+      :ARG1 (b / block :quant 5
+            :color (o / orange)
+            :ARG1-of (f / float-01)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.31 ::date 2019-02-15T09:34:51
+# ::snt <Architect> the 4 will be one space above the tower
+# ::save-date Sun Feb 24, 2019 ::user jbonn ::file col_1222_31.txt
+(a / above-01
+      :ARG1 (t / thing :quant 4)
+      :ARG2 (t2 / tower)
+      :ARG3 (c / cartesian-framework-91
+            :ARG1 (b / build-space))
+      :quant (d / distance-quantity :quant 1
+            :unit (s2 / space)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.32 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:0 Y:5 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_32.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z -4)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.33 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:0 Y:5 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_33.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z -3)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.34 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:0 Y:4 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_34.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z -3)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.35 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:0 Y:4 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_35.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z -3)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.36 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:1 Y:5 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_36.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 5 :z -3)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.37 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:0 Y:5 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_37.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z -3)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.38 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:0 Y:5 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_38.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z -4)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.39 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:2 Y:5 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_39.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 5 :z -3)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.40 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:3 Y:5 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_40.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 5 :z -3)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.41 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:3 Y:5 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_41.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 5 :z -2)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.42 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:3 Y:5 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_42.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 5 :z -1)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.43 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:2 Y:5 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_43.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 5 :z -1)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.44 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:1 Y:5 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_44.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 5 :z -1)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.45 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:1 Y:5 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_45.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 5 :z -2)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.46 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:2 Y:5 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_46.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 5 :z -3)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.47 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:3 Y:5 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_47.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 5 :z -2)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.48 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:2 Y:5 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_48.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 5 :z -1)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.49 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:1 Y:5 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_49.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 5 :z -2)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.50 ::date 2019-02-15T09:37:10
+# ::snt <Builder> like that?
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1222_50.txt
+(r / resemble-01
+      :ARG2 (t / that)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.51 ::date 2019-02-15T09:37:26
+# ::snt <Architect> now one needs to go in the middle just one spot above those four
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1222_51.txt
+(o / obligate-01
+      :ARG2 (g / go-01
+            :ARG1 (t / thing :quant 1)
+            :ARG4 (s / space
+                  :ARG1-of (m / middle-02
+                        :ARG2 t2)
+                  :ARG1-of (a / above-01
+                        :ARG2 (t2 / thing :quant 4
+                              :mod (t3 / that))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b / build-space))
+                        :quant (d / distance-quantity :quant 1
+                              :unit (s2 / spot)
+                              :mod (j / just)))))
+      :time (n / now))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.52 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:1 Y:6 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_52.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 6 :z -1)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.53 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:1 Y:6 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_53.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 6 :z -2)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.54 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:2 Y:6 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_54.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 6 :z -2)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.55 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:1 Y:6 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_55.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 6 :z -2)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.56 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:1 Y:6 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_56.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 6 :z -1)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.57 ::date 2019-02-15T09:43:50
+# ::snt <Architect> thats it
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1222_57.txt
+(b / be-it-07
+      :ARG1 (t / that))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.58 ::date 2019-02-15T09:44:12
+# ::snt <Architect> go on the ground to the right side of the structure
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1222_58.txt
+(g / go-02 :mode imperative
+      :ARG0 (y / you)
+      :ARG4 (s / space
+            :ARG1-of (o / on-top-03
+                  :ARG2 (g2 / ground)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b / build-space)))
+            :ARG1-of (r / right-10
+                  :ARG2 (s3 / structure)
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 y))))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.59 ::date 2019-02-15T14:04:28
+# ::snt <Architect> in the middle and two spaces out from the pillars
+# ::save-date Sun Feb 24, 2019 ::user jbonn ::file col_1222_59.txt
+(s / space
+      :ARG1-of (m / middle-02
+            :ARG2 p)
+      :ARG1-of (o / out-08
+            :ARG2 (p / pillar :pl +)
+            :quant (d / distance-quantity :quant 2
+                  :unit (s2 / space))))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.60 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:2 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_60.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 2)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.61 ::date 2019-02-15T14:09:18
+# ::snt <Builder> there?
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1222_61.txt
+(b / be-destined-for-91
+      :ARG2 (t / there)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.62 ::date 2019-02-15T14:09:40
+# ::snt <Architect> yeah stack three green blocks there
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1222_62.txt
+(a / and
+      :op1 (c / confirm-01)
+      :op2 (s / stack-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block :quant 3
+                  :color (g / green))
+            :ARG2 (t / there)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.63 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:2 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_63.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 2)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.64 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:2 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_64.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 2)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.65 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:2 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_65.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 2)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.66 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:2 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_66.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 2)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.67 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:2 Y:2 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_67.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z 2)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.68 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:2 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_68.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 2)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.69 ::date 2019-02-15T14:11:32
+# ::snt <Architect> and make a t so how your're facing now place green on the left and right
+# ::save-date Sun Feb 24, 2019 ::user jbonn ::file col_1222_69.txt
+(a / and
+      :op3 (m / make-01 :mode imperative
+            :ARG0 (y2 / you)
+            :ARG1 (t / thing
+                  :configuration (s / string-entity :value "T")))
+      :op4 (p / place-01 :mode imperative
+            :ARG0 y2
+            :ARG1 (t2 / thing :pl +
+                  :color (g / green))
+            :ARG2 (a2 / and
+                  :op1 (s2 / space
+                        :ARG1-of (l / left-20
+                              :ARG3 (c / cartesian-framework-91
+                                    :ARG1 y2)
+                              :ARG4 (d / direction
+                                    :direction-of (f / face-01
+                                          :ARG0 y2
+                                          :time (n / now)))))
+                  :op2 (s3 / space
+                        :ARG1-of (r / right-04
+                              :ARG3 c
+                              :ARG4 d)))))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.70 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:3 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_70.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z 2)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.71 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:1 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_71.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 2)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.72 ::date 2019-02-15T14:25:11
+# ::snt <Architect> go to the spot directly in front of the t
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1222_72.txt
+(g / go-02 :mode imperative
+      :ARG0 (y / you)
+      :ARG4 (s / spot
+            :ARG1-of (f / front-03
+                  :ARG2 (t / thing
+                        :configuration (s2 / string-entity :value "t"))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 t
+                        :FR (r / relative-to-builder))
+                  :ARG1-of (d / direct-02))))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.73 ::date 2019-02-15T14:26:20
+# ::snt <Builder> this side or the other side?
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1222_73.txt
+(b / be-destined-for-91
+      :ARG2 (a / amr-choice
+            :op1 (s / side
+                  :mod (t / this))
+            :op2 (s2 / side
+                  :ARG1-of (o / other-01
+                        :ARG2 s))))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.74 ::date 2019-02-15T14:27:15
+# ::snt <Architect> now place a block on the ground 4 spaces to the left
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1222_74.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block)
+      :ARG2 (s / space
+            :ARG1-of (o / on-top-03
+                  :ARG2 (g / ground)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))
+            :ARG1-of (l / left-20
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 y)
+                  :quant (d / distance-quantity :quant 4
+                        :unit (s2 / space))))
+      :time (n / now))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.75 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:1 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_75.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 3)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.76 ::date 2019-02-15T14:28:41
+# ::snt <Builder> there?
+# ::save-date Sun Feb 24, 2019 ::user jbonn ::file col_1222_76.txt
+(b / be-located-at-91
+      :ARG2 (t / there)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.77 ::date 2019-02-15T14:29:05
+# ::snt <Architect> and make another t but have the sides on the opposite of the first t
+# ::save-date Tue Feb 19, 2019 ::user kristinwb ::file col_1222_77.txt
+(a / and
+      :op2 (m / make-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (t / thing
+                  :configuration (s / string-entity :value "T")
+                  :mod (a2 / another))
+            :concession (h / have-04 :mode imperative
+                  :ARG0 y
+                  :ARG1 (o / opposite-03
+                        :ARG1 (s2 / side :pl +
+                              :part-of t)
+                        :ARG2 (s3 / side :pl +
+                              :part-of (t2 / thing
+                                    :configuration (s4 / string-entity :value "T")
+                                    :ord (o2 / ordinal-entity :value 1)))))))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.78 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:2 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_78.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 3)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.79 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:3 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_79.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 3)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.80 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:3 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_80.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 4)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.81 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1222_81.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 2)))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.82 ::date 2019-02-15T14:32:10
+# ::snt <Builder> like that?
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1222_82.txt
+(r / resemble-01
+      :ARG2 (t / that)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-4-5-hut-and-trees-b15-a27_1222.83 ::date 2019-02-15T14:32:28
+# ::snt <Architect> perfect
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1222_83.txt
+(p / perfect-02)

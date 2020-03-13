@@ -1,0 +1,766 @@
+# workset Minecraft-4-4-random-objects-B21-A15 (generated on Sat Jan 26, 2019 at 07:16:34 for user coqc)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-4-random-objects-b21-a15_1162.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (o / object :pl +)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.1 ::date 2018-12-27T13:23:41
+# ::snt <Builder> Mission has started.
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.2 ::date 2018-12-27T13:24:16
+# ::snt <Architect> alright, last one i think. ready?
+# ::save-date Sat Jan 26, 2019 ::user coqc ::file col_1162_2.txt
+(m / multi-sentence
+      :snt1 (t / think-01
+            :ARG0 (i / i)
+            :ARG1 (o / one
+                  :ord (o2 / ordinal-entity :value "-1"))
+            :mod (a / all-right))
+      :snt2 (r / ready-02
+            :ARG1-of (r2 / request-confirmation-91)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.3 ::date 2018-12-27T13:31:50
+# ::snt <Builder> yee
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_3.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.4 ::date 2018-12-27T13:32:03
+# ::snt <Architect> alright, we'll start with an orange block on the ground
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_4.txt
+(s / start-01
+      :ARG0 (w / we)
+      :ARG2 (b / be-destined-for-91
+            :ARG1 (b2 / block
+                  :color (o / orange))
+            :ARG2 (s2 / space
+                  :ARG1-of (o2 / on-top-03
+                        :ARG2 (g / ground)
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b3 / build-space)))))
+      :mod (a / all-right))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.5 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_5.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.6 ::date 2018-12-27T13:33:12
+# ::snt <Architect> alright, now place another one 4 spaces to the right of the orange block
+# ::save-date Sat Jan 26, 2019 ::user coqc ::file col_1162_6.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing :quant 1
+            :mod (a / another))
+      :ARG2 (s / space
+            :ARG1-of (r / right-04
+                  :ARG2 (b / block
+                        :color (o2 / orange))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 y)
+                  :quant (d / distance-quantity :quant 4
+                        :unit (s2 / space))))
+      :time (n / now))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.7 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:-4 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_7.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 1 :z 0)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.8 ::date 2018-12-27T13:34:50
+# ::snt <Architect> now place two more orange blocks up and inwards of those two
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_8.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (o / orange)
+            :ARG1-of (h / have-quant-91
+                  :ARG2 2
+                  :ARG3 (m / more)))
+      :ARG2 (s / space :pl +
+            :ARG1-of (u / up-03
+                  :ARG4 (t / thing :quant 2
+                        :mod (t2 / that))
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))
+            :ARG1-of (i2 / inward-02
+                  :ARG2 t))
+      :time (n / now))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.9 ::date 2018-12-27T13:38:22
+# ::snt <Architect> so it's almost a pyramid
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_9.txt
+(c / cause-01
+      :ARG1 (h / have-configuration-91
+            :ARG1 (i2 / it)
+            :ARG2 (p / pyramid)
+            :degree (a / almost)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.10 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:0 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_10.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 0)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.11 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:-1 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 0)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.12 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:0 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_12.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 0)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.13 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:-4 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_13.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 2 :z 0)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.14 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:-3 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_14.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z 0)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.15 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:-4 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_15.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 2 :z 0)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.16 ::date 2018-12-27T13:42:15
+# ::snt <Architect> alright, now move to the other side
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_16.txt
+(m / move-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 y
+      :ARG2 (s / side
+            :ARG1-of (o / other-01))
+      :time (n / now)
+      :mod (a / all-right))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.17 ::date 2018-12-27T13:44:51
+# ::snt <Architect> and put two more orange blocks in front of the top two
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_17.txt
+(a / and
+      :op2 (p / put-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block
+                  :color (o / orange)
+                  :ARG1-of (h / have-quant-91
+                        :ARG2 2
+                        :ARG3 (m / more)))
+            :ARG2 (s / space :pl +
+                  :ARG1-of (f / front-03
+                        :ARG2 (t / thing :quant 2
+                              :ARG1-of (t2 / top-06
+                                    :ARG3 (c3 / cartesian-framework-91
+                                          :ARG1 (b2 / build-space))))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (c2 / composite-entity)
+                              :FR (r / relative-to-builder))))))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.18 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:-3 Y:2 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z 1)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.19 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:-1 Y:2 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 1)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.20 ::date 2018-12-27T13:47:01
+# ::snt <Architect> and connect them with one more orange block
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_20.txt
+(a / and
+      :op3 (c / connect-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (t / they)
+            :ARG3 (b / block
+                  :color (o / orange)
+                  :ARG1-of (h / have-quant-91
+                        :ARG2 1
+                        :ARG3 (m / more)))))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.21 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:-2 Y:2 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_21.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 1)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.22 ::date 2018-12-27T13:48:02
+# ::snt <Architect> now, in front of the middle block, put a green block
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_22.txt
+(p / put-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (g / green))
+      :ARG2 (s / space
+            :ARG1-of (f / front-03
+                  :ARG2 (b2 / block
+                        :ARG1-of (m / middle-01))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (c2 / composite-entity)
+                        :FR (r / relative-to-builder))))
+      :time (n / now))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.23 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:2 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_23.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 2)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.24 ::date 2018-12-27T13:49:42
+# ::snt <Architect> and another green block up and forward, like a staircase
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_24.txt
+(a / and
+      :op2 (p / put-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block
+                  :mod (a2 / another)
+                  :color (g / green))
+            :ARG2 (s / space
+                  :ARG1-of (u / up-03
+                        :ARG5 (c / cartesian-framework-91
+                              :ARG1 (b2 / build-space)))
+                  :ARG1-of (f / forward-02
+                        :ARG5 (c2 / cartesian-framework-91
+                              :ARG1 (c3 / composite-entity)
+                              :FR (r2 / relative-to-builder))))
+            :manner (r / resemble-01
+                  :ARG2 (s2 / staircase))))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.25 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_25.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 2)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.26 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:3 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_26.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 3)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.27 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:-2 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_27.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 2)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.28 ::date 2018-12-27T14:01:02
+# ::snt <Architect> and one more up and forward
+# ::save-date Sat Jan 26, 2019 ::user coqc ::file col_1162_28.txt
+(a / and
+      :op3 (p / put-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (t / thing
+                  :ARG1-of (h / have-quant-91
+                        :ARG2 1
+                        :ARG3 (m / more)))
+            :ARG2 (s / space
+                  :ARG1-of (u / up-03
+                        :ARG5 (c / cartesian-framework-91
+                              :ARG1 (b / build-space)))
+                  :ARG1-of (f / forward-02
+                        :ARG5 (c2 / cartesian-framework-91
+                              :ARG1 (c3 / composite-entity)
+                              :FR (r / relative-to-builder))))))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.29 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:4 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_29.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 4 :z 3)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.30 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:4 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_30.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 4 :z 4)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.31 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:-2 Y:4 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_31.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 4 :z 3)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.32 ::date 2018-12-27T14:03:42
+# ::snt <Architect> okay, now, put a red block on the ground two spaces left and one space forward from the last green block
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_32.txt
+(p / put-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (r / red))
+      :ARG2 (s / space
+            :ARG1-of (o / on-top-03
+                  :ARG2 (g / ground)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b3 / build-space)))
+            :ARG1-of (l / left-20
+                  :ARG2 (b2 / block
+                        :ord (o2 / ordinal-entity :value "-1")
+                        :color (g2 / green))
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 y)
+                  :quant (d / distance-quantity :quant 2
+                        :unit (s2 / space)))
+            :ARG1-of (f / forward-02
+                  :ARG2 b2
+                  :ARG5 (c3 / cartesian-framework-91
+                        :ARG1 (c4 / composite-entity)
+                        :FR (r2 / relative-to-builder))
+                  :quant (d2 / distance-quantity :quant 1
+                        :unit (s3 / space))))
+      :time (n / now))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.33 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-4 Y:1 Z:5]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_33.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 1 :z 5)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.34 ::date 2018-12-27T14:06:56
+# ::snt <Builder> there?
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_34.txt
+(b / be-located-at-91
+      :ARG2 (t / there)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.35 ::date 2018-12-27T14:07:14
+# ::snt <Architect> whoops, sorry, i meant your right
+# ::save-date Sat Jan 26, 2019 ::user coqc ::file col_1162_35.txt
+(a / and
+      :op1 (s / sorry-01)
+      :op2 (m / mean-01
+            :ARG0 (i / i)
+            :ARG2 (r / right-04
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (y / you)))
+            :ARG1-of (i2 / instead-of-91))
+      :mod (w / whoops :mode expressive))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.36 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:-4 Y:1 Z:5]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_36.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 1 :z 5)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.37 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:1 Z:5]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_37.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 5)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.38 ::date 2018-12-27T14:10:50
+# ::snt <Architect> yep!
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_38.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.39 ::date 2018-12-27T14:11:03
+# ::snt <Architect> now another one in a staircase to the right
+# ::save-date Sat Jan 26, 2019 ::user coqc ::file col_1162_39.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing :quant 1
+            :mod (a / another))
+      :ARG2 (s / space
+            :ARG1-of (r / right-04
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / builder))))
+      :time (n / now)
+      :manner (h / have-configuration-91
+            :ARG2 (s2 / staircase)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.40 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:2 Z:5]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_40.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 5)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.41 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:1 Y:2 Z:5]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_41.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 5)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.42 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:0 Y:2 Z:5]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_42.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 5)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.43 ::date 2018-12-27T14:14:17
+# ::snt <Architect> okay, now, put a purple block two spaces right and forward from the red block on the ground
+# ::save-date Mon Jan 14, 2019 ::user kristinwb ::file col_1162_43.txt
+(a / and
+      :op1 (o2 / okay-04)
+      :op2 (p / put-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block
+                  :color (p2 / purple))
+            :ARG2 (s / space
+                  :ARG1-of (r / right-04
+                        :ARG2 (b2 / block
+                              :color (r2 / red)
+                              :ARG1-of (o / on-top-03
+                                    :ARG2 (g / ground)
+                                    :ARG3 (c2 / cartesian-framework-91
+                                          :ARG1 (b3 / build-space))))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 y)
+                        :quant (d / distance-quantity :quant 2
+                              :unit (s2 / space)))
+                  :ARG1-of (f / forward-02
+                        :ARG2 b2
+                        :ARG5 c))
+            :time (n / now)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.44 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:3 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_44.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 4)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.45 ::date 2018-12-27T14:27:22
+# ::snt <Builder> there or one more forward?
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_45.txt
+(a / amr-choice
+      :op1 (t / there)
+      :op2 (s / space
+            :ARG1-of (f / forward-02
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (b / builder))
+                  :quant (d / distance-quantity
+                        :ARG1-of (h / have-quant-91
+                              :ARG2 1
+                              :ARG3 (m / more))))))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.46 ::date 2018-12-27T14:28:51
+# ::snt <Architect> one more space diagonally towards the orange blocks
+# ::save-date Sat Jan 26, 2019 ::user coqc ::file col_1162_46.txt
+(b / be-destined-for-91
+      :ARG2 (s / space
+            :ARG1-of (t / toward-01
+                  :ARG2 (b2 / block :pl +
+                        :color (o / orange))
+                  :quant (d2 / distance-quantity
+                        :unit (s2 / space)
+                        :ARG1-of (h / have-quant-91
+                              :ARG2 1
+                              :ARG3 (m / more))))
+            :ARG1-of (d / diagonal-01
+                  :ARG2 b2)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.47 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:4 Y:1 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_47.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 3)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.48 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:3 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_48.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 4)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.49 ::date 2018-12-27T14:36:10
+# ::snt <Builder> there?
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_49.txt
+(b / be-located-at-91
+      :ARG2 (t / there)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.50 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:4 Y:1 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_50.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 3)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.51 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:2 Y:1 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_51.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 3)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.52 ::date 2018-12-27T14:36:39
+# ::snt <Architect> there!
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_52.txt
+(c / confirm-01
+      :ARG1 (b / be-located-at-91
+            :ARG2 (t / there)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.53 ::date 2018-12-27T14:37:18
+# ::snt <Architect> and one more purple block to make a staircase in the opposite direction of the red staircase
+# ::save-date Sat Jan 26, 2019 ::user coqc ::file col_1162_53.txt
+(a / and
+      :op2 (b / be-destined-for-91
+            :ARG1 (b2 / block
+                  :color (p / purple)
+                  :ARG1-of (h / have-quant-91
+                        :ARG2 1
+                        :ARG3 (m / more)))
+            :purpose (m2 / make-01
+                  :ARG1 (s / staircase
+                        :ARG1-of (o2 / orient-01
+                              :ARG4 (d / direction
+                                    :ARG3-of (o / opposite-03
+                                          :ARG1 s
+                                          :ARG2 (s2 / staircase
+                                                :color (r / red)))))))))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.54 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:2 Y:2 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_54.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z 3)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.55 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:1 Y:2 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_55.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 3)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.56 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:2 Y:2 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1162_56.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z 3)))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.57 ::date 2018-12-27T14:42:27
+# ::snt <Architect> i think that's good! :)
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_57.txt
+(t / think-01
+      :ARG0 (i / i)
+      :ARG1 (g / good-02
+            :ARG1 (t2 / that))
+      :mod (e / emoticon :value ":)"))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.58 ::date 2018-12-27T14:43:04
+# ::snt <Builder> sweet
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_58.txt
+(s / sweet-05)
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.59 ::date 2018-12-27T14:43:14
+# ::snt <Architect> good work! and sorry for the confusion
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_59.txt
+(m / multi-sentence
+      :snt1 (w / work-01
+            :ARG1-of (g / good-02))
+      :snt2 (a / and
+            :op2 (s / sorry-01
+                  :ARG2 (c / confuse-01))))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.60 ::date 2018-12-27T14:44:57
+# ::snt <Builder> yeah no prob
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_60.txt
+(p / problem :polarity -)
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.61 ::date 2018-12-27T14:46:07
+# ::snt <Architect> oh
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_61.txt
+(o / oh :mode expressive)
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.62 ::date 2018-12-27T14:47:44
+# ::snt <Architect> we're getting more
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_62.txt
+(g / get-01
+      :ARG0 (w / we)
+      :ARG1 (t / thing
+            :ARG1-of (h / have-quant-91
+                  :ARG3 (m / more))))
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.63 ::date 2018-12-27T14:48:20
+# ::snt <Architect> apparently
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_63.txt
+(a / appear-02)
+
+# ::id minecraft-4-4-random-objects-b21-a15_1162.64 ::date 2018-12-27T14:48:56
+# ::snt <Builder> o
+# ::save-date Thu Dec 27, 2018 ::user kristinwb ::file col_1162_64.txt
+(o / oh :mode expressive)

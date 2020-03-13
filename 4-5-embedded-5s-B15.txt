@@ -1,0 +1,1114 @@
+# workset Minecraft-4-5-embedded-fives-B15-A27 (generated on Mon Feb 25, 2019 at 02:47:28 for user jbonn)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6
+                  :op5 y7))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (e / embedded-fives)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :part (c10 / composite-entity
+                  :configuration (s / string-entity :value "5")
+                  :color (p / purple)
+                  :ARG1-of (c9 / cartesian-framework-91
+                        :ARG2 (x6 / x-axis)
+                        :ARG3 (y6 / y-axis)
+                        :ARG4 (z6 / z-axis)
+                        :hand (r5 / right-handed)
+                        :FR (i4 / intrinsic)))
+            :part (c11 / composite-entity
+                  :configuration (s2 / string-entity :value "5")
+                  :color (y8 / yellow)
+                  :ARG1-of (c12 / cartesian-framework-91
+                        :ARG2 (x7 / x-axis)
+                        :ARG3 (y7 / y-axis)
+                        :ARG4 (z7 / z-axis)
+                        :hand (r6 / right-handed)
+                        :FR (i5 / intrinsic))))
+      :snt9 (c13 / codirectional-01
+            :ARG1 z
+            :ARG2 (a6 / and
+                  :op1 a6
+                  :op2 a7)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.1 ::date 2019-02-14T12:27:23
+# ::snt <Builder> Mission has started.
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.2 ::date 2019-02-14T12:28:40
+# ::snt <Builder> ready!
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_2.txt
+(r / ready-02)
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.3 ::date 2019-02-14T12:29:09
+# ::snt <Architect> place 4 red blocks in a line two spaces away frome the edge
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_3.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :quant 4
+            :color (r / red))
+      :ARG2 (s / space :pl +
+            :ARG1-of (a / away-01
+                  :ARG2 (e / edge)
+                  :quant (d / distance-quantity :quant 2
+                        :unit (s2 / space))))
+      :manner (h / have-configuration-91
+            :ARG1 b
+            :ARG2 (l / line)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.4 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-2 Y:1 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_4.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.5 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-1 Y:1 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_5.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.6 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:1 Y:1 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_6.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.7 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:1 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_7.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.8 ::date 2019-02-14T12:44:37
+# ::snt <Builder> like so?
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_8.txt
+(r / resemble-01
+      :ARG2 (s / so)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.9 ::date 2019-02-14T12:44:56
+# ::snt <Architect> like that
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_9.txt
+(c / confirm-01
+      :ARG1 (r / resemble-01
+            :ARG2 (t / that)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.10 ::date 2019-02-14T12:45:25
+# ::snt <Architect> now on the outer two red blocks stack 5 orange each
+# ::save-date Mon Feb 25, 2019 ::user jbonn ::file col_1217_10.txt
+(s / stack-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing :pl +
+            :color (o / orange))
+      :ARG2 (b / block :quant 2
+            :color (r / red)
+            :ARG1-of (o2 / out-09))
+      :time (n / now)
+      :frequency (r2 / rate-entity-91
+            :ARG1 (t2 / thing :quant 5
+                  :ARG1-of (i3 / include-91
+                        :ARG2 t))
+            :ARG2 (b2 / block
+                  :ARG1-of (i2 / include-91
+                        :ARG2 b)
+                  :mod (e / each))))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.11 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:1 Y:2 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.12 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:1 Y:3 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_12.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.13 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:1 Y:4 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_13.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 4 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.14 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:1 Y:5 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_14.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 5 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.15 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:1 Y:6 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_15.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 6 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.16 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:-2 Y:2 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.17 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:-2 Y:3 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_17.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.18 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:-2 Y:4 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 4 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.19 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:-2 Y:5 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 5 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.20 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:-2 Y:6 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 6 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.21 ::date 2019-02-14T12:53:05
+# ::snt <Architect> now place two yellow in between on the red blocks
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_21.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing :quant 2
+            :color (y2 / yellow))
+      :ARG2 (s / space :pl +
+            :ARG1-of (b / between-01)
+            :ARG1-of (o / on-top-03
+                  :ARG2 (b2 / block :pl +
+                        :color (r / red))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b3 / build-space))))
+      :time (n / now))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.22 ::date 2019-02-14T12:55:11
+# ::snt <Architect> one on each
+# ::save-date Mon Feb 25, 2019 ::user jbonn ::file col_1217_22.txt
+(h / have-frequency-91
+      :ARG2 (r / rate-entity-91
+            :ARG1 (t / thing :quant 1)
+            :ARG2 (t2 / thing
+                  :mod (e / each))))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.23 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:-1 Y:2 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_23.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.24 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:2 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_24.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.25 ::date 2019-02-14T12:57:27
+# ::snt <Builder> there?
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_25.txt
+(b / be-destined-for-91
+      :ARG2 (t / there
+            :ARG1-of (r / request-confirmation-91)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.26 ::date 2019-02-14T12:57:46
+# ::snt <Architect> yeah
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_26.txt
+(c / confirm-01)
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.27 ::date 2019-02-14T12:57:53
+# ::snt <Architect> move your character on the other side
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_27.txt
+(m / move-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (c / character
+            :poss y)
+      :ARG2 (s2 / side
+            :ARG1-of (o / other-01)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.28 ::date 2019-02-14T13:43:37
+# ::snt <Architect> now put a red block on top of the right yellow
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_28.txt
+(p / put-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (r / red))
+      :ARG2 (s / space
+            :ARG1-of (o / on-top-03
+                  :ARG2 (t / thing
+                        :color (y2 / yellow)
+                        :ARG1-of (r2 / right-10
+                              :ARG3 (c2 / cartesian-framework-91
+                                    :ARG1 y)))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space))))
+      :time (n / now))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.29 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-1 Y:3 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_29.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.30 ::date 2019-02-14T13:47:27
+# ::snt <Architect> yellow next to that
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_30.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing
+            :color (y / yellow))
+      :ARG2 (s / space
+            :ARG1-of (n / next-to-02
+                  :ARG2 (t2 / thing
+                        :mod (t3 / that))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.31 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:3 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_31.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.32 ::date 2019-02-14T13:49:32
+# ::snt <Architect> yellow on top of the red
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_32.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing
+            :color (y / yellow))
+      :ARG2 (s / space
+            :ARG1-of (o / on-top-03
+                  :ARG2 (t2 / thing
+                        :color (r / red))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.33 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:-1 Y:4 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_33.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.34 ::date 2019-02-14T13:50:30
+# ::snt <Architect> red on top of the left yellow
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_34.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing
+            :color (r / red))
+      :ARG2 (s / space
+            :ARG1-of (o / on-top-03
+                  :ARG2 (t2 / thing
+                        :color (y / yellow)
+                        :ARG1-of (l / left-24
+                              :ARG3 (c2 / cartesian-framework-91
+                                    :ARG1 (b3 / builder))))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.35 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:4 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_35.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.36 ::date 2019-02-14T13:52:05
+# ::snt <Architect> yellow on top of both blocks
+# ::save-date Mon Feb 25, 2019 ::user jbonn ::file col_1217_36.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing :pl +
+            :color (y / yellow))
+      :ARG2 (s2 / space :pl +
+            :ARG1-of (o / on-top-03
+                  :ARG2 (b2 / block :pl +
+                        :mod (b3 / both))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b5 / build-space))))
+      :frequency (r / rate-entity-91
+            :ARG1 (t2 / thing :quant 1
+                  :ARG1-of (i3 / include-91
+                        :ARG2 t))
+            :ARG2 (b4 / block :quant 1
+                  :ARG1-of (i2 / include-91
+                        :ARG2 b2))))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.37 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:5 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_37.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.38 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:-1 Y:5 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_38.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 5 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.39 ::date 2019-02-14T13:59:36
+# ::snt <Architect> i messed up the left column should be three yellow and then a red
+# ::save-date Mon Feb 25, 2019 ::user jbonn ::file col_1217_39.txt
+(a / and
+      :op1 (m / mess-up-02
+            :ARG0 (i / i))
+      :op2 (r / recommend-01
+            :ARG1 (h / have-configuration-91
+                  :ARG1 (c / column
+                        :ARG1-of (l / left-24
+                              :ARG3 (c2 / cartesian-framework-91
+                                    :ARG1 (b / builder))))
+                  :ARG2 (s / spatial-sequence-91
+                        :ARG2 (t / thing
+                              :color (y / yellow))
+                        :ARG3 (t2 / thing
+                              :color (y2 / yellow))
+                        :ARG4 (t3 / thing
+                              :color (y3 / yellow))
+                        :ARG5 (t4 / thing
+                              :color (r2 / red)
+                              :time (t5 / then))))))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.40 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:0 Y:4 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_40.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.41 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:4 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_41.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.42 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:0 Y:5 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_42.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.43 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:5 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_43.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.44 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:0 Y:4 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_44.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.45 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:0 Y:5 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_45.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.46 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:4 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_46.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.47 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:5 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_47.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.48 ::date 2019-02-14T14:06:18
+# ::snt <Architect> yellow on top of those
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_48.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing :pl +
+            :color (y / yellow))
+      :ARG2 (s / space :pl +
+            :ARG1-of (o / on-top-03
+                  :ARG2 (t2 / thing :pl +
+                        :mod (t3 / that))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.49 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:-1 Y:6 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_49.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 6 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.50 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:6 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_50.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.51 ::date 2019-02-14T14:08:10
+# ::snt <Architect> then line the top with red
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_51.txt
+(l / line-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t2 / thing
+            :ARG1-of (t3 / top-06
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b / build-space))))
+      :ARG2 (t4 / thing :pl +
+            :color (r / red))
+      :time (t / then))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.52 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:1 Y:7 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_52.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 7 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.53 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:7 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_53.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 7 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.54 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-1 Y:7 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_54.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 7 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.55 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-2 Y:7 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_55.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 7 :z -3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.56 ::date 2019-02-14T14:09:47
+# ::snt <Architect> good
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_56.txt
+(g / good-02)
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.57 ::date 2019-02-14T14:09:56
+# ::snt <Builder> cool
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_57.txt
+(c / cool-04)
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.58 ::date 2019-02-14T14:10:05
+# ::snt <Architect> now we're gonna do the same structure across from that one
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_58.txt
+(d / do-02
+      :ARG0 (w / we)
+      :ARG1 (s / structure
+            :ARG1-of (s2 / same-01
+                  :ARG2 o))
+      :time (n / now)
+      :location (s3 / space :pl +
+            :ARG1-of (a / across-02
+                  :ARG3 (o / one
+                        :mod (t / that)))))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.59 ::date 2019-02-14T14:13:29
+# ::snt <Architect> so be two away from the edge and use green blocks for the base
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_59.txt
+(a / and
+      :op1 (a2 / away-01 :mode imperative
+            :ARG1 (y / you)
+            :ARG2 (e / edge)
+            :quant (d / distance-quantity :quant 2))
+      :op2 (u / use-01 :mode imperative
+            :ARG0 y
+            :ARG1 (b2 / block :pl +
+                  :color (g / green))
+            :ARG2 (t / thing
+                  :ARG1-of (b3 / base-03
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b / build-space))))))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.60 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:1 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_60.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.61 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-1 Y:1 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_61.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.62 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:1 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_62.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.63 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:1 Y:1 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_63.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.64 ::date 2019-02-14T14:19:19
+# ::snt <Architect> now on the outer blocks build up 5 with blue
+# ::save-date Mon Feb 25, 2019 ::user jbonn ::file col_1217_64.txt
+(b / build-01 :mode imperative
+      :ARG0 (y / you)
+      :time (n / now)
+      :location (s / space :pl +
+            :ARG1-of (o2 / on-top-03
+                  :ARG2 (b3 / block :pl +
+                        :ARG1-of (o / out-09))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b4 / build-space))))
+      :instrument (t2 / thing :pl +
+            :color (b2 / blue))
+      :direction (t / trajectory
+            :ARG2-of (u / up-03 :quant 5
+                  :ARG5 c)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.65 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:1 Y:2 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_65.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.66 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:1 Y:3 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_66.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.67 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:1 Y:4 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_67.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 4 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.68 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:1 Y:5 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_68.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 5 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.69 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:1 Y:5 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_69.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 5 :z 4)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.70 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:1 Y:6 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_70.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 6 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.71 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a blue block at X:1 Y:5 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_71.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 5 :z 4)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.72 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-2 Y:2 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_72.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.73 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-2 Y:3 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_73.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.74 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-2 Y:4 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_74.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 4 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.75 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-2 Y:5 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_75.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 5 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.76 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-2 Y:6 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_76.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 6 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.77 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:7 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_77.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 7 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.78 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-1 Y:7 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_78.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 7 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.79 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:7 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_79.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 7 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.80 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:1 Y:7 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_80.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 7 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.81 ::date 2019-02-14T14:26:54
+# ::snt <Architect> make the same design you see but in purple and green
+# ::save-date Mon Feb 25, 2019 ::user jbonn ::file col_1217_81.txt
+(m / make-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :ARG1-of (d / design-01)
+            :ARG1-of (s / same-01
+                  :ARG2 (t2 / thing
+                        :ARG1-of (s2 / see-01
+                              :ARG0 y))
+                  :ARG2-of (e / except-01
+                        :ARG1 (h / have-color-91
+                              :ARG1 t
+                              :ARG2 (a / and
+                                    :op1 (p / purple)
+                                    :op2 (g / green)))))))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.82 ::date 2019-02-14T14:39:25
+# ::snt <Architect> so two purple on the bottom
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_82.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing :quant 2
+            :color (p / purple))
+      :ARG2 (s / space :pl +
+            :ARG1-of (o / on-top-03
+                  :ARG2 (t2 / thing
+                        :ARG1-of (b2 / bottom-03
+                              :ARG3 c))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b3 / build-space)))))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.83 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:2 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_83.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.84 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:2 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_84.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.85 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:4 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_85.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.86 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:4 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_86.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.87 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:6 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_87.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 6 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.88 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:6 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_88.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.89 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:3 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_89.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.90 ::date 2019-02-14T14:48:54
+# ::snt <Builder> purple there or on the other side?
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_90.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing
+            :color (p / purple))
+      :ARG2 (a / amr-choice
+            :op1 (t2 / there)
+            :op2 (s / space
+                  :location (s2 / side
+                        :ARG1-of (o / other-01)))))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.91 ::date 2019-02-14T14:52:04
+# ::snt <Architect> then fill in with green
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_91.txt
+(f / fill-in-05 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (t2 / thing
+            :color (g / green))
+      :time (t / then))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.92 ::date 2019-02-14T14:52:40
+# ::snt <Architect> you have it on the right side
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_92.txt
+(h2 / have-04
+      :ARG0 (y / you)
+      :ARG1 (b / be-located-at-91
+            :ARG1 (i2 / it)
+            :ARG2 (s / side
+                  :ARG2-of (r / right-06))))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.93 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:5 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_93.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 5 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.94 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:5 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_94.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.95 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-1 Y:3 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1217_95.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 3)))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.96 ::date 2019-02-14T14:59:57
+# ::snt <Builder> like so?
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_96.txt
+(r / resemble-01
+      :ARG2 (s / so)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.97 ::date 2019-02-14T15:00:20
+# ::snt <Architect> thats right
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_97.txt
+(r / right-06
+      :ARG2 (t / that))
+
+# ::id minecraft-4-5-embedded-fives-b15-a27_1217.98 ::date 2019-02-14T15:00:44
+# ::snt <Builder> sick
+# ::save-date Thu Feb 14, 2019 ::user kristinwb ::file col_1217_98.txt
+(s / sick-03)

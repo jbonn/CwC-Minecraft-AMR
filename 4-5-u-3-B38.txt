@@ -1,0 +1,650 @@
+# workset Minecraft-4-5-u-3-B38-A28 (generated on Sat Feb 16, 2019 at 23:33:55 for user coqc)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-5-u-3-b38-a28_1197.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 z6
+                  :op4 z7))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :part (c9 / composite-entity
+                  :color (g2 / green)
+                  :configuration (s / string-entity :value "u")
+                  :ARG1-of (c10 / cartesian-framework-91
+                        :ARG2 (x6 / x-axis)
+                        :ARG3 (y6 / y-axis)
+                        :ARG4 (z6 / z-axis)
+                        :FR (i4 / intrinsic)))
+            :part (c11 / composite-entity
+                  :color (b4 / blue)
+                  :configuration (s2 / string-entity :value "u")
+                  :ARG1-of (c12 / cartesian-framework-91
+                        :ARG2 (x7 / x-axis)
+                        :ARG3 (y7 / y-axis)
+                        :ARG4 (z7 / z-axis)
+                        :FR (i5 / intrinsic))))
+      :snt9 (a6 / antiparallel-01
+            :ARG1 (a7 / and
+                  :op1 z
+                  :op2 y6
+            :ARG2 y7))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.1 ::date 2019-01-29T11:18:26
+# ::snt <Builder> Mission has started.
+# ::save-date Tue Jan 29, 2019 ::user kristinwb ::file col_1197_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.2 ::date 2019-01-29T11:19:01
+# ::snt <Builder> So what do we do?
+# ::save-date Tue Jan 29, 2019 ::user kristinwb ::file col_1197_2.txt
+(d / do-02
+      :ARG0 (w / we)
+      :ARG1 (a / amr-unknown))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.3 ::date 2019-01-29T11:19:37
+# ::snt <Architect> alright
+# ::save-date Tue Jan 29, 2019 ::user kristinwb ::file col_1197_3.txt
+(a / all-right)
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.4 ::date 2019-01-29T11:19:45
+# ::snt <Architect> this ones for real
+# ::save-date Tue Jan 29, 2019 ::user kristinwb ::file col_1197_4.txt
+(r / real-04
+      :ARG1 (o / one
+            :mod (t / this)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.5 ::date 2019-01-29T11:21:38
+# ::snt <Builder> Ok
+# ::save-date Tue Jan 29, 2019 ::user kristinwb ::file col_1197_5.txt
+(o / okay-04)
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.6 ::date 2019-01-29T11:21:45
+# ::snt <Architect> get green blocks and blue blocks
+# ::save-date Tue Jan 29, 2019 ::user kristinwb ::file col_1197_6.txt
+(g / get-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (a / and
+            :op1 (b / block :pl +
+                  :color (g2 / green))
+            :op2 (b2 / block :pl +
+                  :color (b3 / blue))))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.7 ::date 2019-01-29T12:24:34
+# ::snt <Builder> Yup
+# ::save-date Tue Jan 29, 2019 ::user kristinwb ::file col_1197_7.txt
+(c / confirm-01)
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.8 ::date 2019-01-29T12:27:37
+# ::snt <Architect> can you put 3 blue blocks in a row
+# ::save-date Sat Feb 16, 2019 ::user coqc ::file col_1197_8.txt
+(p / put-03 :mode imperative :polite +
+      :ARG0 (y / you)
+      :ARG1 (b / block :quant 3
+            :color (b2 / blue))
+      :ARG2 (h / have-configuration-91
+            :ARG1 b
+            :ARG2 (r / row)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.9 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_9.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 2)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.10 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-1 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_10.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 2)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.11 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-2 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 2)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.12 ::date 2019-01-29T12:29:13
+# ::snt <Builder> Ok
+# ::save-date Tue Jan 29, 2019 ::user kristinwb ::file col_1197_12.txt
+(o / okay-04)
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.13 ::date 2019-01-29T12:29:27
+# ::snt <Architect> okay and put two blocks down from the first blue block you put down
+# ::save-date Sat Feb 16, 2019 ::user coqc ::file col_1197_13.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (p / put-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block :quant 2)
+            :ARG2 (s / space :pl +
+                  :ARG1-of (d / down-03
+                        :ARG2 (b2 / block
+                              :ord (o2 / ordinal-entity :value 1)
+                              :ARG1-of (p2 / put-down-17
+                                    :ARG0 y)
+                              :color (b3 / blue))
+                        :ARG5 (c / cartesian-framework-91
+                              :ARG1 (w / white-square))))))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.14 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_14.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.15 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_15.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.16 ::date 2019-01-29T12:34:27
+# ::snt <Architect> oh sorry i meant blue instead of creen
+# ::save-date Sat Feb 16, 2019 ::user coqc ::file col_1197_16.txt
+(s / sorry-01
+      :ARG2 (m / mean-01
+            :ARG0 (i / i)
+            :ARG2 (b / blue
+                  :ARG1-of (i2 / instead-of-91
+                        :ARG2 (g / green))))
+      :mod (o / oh :mode expressive))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.17 ::date 2019-01-29T12:39:19
+# ::snt <Builder> So what do we do?
+# ::save-date Tue Jan 29, 2019 ::user kristinwb ::file col_1197_17.txt
+(d / do-02
+      :ARG0 (w / we)
+      :ARG1 (a / amr-unknown))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.18 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:0 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_18.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.19 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:0 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_19.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.20 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.21 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:0 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_21.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.22 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_22.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.23 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:0 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_23.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.24 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_24.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.25 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_25.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.26 ::date 2019-01-29T12:39:58
+# ::snt <Architect> okay and then two blue blocks across from those
+# ::save-date Tue Jan 29, 2019 ::user kristinwb ::file col_1197_26.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (b / be-destined-for-91
+            :ARG1 (b2 / block :quant 2
+                  :color (b3 / blue))
+            :ARG2 (s / space :pl +
+                  :ARG1-of (a2 / across-02
+                        :ARG3 (t2 / thing :pl +
+                              :mod (t3 / that))))
+            :time (t / then)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.27 ::date 2019-01-29T12:48:25
+# ::snt <Builder> Sorry, the block swutches to whitchever one we removed
+# ::save-date Tue Jan 29, 2019 ::user kristinwb ::file col_1197_27.txt
+(a / and
+      :op1 (s / sorry-01)
+      :op2 (s2 / switch-01
+            :ARG1 (b / block)
+            :ARG2 (o / one
+                  :ARG1-of (r / remove-01
+                        :ARG0 (w / we)))))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.28 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-2 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_28.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 1)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.29 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-2 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_29.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 0)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.30 ::date 2019-01-29T12:55:27
+# ::snt <Architect> wait go back
+# ::save-date Tue Jan 29, 2019 ::user kristinwb ::file col_1197_30.txt
+(a / and
+      :op1 (w / wait-01 :mode imperative
+            :ARG1 (y / you))
+      :op2 (g / go-back-19 :mode imperative
+            :ARG1 y))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.31 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a blue block at X:-2 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_31.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 0)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.32 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a blue block at X:-2 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_32.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 1)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.33 ::date 2019-01-29T13:02:01
+# ::snt <Builder> here?
+# ::save-date Tue Jan 29, 2019 ::user kristinwb ::file col_1197_33.txt
+(b / be-located-at-91
+      :ARG2 (h / here)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.34 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-3 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_34.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z 1)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.35 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-3 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_35.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z 0)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.36 ::date 2019-01-29T13:02:43
+# ::snt <Architect> soryr no
+# ::save-date Tue Jan 29, 2019 ::user kristinwb ::file col_1197_36.txt
+(s / sorry-01
+      :ARG2 (c / confirm-01 :polarity -))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.37 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a blue block at X:-3 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_37.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z 1)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.38 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a blue block at X:-3 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_38.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z 0)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.39 ::date 2019-01-29T13:04:00
+# ::snt <Architect> actually yeah two blue blocks from originally where you put them
+# ::save-date Sat Feb 16, 2019 ::user coqc ::file col_1197_39.txt
+(c / confirm-01
+      :ARG1 (b / be-destined-for-91
+            :ARG1 (b2 / block :quant 2
+                  :color (b3 / blue))
+            :ARG2 (s / space :pl +
+                  :ARG2-of (p / put-01
+                        :ARG0 (y / you)
+                        :ARG1 b2
+                        :time (o / original))))
+      :ARG1-of (a / actual-02))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.40 ::date 2019-01-29T13:06:37
+# ::snt <Architect> you were right
+# ::save-date Tue Jan 29, 2019 ::user kristinwb ::file col_1197_40.txt
+(r / right-06
+      :ARG1 (y / you))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.41 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-2 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_41.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 1)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.42 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-2 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_42.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z -1)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.43 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a blue block at X:-2 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_43.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z -1)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.44 ::date 2019-01-29T13:07:28
+# ::snt <Architect> yeah perfect
+# ::save-date Tue Jan 29, 2019 ::user kristinwb ::file col_1197_44.txt
+(c / confirm-01
+      :ARG1 (p / perfect-02))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.45 ::date 2019-01-29T13:07:48
+# ::snt <Architect> okay
+# ::save-date Tue Jan 29, 2019 ::user kristinwb ::file col_1197_45.txt
+(o / okay-04)
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.46 ::date 2019-01-29T13:08:07
+# ::snt <Architect> and then
+# ::save-date Tue Jan 29, 2019 ::user kristinwb ::file col_1197_46.txt
+(a / and
+      :op2 (b / be-temporally-at-91
+            :ARG2 (t / then)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.47 ::date 2019-01-29T13:08:35
+# ::snt <Builder> Ok, whats next?
+# ::save-date Sat Feb 16, 2019 ::user coqc ::file col_1197_47.txt
+(a2 / and
+      :op1 (o / okay-04)
+      :op2 (a / amr-unknown
+            :mod (n / next)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.48 ::date 2019-01-29T13:09:06
+# ::snt <Architect> put two green blocks in the middle of that c
+# ::save-date Tue Jan 29, 2019 ::user kristinwb ::file col_1197_48.txt
+(p / put-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :quant 2
+            :color (g / green))
+      :ARG2 (s / space :pl +
+            :ARG1-of (m / middle-01
+                  :ARG2 (t / thing
+                        :configuration (s2 / string-entity :value "c")
+                        :mod (t2 / that)))))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.49 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-1 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_49.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 1)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.50 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-1 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_50.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 0)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.51 ::date 2019-01-29T13:11:25
+# ::snt <Architect> and then one more coming out
+# ::save-date Sat Feb 16, 2019 ::user coqc ::file col_1197_51.txt
+(a / and
+      :op2 (b / be-destined-for-91
+            :ARG1 (t / thing
+                  :ARG1-of (h / have-quant-91
+                        :ARG2 1
+                        :ARG3 (m / more)))
+            :ARG2 (s / space
+                  :ARG1-of (c / come-33
+                        :direction (t3 / trajectory
+                              :ARG5-of (o / out-08))))
+            :time (t2 / then)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.52 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-1 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_52.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -1)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.53 ::date 2019-01-29T13:16:12
+# ::snt <Architect> and then one going up
+# ::save-date Tue Jan 29, 2019 ::user kristinwb ::file col_1197_53.txt
+(a / and
+      :op4 (b / be-destined-for-91
+            :ARG1 (t2 / thing :quant 1)
+            :ARG2 (s / space
+                  :ARG1-of (g / go-35
+                        :direction (t3 / trajectory
+                              :ARG2-of (u / up-03
+                                    :ARG1 s
+                                    :ARG5 (c / cartesian-framework-91
+                                          :ARG1 (w / white-square))))))
+            :time (t / then)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.54 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_54.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z -1)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.55 ::date 2019-01-29T13:21:18
+# ::snt <Architect> one more going up
+# ::save-date Tue Jan 29, 2019 ::user kristinwb ::file col_1197_55.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing
+            :ARG1-of (h / have-quant-91
+                  :ARG2 1
+                  :ARG3 (m / more)))
+      :ARG2 (s / space
+            :ARG1-of (g / go-35
+                  :direction (t2 / trajectory
+                        :ARG2-of (u / up-03
+                              :ARG1 t
+                              :ARG5 (c / cartesian-framework-91
+                                    :ARG1 (w / white-square)))))))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.56 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-3 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_56.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z -1)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.57 ::date 2019-01-29T13:23:57
+# ::snt <Architect> and then two to the left
+# ::save-date Tue Jan 29, 2019 ::user kristinwb ::file col_1197_57.txt
+(a / and
+      :op2 (b / be-destined-for-91
+            :ARG1 (t / thing :quant 2)
+            :ARG2 (s / space :pl +
+                  :ARG1-of (l / left-20
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b2 / builder))))
+            :time (t2 / then)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.58 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-3 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_58.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z 0)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.59 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-3 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1197_59.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z 1)))
+
+# ::id minecraft-4-5-u-3-b38-a28_1197.60 ::date 2019-01-29T13:25:35
+# ::snt <Architect> NICE!
+# ::save-date Tue Jan 29, 2019 ::user kristinwb ::file col_1197_60.txt
+(n / nice-01)

@@ -1,0 +1,787 @@
+# workset Minecraft-4-5-3d-maze-B15-A27 (generated on Mon Feb 11, 2019 at 19:39:22 for user coqc)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (m / maze)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :FR (i4 / intrinsic)))
+      :snt9 (p / parallel-01
+            :ARG0 x
+            :ARG1 z6))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.1 ::date 2019-02-05T16:10:27
+# ::snt <Builder> Mission has started.
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1215_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.2 ::date 2019-02-05T16:12:01
+# ::snt <Architect> make a line of green blocks leaving one block free on each side
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1215_2.txt
+(m / make-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (l / line)
+      :ARG2 (b / block :pl +
+            :color (g / green))
+      :manner (l2 / leave-14 :mode imperative
+            :ARG0 y
+            :ARG1 (f / free-04
+                  :ARG1 (b2 / block :pl +
+                        :ARG1-of (n / next-to-02
+                              :ARG2 (s / side :pl +
+                                    :part-of l))))
+            :frequency (r / rate-entity-91
+                  :ARG1 (b3 / block :quant 1
+                        :ARG1-of (i2 / include-91
+                              :ARG2 b2))
+                  :ARG2 (s2 / side
+                        :ARG1-of (i3 / include-91
+                              :ARG2 s)
+                        :mod (e / each)))))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.3 ::date 2019-02-05T16:22:05
+# ::snt <Builder> how long should the line be?
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1215_3.txt
+(r / recommend-01
+      :ARG1 (l / long-03
+            :ARG1 (l2 / line)
+            :ARG2 (a / amr-unknown)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.4 ::date 2019-02-05T16:23:12
+# ::snt <Architect> so it should be 9 blocks
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1215_4.txt
+(r / recommend-01
+      :ARG1 (c / consist-01
+            :ARG1 (i2 / it)
+            :ARG2 (b / block :quant 9)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.5 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:1 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_5.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -4)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.6 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:1 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_6.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -3)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.7 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_7.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -2)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.8 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_8.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -1)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.9 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_9.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.10 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_10.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 2)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.11 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.12 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:1 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_12.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 3)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.13 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_13.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 4)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.14 ::date 2019-02-05T16:24:02
+# ::snt <Architect> now stack 8 blocks on one end of that line
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1215_14.txt
+(s / stack-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :quant 8)
+      :ARG2 (t2 / thing :quant 1
+            :ARG1-of (e / end-05
+                  :ARG2 (l / line
+                        :mod (t / that))))
+      :time (n / now))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.15 ::date 2019-02-05T16:25:07
+# ::snt <Architect> still green
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1215_15.txt
+(h / have-color-91
+      :ARG2 (g / green)
+      :mod (s / still))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.16 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:2 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 4)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.17 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:3 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_17.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 4)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.18 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:4 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z 4)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.19 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:5 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z 4)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.20 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:6 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z 4)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.21 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:7 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_21.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 7 :z 4)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.22 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:8 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_22.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 8 :z 4)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.23 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:9 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_23.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 9 :z 4)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.24 ::date 2019-02-05T16:27:26
+# ::snt <Builder> like that, or one shorter?
+# ::save-date Mon Feb 11, 2019 ::user coqc ::file col_1215_24.txt
+(a / amr-choice
+      :op1 (r / resemble-01
+            :ARG2 (t / that))
+      :op2 (h / have-degree-91
+            :ARG2 (s / short-07)
+            :ARG3 (m / more :quant 1)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.25 ::date 2019-02-05T16:29:41
+# ::snt <Architect> thats good
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1215_25.txt
+(g / good-02
+      :ARG1 (t / that))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.26 ::date 2019-02-05T16:30:01
+# ::snt <Architect> now build off of that stack with 8 red blocks
+# ::save-date Mon Feb 11, 2019 ::user coqc ::file col_1215_26.txt
+(b / build-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (b2 / block :quant 8
+            :color (r / red))
+      :time (n / now)
+      :direction (t / trajectory
+            :ARG3-of (o / off-06
+                  :ARG2 (s / stack
+                        :mod (t2 / that)))))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.27 ::date 2019-02-05T16:33:36
+# ::snt <Architect> so it will be parallel with the origanl green line
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1215_27.txt
+(c / cause-01
+      :ARG1 (p / parallel-01
+            :ARG0 (i2 / it)
+            :ARG1 (l / line
+                  :mod (o / original)
+                  :color (g / green))))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.28 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:9 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_28.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 9 :z 3)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.29 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:9 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_29.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 9 :z 2)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.30 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:9 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_30.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 9 :z 1)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.31 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:9 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_31.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 9 :z 0)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.32 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:9 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_32.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 9 :z -1)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.33 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:9 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_33.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 9 :z -2)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.34 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:9 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_34.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 9 :z -3)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.35 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:9 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_35.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 9 :z -4)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.36 ::date 2019-02-05T16:35:30
+# ::snt <Architect> good
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1215_36.txt
+(g / good-02)
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.37 ::date 2019-02-05T16:35:41
+# ::snt <Architect> build down from that still with red blocks with 7 blocks
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1215_37.txt
+(b / build-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (b2 / block :quant 7
+            :color (r / red)
+            :mod (s / still))
+      :direction (t / trajectory
+            :ARG4-of (d / down-03
+                  :ARG1 b2
+                  :ARG2 (t2 / thing
+                        :mod (t3 / that))
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (b3 / build-space)))))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.38 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:8 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_38.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 8 :z -4)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.39 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:7 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_39.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 7 :z -4)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.40 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:6 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_40.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z -4)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.41 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:5 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_41.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z -4)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.42 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:4 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_42.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z -4)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.43 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:3 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_43.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -4)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.44 ::date 2019-02-05T16:38:04
+# ::snt <Builder> one more?
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1215_44.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing
+            :ARG1-of (h / have-quant-91
+                  :ARG2 1
+                  :ARG3 (m / more)))
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.45 ::date 2019-02-05T16:40:54
+# ::snt <Architect> keep the gap
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1215_45.txt
+(k / keep-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (g / gap))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.46 ::date 2019-02-05T16:41:42
+# ::snt <Architect> now with purple blocks build off the red like you did with green
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1215_46.txt
+(b / build-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (b2 / block :pl +
+            :color (p / purple))
+      :time (n / now)
+      :direction (t / trajectory
+            :ARG3-of (o / off-06
+                  :ARG2 (t2 / thing
+                        :color (r / red))))
+      :ARG1-of (r2 / resemble-01
+            :ARG2 (t4 / thing
+                  :ARG1-of (d / do-02
+                        :ARG0 y
+                        :ARG3 (t3 / thing
+                              :color (g / green))))))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.47 ::date 2019-02-05T16:46:34
+# ::snt <Architect> leaving a space between the green and purple
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1215_47.txt
+(l / leave-14 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (s / space
+            :ARG1-of (b / between-01
+                  :ARG2 (t / thing
+                        :color (g / green))
+                  :ARG3 (t2 / thing
+                        :color (p / purple)))))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.48 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:3 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_48.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -3)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.49 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:3 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_49.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -2)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.50 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:3 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_50.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -1)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.51 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_51.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 0)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.52 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:3 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_52.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 1)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.53 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_53.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 2)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.54 ::date 2019-02-05T17:09:48
+# ::snt <Architect> build up towards the red now
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1215_54.txt
+(b / build-01 :mode imperative
+      :ARG0 (y / you)
+      :time (n / now)
+      :direction (t / trajectory
+            :ARG2-of (u / up-03
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (b2 / buildspace)))
+            :ARG4-of (t2 / toward-01
+                  :ARG2 (t3 / thing
+                        :color (r / red)))))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.55 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:4 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_55.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z 2)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.56 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:5 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_56.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z 2)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.57 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:6 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_57.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z 2)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.58 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:7 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_58.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 7 :z 2)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.59 ::date 2019-02-05T17:13:19
+# ::snt <Architect> now use yellow and build towards the side
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1215_59.txt
+(u / use-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :color (y2 / yellow))
+      :ARG2 (b / build-01
+            :ARG0 y
+            :ARG2 t
+            :direction (t2 / trajectory
+                  :ARG4-of (t3 / toward-01
+                        :ARG2 (s / side))))
+      :time (n / now))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.60 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:7 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_60.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 7 :z 1)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.61 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:7 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_61.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 7 :z 0)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.62 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:7 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_62.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 7 :z -1)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.63 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:7 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_63.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 7 :z -2)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.64 ::date 2019-02-05T17:17:09
+# ::snt <Architect> build down towards purple with yello
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1215_64.txt
+(b / build-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (t2 / thing
+            :color (y2 / yellow))
+      :direction (t / trajectory
+            :ARG4-of (t3 / toward-01
+                  :ARG2 (t4 / thing
+                        :color (p / purple)))
+            :ARG4-of (d / down-03
+                  :ARG3 t4
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.65 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:6 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_65.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z -2)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.66 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:5 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_66.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z -2)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.67 ::date 2019-02-05T17:20:28
+# ::snt <Architect> build towards purple with orange
+# ::save-date Mon Feb 11, 2019 ::user coqc ::file col_1215_67.txt
+(b / build-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (t2 / thing
+            :color (o / orange))
+      :direction (t / trajectory
+            :ARG4-of (t3 / toward-01
+                  :ARG2 (t4 / thing
+                        :color (p / purple)))))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.68 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:0 Y:5 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_68.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z -1)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.69 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:0 Y:5 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1215_69.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z 0)))
+
+# ::id minecraft-4-5-3d-maze-b15-a27_1215.70 ::date 2019-02-05T17:22:26
+# ::snt <Architect> nice job
+# ::save-date Tue Feb 5, 2019 ::user kristinwb ::file col_1215_70.txt
+(j / job
+      :ARG1-of (n / nice-01))

@@ -1,0 +1,873 @@
+# workset Minecraft-4-4-double-tripod-B29-A8 (generated on Thu Feb 7, 2019 at 21:11:19 for user coqc)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (t / tripod)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.1 ::date 2018-12-18T12:06:43
+# ::snt <Builder> Mission has started.
+# ::save-date Tue Dec 18, 2018 ::user kristinwb ::file col_1170_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.2 ::date 2018-12-18T12:07:30
+# ::snt <Architect> okay start with a green block on the ground
+# ::save-date Thu Feb 7, 2019 ::user coqc ::file col_1170_2.txt
+(s / start-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (b / block
+            :ARG1-of (o / on-top-03
+                  :ARG2 (g2 / ground)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))
+            :color (g / green)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.3 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_3.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.4 ::date 2018-12-18T12:09:28
+# ::snt <Architect> and then another above and behind
+# ::save-date Tue Dec 18, 2018 ::user kristinwb ::file col_1170_4.txt
+(a / and
+      :op2 (b / be-destined-for-91
+            :ARG1 (t / thing
+                  :mod (a2 / another))
+            :ARG2 (s / space
+                  :ARG1-of (a3 / above-01
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b3 / build-space)))
+                  :ARG1-of (b2 / behind-02
+                        :ARG3 (c2 / cartesian-framework-91
+                              :ARG1 (b4 / builder))))
+            :time (t2 / then)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.5 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_5.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 0)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.6 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:2 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_6.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -1)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.7 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:0 Y:2 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_7.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 0)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.8 ::date 2018-12-18T12:12:25
+# ::snt <Architect> nowon the right edge
+# ::save-date Tue Dec 18, 2018 ::user kristinwb ::file col_1170_8.txt
+(b / be-located-at-91
+      :ARG2 (e / edge
+            :ARG1-of (r / right-10
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / builder))))
+      :time (n / now))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.9 ::date 2018-12-18T12:16:41
+# ::snt <Architect> the edge facing the green
+# ::save-date Thu Feb 7, 2019 ::user coqc ::file col_1170_9.txt
+(e / edge
+      :ARG0-of (f / face-01
+            :ARG1 (t / thing
+                  :color (g / green))))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.10 ::date 2018-12-18T12:17:09
+# ::snt <Architect> yes
+# ::save-date Tue Dec 18, 2018 ::user kristinwb ::file col_1170_10.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.11 ::date 2018-12-18T12:23:27
+# ::snt <Architect> one block towards the green and two blocks to the right
+# ::save-date Tue Dec 18, 2018 ::user kristinwb ::file col_1170_11.txt
+(s / space
+      :ARG1-of (t / toward-01
+            :ARG2 (t2 / thing
+                  :color (g / green))
+            :quant (d / distance-quantity :quant 1
+                  :unit (b / block)))
+      :ARG1-of (r / right-04
+            :ARG2 t2
+            :ARG3 (c / cartesian-framework-91
+                  :ARG1 (b3 / builder))
+            :quant (d2 / distance-quantity :quant 2
+                  :unit (b2 / block))))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.12 ::date 2018-12-18T12:28:16
+# ::snt <Architect> yes
+# ::save-date Tue Dec 18, 2018 ::user kristinwb ::file col_1170_12.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.13 ::date 2018-12-18T12:28:25
+# ::snt <Architect> place a yellow block
+# ::save-date Tue Dec 18, 2018 ::user kristinwb ::file col_1170_13.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (y2 / yellow)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.14 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:-2 Y:1 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_14.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z -4)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.15 ::date 2018-12-18T12:28:57
+# ::snt <Architect> another above ahead and to the left
+# ::save-date Thu Dec 20, 2018 ::user kristinwb ::file col_1170_15.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing
+            :mod (a / another))
+      :ARG2 (s / space
+            :ARG1-of (a2 / above-01
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))
+            :ARG1-of (l / left-20
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 (b3 / builder)))
+            :ARG1-of (a3 / ahead-02
+                  :ARG3 c2)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.16 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:-3 Y:1 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z -3)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.17 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:-3 Y:1 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_17.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z -3)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.18 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:-1 Y:1 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -3)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.19 ::date 2018-12-18T12:31:57
+# ::snt <Architect> above that one
+# ::save-date Thu Feb 7, 2019 ::user coqc ::file col_1170_19.txt
+(s / space
+      :ARG1-of (a / above-01
+            :ARG2 (o / one
+                  :mod (t / that))
+            :ARG3 (c / cartesian-framework-91
+                  :ARG1 (b / build-space)))
+      :ARG1-of (i2 / instead-of-91))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.20 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:-1 Y:2 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z -3)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.21 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:-1 Y:1 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_21.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -3)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.22 ::date 2018-12-18T12:32:33
+# ::snt <Architect> yes
+# ::save-date Tue Dec 18, 2018 ::user kristinwb ::file col_1170_22.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.23 ::date 2018-12-18T12:32:41
+# ::snt <Architect> now a red structure, like the yellow but mirroed
+# ::save-date Tue Dec 18, 2018 ::user kristinwb ::file col_1170_23.txt
+(s / structure
+      :color (r / red)
+      :time (n / now)
+      :ARG1-of (r2 / resemble-01
+            :ARG2 (t / thing
+                  :color (y / yellow))
+            :ARG1-of (c / contrast-01
+                  :ARG2 (m / mirror-01
+                        :ARG1 t
+                        :ARG2 s))))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.24 ::date 2018-12-18T12:34:17
+# ::snt <Architect> *mirrored
+# ::save-date Tue Dec 18, 2018 ::user kristinwb ::file col_1170_24.txt
+(m / mean-01
+      :ARG2 (s2 / string-entity :value "mirrored"))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.25 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-1 Y:2 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_25.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z -2)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.26 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-2 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_26.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z -1)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.27 ::date 2018-12-18T12:36:02
+# ::snt <Architect> nope
+# ::save-date Tue Dec 18, 2018 ::user kristinwb ::file col_1170_27.txt
+(c / confirm-01 :polarity -)
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.28 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:-1 Y:2 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_28.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z -2)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.29 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:-2 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_29.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z -1)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.30 ::date 2018-12-18T12:36:22
+# ::snt <Architect> across the green
+# ::save-date Thu Feb 7, 2019 ::user coqc ::file col_1170_30.txt
+(i2 / instead-of-91
+      :ARG1 (a / across-02
+            :ARG2 (t / thing
+                  :color (g / green))))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.31 ::date 2018-12-18T12:38:07
+# ::snt <Architect> there
+# ::save-date Thu Feb 7, 2019 ::user coqc ::file col_1170_31.txt
+(b / be-located-at-91
+      :ARG2 (t / there))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.32 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:2 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_32.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -3)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.33 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:1 Y:1 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_33.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -4)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.34 ::date 2018-12-18T12:42:49
+# ::snt <Architect> but one block away
+# ::save-date Tue Dec 18, 2018 ::user kristinwb ::file col_1170_34.txt
+(c / contrast-01
+      :ARG2 (b / be-destined-for-91
+            :ARG2 (s / space
+                  :ARG1-of (a / away-01
+                        :quant (d / distance-quantity :quant 1
+                              :unit (b2 / block))))))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.35 ::date 2018-12-18T12:46:22
+# ::snt <Architect> frome the yellow
+# ::save-date Tue Dec 18, 2018 ::user kristinwb ::file col_1170_35.txt
+(t / thing
+      :color (y / yellow))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.36 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:1 Y:2 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_36.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z -4)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.37 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:1 Y:2 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_37.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z -4)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.38 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:1 Y:1 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_38.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -4)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.39 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:0 Y:2 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_39.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -3)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.40 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:2 Y:1 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_40.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -4)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.41 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:2 Y:2 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_41.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z -4)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.42 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:2 Y:2 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_42.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z -3)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.43 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:1 Y:2 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_43.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z -3)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.44 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:2 Y:2 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_44.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z -3)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.45 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:2 Y:2 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_45.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z -4)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.46 ::date 2018-12-18T12:47:20
+# ::snt <Architect> okay,
+# ::save-date Tue Dec 18, 2018 ::user kristinwb ::file col_1170_46.txt
+(a / amr-empty)
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.47 ::date 2018-12-18T12:47:50
+# ::snt <Architect> now a three block tower in blue
+# ::save-date Tue Dec 18, 2018 ::user kristinwb ::file col_1170_47.txt
+(b3 / be-destined-for-91
+      :ARG1 (t / tower
+            :consist-of (b / block :quant 3)
+            :color (b2 / blue))
+      :time (n / now))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.48 ::date 2018-12-18T12:51:29
+# ::snt <Architect> starting from the block above wherer the three structures meet
+# ::save-date Tue Dec 18, 2018 ::user kristinwb ::file col_1170_48.txt
+(s / start-01 :mode imperative
+      :ARG0 (y / you)
+      :location (b / block
+            :ARG1-of (a / above-01
+                  :ARG2 (s2 / space
+                        :location-of (m / meet-03
+                              :ARG0 (s3 / structure :quant 3)))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.49 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_49.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -2)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.50 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:2 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_50.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -2)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.51 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a blue block at X:0 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_51.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -2)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.52 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:3 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_52.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -2)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.53 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:4 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_53.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z -2)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.54 ::date 2018-12-18T13:47:48
+# ::snt <Architect> one more block above and remove the bottom most block
+# ::save-date Tue Dec 18, 2018 ::user kristinwb ::file col_1170_54.txt
+(a / and
+      :op1 (b / be-destined-for-91
+            :ARG1 (b2 / block
+                  :ARG1-of (h2 / have-quant-91
+                        :ARG2 1
+                        :ARG3 (m / more)))
+            :ARG2 (s / space
+                  :ARG1-of (a2 / above-01
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b5 / build-space)))))
+      :op2 (r / remove-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b3 / block
+                  :ARG1-of (b4 / bottom-03
+                        :ARG3 c
+                        :ARG2-of (h / have-degree-91
+                              :ARG1 b3
+                              :ARG3 (m2 / most))))))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.55 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a blue block at X:0 Y:2 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_55.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -2)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.56 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:5 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_56.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z -2)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.57 ::date 2018-12-18T13:51:00
+# ::snt <Architect> now a purple block on top of the blue tower
+# ::save-date Tue Dec 18, 2018 ::user kristinwb ::file col_1170_57.txt
+(b / be-destined-for-91
+      :ARG1 (b2 / block
+            :color (p / purple))
+      :ARG2 (s / space
+            :ARG1-of (o / on-top-03
+                  :ARG2 (t / tower
+                        :color (b3 / blue))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b4 / build-space))))
+      :time (n / now))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.58 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:6 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_58.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z -2)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.59 ::date 2018-12-18T13:51:48
+# ::snt <Architect> now the rest is all on the same plane as the purple
+# ::save-date Tue Dec 18, 2018 ::user kristinwb ::file col_1170_59.txt
+(b / be-destined-for-91
+      :ARG1 (r / rest
+            :mod (a / all))
+      :ARG2 (p / plane
+            :ARG3-of (s / same-01
+                  :ARG1 r
+                  :ARG2 (t / thing
+                        :color (p2 / purple))))
+      :time (n / now))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.60 ::date 2018-12-18T13:54:13
+# ::snt <Architect> so two more blocks extending towards the yellow/red side of the structure
+# ::save-date Thu Feb 7, 2019 ::user coqc ::file col_1170_60.txt
+(i2 / infer-01
+      :ARG1 (e / extend-01
+            :ARG1 (c / composite-entity
+                  :consist-of (b / block
+                        :ARG1-of (h / have-quant-91
+                              :ARG2 2
+                              :ARG3 (m / more))))
+            :direction (t2 / trajectory
+                  :ARG4-of (t / toward-01
+                        :ARG2 (s / side
+                              :part-of (s2 / structure)
+                              :color (y / yellow)
+                              :color (r / red))))))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.61 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:0 Y:6 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_61.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z -2)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.62 ::date 2018-12-18T14:04:58
+# ::snt <Architect> in purple
+# ::save-date Tue Dec 18, 2018 ::user kristinwb ::file col_1170_62.txt
+(h / have-color-91
+      :ARG2 (p / purple))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.63 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:6 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_63.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z -2)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.64 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:6 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_64.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z -3)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.65 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:6 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_65.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z -4)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.66 ::date 2018-12-18T14:05:24
+# ::snt <Architect> yes
+# ::save-date Tue Dec 18, 2018 ::user kristinwb ::file col_1170_66.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.67 ::date 2018-12-18T14:05:32
+# ::snt <Architect> and two purple legs extending in the opposite direction
+# ::save-date Thu Feb 7, 2019 ::user coqc ::file col_1170_67.txt
+(a / and
+      :op2 (e / extend-01
+            :ARG1 (l / leg :quant 2
+                  :color (p / purple))
+            :direction (d / direction
+                  :ARG3-of (o / opposite-03))))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.68 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:1 Y:6 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_68.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 6 :z -2)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.69 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:1 Y:6 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_69.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 6 :z -1)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.70 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:1 Y:6 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_70.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 6 :z -2)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.71 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:6 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_71.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 6 :z -2)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.72 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:6 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_72.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 6 :z -1)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.73 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:-1 Y:6 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_73.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 6 :z -2)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.74 ::date 2018-12-18T14:08:03
+# ::snt <Architect> yes
+# ::save-date Tue Dec 18, 2018 ::user kristinwb ::file col_1170_74.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.75 ::date 2018-12-18T14:08:11
+# ::snt <Architect> now one more block for both legs
+# ::save-date Thu Feb 7, 2019 ::user coqc ::file col_1170_75.txt
+(b / be-destined-for-91
+      :ARG1 (b2 / block :pl +)
+      :ARG2 (l / leg
+            :mod (b3 / both))
+      :time (n / now)
+      :frequency (r / rate-entity-91
+            :ARG1 (b4 / block
+                  :ARG1-of (h / have-quant-91
+                        :ARG2 1
+                        :ARG3 (m / more))
+                  :ARG1-of (i2 / include-91
+                        :ARG2 b2))
+            :ARG2 (l2 / leg :quant 1
+                  :ARG1-of (i3 / include-91
+                        :ARG2 l))))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.76 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:6 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_76.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 6 :z 0)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.77 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:1 Y:6 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_77.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 6 :z 0)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.78 ::date 2018-12-18T14:13:08
+# ::snt <Architect> on the diagonal
+# ::save-date Thu Feb 7, 2019 ::user coqc ::file col_1170_78.txt
+(d / diagonal-01)
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.79 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-2 Y:6 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_79.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 6 :z 0)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.80 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:-1 Y:6 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_80.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 6 :z 0)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.81 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:2 Y:6 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_81.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 6 :z 0)))
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.82 ::date 2018-12-18T14:14:38
+# ::snt <Architect> yes
+# ::save-date Tue Dec 18, 2018 ::user kristinwb ::file col_1170_82.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-double-tripod-b29-a8_1170.83 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:1 Y:6 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1170_83.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 6 :z 0)))

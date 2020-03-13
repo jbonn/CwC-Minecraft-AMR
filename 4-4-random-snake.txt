@@ -1,0 +1,876 @@
+# workset Minecraft-4-4-random-snake (generated on Fri Feb 8, 2019 at 22:02:16 for user coqc)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-4-random-snake_1149.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (s / snake)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))))
+
+# ::id minecraft-4-4-random-snake_1149.1 ::date 2018-12-10T16:39:00
+# ::snt <Builder> Mission has started.
+# ::save-date Mon Dec 10, 2018 ::user kristinwb ::file col_1149_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-4-random-snake_1149.2 ::date 2018-12-10T16:39:32
+# ::snt <Architect> this one doesn't really look like anything, it's just super snakey
+# ::save-date Tue Dec 11, 2018 ::user kristinwb ::file col_1149_2.txt
+(a / and
+      :op1 (l / look-02 :polarity -
+            :ARG0 (o / one
+                  :mod (t / this))
+            :ARG1 (a2 / anything)
+            :ARG1-of (r2 / real-04))
+      :op2 (s / snakey
+            :domain o
+            :mod (j / just)
+            :degree (s2 / super)))
+
+# ::id minecraft-4-4-random-snake_1149.3 ::date 2018-12-10T16:40:10
+# ::snt <Builder> ok. maybe back to coordinates?
+# ::save-date Mon Dec 10, 2018 ::user kristinwb ::file col_1149_3.txt
+(m / multi-sentence
+      :snt1 (o / okay-04)
+      :snt2 (p / possible-01
+            :ARG1 (g / go-back-19
+                  :ARG2 (c / coordinate :pl +))
+            :ARG1-of (r / request-confirmation-91)))
+
+# ::id minecraft-4-4-random-snake_1149.4 ::date 2018-12-10T16:42:30
+# ::snt <Architect> put a yellow block in one corner of the square
+# ::save-date Tue Dec 11, 2018 ::user kristinwb ::file col_1149_4.txt
+(p / put-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (y2 / yellow))
+      :ARG2 (s / space
+            :ARG1-of (c / corner-02
+                  :ARG2 (s2 / square))))
+
+# ::id minecraft-4-4-random-snake_1149.5 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:5 Y:1 Z:-5]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_5.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 1 :z -5)))
+
+# ::id minecraft-4-4-random-snake_1149.6 ::date 2018-12-11T14:36:18
+# ::snt <Architect> okay let's call that square the bottom left corner
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1149_6.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (c / call-01 :mode imperative
+            :ARG0 (w / we)
+            :ARG1 (s / square
+                  :mod (t / that))
+            :ARG2 (t2 / thing
+                  :ARG1-of (c2 / corner-02)
+                  :ARG1-of (l / left-24
+                        :ARG3 (c3 / cartesian-framework-91
+                              :ARG1 (b2 / builder)))
+                  :ARG1-of (b / bottom-03
+                        :ARG3 (c4 / cartesian-framework-91
+                              :ARG1 (w2 / white-square))))))
+
+# ::id minecraft-4-4-random-snake_1149.7 ::date 2018-12-11T14:43:08
+# ::snt <Builder> ok
+# ::save-date Tue Dec 11, 2018 ::user kristinwb ::file col_1149_7.txt
+(o / okay-04)
+
+# ::id minecraft-4-4-random-snake_1149.8 ::date 2018-12-11T14:43:23
+# ::snt <Architect> (0,0)
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1149_8.txt
+(s / space
+      :location (c / cartesian-coordinate-entity :x 0 :y 0)
+      :ARG5-of (c2 / cartesian-framework-91))
+
+# ::id minecraft-4-4-random-snake_1149.9 ::date 2018-12-11T14:45:07
+# ::snt <Builder> does the whole thing stay on the ground/
+# ::save-date Tue Dec 11, 2018 ::user kristinwb ::file col_1149_9.txt
+(s / stay-01
+      :ARG1 (t / thing
+            :mod (w / whole))
+      :ARG3 (o / on-top-03
+            :ARG1 t
+            :ARG2 (g / ground)
+            :ARG3 (c / cartesian-framework-91
+                  :ARG1 (b / build-space)))
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-4-4-random-snake_1149.10 ::date 2018-12-11T14:48:21
+# ::snt <Builder> ?
+# ::save-date Wed Dec 12, 2018 ::user kristinwb ::file col_1149_10.txt
+(a / amr-empty)
+
+# ::id minecraft-4-4-random-snake_1149.11 ::date 2018-12-12T06:57:41
+# ::snt <Architect> yellow blocks at (0,1), (1,1), and (2,1)
+# ::save-date Wed Dec 12, 2018 ::user kristinwb ::file col_1149_11.txt
+(b / be-destined-for-91
+      :ARG1 (b2 / block :pl +
+            :color (y / yellow))
+      :ARG2 (a / and
+            :op1 (s / space
+                  :location (c / cartesian-coordinate-entity :x 0 :y 1))
+            :op2 (s2 / space
+                  :location (c2 / cartesian-coordinate-entity :x 1 :y 1))
+            :op3 (s3 / space
+                  :location (c3 / cartesian-coordinate-entity :x 2 :y 1))))
+
+# ::id minecraft-4-4-random-snake_1149.12 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:4 Y:1 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_12.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z -4)))
+
+# ::id minecraft-4-4-random-snake_1149.13 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:3 Y:1 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_13.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z -4)))
+
+# ::id minecraft-4-4-random-snake_1149.14 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:5 Y:1 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_14.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 1 :z -4)))
+
+# ::id minecraft-4-4-random-snake_1149.15 ::date 2018-12-12T07:03:20
+# ::snt <Architect> no unfortunately
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1149_15.txt
+(c / confirm-01 :polarity -
+      :ARG2-of (f / fortunate-01 :polarity -))
+
+# ::id minecraft-4-4-random-snake_1149.16 ::date 2018-12-12T07:07:04
+# ::snt <Architect> on the right most block put a yellow block on top of that
+# ::save-date Wed Dec 12, 2018 ::user kristinwb ::file col_1149_16.txt
+(p / put-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (y2 / yellow))
+      :ARG2 (s / space
+            :ARG1-of (o / on-top-03
+                  :ARG2 (b2 / block
+                        :ARG1-of (h / have-degree-91
+                              :ARG2 (r / right-10
+                                    :ARG3 (c2 / cartesian-framework-91
+                                          :ARG1 y))
+                              :ARG3 (m / most)))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b3 / build-space))))
+      :ARG0-of (c3 / concern-02
+            :ARG1 b2))
+
+# ::id minecraft-4-4-random-snake_1149.17 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:3 Y:2 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_17.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z -4)))
+
+# ::id minecraft-4-4-random-snake_1149.18 ::date 2018-12-12T07:09:43
+# ::snt <Architect> and go right one more
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1149_18.txt
+(a / and
+      :op2 (g / go-02 :mode imperative
+            :ARG0 (y / you)
+            :ARG4 (s / space
+                  :ARG1-of (r / right-04
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 y)
+                        :quant (d / distance-quantity
+                              :ARG1-of (h / have-quant-91
+                                    :ARG2 1
+                                    :ARG3 (m / more))))
+                  :ARG2-of (b / be-destined-for-91))))
+
+# ::id minecraft-4-4-random-snake_1149.19 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:2 Y:2 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z -4)))
+
+# ::id minecraft-4-4-random-snake_1149.20 ::date 2018-12-12T07:13:55
+# ::snt <Architect> now forward one
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1149_20.txt
+(b / be-destined-for-91
+      :ARG2 (s / space
+            :ARG1-of (f / forward-02
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (b2 / builder))
+                  :quant (d / distance-quantity :quant 1)))
+      :time (n / now))
+
+# ::id minecraft-4-4-random-snake_1149.21 ::date 2018-12-12T07:15:29
+# ::snt <Builder> i'll face the same way as much as possible so relative directions work well
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1149_21.txt
+(f / face-01
+      :ARG0 (i / i)
+      :direction (w / way
+            :ARG1-of (s / same-01))
+      :purpose (w2 / work-09
+            :ARG1 (d / direct-01
+                  :ARG1-of (r / relative-05))
+            :manner (w3 / well-09))
+      :frequency (h / have-quant-91
+            :ARG2 (m / much)
+            :ARG3 (e / equal)
+            :ARG4 (p / possible-01)))
+
+# ::id minecraft-4-4-random-snake_1149.22 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:2 Y:2 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_22.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z -3)))
+
+# ::id minecraft-4-4-random-snake_1149.23 ::date 2018-12-12T07:26:28
+# ::snt <Architect> and two more in the same direction
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1149_23.txt
+(a / and
+      :op2 (b / be-destined-for-91
+            :ARG1 (t / thing
+                  :ARG1-of (h / have-quant-91
+                        :ARG2 2
+                        :ARG3 (m2 / more)))
+            :ARG2 (s3 / space :pl +
+                  :location (r / relative-position
+                        :direction (d / direction
+                              :ARG1-of (s / same-01))))))
+
+# ::id minecraft-4-4-random-snake_1149.24 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:2 Y:2 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_24.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z -2)))
+
+# ::id minecraft-4-4-random-snake_1149.25 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:2 Y:2 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_25.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z -1)))
+
+# ::id minecraft-4-4-random-snake_1149.26 ::date 2018-12-12T07:55:27
+# ::snt <Architect> put two blocks on top of the last block you built
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1149_26.txt
+(p / put-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :quant 2)
+      :ARG2 (s / space :pl +
+            :ARG1-of (o / on-top-03
+                  :ARG2 (b2 / block
+                        :ARG1-of (b3 / build-01
+                              :ARG0 y)
+                        :mod (l / last))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b4 / build-space)))))
+
+# ::id minecraft-4-4-random-snake_1149.27 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:2 Y:3 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_27.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z -1)))
+
+# ::id minecraft-4-4-random-snake_1149.28 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:2 Y:4 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_28.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 4 :z -1)))
+
+# ::id minecraft-4-4-random-snake_1149.29 ::date 2018-12-12T08:03:02
+# ::snt <Architect> one right
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1149_29.txt
+(b / be-destined-for-91
+      :ARG2 (s / space
+            :ARG1-of (r / right-04 :quant 1
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / builder)))))
+
+# ::id minecraft-4-4-random-snake_1149.30 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:1 Y:4 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_30.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 4 :z -1)))
+
+# ::id minecraft-4-4-random-snake_1149.31 ::date 2018-12-12T08:05:54
+# ::snt <Architect> one up
+# ::save-date Fri Dec 21, 2018 ::user kristinwb ::file col_1149_31.txt
+(b / be-destined-for-91
+      :ARG2 (s / space
+            :ARG1-of (u / up-03
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space))
+                  :quant (d / distance-quantity :quant 1))))
+
+# ::id minecraft-4-4-random-snake_1149.32 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:1 Y:5 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_32.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 5 :z -1)))
+
+# ::id minecraft-4-4-random-snake_1149.33 ::date 2018-12-12T08:07:06
+# ::snt <Architect> on right
+# ::save-date Fri Dec 21, 2018 ::user kristinwb ::file col_1149_33.txt
+(b / be-destined-for-91
+      :ARG2 (s / space
+            :ARG1-of (r / right-04
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / builder))
+                  :quant (d / distance-quantity :quant 1))))
+
+# ::id minecraft-4-4-random-snake_1149.34 ::date 2018-12-21T13:44:05
+# ::snt <Architect> one right from the last thing you built
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1149_34.txt
+(b2 / be-destined-for-91
+      :ARG2 (s / space
+            :ARG1-of (r / right-04
+                  :ARG2 (t / thing
+                        :ARG1-of (b / build-01
+                              :ARG0 (y / you))
+                        :mod (l / last))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 y)
+                  :quant (d / distance-quantity :quant 1))))
+
+# ::id minecraft-4-4-random-snake_1149.35 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:5 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_35.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z -1)))
+
+# ::id minecraft-4-4-random-snake_1149.36 ::date 2018-12-21T13:57:37
+# ::snt <Architect> one up
+# ::save-date Fri Dec 21, 2018 ::user kristinwb ::file col_1149_36.txt
+(b / be-destined-for-91
+      :ARG2 (s / space
+            :ARG1-of (u / up-03
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space))
+                  :quant (d / distance-quantity :quant 1))))
+
+# ::id minecraft-4-4-random-snake_1149.37 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:6 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_37.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z -1)))
+
+# ::id minecraft-4-4-random-snake_1149.38 ::date 2018-12-20T16:50:51
+# ::snt <Architect> now build two towards you
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1149_38.txt
+(b / build-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (t / thing :quant 2)
+      :time (n / now)
+      :direction (t3 / trajectory
+            :ARG4-of (t2 / toward-01
+                  :ARG2 y)))
+
+# ::id minecraft-4-4-random-snake_1149.39 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:6 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_39.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z -2)))
+
+# ::id minecraft-4-4-random-snake_1149.40 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:6 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_40.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z -3)))
+
+# ::id minecraft-4-4-random-snake_1149.41 ::date 2018-12-21T14:01:43
+# ::snt <Architect> one to the right
+# ::save-date Fri Dec 21, 2018 ::user kristinwb ::file col_1149_41.txt
+(b / be-destined-for-91
+      :ARG2 (s / space
+            :ARG1-of (r / right-04
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / builder))
+                  :quant (d / distance-quantity :quant 1))))
+
+# ::id minecraft-4-4-random-snake_1149.42 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:-1 Y:6 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_42.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 6 :z -3)))
+
+# ::id minecraft-4-4-random-snake_1149.43 ::date 2018-12-21T14:02:36
+# ::snt <Architect> one up
+# ::save-date Fri Dec 21, 2018 ::user kristinwb ::file col_1149_43.txt
+(b / be-destined-for-91
+      :ARG2 (s / space
+            :ARG1-of (u / up-03
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space))
+                  :quant (d / distance-quantity :quant 1))))
+
+# ::id minecraft-4-4-random-snake_1149.44 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:-1 Y:7 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_44.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 7 :z -3)))
+
+# ::id minecraft-4-4-random-snake_1149.45 ::date 2018-12-21T14:03:10
+# ::snt <Architect> one away from you
+# ::save-date Fri Dec 21, 2018 ::user kristinwb ::file col_1149_45.txt
+(b / be-destined-for-91
+      :ARG2 (s / space
+            :ARG1-of (a / away-01
+                  :ARG2 (y / you)
+                  :quant (d / distance-quantity :quant 1))))
+
+# ::id minecraft-4-4-random-snake_1149.46 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:-1 Y:7 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_46.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 7 :z -2)))
+
+# ::id minecraft-4-4-random-snake_1149.47 ::date 2018-12-21T14:04:07
+# ::snt <Builder> that's my last yellow
+# ::save-date Fri Dec 21, 2018 ::user kristinwb ::file col_1149_47.txt
+(t / thing
+      :domain (t2 / that)
+      :poss (i / i)
+      :ord (o / ordinal-entity :value "-1")
+      :color (y / yellow))
+
+# ::id minecraft-4-4-random-snake_1149.48 ::date 2018-12-21T14:04:52
+# ::snt <Architect> now we're going to switch to green
+# ::save-date Fri Dec 21, 2018 ::user kristinwb ::file col_1149_48.txt
+(s / switch-01
+      :ARG0 (w / we)
+      :ARG2 (t / thing :pl +
+            :color (g / green))
+      :time (n / now))
+
+# ::id minecraft-4-4-random-snake_1149.49 ::date 2018-12-21T14:05:49
+# ::snt <Builder> ready
+# ::save-date Fri Dec 21, 2018 ::user kristinwb ::file col_1149_49.txt
+(r / ready-02)
+
+# ::id minecraft-4-4-random-snake_1149.50 ::date 2018-12-21T14:06:09
+# ::snt <Architect> i think something might be wrong, give me a second to check
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1149_50.txt
+(c / cause-01
+      :ARG0 (t / think-01
+            :ARG0 (i / i)
+            :ARG1 (p / possible-01
+                  :ARG1 (w / wrong-04
+                        :ARG2 (s / something))))
+      :ARG1 (g / give-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (t2 / temporal-quantity :quant 1
+                  :unit (s2 / second))
+            :ARG2 i
+            :purpose (c2 / check-01
+                  :ARG0 i
+                  :ARG2 w
+                  :duration t2)))
+
+# ::id minecraft-4-4-random-snake_1149.51 ::date 2018-12-21T14:17:02
+# ::snt <Builder> ok.
+# ::save-date Fri Dec 21, 2018 ::user kristinwb ::file col_1149_51.txt
+(o / okay-04)
+
+# ::id minecraft-4-4-random-snake_1149.52 ::date 2018-12-21T14:17:24
+# ::snt <Architect> okay never mind it's fine
+# ::save-date Fri Dec 21, 2018 ::user kristinwb ::file col_1149_52.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (m / mind-15 :polarity - :mode imperative
+            :ARG0 (y / you)
+            :time (e / ever))
+      :op3 (f / fine-04
+            :ARG1 (i2 / it)))
+
+# ::id minecraft-4-4-random-snake_1149.53 ::date 2018-12-21T14:18:45
+# ::snt <Builder> great
+# ::save-date Fri Dec 21, 2018 ::user kristinwb ::file col_1149_53.txt
+(h / have-mod-91
+      :ARG2 (g / great))
+
+# ::id minecraft-4-4-random-snake_1149.54 ::date 2018-12-21T14:19:33
+# ::snt <Architect> build one block right of the last block you built
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1149_54.txt
+(b / build-01 :mode imperative
+      :ARG0 (y / you)
+      :location (s / space
+            :ARG1-of (r / right-04
+                  :ARG2 (b3 / block
+                        :ARG1-of (b4 / build-01
+                              :ARG0 y)
+                        :ord (o / ordinal-entity :value "-1"))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 y)
+                  :quant (d / distance-quantity :quant 1
+                        :unit (b2 / block)))))
+
+# ::id minecraft-4-4-random-snake_1149.55 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:7 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_55.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 7 :z -2)))
+
+# ::id minecraft-4-4-random-snake_1149.56 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:8 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_56.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 8 :z -2)))
+
+# ::id minecraft-4-4-random-snake_1149.57 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:-2 Y:8 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_57.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 8 :z -2)))
+
+# ::id minecraft-4-4-random-snake_1149.58 ::date 2018-12-21T14:29:37
+# ::snt <Architect> another block right
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1149_58.txt
+(b / be-destined-for-91
+      :ARG1 (b2 / block
+            :mod (a / another))
+      :ARG2 (s / space
+            :ARG1-of (r / right-04
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b3 / builder)))))
+
+# ::id minecraft-4-4-random-snake_1149.59 ::date 2018-12-21T14:36:05
+# ::snt <Builder> feel free to give more than one direction at a time if you're comfortable
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1149_59.txt
+(f / feel-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (f2 / free-04
+            :ARG1 y
+            :ARG2 (d / direct-01
+                  :ARG0 y
+                  :condition (c / comfortable-02
+                        :ARG1 y)
+                  :frequency (r / rate-entity-91
+                        :ARG1 (m / more-than :op1 1)
+                        :ARG2 (a / at-a-time)))))
+
+# ::id minecraft-4-4-random-snake_1149.60 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-3 Y:7 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_60.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 7 :z -2)))
+
+# ::id minecraft-4-4-random-snake_1149.61 ::date 2018-12-21T14:48:25
+# ::snt <Builder> e.g. one right, then one up
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1149_61.txt
+(e / exemplify-01
+      :ARG0 (a / and
+            :op1 (b / be-destined-for-91
+                  :ARG2 (s2 / space
+                        :ARG1-of (r / right-04
+                              :quant (d / distance-quantity :quant 1))))
+            :op2 (b2 / be-destined-for-91
+                  :ARG2 (s3 / space
+                        :ARG1-of (u / up-03
+                              :quant (d2 / distance-quantity :quant 1)))
+                  :time (t / then))))
+
+# ::id minecraft-4-4-random-snake_1149.62 ::date 2018-12-21T14:59:18
+# ::snt <Architect> one down, and then i have to check to see whats going on
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1149_62.txt
+(a / and
+      :op1 (b / be-destined-for-91
+            :ARG2 (s / space
+                  :ARG1-of (d / down-03
+                        :ARG5 (c2 / cartesian-framework-91
+                              :ARG1 (b2 / build-space))
+                        :quant (d2 / distance-quantity :quant 1))))
+      :op2 (o / obligate-01
+            :ARG1 (i / i)
+            :ARG2 (c / check-01
+                  :ARG0 i
+                  :ARG2 (s2 / see-01
+                        :ARG0 i
+                        :ARG1 (t2 / thing
+                              :ARG1-of (g / go-on-15))))
+            :time (t / then)))
+
+# ::id minecraft-4-4-random-snake_1149.63 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-3 Y:6 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_63.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 6 :z -2)))
+
+# ::id minecraft-4-4-random-snake_1149.64 ::date 2018-12-21T15:08:16
+# ::snt <Architect> one more down, then one away from you
+# ::save-date Fri Dec 21, 2018 ::user kristinwb ::file col_1149_64.txt
+(a / and
+      :op1 (b / be-destined-for-91
+            :ARG1 (t2 / thing
+                  :ARG1-of (h / have-quant-91
+                        :ARG2 1
+                        :ARG3 (m / more)))
+            :ARG2 (s / space
+                  :ARG1-of (d / down-03
+                        :ARG5 (c / cartesian-framework-91
+                              :ARG1 (b3 / build-space)))))
+      :op2 (b2 / be-destined-for-91
+            :ARG1 (t3 / thing :quant 1)
+            :ARG2 (s2 / space
+                  :ARG1-of (a2 / away-01
+                        :ARG2 (y / you)))
+            :time (t / then)))
+
+# ::id minecraft-4-4-random-snake_1149.65 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-3 Y:5 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_65.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 5 :z -2)))
+
+# ::id minecraft-4-4-random-snake_1149.66 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-3 Y:5 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_66.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 5 :z -1)))
+
+# ::id minecraft-4-4-random-snake_1149.67 ::date 2018-12-21T15:10:14
+# ::snt <Architect> down and away from you again
+# ::save-date Fri Dec 21, 2018 ::user kristinwb ::file col_1149_67.txt
+(a / and
+      :op1 (b / be-destined-for-91
+            :ARG2 (s / space
+                  :ARG1-of (d / down-03
+                        :ARG5 (c / cartesian-framework-91
+                              :ARG1 (b3 / build-space)))))
+      :op2 (b2 / be-destined-for-91
+            :ARG2 (s2 / space
+                  :ARG1-of (a2 / away-01
+                        :ARG2 (y / you))))
+      :mod (a3 / again))
+
+# ::id minecraft-4-4-random-snake_1149.68 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-3 Y:4 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_68.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 4 :z -1)))
+
+# ::id minecraft-4-4-random-snake_1149.69 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-3 Y:4 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_69.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 4 :z 0)))
+
+# ::id minecraft-4-4-random-snake_1149.70 ::date 2018-12-21T15:22:18
+# ::snt <Architect> then down and right
+# ::save-date Fri Dec 21, 2018 ::user kristinwb ::file col_1149_70.txt
+(a / and
+      :op1 (b / be-destined-for-91
+            :ARG2 (s / space
+                  :ARG1-of (d / down-03
+                        :ARG5 (c / cartesian-framework-91
+                              :ARG1 (b3 / build-space)))))
+      :op2 (b2 / be-destined-for-91
+            :ARG2 (s2 / space
+                  :ARG1-of (r / right-04
+                        :ARG1 (b4 / builder)
+                        :ARG3 (c2 / cartesian-framework-91))))
+      :time (t / then))
+
+# ::id minecraft-4-4-random-snake_1149.71 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-3 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_71.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z 0)))
+
+# ::id minecraft-4-4-random-snake_1149.72 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-4 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1149_72.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 3 :z 0)))
+
+# ::id minecraft-4-4-random-snake_1149.73 ::date 2018-12-21T15:23:41
+# ::snt <Architect> i think that's it, i'm going to check really quickly
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1149_73.txt
+(a / and
+      :op1 (t / think-01
+            :ARG0 (i / i)
+            :ARG1 (b / be-it-08
+                  :ARG1 (t2 / that)))
+      :op2 (c2 / check-01
+            :ARG0 i
+            :ARG2 (t3 / truth-value
+                  :polarity-of b)
+            :ARG1-of (q / quick-02
+                  :degree (r / really))))
+
+# ::id minecraft-4-4-random-snake_1149.74 ::date 2018-12-21T15:27:45
+# ::snt <Builder> sounds good
+# ::save-date Fri Dec 21, 2018 ::user kristinwb ::file col_1149_74.txt
+(s / sound-01
+      :ARG2 (g / good-02))
+
+# ::id minecraft-4-4-random-snake_1149.75 ::date 2018-12-21T15:28:38
+# ::snt <Architect> yeah look good
+# ::save-date Fri Dec 21, 2018 ::user kristinwb ::file col_1149_75.txt
+(c / confirm-01
+      :ARG1 (l / look-02
+            :ARG1 (g / good-02)))

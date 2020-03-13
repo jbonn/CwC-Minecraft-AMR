@@ -1,0 +1,803 @@
+# workset Minecraft-4-4-hollow-diseased-rectangle (generated on Fri Jan 18, 2019 at 09:18:43 for user jbonn)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (r6 / rectangle
+                  :ARG1-of (h / hollow-02)
+                  :mod (d / diseased)))
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.1 ::date 2018-11-28T15:10:58
+# ::snt <Builder> Mission has started.
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.2 ::date 2018-11-28T15:11:09
+# ::snt <Architect> ready?
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_2.txt
+(r / ready-02
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.3 ::date 2018-11-28T15:11:32
+# ::snt <Builder> yup
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_3.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.4 ::date 2018-11-28T15:11:41
+# ::snt <Architect> cool!
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_4.txt
+(c / cool-04)
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.5 ::date 2018-11-28T15:11:47
+# ::snt <Architect> this one looks a little more complex
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_5.txt
+(l / look-02
+      :ARG0 (o / one
+            :mod (t2 / this))
+      :ARG1 (h / have-degree-91
+            :ARG1 o
+            :ARG2 (c / complex)
+            :ARG3 (m / more
+                  :quant (l2 / little))))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.6 ::date 2018-11-28T15:13:17
+# ::snt <Architect> so you're going to want to start by making a row of 4 blue blocks
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_6.txt
+(w / want-01
+      :ARG0 y
+      :ARG1 (s / start-01
+            :ARG0 (y / you)
+            :ARG2 (m / make-01
+                  :ARG0 y
+                  :ARG1 (r / row)
+                  :ARG2 (b / block :quant 4
+                        :color (b2 / blue)))))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.7 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:2 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_7.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -2)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.8 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:1 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_8.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -2)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.9 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_9.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -2)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.10 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-1 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_10.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -2)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.11 ::date 2018-11-28T15:14:22
+# ::snt <Architect> now, on each of the two end blocks, put another blue block
+# ::save-date Thu Jan 17, 2019 ::user jbonn ::file col_1159_11.txt
+(p / put-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :pl +
+            :color (b2 / blue))
+      :ARG2 (s / space :pl +
+            :ARG1-of (o / on-top-03
+                  :ARG2 (b3 / block :quant 2
+                        :ARG1-of (e / end-05))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b6 / build-space))))
+      :time (n / now)
+      :frequency (r / rate-entity-91
+            :ARG1 (b4 / block :quant 1
+                  :mod (a / another)
+                  :ARG1-of (i2 / include-91
+                        :ARG2 b))
+            :ARG2 (b5 / block
+                  :ARG1-of (i3 / include-91
+                        :ARG2 b3)
+                  :mod (e2 / each))))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.12 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:2 Y:2 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_12.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z -2)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.13 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-1 Y:2 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_13.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z -2)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.14 ::date 2018-11-28T15:16:14
+# ::snt <Architect> then make another row of blue blocks on top of those, so it's a hollow rectangle
+# ::save-date Thu Jan 17, 2019 ::user jbonn ::file col_1159_14.txt
+(m / make-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (r / row
+            :mod (a / another))
+      :ARG2 (b / block :pl +
+            :color (b2 / blue))
+      :time (t / then)
+      :location (s / space :pl +
+            :ARG1-of (o / on-top-03
+                  :ARG2 (t2 / thing :pl +
+                        :mod (t3 / that))
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 (b3 / build-space))))
+      :ARG0-of (c / cause-01
+            :ARG1 (h2 / have-configuration-91
+                  :ARG1 (i2 / it)
+                  :ARG2 (r2 / rectangle
+                        :ARG1-of (h / hollow-02)))))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.15 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:2 Y:3 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_15.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z -2)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.16 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:1 Y:3 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z -2)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.17 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:3 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_17.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -2)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.18 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-1 Y:3 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z -2)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.19 ::date 2018-11-28T15:18:23
+# ::snt <Architect> okay, now on the side you're standing on now, place a purple block in front of both of the top corners of the structure
+# ::save-date Fri Jan 18, 2019 ::user jbonn ::file col_1159_19.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :pl +
+            :color (p2 / purple))
+      :ARG2 (s / space :pl +
+            :ARG1-of (f / front-03
+                  :ARG2 (t / thing :pl +
+                        :ARG1-of (c / corner-02
+                              :ARG2 (s2 / structure))
+                        :mod (b2 / both)
+                        :ARG1-of (t2 / top-06
+                              :ARG2 s2
+                              :ARG3 (c4 / cartesian-framework-91
+                                    :ARG1 (b3 / build-space))))
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 (c3 / composite-entity)
+                        :FR (r / relative-to-builder)))
+            :location (s3 / side
+                  :ARG2-of (s4 / stand-01
+                        :ARG1 y
+                        :time (n3 / now))))
+      :time (n2 / now)
+      :frequency (r2 / rate-entity-91
+            :ARG1 (b4 / block :quant 1
+                  :ARG1-of (i2 / include-91
+                        :ARG2 b))
+            :ARG2 (t3 / thing :quant 1
+                  :ARG1-of (i3 / include-91
+                        :ARG2 t))))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.20 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:2 Y:3 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z -3)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.21 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:3 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_21.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z -3)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.22 ::date 2018-11-28T15:26:00
+# ::snt <Builder> like that?
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_22.txt
+(r / resemble-01
+      :ARG2 (t / that)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.23 ::date 2018-11-28T15:26:18
+# ::snt <Architect> yep! :)
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_23.txt
+(c / confirm-01
+      :mod (e / emoticon :value ":)"))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.24 ::date 2018-11-28T15:26:36
+# ::snt <Architect> then diagonally in front of those blocks, put two more purple blocks, so they make an arc shape
+# ::save-date Fri Jan 18, 2019 ::user jbonn ::file col_1159_24.txt
+(p / put-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (p2 / purple)
+            :ARG1-of (h / have-quant-91
+                  :ARG2 2
+                  :ARG3 (m / more)))
+      :ARG2 (s2 / space :pl +
+            :ARG1-of (d / diagonal-01
+                  :ARG2 (b2 / block :pl +
+                        :mod (t / that)))
+            :ARG1-of (f / front-03
+                  :ARG2 b2
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 (c3 / composite-entity)
+                        :FR (r / relative-to-builder))))
+      :ARG0-of (c / cause-01
+            :ARG1 (m2 / make-01
+                  :ARG1 (a / arc
+                        :ARG2-of (s / shape-01))
+                  :ARG2 b))
+      :time (t2 / then))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.25 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:2 Y:3 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_25.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z -4)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.26 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:1 Y:3 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_26.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z -4)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.27 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:2 Y:3 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_27.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z -4)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.28 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:3 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_28.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z -4)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.29 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:3 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_29.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -4)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.30 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:-1 Y:3 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_30.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z -4)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.31 ::date 2018-11-28T15:30:25
+# ::snt <Architect> perfect!
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_31.txt
+(p / perfect-02)
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.32 ::date 2018-11-28T15:30:33
+# ::snt <Architect> alright, now move over to the other side of the structure
+# ::save-date Fri Jan 18, 2019 ::user jbonn ::file col_1159_32.txt
+(m / move-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 y
+      :ARG2 (s / side
+            :part-of (s2 / structure)
+            :ARG1-of (o2 / other-01))
+      :direction (t / trajectory
+            :ARG4-of (o / over-04
+                  :ARG2 (s3 / space)
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (b / build-space)))))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.33 ::date 2018-11-28T15:34:12
+# ::snt <Architect> you'll want a yellow block in front of the topright blue block
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_33.txt
+(w / want-01
+      :ARG0 (y / you)
+      :ARG1 (f / front-03
+            :ARG1 (b / block
+                  :color (y2 / yellow))
+            :ARG2 (b2 / block
+                  :color (b3 / blue)
+                  :ARG1-of (t / top-06
+                        :ARG3 (c3 / cartesian-framework-91
+                              :ARG1 (b4 / build-space)))
+                  :ARG1-of (r / right-10
+                        :ARG3 (c4 / cartesian-framework-91
+                              :ARG1 y)))
+            :ARG3 (c / cartesian-framework-91
+                  :ARG1 (c2 / composite-entity)
+                  :FR (r2 / relative-to-builder))))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.34 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:2 Y:3 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_34.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z -1)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.35 ::date 2018-11-28T15:36:36
+# ::snt <Architect> yep!
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_35.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.36 ::date 2018-11-28T15:36:43
+# ::snt <Architect> and on the opposite side, put a green block
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_36.txt
+(a / and
+      :op2 (p / put-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block
+                  :color (g / green))
+            :ARG2 (s / space
+                  :ARG1-of (o2 / on-06
+                        :ARG2 (s2 / side
+                              :ARG1-of (o / opposite-03))))))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.37 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-1 Y:3 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_37.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z -1)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.38 ::date 2018-11-28T15:37:28
+# ::snt <Architect> yep! now, put another green block one cell above and in front of the current one
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_38.txt
+(a / and
+      :op1 (c / confirm-01)
+      :op2 (p / put-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block
+                  :mod (a2 / another)
+                  :color (g / green))
+            :ARG2 (s / space
+                  :ARG1-of (a3 / above-01
+                        :ARG2 (t / thing :quant 1
+                              :mod (c3 / current))
+                        :ARG3 (c4 / cartesian-framework-91
+                              :ARG1 (b2 / build-space))
+                        :quant (d / distance-quantity :quant 1
+                              :unit (c2 / cell)))
+                  :ARG1-of (f / front-03
+                        :ARG2 t
+                        :ARG3 (c5 / cartesian-framework-91
+                              :ARG1 (c6 / composite-entity)
+                              :FR (r / relative-to-builder))
+                        :quant (d2 / distance-quantity :quant 1
+                              :unit (c7 / cell))))
+            :time (n / now)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.39 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-1 Y:4 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_39.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z -1)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.40 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-1 Y:4 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_40.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z 0)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.41 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:-1 Y:4 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_41.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z -1)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.42 ::date 2018-11-28T15:39:17
+# ::snt <Builder> like that?
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_42.txt
+(r / resemble-01
+      :ARG2 (t / that)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.43 ::date 2018-11-28T15:39:37
+# ::snt <Architect> good!
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_43.txt
+(g / good-02)
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.44 ::date 2018-11-28T15:39:46
+# ::snt <Architect> this is hard to describe
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_44.txt
+(h / hard-02
+      :ARG1 (d / describe-01
+            :ARG1 (t / this)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.45 ::date 2018-11-28T15:40:11
+# ::snt <Architect> you'll want another yellow block above, in front of, and to the right of the current one
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_45.txt
+(w / want-01
+      :ARG0 (y / you)
+      :ARG1 (b2 / block
+            :color (y2 / yellow)
+            :mod (a / another)
+            :ARG1-of (a2 / above-01
+                  :ARG2 (t / thing :quant 1
+                        :mod (c / current))
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 (b / build-space)))
+            :ARG1-of (f / front-03
+                  :ARG2 t
+                  :ARG3 (c3 / cartesian-framework-91
+                        :ARG1 (c4 / composite-entity)
+                        :FR (r2 / relative-to-builder)))
+            :ARG1-of (r / right-04
+                  :ARG2 t
+                  :ARG3 y)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.46 ::date 2018-11-28T15:42:22
+# ::snt <Architect> from the perspective of where you currenrtly are
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_46.txt
+(s / space
+      :location-of (y / you
+            :time (c / current)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.47 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:2 Y:4 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_47.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 4 :z -1)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.48 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:2 Y:4 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_48.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 4 :z 0)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.49 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:1 Y:4 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_49.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 4 :z 0)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.50 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:2 Y:4 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_50.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 4 :z 0)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.51 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:2 Y:4 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_51.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 4 :z -1)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.52 ::date 2018-11-28T15:43:39
+# ::snt <Architect> perfect!
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_52.txt
+(p / perfect-02)
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.53 ::date 2018-11-28T15:43:54
+# ::snt <Architect> now place one more yellow block in that exact same trajectory
+# ::save-date Fri Jan 18, 2019 ::user jbonn ::file col_1159_53.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (y2 / yellow)
+            :ARG1-of (h / have-quant-91
+                  :ARG2 1
+                  :ARG3 (m / more)))
+      :ARG2 (s / space
+            :location (t / trajectory
+                  :ARG1-of (s2 / same-01
+                        :degree (e / exact))
+                  :mod (t2 / that)))
+      :time (n / now))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.54 ::date 2018-11-28T15:48:23
+# ::snt <Architect> so that its corners touch the highest yellow and green blocks
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_54.txt
+(c / cause-01
+      :ARG1 (t / touch-01
+            :ARG0 (t2 / thing :pl +
+                  :ARG1-of (c2 / corner-02
+                        :ARG2 (i2 / it)))
+            :ARG1 (a / and
+                  :op1 (b / block
+                        :color (y / yellow)
+                        :ARG1-of (h / have-degree-91
+                              :ARG2 (h2 / high-02
+                                    :ARG1 b
+                                    :ARG6 (c3 / cartesian-framework-91
+                                          :ARG1 (b3 / build-space)))
+                              :ARG3 (m / most)))
+                  :op2 (b2 / block
+                        :color (g / green)
+                        :ARG1-of (h3 / have-degree-91
+                              :ARG2 (h4 / high-02
+                                    :ARG1 b2
+                                    :ARG6 c3)
+                              :ARG3 (m2 / most))))))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.55 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:4 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_55.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z 0)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.56 ::date 2018-11-28T15:51:10
+# ::snt <Architect> whoops, sorry, that was unclear
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_56.txt
+(s / sorry-01
+      :ARG2 (c / clear-06 :polarity -
+            :ARG1 (t / that))
+      :mod (w / whoops :mode expressive))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.57 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:0 Y:4 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_57.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z 0)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.58 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:1 Y:5 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_58.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 5 :z 0)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.59 ::date 2018-11-28T15:51:49
+# ::snt <Architect> the 1st, 2nd, and 3rd yellow blocks should all be in a diagonal line :)
+# ::save-date Fri Jan 18, 2019 ::user jbonn ::file col_1159_59.txt
+(r / recommend-01
+      :ARG1 (a2 / align-02
+            :ARG1 (a / and
+                  :op1 (b / block
+                        :ord (o / ordinal-entity :value 1)
+                        :color (y / yellow))
+                  :op2 (b2 / block
+                        :ord (o2 / ordinal-entity :value 2)
+                        :color (y2 / yellow))
+                  :op3 (b3 / block
+                        :ord (o3 / ordinal-entity :value 3)
+                        :color (y3 / yellow)))
+            :ARG3 (l / line
+                  :ARG1-of (d / diagonal-02
+                        :ARG1 a))))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.60 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:5 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_60.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z 0)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.61 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:1 Y:5 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_61.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 5 :z 0)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.62 ::date 2018-11-28T15:57:20
+# ::snt <Architect> perfect! :)
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_62.txt
+(p / perfect-02)
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.63 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:5 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_63.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z 1)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.64 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:0 Y:5 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1159_64.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z 0)))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.65 ::date 2018-11-28T15:57:40
+# ::snt <Architect> oh wait
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_65.txt
+(w / wait-01 :mode imperative
+      :ARG1 (y / you)
+      :mod (o / oh :mode expressive))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.66 ::date 2018-11-28T15:58:14
+# ::snt <Architect> yeah now it's good, sorry D:
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_66.txt
+(a / and
+      :op1 (g / good-02
+            :ARG1 (i2 / it)
+            :time (n / now))
+      :op2 (s / sorry-01)
+      :mod (e / emoticon :value "D:"))
+
+# ::id minecraft-4-4-hollow-diseased-rectangle_1159.67 ::date 2018-11-28T15:59:03
+# ::snt <Builder> cool!
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1159_67.txt
+(c / cool-04)

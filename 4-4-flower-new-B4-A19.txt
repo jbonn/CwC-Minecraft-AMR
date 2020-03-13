@@ -1,0 +1,761 @@
+# workset Minecraft-4-4-flower-new-B4-A19 (generated on Thu Feb 7, 2019 at 19:41:38 for user coqc)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-4-flower-new-b4-a19_1135.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 z6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (f / flower)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :FR (i4 / intrinsic)))
+      :snt9 (c10 / codirectional-01
+            :ARG1 x
+            :ARG2 y6))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.1 ::date 2018-11-21T01:52:56
+# ::snt <Builder> Mission has started.
+# ::save-date Thu Nov 22, 2018 ::user kristinwb ::file col_1135_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.2 ::date 2018-11-22T10:04:33
+# ::snt <Architect> ok now the mission has started
+# ::save-date Thu Nov 22, 2018 ::user kristinwb ::file col_1135_2.txt
+(s / start-01
+      :ARG1 (m / mission-01)
+      :time (n / now))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.3 ::date 2018-11-22T10:05:31
+# ::snt <Architect> get some green blocks
+# ::save-date Thu Nov 22, 2018 ::user kristinwb ::file col_1135_3.txt
+(g / get-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :quant (s / some)
+            :color (g2 / green)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.4 ::date 2018-11-22T10:07:24
+# ::snt <Architect> place one two blocks up from the bottom
+# ::save-date Fri Dec 7, 2018 ::user kristinwb ::file col_1135_4.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t2 / thing :quant 1)
+      :ARG2 (s / space
+            :ARG1-of (u / up-03
+                  :ARG4 (t / thing
+                        :ARG1-of (b / bottom-03
+                              :ARG3 c))
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (w / white-square))
+                  :quant (d / distance-quantity :quant 2
+                        :unit (b2 / block)))))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.5 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-4 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_5.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 1 :z 0)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.6 ::date 2018-11-22T10:12:59
+# ::snt <Builder> floating?
+# ::save-date Thu Nov 22, 2018 ::user kristinwb ::file col_1135_6.txt
+(f / float-01
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.7 ::date 2018-11-22T10:13:22
+# ::snt <Architect> ok now place one one square up
+# ::save-date Thu Feb 7, 2019 ::user coqc ::file col_1135_7.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (p / place-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (t / thing :quant 1)
+            :ARG2 (s / space
+                  :ARG1-of (u / up-03
+                        :ARG5 (c / cartesian-framework-91
+                              :ARG1 (w / white-square))
+                        :quant (d / distance-quantity :quant 1
+                              :unit (s2 / square))))
+            :time (n / now)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.8 ::date 2018-11-22T10:14:46
+# ::snt <Architect> none of them float
+# ::save-date Thu Nov 22, 2018 ::user kristinwb ::file col_1135_8.txt
+(f / float-01 :polarity -
+      :ARG1 (t / they))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.9 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-3 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_9.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z 0)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.10 ::date 2018-11-22T10:26:51
+# ::snt <Architect> ok now place two on each side
+# ::save-date Thu Feb 7, 2019 ::user coqc ::file col_1135_10.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (p / place-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (t / thing :quant 2)
+            :ARG2 (s / space :pl +
+                  :ARG1-of (n2 / next-to-02
+                        :ARG2 (s2 / side
+                              :mod (e / each))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 y)))
+            :time (n / now)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.11 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-3 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z -1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.12 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-3 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_12.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z 1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.13 ::date 2018-11-22T10:33:16
+# ::snt <Architect> of the one you just placed
+# ::save-date Thu Feb 7, 2019 ::user coqc ::file col_1135_13.txt
+(h / have-part-91
+      :ARG1 (o / one
+            :ARG1-of (p / place-01
+                  :ARG0 (y / you)
+                  :mod (j / just))))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.14 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-3 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_14.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z 2)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.15 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-3 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_15.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z -2)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.16 ::date 2018-11-22T10:34:30
+# ::snt <Architect> oh i meant one on each side sorry
+# ::save-date Thu Feb 7, 2019 ::user coqc ::file col_1135_16.txt
+(a / and
+      :op1 (m / mean-01
+            :ARG0 (i / i)
+            :ARG2 (r / rate-entity-91
+                  :ARG1 (t / thing :quant 1)
+                  :ARG2 (s / side
+                        :mod (e / each))
+                  :ARG2-of (h / have-frequency-91))
+            :mod (o / oh :mode expressive))
+      :op2 (s2 / sorry-01))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.17 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:-3 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_17.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z -2)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.18 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:-3 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_18.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z 2)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.19 ::date 2018-11-22T10:36:33
+# ::snt <Builder> np
+# ::save-date Thu Nov 22, 2018 ::user kristinwb ::file col_1135_19.txt
+(p / problem :polarity -)
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.20 ::date 2018-11-22T10:37:17
+# ::snt <Architect> now place one up
+# ::save-date Thu Feb 7, 2019 ::user coqc ::file col_1135_20.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing :quant 1)
+      :ARG2 (s / space
+            :ARG1-of (u / up-03
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (w / white-square))))
+      :time (n / now))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.21 ::date 2018-11-22T10:37:51
+# ::snt <Builder> above the original line?
+# ::save-date Thu Nov 22, 2018 ::user kristinwb ::file col_1135_21.txt
+(a / above-01
+      :ARG2 (l / line
+            :mod (o / original))
+      :ARG3 (c / cartesian-framework-91
+            :ARG1 (w / white-square))
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.22 ::date 2018-11-22T10:41:32
+# ::snt <Architect> yea
+# ::save-date Thu Nov 22, 2018 ::user kristinwb ::file col_1135_22.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.23 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_23.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 0)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.24 ::date 2018-11-22T10:41:50
+# ::snt <Architect> place another one up
+# ::save-date Thu Feb 7, 2019 ::user coqc ::file col_1135_24.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing :quant 1
+            :mod (a / another))
+      :ARG2 (s / space
+            :ARG1-of (u / up-03
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (w / white-square)))))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.25 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-1 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_25.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 0)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.26 ::date 2018-11-22T10:43:01
+# ::snt <Architect> ok then place one on each side of the previous one
+# ::save-date Thu Feb 7, 2019 ::user coqc ::file col_1135_26.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t2 / thing :pl +)
+      :ARG2 (s / space :pl +
+            :ARG1-of (n / next-to-02
+                  :ARG2 (s2 / side :pl +
+                        :part-of (o2 / one
+                              :mod (p2 / previous)))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b / build-space))))
+      :time (t / then)
+      :frequency (r / rate-entity-91
+            :ARG1 (t3 / thing :quant 1
+                  :ARG1-of (i2 / include-91
+                        :ARG2 t2))
+            :ARG2 (s3 / side
+                  :ARG1-of (i3 / include-91
+                        :ARG2 s2)
+                  :mod (e / each))))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.27 ::date 2018-11-22T10:44:44
+# ::snt <Architect> not the one you just placed
+# ::save-date Thu Nov 22, 2018 ::user kristinwb ::file col_1135_27.txt
+(c / confirm-01 :polarity -
+      :ARG1 (o / one
+            :ARG1-of (p / place-01
+                  :ARG0 (y / you)
+                  :mod (j / just))))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.28 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_28.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z -1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.29 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_29.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.30 ::date 2018-11-22T10:48:06
+# ::snt <Builder> like that?
+# ::save-date Thu Nov 22, 2018 ::user kristinwb ::file col_1135_30.txt
+(r / resemble-01
+      :ARG2 (t / that)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.31 ::date 2018-11-22T10:48:38
+# ::snt <Architect> uh there should be a one block space between the ones on the side and the one in the middle
+# ::save-date Thu Feb 7, 2019 ::user coqc ::file col_1135_31.txt
+(r / recommend-01
+      :ARG1 (b / between-01
+            :ARG1 (s / space :quant 1
+                  :mod (b2 / block))
+            :ARG2 (o / one :pl +
+                  :location (s2 / side :pl +))
+            :ARG3 (o2 / one
+                  :ARG1-of (m / middle-01)))
+      :mod (u / uh :mode expressive))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.32 ::date 2018-11-22T10:56:05
+# ::snt <Architect> so like removve the two blocks you placed
+# ::save-date Thu Feb 7, 2019 ::user coqc ::file col_1135_32.txt
+(i2 / infer-01
+      :ARG1 (r / remove-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block :quant 2
+                  :ARG1-of (p / place-01
+                        :ARG0 y))))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.33 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:-2 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_33.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.34 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:-2 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_34.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z -1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.35 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_35.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z -2)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.36 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_36.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 2)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.37 ::date 2018-11-22T10:57:49
+# ::snt <Builder> ?
+# ::save-date Thu Nov 22, 2018 ::user kristinwb ::file col_1135_37.txt
+(r / request-confirmation-91)
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.38 ::date 2018-11-22T11:01:18
+# ::snt <Architect> yea
+# ::save-date Thu Nov 22, 2018 ::user kristinwb ::file col_1135_38.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.39 ::date 2018-11-22T11:01:27
+# ::snt <Architect> like that
+# ::save-date Thu Nov 22, 2018 ::user kristinwb ::file col_1135_39.txt
+(r / resemble-01
+      :ARG2 (t / that))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.40 ::date 2018-11-22T11:02:03
+# ::snt <Architect> then get some yellow blocks
+# ::save-date Thu Nov 22, 2018 ::user kristinwb ::file col_1135_40.txt
+(g / get-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (y2 / yellow)
+            :quant (s / some))
+      :time (t / then))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.41 ::date 2018-11-22T11:02:36
+# ::snt <Builder> is it a flower?
+# ::save-date Thu Feb 7, 2019 ::user coqc ::file col_1135_41.txt
+(h / have-configuration-91
+      :ARG1 (i2 / it)
+      :ARG2 (f / flower)
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.42 ::date 2018-11-22T11:03:23
+# ::snt <Architect> yea
+# ::save-date Thu Nov 22, 2018 ::user kristinwb ::file col_1135_42.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.43 ::date 2018-11-22T11:03:34
+# ::snt <Architect> a 3 by 3 square on top
+# ::save-date Thu Feb 7, 2019 ::user coqc ::file col_1135_43.txt
+(b / be-destined-for-91
+      :ARG1 (s / square
+            :size (d / dimension-entity :value 3)
+            :size (d2 / dimension-entity :value 3))
+      :ARG2 (s2 / space :pl +
+            :ARG1-of (o / on-top-03
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (w / white-square)))))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.44 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_44.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.45 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_45.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.46 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:1 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_46.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.47 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:1 Y:2 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_47.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z -1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.48 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:1 Y:2 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_48.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z -1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.49 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:2 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_49.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.50 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:2 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_50.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 0)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.51 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:2 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_51.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.52 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:1 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_52.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.53 ::date 2018-11-22T11:05:47
+# ::snt <Architect> yellow on the sides
+# ::save-date Thu Feb 7, 2019 ::user coqc ::file col_1135_53.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing :pl +
+            :color (y / yellow))
+      :ARG2 (s2 / space :pl +
+            :ARG1-of (n / next-to-02
+                  :ARG2 (s / side :pl +)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.54 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_54.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.55 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:1 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_55.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 0)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.56 ::date 2018-11-22T11:12:55
+# ::snt <Architect> orange in the corners
+# ::save-date Thu Feb 7, 2019 ::user coqc ::file col_1135_56.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing :pl +
+            :color (o / orange))
+      :ARG2 (s / space :pl +
+            :ARG1-of (c / corner-02)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.57 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:0 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_57.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.58 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:0 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_58.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.59 ::date 2018-11-22T11:13:56
+# ::snt <Architect> and red in the middle
+# ::save-date Thu Feb 7, 2019 ::user coqc ::file col_1135_59.txt
+(a / and
+      :op2 (b / be-destined-for-91
+            :ARG1 (t / thing :pl +
+                  :color (r / red))
+            :ARG2 (s / space :pl +
+                  :ARG1-of (m / middle-01))))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.60 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:0 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_60.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.61 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:0 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_61.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.62 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:2 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_62.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.63 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:2 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_63.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.64 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:1 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_64.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 0)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.65 ::date 2018-11-22T11:15:06
+# ::snt <Architect> in the very center
+# ::save-date Thu Nov 22, 2018 ::user kristinwb ::file col_1135_65.txt
+(s / space
+      :ARG1-of (c / center-03
+            :mod (v / very)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.66 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_66.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.67 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_67.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.68 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:2 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_68.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.69 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:2 Y:1 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_69.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -1)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.70 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:1 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1135_70.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 0)))
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.71 ::date 2018-11-22T11:16:02
+# ::snt <Architect> yea
+# ::save-date Thu Nov 22, 2018 ::user kristinwb ::file col_1135_71.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-flower-new-b4-a19_1135.72 ::date 2018-11-22T11:16:14
+# ::snt <Builder> cool
+# ::save-date Thu Nov 22, 2018 ::user kristinwb ::file col_1135_72.txt
+(c / cool-04)

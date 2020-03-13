@@ -1,0 +1,1042 @@
+# workset Minecraft-4-4-spectacles (generated on Sat Feb 9, 2019 at 13:42:47 for user coqc)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-4-spectacles_1140.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (s / spectacles)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :hand (l4 / left-handed)
+                  :FR (i4 / intrinsic)))
+      :snt9 (c10 / codirectional-01
+            :ARG1 z
+            :ARG2 z6))
+
+# ::id minecraft-4-4-spectacles_1140.1 ::date 2018-11-28T08:35:04
+# ::snt <Builder> Mission has started.
+# ::save-date Wed Nov 28, 2018 ::user kristinwb ::file col_1140_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-4-spectacles_1140.2 ::date 2018-11-28T08:36:05
+# ::snt <Builder> hi
+# ::save-date Wed Nov 28, 2018 ::user kristinwb ::file col_1140_2.txt
+(h / hi)
+
+# ::id minecraft-4-4-spectacles_1140.3 ::date 2018-11-28T08:36:43
+# ::snt <Architect> hi
+# ::save-date Wed Nov 28, 2018 ::user kristinwb ::file col_1140_3.txt
+(h / hi)
+
+# ::id minecraft-4-4-spectacles_1140.4 ::date 2018-11-28T08:36:49
+# ::snt <Architect> ok get some purple blocks
+# ::save-date Wed Nov 28, 2018 ::user kristinwb ::file col_1140_4.txt
+(g / get-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :quant (s / some)
+            :color (p / purple)))
+
+# ::id minecraft-4-4-spectacles_1140.5 ::date 2018-11-28T08:37:58
+# ::snt <Architect> ok so lets think of this like a coordinate system
+# ::save-date Sat Feb 9, 2019 ::user coqc ::file col_1140_5.txt
+(t / think-01 :mode imperative
+      :ARG0 (w / we)
+      :ARG1 (t2 / this)
+      :ARG2 (s / system
+            :mod (c / cartesian-framework-91)))
+
+# ::id minecraft-4-4-spectacles_1140.6 ::date 2018-11-28T08:39:43
+# ::snt <Architect> place a purple block in x = 3, y =4
+# ::save-date Wed Nov 28, 2018 ::user kristinwb ::file col_1140_6.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 4)))
+
+# ::id minecraft-4-4-spectacles_1140.7 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-3 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_7.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.8 ::date 2018-11-28T08:41:33
+# ::snt <Architect> now x = 4, y=4
+# ::save-date Wed Nov 28, 2018 ::user kristinwb ::file col_1140_8.txt
+(b / be-destined-for-91
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 4))
+      :time (n / now))
+
+# ::id minecraft-4-4-spectacles_1140.9 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-2 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_9.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.10 ::date 2018-11-28T08:42:28
+# ::snt <Architect> x = 5, y = 4
+# ::save-date Wed Nov 28, 2018 ::user kristinwb ::file col_1140_10.txt
+(b / be-destined-for-91
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 4)))
+
+# ::id minecraft-4-4-spectacles_1140.11 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.12 ::date 2018-11-28T08:43:05
+# ::snt <Architect> ok nvm can't use coordinates
+# ::save-date Wed Nov 28, 2018 ::user kristinwb ::file col_1140_12.txt
+(a / and
+      :op1 (m / mind-15 :mode imperative :polarity -
+            :ARG0 (y / you)
+            :ARG1 u
+            :time (e / ever))
+      :op2 (p / possible-01 :polarity -
+            :ARG1 (u / use-01
+                  :ARG1 (c / coordinate :pl +))))
+
+# ::id minecraft-4-4-spectacles_1140.13 ::date 2018-11-28T08:46:08
+# ::snt <Builder> you could just say a line too
+# ::save-date Wed Nov 28, 2018 ::user kristinwb ::file col_1140_13.txt
+(p / possible-01
+      :ARG1 (s / say-01
+            :ARG0 (y / you)
+            :ARG1 (l / line)
+            :mod (j / just)
+            :mod (t / too)))
+
+# ::id minecraft-4-4-spectacles_1140.14 ::date 2018-11-28T08:48:26
+# ::snt <Architect> place one to the right one spot of the block
+# ::save-date Sat Feb 9, 2019 ::user coqc ::file col_1140_14.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing :quant 1)
+      :ARG2 (s / space
+            :ARG1-of (r / right-04
+                  :ARG2 (b / block)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 y)
+                  :quant (d / distance-quantity :quant 1
+                        :unit (s2 / spot)))))
+
+# ::id minecraft-4-4-spectacles_1140.15 ::date 2018-11-28T08:49:58
+# ::snt <Architect> you just placed
+# ::save-date Wed Nov 28, 2018 ::user kristinwb ::file col_1140_15.txt
+(p / place-01
+      :ARG0 (y / you)
+      :time (j / just))
+
+# ::id minecraft-4-4-spectacles_1140.16 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:1 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.17 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:1 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_17.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.18 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.19 ::date 2018-11-28T08:52:17
+# ::snt <Architect> one space in between
+# ::save-date Wed Nov 28, 2018 ::user kristinwb ::file col_1140_19.txt
+(b / between-01
+      :ARG1 (s / space :quant 1))
+
+# ::id minecraft-4-4-spectacles_1140.20 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:0 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_20.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.21 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:1 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_21.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.22 ::date 2018-11-28T08:53:19
+# ::snt <Architect> ok now two blocks directly to the right of the one you just placed
+# ::save-date Thu Nov 29, 2018 ::user kristinwb ::file col_1140_22.txt
+(b / be-destined-for-91
+      :ARG1 (b2 / block :quant 2)
+      :ARG2 (s / space :pl +
+            :ARG1-of (r / right-04
+                  :ARG2 (o / one
+                        :ARG1-of (p / place-01
+                              :ARG0 (y / you)
+                              :time (j / just)))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 y)
+                  :ARG1-of (d / direct-02)))
+      :time (n / now))
+
+# ::id minecraft-4-4-spectacles_1140.23 ::date 2018-11-29T04:12:10
+# ::snt <Architect> in the same row
+# ::save-date Thu Nov 29, 2018 ::user kristinwb ::file col_1140_23.txt
+(b / be-located-at-91
+      :ARG2 (r / row)
+      :ARG3-of (s / same-01))
+
+# ::id minecraft-4-4-spectacles_1140.24 ::date 2018-11-29T04:12:47
+# ::snt <Builder> as in two spaces with one blank space or two blank spaces?
+# ::save-date Fri Jan 11, 2019 ::user kristinwb ::file col_1140_24.txt
+(m2 / mean-01
+      :ARG2 (a2 / amr-choice
+            :op1 (s7 / spatial-sequence-91
+                  :ARG2 (s8 / space
+                        :mod (b4 / blank))
+                  :ARG3 (s9 / space
+                        :ARG2-of (b5 / be-destined-for-91)))
+            :op2 (s11 / spatial-sequence-91
+                  :ARG2 (s12 / space
+                        :mod (b6 / blank))
+                  :ARG3 (s13 / space
+                        :mod (b7 / blank))
+                  :ARG4 (s14 / space
+                        :ARG2-of (b8 / be-destined-for-91)))))
+
+# ::id minecraft-4-4-spectacles_1140.25 ::date 2018-11-29T04:21:30
+# ::snt <Architect> no spaces
+# ::save-date Thu Nov 29, 2018 ::user kristinwb ::file col_1140_25.txt
+(s / space :polarity -)
+
+# ::id minecraft-4-4-spectacles_1140.26 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:2 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_26.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.27 ::date 2018-11-29T04:23:32
+# ::snt <Architect> yeah now anotehr block to the right
+# ::save-date Thu Nov 29, 2018 ::user kristinwb ::file col_1140_27.txt
+(a2 / and
+      :op1 (c / confirm-01)
+      :op2 (b / be-destined-for-91
+            :ARG1 (b2 / block
+                  :mod (a / another))
+            :ARG2 (s / space
+                  :ARG1-of (r / right-04
+                        :ARG3 (c2 / cartesian-framework-91
+                              :ARG1 (b3 / builder))))
+            :time (n / now)))
+
+# ::id minecraft-4-4-spectacles_1140.28 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:3 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_28.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.29 ::date 2018-11-29T04:25:58
+# ::snt <Builder> oh another line of three
+# ::save-date Sat Feb 9, 2019 ::user coqc ::file col_1140_29.txt
+(l / line
+      :mod (a / another)
+      :mod (d / dimension-entity :value 3)
+      :mod (o / oh :mode expressive))
+
+# ::id minecraft-4-4-spectacles_1140.30 ::date 2018-11-29T04:26:17
+# ::snt <Architect> ok yeah thats a better way to say it
+# ::save-date Wed Dec 5, 2018 ::user kristinwb ::file col_1140_30.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (c / confirm-01)
+      :op3 (h2 / have-manner-91
+            :ARG1 (s / say-01
+                  :ARG1 (i2 / it))
+            :ARG2 (t / that)
+            :ARG1-of (h / have-degree-91
+                  :ARG2 (g / good-02)
+                  :ARG3 (m / more))))
+
+# ::id minecraft-4-4-spectacles_1140.31 ::date 2018-11-29T04:28:49
+# ::snt <Architect> ok so on top place purple blocks alternating
+# ::save-date Sat Feb 9, 2019 ::user coqc ::file col_1140_31.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :pl +
+            :color (p2 / purple))
+      :ARG2 (s / space :pl +
+            :ARG1-of (o / on-top-03
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))
+            :ARG1-of (a / alternate-01)))
+
+# ::id minecraft-4-4-spectacles_1140.32 ::date 2018-11-29T04:30:29
+# ::snt <Architect> so one on each end of the line of 3
+# ::save-date Sat Feb 9, 2019 ::user coqc ::file col_1140_32.txt
+(i2 / infer-01
+      :ARG1 (b / be-destined-for-91
+            :ARG1 (t3 / thing :pl +)
+            :ARG2 (s / space :pl +
+                  :ARG1-of (o / on-top-03
+                        :ARG2 (t / thing :pl +
+                              :ARG1-of (e / end-05
+                                    :ARG2 (l / line
+                                          :consist-of (t2 / thing :quant 3))))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b2 / build-space))))
+            :frequency (r / rate-entity-91
+                  :ARG1 (t4 / thing :quant 1
+                        :ARG1-of (i3 / include-91
+                              :ARG2 t3))
+                  :ARG2 (t5 / thing
+                        :ARG1-of (i4 / include-91
+                              :ARG2 t)
+                        :mod (e2 / each)))))
+
+
+# ::id minecraft-4-4-spectacles_1140.33 ::date 2018-11-29T04:35:20
+# ::snt <Architect> they are floating
+# ::save-date Thu Nov 29, 2018 ::user kristinwb ::file col_1140_33.txt
+(f / float-01
+      :ARG1 (t / they))
+
+# ::id minecraft-4-4-spectacles_1140.34 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-3 Y:2 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_34.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.35 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-3 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_35.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.36 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:-3 Y:2 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_36.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.37 ::date 2018-11-29T05:10:06
+# ::snt <Architect> yeah like taht
+# ::save-date Thu Nov 29, 2018 ::user kristinwb ::file col_1140_37.txt
+(c / confirm-01
+      :ARG1 (r / resemble-01
+            :ARG2 (t / that)))
+
+# ::id minecraft-4-4-spectacles_1140.38 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:3 Y:2 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_38.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.39 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:3 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_39.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.40 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:3 Y:2 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_40.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.41 ::date 2018-11-29T05:10:47
+# ::snt <Architect> oh no what you were doing before was right
+# ::save-date Thu Nov 29, 2018 ::user kristinwb ::file col_1140_41.txt
+(a / and
+      :op1 (c / confirm-01 :polarity -
+            :mod (o / oh :mode expressive))
+      :op2 (r / right-06
+            :ARG2 (t / thing
+                  :ARG1-of (d / do-02
+                        :ARG0 (y / you)
+                        :time (b / before)))))
+
+# ::id minecraft-4-4-spectacles_1140.42 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-3 Y:2 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_42.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.43 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:-3 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_43.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.44 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:3 Y:2 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_44.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.45 ::date 2018-11-29T05:19:29
+# ::snt <Architect> i meant theyre just not on the ground
+# ::save-date Sat Feb 9, 2019 ::user coqc ::file col_1140_45.txt
+(m / mean-01
+      :ARG0 (i / i)
+      :ARG2 (o / on-top-03 :polarity -
+            :ARG1 (t / they)
+            :ARG2 (g / ground)
+            :ARG3 (c / cartesian-framework-91
+                  :ARG1 (b / build-space))
+            :mod (j / just)))
+
+# ::id minecraft-4-4-spectacles_1140.46 ::date 2018-11-29T05:20:55
+# ::snt <Builder> ok
+# ::save-date Thu Nov 29, 2018 ::user kristinwb ::file col_1140_46.txt
+(o / okay-04)
+
+# ::id minecraft-4-4-spectacles_1140.47 ::date 2018-11-29T05:21:07
+# ::snt <Architect> like the side on your left
+# ::save-date Thu Nov 29, 2018 ::user kristinwb ::file col_1140_47.txt
+(r / resemble-01
+      :ARG2 (s / side
+            :ARG1-of (l / left-20
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (y / you)))))
+
+# ::id minecraft-4-4-spectacles_1140.48 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:3 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_48.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.49 ::date 2018-11-29T05:24:37
+# ::snt <Architect> ok now the next row should be completely filled, 7 blocks
+# ::save-date Thu Nov 29, 2018 ::user kristinwb ::file col_1140_49.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (r / recommend-01
+            :ARG1 (f / fill-01
+                  :ARG1 (r2 / row
+                        :mod (n / next)
+                        :ARG4-of (s / spatial-sequence-91))
+                  :ARG2 (b / block :quant 7)
+                  :ARG1-of (c / complete-02))
+            :time (n2 / now)))
+
+# ::id minecraft-4-4-spectacles_1140.50 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-3 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_50.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.51 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-2 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_51.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.52 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_52.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.53 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:0 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_53.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.54 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:1 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_54.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.55 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:2 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_55.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.56 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:3 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_56.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.57 ::date 2018-11-29T05:27:23
+# ::snt <Architect> ok now think of a window
+# ::save-date Thu Nov 29, 2018 ::user kristinwb ::file col_1140_57.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (t / think-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (w / window)
+            :time (n / now)))
+
+# ::id minecraft-4-4-spectacles_1140.58 ::date 2018-11-29T05:28:02
+# ::snt <Architect> youre missing a block in z = 1
+# ::save-date Sat Feb 9, 2019 ::user coqc ::file col_1140_58.txt
+(m / miss-01
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :location (s / space :pl +
+                  :location (c / cartesian-coordinate-entity :z 1))))
+
+# ::id minecraft-4-4-spectacles_1140.59 ::date 2018-11-30T07:23:22
+# ::snt <Architect> on the 3rd block of each side
+# ::save-date Sat Feb 9, 2019 ::user coqc ::file col_1140_59.txt
+(o2 / on-top-03
+      :ARG2 (b / block :pl +
+            :ord (o3 / ordinal-entity :value 3
+                  :range-start (s / side :pl +)))
+      :ARG3 (c / cartesian-framework-91
+            :ARG1 (b3 / build-space))
+      :frequency (r / rate-entity-91
+            :ARG1 (b2 / block :quant 1
+                  :ARG1-of (i2 / include-91
+                        :ARG2 b))
+            :ARG2 (s2 / side
+                  :mod (e / each)
+                  :ARG1-of (i3 / include-91
+                        :ARG2 s))))
+
+# ::id minecraft-4-4-spectacles_1140.60 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:1 Y:2 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_60.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.61 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:2 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_61.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 2)))
+
+# ::id minecraft-4-4-spectacles_1140.62 ::date 2018-11-30T07:32:36
+# ::snt <Architect> yeah
+# ::save-date Fri Nov 30, 2018 ::user kristinwb ::file col_1140_62.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-spectacles_1140.63 ::date 2018-11-30T07:32:44
+# ::snt <Architect> ok now get some red blocks
+# ::save-date Fri Nov 30, 2018 ::user kristinwb ::file col_1140_63.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (g / get-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block
+                  :quant (s / some)
+                  :color (r / red))
+            :time (n / now)))
+
+# ::id minecraft-4-4-spectacles_1140.64 ::date 2018-11-30T07:33:18
+# ::snt <Architect> so for the very top row
+# ::save-date Fri Nov 30, 2018 ::user kristinwb ::file col_1140_64.txt
+(c2 / concern-02
+      :ARG1 (r / row
+            :ARG1-of (t / top-06
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b / build-space))
+                  :mod (v / very))))
+
+# ::id minecraft-4-4-spectacles_1140.65 ::date 2018-11-30T07:35:13
+# ::snt <Architect> extend the blocks on each end
+# ::save-date Fri Nov 30, 2018 ::user kristinwb ::file col_1140_65.txt
+(e / extend-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :pl +)
+      :ARG3 (t / thing :pl +
+            :ARG1-of (e2 / end-05)
+            :mod (e3 / each)))
+
+# ::id minecraft-4-4-spectacles_1140.66 ::date 2018-11-30T07:41:19
+# ::snt <Architect> by adding 4 blocks in the air
+# ::save-date Fri Nov 30, 2018 ::user kristinwb ::file col_1140_66.txt
+(h / have-manner-91
+      :ARG2 (a / add-02
+            :ARG1 (b / block :pl +
+                  :location (a2 / air)))
+      :frequency (r / rate-entity-91
+            :ARG1 (b2 / block :quant 4
+                  :ARG1-of (i2 / include-91
+                        :ARG2 b))))
+
+# ::id minecraft-4-4-spectacles_1140.67 ::date 2018-11-30T07:43:11
+# ::snt <Architect> extend them in the perpendicular direction
+# ::save-date Sat Feb 9, 2019 ::user coqc ::file col_1140_67.txt
+(e / extend-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / they)
+      :direction (t2 / trajectory
+            :ARG3-of (p / perpendicular-01
+                  :ARG1 t)))
+
+# ::id minecraft-4-4-spectacles_1140.68 ::date 2018-11-30T07:44:35
+# ::snt <Builder> a floating line?
+# ::save-date Tue Dec 4, 2018 ::user kristinwb ::file col_1140_68.txt
+(l / line
+      :ARG1-of (f / float-01)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-4-spectacles_1140.69 ::date 2018-12-04T13:23:56
+# ::snt <Architect> yeah
+# ::save-date Tue Dec 4, 2018 ::user kristinwb ::file col_1140_69.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-spectacles_1140.70 ::date 2018-12-04T13:56:19
+# ::snt <Builder> behind the purple structure
+# ::save-date Sat Feb 9, 2019 ::user coqc ::file col_1140_70.txt
+(b2 / behind-02
+      :ARG2 (s2 / structure
+            :color (p / purple))
+      :ARG3 (c / cartesian-framework-91
+            :ARG1 (c2 / composite-entity)
+            :FR (r / relative-to-builder)))
+
+# ::id minecraft-4-4-spectacles_1140.71 ::date 2018-12-04T14:05:30
+# ::snt <Architect> in the front
+# ::save-date Sat Feb 9, 2019 ::user coqc ::file col_1140_71.txt
+(f / front-03
+      :ARG3 (c / cartesian-framework-91
+            :ARG1 (b / builder)))
+
+# ::id minecraft-4-4-spectacles_1140.72 ::date 2018-12-04T14:06:43
+# ::snt <Architect> wherever there is more space
+# ::save-date Sat Feb 9, 2019 ::user coqc ::file col_1140_72.txt
+(s2 / space
+      :location-of (s3 / space
+            :ARG1-of (h / have-quant-91
+                  :ARG3 (m / more))))
+
+# ::id minecraft-4-4-spectacles_1140.73 ::date 2018-12-04T14:08:11
+# ::snt <Builder> jutting out from the upper corner purple one
+# ::save-date Sat Feb 9, 2019 ::user coqc ::file col_1140_73.txt
+(j / jut-out-02
+      :source (o / one
+            :color (p / purple)
+            :ARG1-of (c / corner-02)
+            :ARG1-of (u / up-03
+                  :ARG5 (c2 / cartesian-framework-91
+                        :ARG1 (b / build-space)))))
+
+# ::id minecraft-4-4-spectacles_1140.74 ::date 2018-12-04T14:10:55
+# ::snt <Architect> yea
+# ::save-date Tue Dec 4, 2018 ::user kristinwb ::file col_1140_74.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-spectacles_1140.75 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:3 Y:3 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_75.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z 1)))
+
+# ::id minecraft-4-4-spectacles_1140.76 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:3 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_76.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z 0)))
+
+# ::id minecraft-4-4-spectacles_1140.77 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:3 Y:3 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_77.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z -1)))
+
+# ::id minecraft-4-4-spectacles_1140.78 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:3 Y:3 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_78.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z -2)))
+
+# ::id minecraft-4-4-spectacles_1140.79 ::date 2018-12-04T14:11:24
+# ::snt <Architect> yeah like that
+# ::save-date Tue Dec 4, 2018 ::user kristinwb ::file col_1140_79.txt
+(c / confirm-01
+      :ARG1 (r / resemble-01
+            :ARG2 (t / that)))
+
+# ::id minecraft-4-4-spectacles_1140.80 ::date 2018-12-04T14:11:54
+# ::snt <Builder> both sides?
+# ::save-date Sat Feb 9, 2019 ::user coqc ::file col_1140_80.txt
+(b2 / be-destined-for-91
+      :ARG2 (s / side
+            :mod (b / both)
+            :ARG1-of (r / request-confirmation-91)))
+
+# ::id minecraft-4-4-spectacles_1140.81 ::date 2018-12-04T14:13:00
+# ::snt <Architect> yep
+# ::save-date Tue Dec 4, 2018 ::user kristinwb ::file col_1140_81.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-spectacles_1140.82 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-3 Y:3 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_82.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z 1)))
+
+# ::id minecraft-4-4-spectacles_1140.83 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-3 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_83.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z 0)))
+
+# ::id minecraft-4-4-spectacles_1140.84 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-3 Y:3 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_84.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z -1)))
+
+# ::id minecraft-4-4-spectacles_1140.85 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-3 Y:3 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_85.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z -2)))
+
+# ::id minecraft-4-4-spectacles_1140.86 ::date 2018-12-04T14:13:26
+# ::snt <Architect> ok now make a diagonal line from the last red blocks of each line to the ground
+# ::save-date Sat Feb 9, 2019 ::user coqc ::file col_1140_86.txt
+(a / and
+      :op1 (o2 / okay-04)
+      :op2 (m / make-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (l / line :pl +
+                  :ARG4-of (d / diagonal-01
+                        :ARG1 (b / block :pl +
+                              :ord (o / ordinal-entity :value "-1")
+                              :part-of (l2 / line :pl +)
+                              :color (r / red))
+                        :ARG2 (g / ground)))
+            :time (n / now)
+            :frequency (r2 / rate-entity-91
+                  :ARG1 (l3 / line :quant 1
+                        :ARG1-of (i2 / include-91
+                              :ARG2 l))
+                  :ARG2 (l4 / line
+                        :mod (e / each)
+                        :ARG1-of (i3 / include-91
+                              :ARG2 l2)))))
+
+# ::id minecraft-4-4-spectacles_1140.87 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:3 Y:2 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_87.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z -2)))
+
+# ::id minecraft-4-4-spectacles_1140.88 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:3 Y:2 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_88.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z -3)))
+
+# ::id minecraft-4-4-spectacles_1140.89 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:3 Y:1 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_89.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z -3)))
+
+# ::id minecraft-4-4-spectacles_1140.90 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:3 Y:1 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_90.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z -4)))
+
+# ::id minecraft-4-4-spectacles_1140.91 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:3 Y:1 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_91.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z -3)))
+
+# ::id minecraft-4-4-spectacles_1140.92 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:3 Y:2 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_92.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z -2)))
+
+# ::id minecraft-4-4-spectacles_1140.93 ::date 2018-12-04T17:57:07
+# ::snt <Architect> yeah like that
+# ::save-date Tue Dec 4, 2018 ::user kristinwb ::file col_1140_93.txt
+(c / confirm-01
+      :ARG1 (r / resemble-01
+            :ARG2 (t / that)))
+
+# ::id minecraft-4-4-spectacles_1140.94 ::date 2018-12-04T17:57:33
+# ::snt <Architect> for the other side too
+# ::save-date Sat Feb 9, 2019 ::user coqc ::file col_1140_94.txt
+(b / be-destined-for-91
+      :ARG2 (s / side
+            :ARG1-of (o / other-01))
+      :mod (t / too))
+
+# ::id minecraft-4-4-spectacles_1140.95 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-3 Y:2 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_95.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z -2)))
+
+# ::id minecraft-4-4-spectacles_1140.96 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-3 Y:2 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_96.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z -3)))
+
+# ::id minecraft-4-4-spectacles_1140.97 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-3 Y:1 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_97.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z -4)))
+
+# ::id minecraft-4-4-spectacles_1140.98 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:-3 Y:2 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1140_98.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z -2)))
+
+# ::id minecraft-4-4-spectacles_1140.99 ::date 2018-12-04T18:01:20
+# ::snt <Architect> ok done
+# ::save-date Tue Dec 4, 2018 ::user kristinwb ::file col_1140_99.txt
+(b / be-done-08)
+
+# ::id minecraft-4-4-spectacles_1140.100 ::date 2018-12-04T18:01:37
+# ::snt <Builder> cool
+# ::save-date Tue Dec 4, 2018 ::user kristinwb ::file col_1140_100.txt
+(c / cool-04)

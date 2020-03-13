@@ -1,0 +1,1129 @@
+# workset Minecraft-4-5-multiple-concepts-B15-A27 (generated on Thu Feb 21, 2019 at 14:57:34 for user coqc)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 z6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (s / string-entity :value "L=5")
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :hand (l4 / left-handed)
+                  :FR (i4 / intrinsic)))
+      :snt9 (a6 / antiparallel-01
+            :ARG1 x
+            :ARG2 y6))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.1 ::date 2019-02-15T14:33:18
+# ::snt <Builder> Mission has started.
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1256_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.2 ::date 2019-02-15T14:33:52
+# ::snt <Builder> all good!
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1256_2.txt
+(g / good-02
+      :ARG1 (a / all))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.3 ::date 2019-02-15T14:35:47
+# ::snt <Architect> this one is going to start on your left side
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_3.txt
+(s / start-01
+      :ARG1 (o / one
+            :mod (t / this))
+      :location (s2 / space
+            :ARG1-of (l / left-20
+                  :ARG2 (y / you)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 y))))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.4 ::date 2019-02-15T14:41:54
+# ::snt <Architect> place a green block on the edge three spaces from the left side
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1256_4.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (g / green))
+      :ARG2 (s / space
+            :ARG1-of (n / next-to-02
+                  :ARG2 (e / edge)
+                  :ARG3 c)
+            :ARG1-of (f / from-boundary-01
+                  :ARG2 (d / distance-quantity :quant 3
+                        :unit (s3 / space))
+                  :ARG3 (s2 / side
+                        :ARG1-of (l / left-24
+                              :ARG3 (c / cartesian-framework-91
+                                    :ARG1 y))))))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.5 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:5 Y:1 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_5.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 1 :z 3)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.6 ::date 2019-02-15T14:44:12
+# ::snt <Builder> here?
+# ::save-date Thu Feb 21, 2019 ::user coqc ::file col_1256_6.txt
+(b / be-destined-for-91
+      :ARG2 (h / here)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.7 ::date 2019-02-15T14:44:33
+# ::snt <Architect> move it two to the left and three up
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1256_7.txt
+(m / move-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (i2 / it)
+      :ARG2 (s / space
+            :ARG1-of (l / left-20
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 y)
+                  :quant (d / distance-quantity :quant 2))
+            :ARG1-of (u / up-03
+                  :ARG5 (c2 / cartesian-framework-91
+                        :ARG1 (w / white-square))
+                  :quant (d2 / distance-quantity :quant 3))))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.8 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:6 Y:1 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_8.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 6 :y 1 :z 3)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.9 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:6 Y:1 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_9.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 6 :y 1 :z 3)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.10 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:5 Y:1 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_10.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 1 :z 3)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.11 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:2 Y:1 Z:5]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 5)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.12 ::date 2019-02-15T14:46:45
+# ::snt <Builder> here?
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1256_12.txt
+(b / be-destined-for-91
+      :ARG2 (h / here)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.13 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:3 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_13.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 0)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.14 ::date 2019-02-15T14:47:10
+# ::snt <Builder> or there?
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1256_14.txt
+(a / amr-choice
+      :op2 (b / be-destined-for-91
+            :ARG2 (t / there)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.15 ::date 2019-02-15T14:47:42
+# ::snt <Architect> first one
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1256_15.txt
+(o / one
+      :ord (o2 / ordinal-entity :value 1))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.16 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:3 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_16.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 0)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.17 ::date 2019-02-15T14:49:02
+# ::snt <Architect> now lay two in the spaces to the right of it green blocks
+# ::save-date Fri Feb 15, 2019 ::user kristinwb ::file col_1256_17.txt(l / lay-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :quant 2
+            :color (g / green))
+      :ARG2 (s / space :pl +
+            :ARG1-of (r / right-04
+                  :ARG2 (i2 / it)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 y)))
+      :time (n / now))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.18 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:3 Y:1 Z:5]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 5)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.19 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:3 Y:1 Z:6]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 6)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.20 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:4 Y:1 Z:5]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 5)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.21 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:3 Y:1 Z:6]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_21.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 6)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.22 ::date 2019-02-18T10:00:46
+# ::snt <Builder> like that?
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_22.txt
+(r / resemble-01
+      :ARG2 (t / that)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.23 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:2 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_23.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 4)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.24 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:2 Y:1 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_24.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 3)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.25 ::date 2019-02-18T14:17:04
+# ::snt <Builder> or there?
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_25.txt
+(a / amr-choice
+      :op2 (b / be-destined-for-91
+            :ARG2 (t / there)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.26 ::date 2019-02-18T14:17:20
+# ::snt <Architect> the side facing away from the edge
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_26.txt
+(b / be-destined-for-91
+      :ARG2 (s2 / side
+            :ARG0-of (f / face-01
+                  :direction (t / trajectory
+                        :ARG3-of (a / away-01
+                              :ARG1 s2
+                              :ARG2 (e / edge))))))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.27 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:2 Y:1 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_27.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 3)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.28 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:2 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_28.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 4)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.29 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:3 Y:1 Z:5]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_29.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 5)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.30 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:4 Y:1 Z:5]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_30.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 5)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.31 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:1 Y:1 Z:5]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_31.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 5)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.32 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:1 Z:5]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_32.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 5)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.33 ::date 2019-02-18T14:25:22
+# ::snt <Builder> there?
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_33.txt
+(b / be-destined-for-91
+      :ARG2 (t / there)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.34 ::date 2019-02-18T14:25:42
+# ::snt <Architect> the second option
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_34.txt
+(o / option
+      :ord (o2 / ordinal-entity :value 2))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.35 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:2 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_35.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 4)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.36 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:2 Y:1 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_36.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 3)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.37 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:0 Y:1 Z:5]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_37.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 5)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.38 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:1 Y:1 Z:5]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_38.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 5)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.39 ::date 2019-02-18T14:26:58
+# ::snt <Architect> perfect
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_39.txt
+(p / perfect-02)
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.40 ::date 2019-02-18T14:27:08
+# ::snt <Architect> now form an L with original green block so 4 green blocks going in front of you
+# ::save-date Thu Feb 21, 2019 ::user coqc ::file col_1256_40.txt
+(f / form-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :configuration (s / string-entity :value "L"))
+      :ARG2 (b / block
+            :mod (o / original)
+            :color (g / green))
+      :time (n / now)
+      :ARG0-of (c / cause-01
+            :ARG1 (g3 / go-35
+                  :ARG1 (b3 / block :quant 4
+                        :ARG1-of (i3 / include-91
+                              :ARG1 b)
+                        :color (g2 / green))
+                  :ARG2 (s2 / space :pl +
+                        :ARG1-of (f2 / front-03
+                              :ARG2 y
+                              :ARG3 (c2 / cartesian-framework-91
+                                    :ARG1 y))))))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.41 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:1 Y:1 Z:5]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_41.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 5)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.42 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_42.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 4)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.43 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:0 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_43.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 4)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.44 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:1 Z:5]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_44.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 5)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.45 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:1 Z:5]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_45.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 5)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.46 ::date 2019-02-18T14:44:12
+# ::snt <Builder> like that?
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_46.txt
+(r / resemble-01
+      :ARG2 (t / that)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.47 ::date 2019-02-18T14:44:32
+# ::snt <Architect> yeah now stand next to the short end of the L
+# ::save-date Thu Feb 21, 2019 ::user coqc ::file col_1256_47.txt
+(a / and
+      :op1 (c / confirm-01)
+      :op2 (s / stand-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 y
+            :ARG2 (s2 / space
+                  :ARG1-of (n2 / next-to-02
+                        :ARG2 (t2 / thing
+                              :ARG1-of (e / end-05
+                                    :ARG2 (t / thing
+                                          :configuration (s4 / string-entity :value "L")))
+                              :ARG1-of (s3 / short-07))
+                        :ARG3 (c2 / cartesian-framework-91
+                              :ARG1 (b / build-space))))
+            :time (n / now)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.48 ::date 2019-02-18T14:46:45
+# ::snt <Architect> more forward one and right one
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_48.txt
+(b / be-destined-for-91
+      :ARG2 (s / space
+            :ARG1-of (f / forward-02
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (b2 / builder))
+                  :quant (d / distance-quantity :quant 1)
+                  :ARG2-of (h / have-degree-91
+                        :ARG3 (m / more)))
+            :ARG1-of (r / right-04
+                  :ARG3 c
+                  :quant (d2 / distance-quantity :quant 1))))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.49 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:2 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_49.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 1)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.50 ::date 2019-02-18T14:49:14
+# ::snt <Builder> on that yellow block?
+# ::save-date Thu Feb 21, 2019 ::user coqc ::file col_1256_50.txt
+(o / on-top-03
+      :ARG2 (b2 / block
+            :color (y / yellow))
+      :ARG3 (c / cartesian-framework-91
+            :ARG1 (b / build-space))
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.51 ::date 2019-02-18T14:50:26
+# ::snt <Architect> yeah and then place a purple block in front of that
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_51.txt
+(a / and
+      :op1 (c / confirm-01)
+      :op2 (p / place-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block
+                  :color (p2 / purple))
+            :ARG2 (s / space
+                  :ARG1-of (f / front-03
+                        :ARG2 (t2 / thing
+                              :mod (t3 / that))
+                        :ARG3 (c2 / cartesian-framework-91
+                              :ARG1 y)))
+            :time (t / then)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.52 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:1 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_52.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 1)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.53 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:2 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_53.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 0)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.54 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:2 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_54.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 1)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.55 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:2 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_55.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 0)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.56 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:2 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_56.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 0)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.57 ::date 2019-02-18T14:51:52
+# ::snt <Builder> is the purple or blue one in the right place?
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_57.txt
+(b / be-located-at-91
+      :ARG1 (a / amr-choice
+            :op1 (o / one
+                  :color (p / purple))
+            :op2 (o2 / one
+                  :color (b2 / blue)))
+      :ARG2 (p2 / place
+            :ARG2-of (r / right-06)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.58 ::date 2019-02-18T14:54:07
+# ::snt <Architect> purple is right then place another purple on the right side of it
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_58.txt
+(a / and
+      :op1 (r / right-06
+            :ARG2 (t / thing
+                  :color (p / purple)))
+      :op2 (p2 / place-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (t2 / thing
+                  :mod (a2 / another)
+                  :color (p3 / purple))
+            :ARG2 (s / space
+                  :ARG1-of (r2 / right-04
+                        :ARG2 t
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 y)))
+            :time (t3 / then)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.59 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a blue block at X:2 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_59.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 0)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.60 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:1 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_60.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 0)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.61 ::date 2019-02-18T15:05:26
+# ::snt <Builder> there?
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_61.txt
+(b / be-destined-for-91
+      :ARG2 (t / there)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.62 ::date 2019-02-18T15:05:44
+# ::snt <Architect> thats it
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_62.txt
+(b / be-it-07
+      :ARG1 (t / that))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.63 ::date 2019-02-18T15:06:06
+# ::snt <Architect> we're make something that looks like = sign
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_63.txt
+(m / make-01
+      :ARG0 (w / we)
+      :ARG1 (s / something
+            :ARG0-of (l / look-02
+                  :ARG1 (s3 / sign
+                        :configuration (s4 / string-entity :value "=")))))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.64 ::date 2019-02-18T15:13:43
+# ::snt <Architect> so place two more purple with a block seperating the original purple line
+# ::save-date Wed Feb 20, 2019 ::user kristinwb ::file col_1256_64.txt
+(c / cause-01
+      :ARG1 (p / place-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (t / thing
+                  :color (p2 / purple)
+                  :ARG1-of (h / have-quant-91
+                        :ARG2 2
+                        :ARG3 (m / more)))
+            :ARG2 (s / space :pl +
+                  :ARG1-of (s2 / separate-01
+                        :ARG0 (b / block)
+                        :ARG2 (l / line
+                              :mod (o / original)
+                              :color (p3 / purple))))))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.65 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:3 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_65.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 1)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.66 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:3 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_66.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 0)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.67 ::date 2019-02-18T15:16:22
+# ::snt <Builder> like that, or above it?
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_67.txt
+(a / amr-choice
+      :op1 (r / resemble-01
+            :ARG2 (t / that))
+      :op2 (b / be-destined-for-91
+            :ARG2 (s / space :pl +
+                  :ARG1-of (a2 / above-01
+                        :ARG2 (i2 / it)
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (w / white-square))))))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.68 ::date 2019-02-18T15:17:41
+# ::snt <Architect> on the other side on the ground towards the top of the L
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_68.txt
+(b / be-destined-for-91
+      :ARG2 (s / space :pl +
+            :location (s2 / side
+                  :ARG1-of (o / other-01))
+            :ARG1-of (o2 / on-top-03
+                  :ARG2 (g / ground)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))
+            :ARG1-of (t / toward-01
+                  :ARG2 (t2 / thing
+                        :ARG1-of (t3 / top-06
+                              :ARG2 (t4 / thing
+                                    :configuration (s3 / string-entity :value "L"))
+                              :ARG3 (c2 / cartesian-framework-91
+                                    :ARG1 t4
+                                    :FR (i2 / intrinsic)))))))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.69 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:3 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_69.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 1)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.70 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:3 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_70.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 0)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.71 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_71.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 1)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.72 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-2 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_72.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 0)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.73 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a purple block at X:-2 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_73.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 0)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.74 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:1 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_74.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 0)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.75 ::date 2019-02-18T15:21:08
+# ::snt <Builder> got it!
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_75.txt
+(g / get-30
+      :ARG1 (i2 / it))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.76 ::date 2019-02-18T15:23:02
+# ::snt <Architect> the top right purple block place blue block to the right of it with an empty block inbetween
+# ::save-date Wed Feb 20, 2019 ::user kristinwb ::file col_1256_76.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (b2 / blue))
+      :ARG2 (s / space
+            :ARG1-of (r / right-04
+                  :ARG2 (b3 / block
+                        :ARG1-of (r2 / right-10
+                              :ARG3 c)
+                        :color (p2 / purple)
+                        :ARG1-of (t / top-06
+                              :ARG3 (c2 / cartesian-framework-91
+                                    :ARG1 (c3 / composite-entity)
+                                    :FR (i2 / intrinsic))))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 y)))
+      :manner (b4 / between-01
+            :ARG1 (b5 / block
+                  :ARG1-of (e / empty-02))
+            :ARG2 s
+            :ARG3 b3))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.77 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-1 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_77.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -2)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.78 ::date 2019-02-18T15:30:53
+# ::snt <Architect> yep
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_78.txt
+(c / confirm-01)
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.79 ::date 2019-02-18T15:31:00
+# ::snt <Builder> okay!
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_79.txt
+(o / okay-04)
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.80 ::date 2019-02-18T15:31:11
+# ::snt <Architect> now place a blue block on the far side of it
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_80.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (b2 / blue))
+      :ARG2 (s / space
+            :location (s2 / side
+                  :ARG1-of (h / have-degree-91
+                        :ARG2 (f / far-01
+                              :ARG1 s2)
+                        :ARG3 (m / most))
+                  :part-of (i2 / it)))
+      :time (n / now))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.81 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-2 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_81.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z -2)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.82 ::date 2019-02-18T15:35:03
+# ::snt <Builder> there?
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_82.txt
+(b / be-destined-for-91
+      :ARG2 (t / there)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.83 ::date 2019-02-18T15:35:23
+# ::snt <Architect> and one to the right of that
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_83.txt
+(a / and
+      :op2 (b / be-destined-for-91
+            :ARG1 (t2 / thing :quant 1)
+            :ARG2 (s / space
+                  :ARG1-of (r / right-04
+                        :ARG2 (t / that)
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b2 / builder))))))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.84 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-2 Y:1 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_84.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z -3)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.85 ::date 2019-02-18T15:37:11
+# ::snt <Builder> ok!
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_85.txt
+(o / okay-04)
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.86 ::date 2019-02-18T15:37:19
+# ::snt <Architect> from the one you just placed skip a block down and place three blue going down
+# ::save-date Wed Feb 20, 2019 ::user kristinwb ::file col_1256_86.txt
+(a / and
+      :op1 (s2 / skip-01 :mode imperative
+            :ARG0 y
+            :ARG1 (b2 / block :quant 1
+                  :ARG1-of (d2 / down-03
+                        :ARG2 (o / one
+                              :ARG1-of (p2 / place-01
+                                    :ARG0 y
+                                    :time (j / just)))
+                        :ARG5 (c / cartesian-framework-91
+                              :ARG1 (w / white-square)))))
+      :op2 (p / place-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (t / thing :quant 3
+                  :color (b / blue))
+            :ARG2 (s / space :pl +
+                  :ARG1-of (d / down-03
+                        :ARG2 b2
+                        :ARG5 c))))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.87 ::date 2019-02-18T15:37:44
+# ::snt [Builder puts down a blue block at X:0 Y:1 Z:-3]
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.87 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:1 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_87.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -3)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.88 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:1 Y:1 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_88.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -3)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.89 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:1 Y:2 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_89.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z -3)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.90 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a blue block at X:1 Y:2 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_90.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z -3)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.91 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:2 Y:1 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_91.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -3)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.92 ::date 2019-02-18T15:38:10
+# ::snt <Architect> thats right now place one to the left of that last one
+# ::save-date Thu Feb 21, 2019 ::user coqc ::file col_1256_92.txt
+(a / and
+      :op1 (r / right-06
+            :ARG2 (t / that))
+      :op2 (p / place-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (t3 / thing :quant 1)
+            :ARG2 (s / space
+                  :ARG1-of (l / left-20
+                        :ARG2 (o2 / one
+                              :mod (t2 / that)
+                              :mod (l2 / last))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 y)))
+            :time (n / now)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.93 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:2 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_93.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -2)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.94 ::date 2019-02-18T15:39:51
+# ::snt <Architect> and fill it in so there is only one empty block in the 5 shape
+# ::save-date Thu Feb 21, 2019 ::user coqc ::file col_1256_94.txt
+(a / and
+      :op3 (f / fill-in-05 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (i2 / it)
+            :ARG0-of (c / cause-01
+                  :ARG1 (i3 / include-91
+                        :ARG1 (b / block :quant 1
+                              :mod (o / only)
+                              :ARG1-of (e / empty-02))
+                        :ARG2 (t2 / thing :pl +
+                              :consist-of-of (t / thing
+                                    :ARG1-of (s / shape-01
+                                          :ARG2 (s2 / string-entity :value 5))))))))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.95 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_95.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -2)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.96 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:1 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_96.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -2)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.97 ::date 2019-02-18T15:44:36
+# ::snt <Architect> remove the the second one up from the bottom
+# ::save-date Thu Feb 21, 2019 ::user coqc ::file col_1256_97.txt
+(r / remove-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (o / one
+            :ord (o2 / ordinal-entity :value 2
+                  :range-start (t / thing
+                        :ARG1-of (b / bottom-03
+                              :ARG3 (c / cartesian-framework-91
+                                    :ARG1 (w / white-square))))
+                  :range-trajectory (t2 / trajectory
+                        :ARG2-of (u / up-03
+                              :ARG4 t
+                              :ARG5 c)))))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.98 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a blue block at X:1 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1256_98.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -2)))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.99 ::date 2019-02-18T15:47:10
+# ::snt <Architect> thats it
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_99.txt
+(b / be-it-08
+      :ARG1 (t / that))
+
+# ::id minecraft-4-5-multiple-concepts-b15-a27_1256.100 ::date 2019-02-18T15:47:26
+# ::snt <Builder> cool!
+# ::save-date Mon Feb 18, 2019 ::user kristinwb ::file col_1256_100.txt
+(c / cool-04)

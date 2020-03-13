@@ -1,0 +1,296 @@
+# workset Minecraft-4-4-smiley (generated on Thu Jan 17, 2019 at 13:42:38 for user jbonn)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-4-smiley_1158.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 z6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (s / smiley-face)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :hand (l4 / left-handed)
+                  :FR (i4 / intrinsic)))
+      :snt9 (a6 / antiparallel-01
+            :ARG1 z
+            :ARG2 y6))
+
+# ::id minecraft-4-4-smiley_1158.1 ::date 2018-11-15T10:01:36
+# ::snt <Builder> Mission has started.
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1158_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-4-smiley_1158.2 ::date 2018-11-15T10:07:24
+# ::snt <Architect> all good?
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1158_2.txt
+(g / good-02
+      :ARG1 (a / all)
+      :polarity (a2 / amr-unknown))
+
+# ::id minecraft-4-4-smiley_1158.3 ::date 2018-11-28T08:48:27
+# ::snt <Builder> ye
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1158_3.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-smiley_1158.4 ::date 2018-11-28T08:48:35
+# ::snt <Architect> okay, cool!
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1158_4.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (c / cool-04))
+
+# ::id minecraft-4-4-smiley_1158.5 ::date 2018-11-28T08:48:45
+# ::snt <Architect> so we're building a smiley face
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1158_5.txt
+(b / build-01
+      :ARG0 (w / we)
+      :ARG1 (f / face
+            :ARG0-of (s / smile-01)))
+
+# ::id minecraft-4-4-smiley_1158.6 ::date 2018-11-28T08:49:27
+# ::snt <Architect> you're gonna want to put a single blue block down near the middle of the grid
+# ::save-date Thu Jan 17, 2019 ::user jbonn ::file col_1158_6.txt
+(w / want-01
+      :ARG0 y
+      :ARG1 (p / put-down-17
+            :ARG0 (y / you)
+            :ARG1 (b / block :quant 1
+                  :ARG1-of (s3 / single-02)
+                  :color (b2 / blue))
+            :ARG2 (s / space
+                  :ARG1-of (n / near-02
+                        :ARG2 (s2 / space
+                              :ARG1-of (m / middle-01
+                                    :ARG2 (g / grid)))))))
+
+# ::id minecraft-4-4-smiley_1158.7 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:0 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1158_7.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -2)))
+
+# ::id minecraft-4-4-smiley_1158.8 ::date 2018-11-28T08:51:35
+# ::snt <Architect> then another blue block 3 spaces away in any direction
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1158_8.txt
+(b / be-destined-for-91
+      :ARG1 (b2 / block
+            :color (b3 / blue)
+            :mod (a / another))
+      :ARG2 (s / space
+            :ARG1-of (a2 / away-01
+                  :quant (d / distance-quantity :quant 3
+                        :unit (s2 / space))
+                  :direction (d2 / direction
+                        :mod (a3 / any))))
+      :time (t / then))
+
+# ::id minecraft-4-4-smiley_1158.9 ::date 2018-11-28T08:53:19
+# ::snt <Builder> is there good
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1158_9.txt
+(g / good-02
+      :ARG1 (t / there)
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-4-4-smiley_1158.10 ::date 2018-11-28T08:54:14
+# ::snt <Architect> yep!
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1158_10.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-smiley_1158.11 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a blue block at X:-3 Y:1 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1158_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z -2)))
+
+# ::id minecraft-4-4-smiley_1158.12 ::date 2018-11-28T08:54:44
+# ::snt <Architect> okay, now put an orange block three spaces in front of the blue block, on the opposite side you're standing on now
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1158_12.txt
+(a / and
+      :op1 (o3 / okay-04)
+      :op2 (p / put-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block
+                  :color (o / orange))
+            :ARG2 (s / space
+                  :ARG1-of (f / front-03
+                        :ARG2 (b2 / block
+                              :color (b3 / blue))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 y)
+                        :quant (d / distance-quantity :quant 3
+                              :unit (s2 / space)))
+                  :location (s3 / side
+                        :ARG1-of (o2 / opposite-03
+                              :ARG2 (s4 / side
+                                    :ARG2-of (s5 / stand-01
+                                          :ARG1 y
+                                          :time (n2 / now))))))))
+
+# ::id minecraft-4-4-smiley_1158.13 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:-3 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1158_13.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z 1)))
+
+# ::id minecraft-4-4-smiley_1158.14 ::date 2018-11-28T08:58:37
+# ::snt <Architect> good!
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1158_14.txt
+(g / good-02)
+
+# ::id minecraft-4-4-smiley_1158.15 ::date 2018-11-28T08:58:45
+# ::snt <Architect> now complete the square you're making with a red block
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1158_15.txt
+(c / complete-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (s / square
+            :ARG1-of (m / make-01
+                  :ARG0 y))
+      :time (n / now)
+      :instrument (b / block
+            :color (r / red)))
+
+# ::id minecraft-4-4-smiley_1158.16 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:0 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1158_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-4-smiley_1158.17 ::date 2018-11-28T08:59:50
+# ::snt <Architect> cool!
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1158_17.txt
+(c / cool-04)
+
+# ::id minecraft-4-4-smiley_1158.18 ::date 2018-11-28T08:59:56
+# ::snt <Architect> from your current position, put a purple block down one space forward and to the right of the red block
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1158_18.txt
+(p / put-down-17 :mode imperative
+      :ARG0 y
+      :ARG1 (b / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :ARG1-of (f / forward-02
+                  :ARG2 (b2 / block
+                        :color (r / red))
+                  :ARG5 (c2 / cartesian-framework-91
+                        :ARG1 (y / you
+                              :ARG1-of (p3 / position-01
+                                    :time (c / current))))
+                  :quant (d / distance-quantity :quant 1
+                        :unit (s3 / space)))
+            :ARG1-of (r2 / right-04
+                  :ARG2 b2
+                  :ARG3 c2
+                  :quant (d2 / distance-quantity :quant 1
+                        :unit (s2 / space)))))
+
+# ::id minecraft-4-4-smiley_1158.19 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a purple block at X:-1 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1158_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 2)))
+
+# ::id minecraft-4-4-smiley_1158.20 ::date 2018-11-28T10:35:44
+# ::snt <Architect> and a yellow block next to that to complete the face :)
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1158_20.txt
+(a / and
+      :op2 (b / be-destined-for-91
+            :ARG1 (b2 / block
+                  :color (y / yellow))
+            :ARG2 (s / space
+                  :ARG1-of (n / next-to-02
+                        :ARG2 (t / thing
+                              :mod (t2 / that))
+                        :ARG3 (c3 / cartesian-framework-91
+                              :ARG1 (b3 / builder))))
+            :purpose (c / complete-01
+                  :ARG1 (f / face)))
+      :mod (e / emoticon :value ":)"))
+
+# ::id minecraft-4-4-smiley_1158.21 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:-2 Y:1 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1158_21.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 2)))
+
+# ::id minecraft-4-4-smiley_1158.22 ::date 2018-11-28T10:37:24
+# ::snt <Architect> looks good! :)
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1158_22.txt
+(l / look-02
+      :ARG1 (g / good-02)
+      :mod (e / emoticon :value ":)"))
+
+# ::id minecraft-4-4-smiley_1158.23 ::date 2018-11-28T10:38:27
+# ::snt <Builder> :)
+# ::save-date Wed Nov 28, 2018 ::user jbonn ::file col_1158_23.txt
+(e / emoticon :value ":)")

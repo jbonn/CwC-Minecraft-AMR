@@ -1,0 +1,945 @@
+# workset Minecraft-4-4-connected-rows-with-missing-blocks (generated on Fri Feb 8, 2019 at 10:19:42 for user coqc)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (r5 / row :pl +
+                  :ARG1-of (c9 / connect-01))
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.1 ::date 2018-12-21T21:27:06
+# ::snt <Builder> Mission has started.
+# ::save-date Fri Dec 21, 2018 ::user kristinwb ::file col_1161_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.2 ::date 2018-12-21T21:28:25
+# ::snt <Architect> ready?
+# ::save-date Fri Dec 21, 2018 ::user kristinwb ::file col_1161_2.txt
+(r / ready-02
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.3 ::date 2018-12-21T21:29:43
+# ::snt <Builder> ye
+# ::save-date Fri Dec 21, 2018 ::user kristinwb ::file col_1161_3.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.4 ::date 2018-12-21T21:29:52
+# ::snt <Architect> alright, so, place a row of 5 green blocks near the edge of the platform, but separate the blocks with a 1 space gap
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1161_4.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (r / row
+            :consist-of (b / block :quant 5
+                  :color (g / green)))
+      :ARG2 (s / space :pl +
+            :ARG1-of (n / near-02
+                  :ARG2 (e / edge
+                        :part-of (p2 / platform))))
+      :manner (s2 / separate-01 :mode imperative
+            :ARG0 y
+            :ARG1 b
+            :instrument (g2 / gap :pl +
+                  :consist-of (s3 / space :quant 1))
+            :frequency (r2 / rate-entity-91
+                  :ARG1 (g3 / gap :quant 1
+                        :ARG1-of (i2 / include-91
+                              :ARG2 g2))
+                  :ARG2 (b2 / block :quant 2
+                        :ARG1-of (i3 / include-91
+                              :ARG2 b)
+                        :mod (e2 / each)))))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.5 ::date 2018-12-21T21:46:12
+# ::snt <Architect> so block space block space block space block space block
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1161_5.txt
+(i2 / infer-01
+      :ARG1 (s5 / spatial-sequence-91
+            :ARG2 (b / block)
+            :ARG3 (s / space)
+            :ARG4 (b2 / block)
+            :ARG5 (s2 / space)
+            :ARG6 (b3 / block)
+            :ARG7 (s3 / space)
+            :ARG8 (b4 / block)
+            :ARG9 (s4 / space)
+            :arg10 (b5 / block)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.6 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:4 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_6.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 4)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.7 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:2 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_7.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 4)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.8 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_8.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 4)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.9 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_9.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 4)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.10 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-4 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_10.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 1 :z 4)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.11 ::date 2018-12-21T21:55:01
+# ::snt <Architect> and put another green block on top of each of those!
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1161_11.txt
+(a / and
+      :op2 (p / put-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block :pl +
+                  :mod (a2 / another)
+                  :color (g / green))
+            :ARG2 (s / space :pl +
+                  :ARG1-of (o / on-top-03
+                        :ARG2 (t2 / thing :pl +
+                              :mod (t / that))))
+            :frequency (r / rate-entity-91
+                  :ARG1 (b2 / block :quant 1
+                        :ARG1-of (i3 / include-91
+                              :ARG2 b))
+                  :ARG2 (t3 / thing
+                        :mod (e / each)
+                        :ARG1-of (i4 / include-91
+                              :ARG2 t2)))))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.12 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:3 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_12.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 4)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.13 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:3 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_13.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 4)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.14 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:4 Y:2 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_14.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 2 :z 4)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.15 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:2 Y:2 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_15.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z 4)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.16 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:0 Y:2 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 4)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.17 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-2 Y:2 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_17.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 4)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.18 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a green block at X:-4 Y:2 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 2 :z 4)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.19 ::date 2018-12-26T13:16:07
+# ::snt <Architect> now remove all the bottom blocks
+# ::save-date Wed Dec 26, 2018 ::user kristinwb ::file col_1161_19.txt
+(r / remove-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :pl +
+            :ARG1-of (b2 / bottom-03
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b3 / build-space)))
+            :mod (a / all))
+      :time (n / now))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.20 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:0 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_20.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 4)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.21 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:2 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_21.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 4)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.22 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:4 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_22.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 4)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.23 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:-2 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_23.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 4)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.24 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a green block at X:-4 Y:1 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_24.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 1 :z 4)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.25 ::date 2018-12-26T13:19:19
+# ::snt <Architect> alright, now, put a yellow block above the second green block from your left
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1161_25.txt
+(p / put-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (y2 / yellow))
+      :ARG2 (s / space
+            :ARG1-of (a / above-01
+                  :ARG2 (b2 / block
+                        :color (g / green)
+                        :ord (o / ordinal-entity :value 2
+                              :range-trajectory (t2 / trajectory
+                                    :ARG4-of (l / left-20
+                                          :ARG3 (c2 / cartesian-framework-91
+                                                :ARG1 y)))
+                              :range-start y))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b3 / build-space))))
+      :time (n / now)
+      :mod (a2 / all-right))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.26 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:2 Y:3 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_26.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 4)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.27 ::date 2018-12-26T13:31:25
+# ::snt <Architect> and put another yellow block in front of it, towards your current position
+# ::save-date Wed Dec 26, 2018 ::user kristinwb ::file col_1161_27.txt
+(a / and
+      :op2 (p / put-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block
+                  :mod (a2 / another)
+                  :color (y2 / yellow))
+            :ARG2 (s / space
+                  :ARG1-of (f / front-03
+                        :ARG2 (i2 / it)
+                        :ARG3 (c2 / cartesian-framework-91
+                              :ARG1 (c3 / composite-entity)
+                              :FR (r / relative-to-builder)))
+                  :ARG1-of (t / toward-01
+                        :ARG2 (s2 / space
+                              :ARG2-of (p2 / position-01
+                                    :ARG1 y
+                                    :time (c / current)))))))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.28 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:2 Y:3 Z:3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_28.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 3)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.29 ::date 2018-12-26T13:35:05
+# ::snt <Architect> and delete the first yellow block
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1161_29.txt
+(a / and
+      :op3 (d / delete-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block
+                  :ord (o / ordinal-entity :value 1
+                        :range (b2 / block :pl +
+                              :color (y2 / yellow))))))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.30 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:2 Y:3 Z:4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_30.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 4)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.31 ::date 2018-12-26T13:36:06
+# ::snt <Architect> okay, now, make a row of 4 yellow blocks, with 1-space gaps in between, towards you
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1161_31.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (m / make-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (r / row
+                  :consist-of (b / block :quant 4
+                        :color (y2 / yellow)))
+            :time (n / now)
+            :manner (b2 / between-01
+                  :ARG1 (g / gap :pl +
+                        :consist-of (s / space :quant 1))
+                  :ARG2 b
+                  :frequency (r2 / rate-entity-91
+                        :ARG1 (g2 / gap :quant 1
+                              :ARG1-of (i2 / include-91
+                                    :ARG2 g))
+                        :ARG2 (b3 / block :quant 2
+                              :mod (e / each)
+                              :ARG1-of (i3 / include-91
+                                    :ARG2 b))))
+            :direction (t2 / trajectory
+                  :ARG4-of (t / toward-01
+                        :ARG2 y))))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.32 ::date 2018-12-26T13:43:59
+# ::snt <Architect> so perpendicular to the green blocks :)
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1161_32.txt
+(i2 / infer-01
+      :ARG1 (p / perpendicular-01
+            :ARG2 (b / block :pl +
+                  :color (g / green)))
+      :mod (e / emoticon :value ":)"))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.33 ::date 2018-12-26T13:48:18
+# ::snt <Builder> where's the starting point for the row
+# ::save-date Wed Dec 26, 2018 ::user kristinwb ::file col_1161_33.txt
+(p / point
+      :location-of (s / start-01
+            :ARG1 (r / row))
+      :location (a / amr-unknown))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.34 ::date 2018-12-26T13:51:27
+# ::snt <Architect> the first yellow block, sorry
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1161_34.txt
+(a / and
+      :op1 (b / block
+            :ord (o / ordinal-entity :value 1
+                  :range (b2 / block :pl +
+                        :color (y / yellow))))
+      :op2 (s / sorry-01))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.35 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:2 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_35.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 2)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.36 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:2 Y:3 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_36.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 1)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.37 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:2 Y:3 Z:2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_37.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 2)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.38 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:2 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_38.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 0)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.39 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:2 Y:3 Z:-1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_39.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z -1)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.40 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:2 Y:3 Z:0]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_40.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 0)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.41 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:2 Y:3 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_41.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z -2)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.42 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:2 Y:3 Z:-3]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_42.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z -3)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.43 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:2 Y:3 Z:-2]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_43.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z -2)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.44 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:2 Y:3 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_44.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z -4)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.45 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a yellow block at X:2 Y:3 Z:-5]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_45.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z -5)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.46 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:2 Y:3 Z:-4]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_46.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z -4)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.47 ::date 2018-12-26T13:53:25
+# ::snt <Architect> looks good! it only needs 4 blocks though, so delete that last one
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1161_47.txt
+(m / multi-sentence
+      :snt1 (l / look-02
+            :ARG1 (g / good-02))
+      :snt2 (c2 / contrast-01
+            :ARG2 (n / need-01
+                  :ARG0 (i2 / it)
+                  :ARG1 (b / block :quant 4
+                        :mod (o / only))
+                  :ARG0-of (c / cause-01
+                        :ARG1 (d / delete-01 :mode imperative
+                              :ARG0 (y / you)
+                              :ARG1 (o2 / one
+                                    :ord (o3 / ordinal-entity :value "-1")))))))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.48 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a yellow block at X:2 Y:3 Z:-5]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_48.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z -5)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.49 ::date 2018-12-26T14:02:27
+# ::snt <Architect> perfect!
+# ::save-date Wed Dec 26, 2018 ::user kristinwb ::file col_1161_49.txt
+(p / perfect-02)
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.50 ::date 2018-12-26T14:02:38
+# ::snt <Architect> now, on top of the 2nd closest yellow block to the green ones, put an orange block
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1161_50.txt
+(p / put-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (o / orange))
+      :ARG2 (s / space
+            :ARG1-of (o2 / on-top-03
+                  :ARG2 (b2 / block
+                        :color (y2 / yellow)
+                        :ARG1-of (h / have-degree-91
+                              :ARG2 (c / close-10
+                                    :ARG1 b2
+                                    :ARG2 (o3 / one :pl +
+                                          :color (g / green)))
+                              :ARG3 (m / most
+                                    :ord (o4 / ordinal-entity :value 2
+                                          :range (b3 / block :pl +
+                                                :color (y3 / yellow))))))
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 (b4 / build-space))))
+      :time (n / now))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.51 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:2 Y:4 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_51.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 4 :z 1)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.52 ::date 2018-12-26T14:08:06
+# ::snt <Builder> there?
+# ::save-date Wed Dec 26, 2018 ::user kristinwb ::file col_1161_52.txt
+(b / be-located-at-91
+      :ARG2 (t / there)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.53 ::date 2018-12-26T14:08:48
+# ::snt <Architect> yep!
+# ::save-date Wed Dec 26, 2018 ::user kristinwb ::file col_1161_53.txt
+(c / confirm-01)
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.54 ::date 2018-12-26T14:08:57
+# ::snt <Architect> and make a 1-gap row of three orange blocks, perpendicular to the green ones
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1161_54.txt
+(a / and
+      :op2 (m / make-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (r / row
+                  :consist-of (a2 / and
+                        :op1 (b / block :quant 3
+                              :mod (o / orange))
+                        :op2 (g3 / gap :quant 2
+                              :size (d2 / dimension-entity :quant 1
+                                    :unit (g4 / gap)))))
+            :ARG2 b
+            :manner (p / perpendicular-01
+                  :ARG1 r
+                  :ARG2 (o2 / one :pl +
+                        :color (g / green)))))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.55 ::date 2018-12-26T14:15:14
+# ::snt <Architect> on the side you're currently on
+# ::save-date Wed Dec 26, 2018 ::user kristinwb ::file col_1161_55.txt
+(b / be-located-at-91
+      :ARG2 (s / side
+            :location-of (y / you)
+            :time (c / current)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.56 ::date 2018-12-26T14:17:04
+# ::snt <Architect> yeah, that side
+# ::save-date Wed Dec 26, 2018 ::user kristinwb ::file col_1161_56.txt
+(c / confirm-01
+      :ARG1 (s / side
+            :mod (t / that)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.57 ::date 2018-12-26T14:17:19
+# ::snt <Builder> on top of the yellow blocks?
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1161_57.txt
+(o / on-top-03
+      :ARG2 (b2 / block :pl +
+            :color (y / yellow))
+      :ARG3 (c / cartesian-framework-91
+            :ARG1 (b / build-space))
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.58 ::date 2018-12-26T14:18:34
+# ::snt <Architect> no, parallel to the green ones
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1161_58.txt
+(a / and
+      :op1 (c / confirm-01 :polarity -)
+      :op2 (i2 / instead-of-91
+            :ARG1 (p / parallel-01
+                  :ARG1 (o / one :pl +
+                        :color (g / green)))))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.59 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:1 Y:4 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_59.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 4 :z 1)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.60 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:0 Y:4 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_60.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z 1)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.61 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:1 Y:4 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_61.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 4 :z 1)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.62 ::date 2018-12-26T14:22:39
+# ::snt <Architect> yeah like that!
+# ::save-date Wed Dec 26, 2018 ::user kristinwb ::file col_1161_62.txt
+(c / confirm-01
+      :ARG1 (r / resemble-01
+            :ARG2 (t / that)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.63 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:-1 Y:4 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_63.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z 1)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.64 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a orange block at X:-2 Y:4 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_64.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 4 :z 1)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.65 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a orange block at X:-1 Y:4 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_65.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z 1)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.66 ::date 2018-12-26T14:23:14
+# ::snt <Architect> perfect!
+# ::save-date Wed Dec 26, 2018 ::user kristinwb ::file col_1161_66.txt
+(p / perfect-02)
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.67 ::date 2018-12-26T14:23:24
+# ::snt <Architect> now put a red block right next to the last orange one, in the same direction
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1161_67.txt
+(p / put-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (r / red))
+      :ARG2 (s / space
+            :ARG1-of (n2 / next-to-02
+                  :ARG2 (o / one
+                        :ord (o3 / ordinal-entity :value "-1")
+                        :color (o2 / orange))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space))
+                  :mod (r2 / right-yy)
+                  :direction (d / direction
+                        :ARG1-of (s2 / same-01))))
+      :time (n / now))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.68 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-3 Y:4 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_68.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 4 :z 1)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.69 ::date 2018-12-26T14:26:52
+# ::snt <Architect> put another red one on top of that
+# ::save-date Wed Dec 26, 2018 ::user kristinwb ::file col_1161_69.txt
+(p / put-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (o / one
+            :mod (a / another)
+            :color (r / red))
+      :ARG2 (s / space
+            :ARG1-of (o2 / on-top-03
+                  :ARG2 (t / thing
+                        :mod (t2 / that))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b / build-space)))))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.70 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-3 Y:5 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_70.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 5 :z 1)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.71 ::date 2018-12-26T14:27:44
+# ::snt <Architect> and three more below it so it touches the ground
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1161_71.txt
+(a / and
+      :op2 (b2 / be-destined-for-91
+            :ARG1 (t / thing
+                  :ARG1-of (h / have-quant-91
+                        :ARG2 3
+                        :ARG3 (m / more)))
+            :ARG2 (s / space :pl +
+                  :ARG1-of (b / below-01
+                        :ARG2 (i2 / it)
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b3 / build-space))))
+            :manner (t2 / touch-01
+                  :ARG0 i2
+                  :ARG1 (g / ground))))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.72 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-3 Y:3 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_72.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z 1)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.73 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-3 Y:2 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_73.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z 1)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.74 ::date 2019-01-15T19:19:50
+# ::snt [Builder puts down a red block at X:-3 Y:1 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_74.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z 1)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.75 ::date 2018-12-26T14:33:44
+# ::snt <Architect> now remove the 2nd block from the bottom
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1161_75.txt
+(r / remove-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :ord (o / ordinal-entity :value 2
+                  :range-start (t / thing
+                        :ARG1-of (b2 / bottom-03
+                              :ARG3 (c / cartesian-framework-91
+                                    :ARG1 (b3 / build-space))))))
+      :time (n / now))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.76 ::date 2018-12-26T14:38:46
+# ::snt <Architect> and the 2nd from the top
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1161_76.txt
+(a / and
+      :op2 (t / thing
+            :ord (o / ordinal-entity :value 2
+                  :range-start (t2 / thing
+                        :ARG1-of (t3 / top-06
+                              :ARG3 (c / cartesian-framework-91
+                                    :ARG1 (b / build-space)))))))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.77 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:-3 Y:2 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_77.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z 1)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.78 ::date 2019-01-15T19:19:50
+# ::snt [Builder picks up a red block at X:-3 Y:4 Z:1]
+# ::save-date Tue Jan 15, 2019::user jbonn ::file col_1161_78.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 4 :z 1)))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.79 ::date 2018-12-26T14:39:15
+# ::snt <Architect> so it's also 1-gap
+# ::save-date Fri Feb 8, 2019 ::user coqc ::file col_1161_79.txt
+(c / cause-01
+      :ARG1 (i2 / it
+            :configuration (g / gap
+                  :size (d / dimension-entity :value 1))))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.80 ::date 2018-12-26T14:41:21
+# ::snt <Architect> i think it's good! :)
+# ::save-date Wed Dec 26, 2018 ::user kristinwb ::file col_1161_80.txt
+(t / think-01
+      :ARG0 (i / i)
+      :ARG1 (g / good-02
+            :ARG1 (i2 / it))
+      :mod (e / emoticon :value ":)"))
+
+# ::id minecraft-4-4-connected-rows-with-missing-blocks_1161.81 ::date 2018-12-26T14:42:22
+# ::snt <Builder> sweet!
+# ::save-date Wed Dec 26, 2018 ::user kristinwb ::file col_1161_81.txt
+(s / sweet-05)
