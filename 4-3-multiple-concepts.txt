@@ -1,0 +1,600 @@
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-3-multiple-concepts_1118.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 z6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (s / string-entity :value "L=5")
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :hand (l4 / left-handed)
+                  :FR (i4 / intrinsic)))
+      :snt9 (c10 / codirectional-01
+            :ARG1 x
+            :ARG2 y6))
+
+# ::id minecraft-4-3-multiple-concepts_1118.1 ::date 2018-10-11T15:16:58
+# ::snt <Builder> Mission has started.
+# ::save-date Thu Oct 11, 2018 ::user kristinwb ::file col_1118_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-3-multiple-concepts_1118.2 ::date 2018-10-11T15:17:39
+# ::snt <Architect> whole thing will be 5 blocks long
+# ::save-date Wed Nov 14, 2018 ::user coqc ::file col_1118_2.txt
+(l2 / long-03
+      :ARG1 (t2 / thing
+            :extent (w2 / whole))
+      :ARG2 (d / distance-quantity :quant 5
+            :unit (b2 / block)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.3 ::date 2018-10-11T15:27:44
+# ::snt <Architect> 5x9
+# ::save-date Wed Nov 14, 2018 ::user coqc ::file col_1118_3.txt
+(h3 / have-size-91
+      :ARG2 (a2 / and
+            :op1 (d / dimension-entity :value 5)
+            :op2 (d2 / dimension-entity :value 9)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.4 ::date 2018-10-11T15:44:02
+# ::snt <Architect> keep that in mind for space
+# ::save-date Thu Oct 11, 2018 ::user kristinwb ::file col_1118_4.txt
+(k / keep-in-mind-08 :mode imperative
+      :ARG1 (y / you)
+      :ARG2 (t / that)
+      :purpose (s / space-01))
+
+# ::id minecraft-4-3-multiple-concepts_1118.5 ::date 2018-10-11T15:58:40
+# ::snt <Architect> the blocks spell out "L = 5"
+# ::save-date Wed Nov 14, 2018 ::user coqc ::file col_1118_5.txt
+(s / spell-01
+      :ARG0 (b / block :pl +)
+      :ARG2 (s2 / string-entity :value "L = 5"))
+
+# ::id minecraft-4-3-multiple-concepts_1118.6 ::date 2018-10-11T16:09:01
+# ::snt <Architect> start with green
+# ::save-date Thu Oct 25, 2018 ::user kristinwb ::file col_1118_6.txt
+(s3 / start-01 :mode imperative
+      :ARG0 (y3 / you)
+      :ARG2 (t / thing
+            :color (g3 / green)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.7 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:2 Y:1 Z:-3]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_7.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -3)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.8 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:1 Y:1 Z:-3]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_8.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -3)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.9 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:0 Y:1 Z:-3]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_9.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -3)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.10 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:-1 Y:1 Z:-3]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_10.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -3)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.11 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:-1 Y:1 Z:-2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -2)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.12 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:-1 Y:1 Z:-1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_12.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -1)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.13 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a green block at X:-1 Y:1 Z:-3]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_13.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -3)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.14 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a green block at X:0 Y:1 Z:-3]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_14.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -3)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.15 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a green block at X:2 Y:1 Z:-3]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_15.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -3)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.16 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a green block at X:1 Y:1 Z:-3]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_16.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -3)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.17 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:2 Y:1 Z:-5]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_17.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -5)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.18 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:1 Y:1 Z:-5]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -5)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.19 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:0 Y:1 Z:-5]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -5)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.20 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:-1 Y:1 Z:-5]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -5)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.21 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:-1 Y:1 Z:-4]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_21.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -4)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.22 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:-1 Y:1 Z:-3]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_22.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -3)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.23 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a green block at X:-1 Y:1 Z:-2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_23.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -2)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.24 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a green block at X:-1 Y:1 Z:-1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_24.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -1)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.25 ::date 2018-10-11T17:17:36
+# ::snt <Builder> how's that?
+# ::save-date Thu Oct 11, 2018 ::user kristinwb ::file col_1118_25.txt
+(t / that
+      :mod (a / amr-unknown))
+
+# ::id minecraft-4-3-multiple-concepts_1118.26 ::date 2018-10-11T17:20:21
+# ::snt <Architect> add one more green to the longer side of L
+# ::save-date Thu Oct 25, 2018 ::user kristinwb ::file col_1118_26.txt
+(a / add-02 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :color (g / green)
+            :ARG1-of (h2 / have-quant-91
+                  :ARG2 1
+                  :ARG3 (m / more)))
+      :ARG2 (s / side
+            :part-of (t2 / thing
+                  :configuration (s2 / string-entity :value "L"))
+            :ARG1-of (h / have-degree-91
+                  :ARG2 (l / long-03)
+                  :ARG3 (m2 / more))))
+
+# ::id minecraft-4-3-multiple-concepts_1118.27 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:3 Y:1 Z:-5]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_27.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z -5)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.28 ::date 2018-10-11T17:57:50
+# ::snt <Architect> perfect
+# ::save-date Thu Oct 11, 2018 ::user kristinwb ::file col_1118_28.txt
+(p / perfect-02)
+
+# ::id minecraft-4-3-multiple-concepts_1118.29 ::date 2018-10-11T17:58:11
+# ::snt <Architect> now switch to purple
+# ::save-date Wed Nov 14, 2018 ::user coqc ::file col_1118_29.txt
+(s / switch-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (t / thing
+            :color (p / purple))
+      :time (n / now))
+
+# ::id minecraft-4-3-multiple-concepts_1118.30 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a purple block at X:2 Y:1 Z:-2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_30.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -2)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.31 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a purple block at X:0 Y:1 Z:-2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_31.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -2)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.32 ::date 2018-10-11T17:59:57
+# ::snt <Architect> leave one block space
+# ::save-date Thu Oct 11, 2018 ::user kristinwb ::file col_1118_32.txt
+(l / leave-14 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (s / space :quant 1
+            :mod (b / block)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.33 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a purple block at X:0 Y:2 Z:-2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_33.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -2)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.34 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a purple block at X:0 Y:1 Z:-1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_34.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -1)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.35 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a purple block at X:0 Y:2 Z:-2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_35.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -2)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.36 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a purple block at X:0 Y:1 Z:-2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_36.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -2)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.37 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a purple block at X:2 Y:1 Z:-2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_37.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -2)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.38 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a purple block at X:3 Y:1 Z:-1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_38.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z -1)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.39 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a purple block at X:3 Y:1 Z:-1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_39.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z -1)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.40 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a purple block at X:2 Y:1 Z:-1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_40.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -1)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.41 ::date 2018-10-11T18:03:31
+# ::snt <Architect> one more purple to each line to finish the = sign
+# ::save-date Wed Nov 14, 2018 ::user coqc ::file col_1118_41.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing :pl +
+            :color (p / purple))
+      :ARG2 (l / line :pl +)
+      :ARG2-of (f / finish-01
+            :ARG1 (s / sign
+                  :configuration (s3 / string-entity :value "=")))
+      :frequency (r / rate-entity-91
+            :ARG1 (t2 / thing
+                  :ARG1-of (i2 / include-91
+                        :ARG2 t)
+                  :ARG1-of (h / have-quant-91
+                        :ARG2 1
+                        :ARG3 (m / more)))
+            :ARG2 (l2 / line
+                  :mod (e / each)
+                  :ARG1-of (i3 / include-91
+                        :ARG2 l))))
+
+# ::id minecraft-4-3-multiple-concepts_1118.42 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a purple block at X:0 Y:1 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_42.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.43 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a purple block at X:2 Y:1 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_43.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 0)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.44 ::date 2018-10-11T18:13:56
+# ::snt <Architect> now blue for the S
+# ::save-date Wed Nov 14, 2018 ::user coqc ::file col_1118_44.txt
+(h / have-instrument-91
+      :ARG1 (t2 / thing
+            :configuration (s2 / string-entity :value "S"))
+      :ARG2 (t / thing :pl +
+            :color (b2 / blue))
+      :time (n / now))
+
+# ::id minecraft-4-3-multiple-concepts_1118.45 ::date 2018-10-11T18:20:58
+# ::snt <Architect> it's same height as L
+# ::save-date Wed Nov 14, 2018 ::user coqc ::file col_1118_45.txt
+(s3 / same-01
+      :ARG1 (i3 / it)
+      :ARG2 (t / thing
+            :configuration (s / string-entity :value "L"))
+      :ARG3 (h / high-05
+            :ARG3 (c / cartesian-framework-91
+                  :ARG1 t
+                  :FR (i2 / intrinsic))))
+
+# ::id minecraft-4-3-multiple-concepts_1118.46 ::date 2018-10-11T18:25:36
+# ::snt <Architect> two block wide
+# ::save-date Thu Oct 11, 2018 ::user kristinwb ::file col_1118_46.txt
+(w / wide-02
+      :ARG3 (d / distance-quantity :quant 2
+            :unit (b / block))
+      :ARG5 (c / cartesian-framework-91
+            :ARG1 (b2 / build-space)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.47 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a blue block at X:-1 Y:1 Z:2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_47.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 2)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.48 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a blue block at X:-1 Y:1 Z:3]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_48.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 3)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.49 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a blue block at X:0 Y:1 Z:3]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_49.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 3)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.50 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a blue block at X:1 Y:1 Z:3]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_50.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 3)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.51 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a blue block at X:3 Y:1 Z:3]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_51.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 3)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.52 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a blue block at X:3 Y:1 Z:2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_52.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 2)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.53 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a blue block at X:2 Y:1 Z:2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_53.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 2)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.54 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a blue block at X:1 Y:1 Z:2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1118_54.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 2)))
+
+# ::id minecraft-4-3-multiple-concepts_1118.55 ::date 2018-10-11T18:28:16
+# ::snt <Architect> all good
+# ::save-date Thu Oct 11, 2018 ::user kristinwb ::file col_1118_55.txt
+(g / good-02
+      :ARG1 (a / all))

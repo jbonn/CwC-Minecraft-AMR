@@ -1,0 +1,515 @@
+# workset Minecraft-3-30-diagonal-Ls (generated on Tue Sep 18, 2018 at 12:21:55 for user jbonn)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-3-30-diagonal-ls_1104.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (l4 / line
+                  :consist-of (t / thing :pl +
+                        :configuration (s / string-entity :value "L"))
+                  :ARG1-of (d / diagonal-02))
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))))
+
+# ::id minecraft-3-30-diagonal-ls_1104.1 ::date 2018-08-09T17:15:03
+# ::snt <Builder> Mission has started.
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1104_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-3-30-diagonal-ls_1104.2 ::date 2018-08-09T17:15:17
+# ::snt <Builder> hello architect
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1104_2.txt
+(s / say-01
+      :ARG1 (h / hello)
+      :ARG2 (a / architect))
+
+# ::id minecraft-3-30-diagonal-ls_1104.3 ::date 2018-08-09T17:15:32
+# ::snt <Architect> hello, are you ready to build a rainbow
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1104_3.txt
+(a / and
+      :op1 (h / hello)
+      :op2 (r / ready-02
+            :ARG1 (y / you)
+            :ARG2 (b / build-01
+                  :ARG0 y
+                  :ARG1 (r2 / rainbow))
+            :polarity (a2 / amr-unknown)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.4 ::date 2018-08-09T17:16:28
+# ::snt <Builder> i am ready architect, please show me the way
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1104_4.txt
+(s / say-01
+      :ARG1 (a / and
+            :op1 (r / ready-02
+                  :ARG1 (i / i))
+            :op2 (s2 / show-01 :mode imperative :polite +
+                  :ARG0 a2
+                  :ARG1 (w / way)
+                  :ARG2 i))
+      :ARG2 (a2 / architect))
+
+# ::id minecraft-3-30-diagonal-ls_1104.5 ::date 2018-08-09T17:20:31
+# ::snt <Architect> Alrighty
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1104_5.txt
+(a / all-right)
+
+# ::id minecraft-3-30-diagonal-ls_1104.6 ::date 2018-08-09T17:21:33
+# ::snt <Architect> In the upper left corner place a purple block
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_6.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :ARG1-of (c / corner-02)
+            :ARG1-of (u / up-03
+                  :ARG5 (c2 / cartesian-framework-91
+                        :ARG1 (w / white-square)))
+            :ARG1-of (l / left-24
+                  :ARG3 (c3 / cartesian-framework-91
+                        :ARG1 y))))
+
+# ::id minecraft-3-30-diagonal-ls_1104.7 ::date 2018-08-09T17:23:31
+# ::snt [Builder puts down a purple block at X:5 Y:1 Z:5]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_7.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 1 :z 5)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.8 ::date 2018-08-09T17:25:53
+# ::snt <Builder> there?
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_8.txt
+(b / be-located-at-91
+      :ARG2 (t / there)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-3-30-diagonal-ls_1104.9 ::date 2018-08-09T17:31:38
+# ::snt <Architect> sure thing
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_9.txt
+(c / confirm-01
+      :ARG1 (t / thing
+            :ARG1-of (e / ensure-01)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.10 ::date 2018-08-09T17:32:35
+# ::snt <Architect> now place a block to the right and on top
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1104_10.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :pl +)
+      :ARG2 (a / and
+            :op1 (s / space
+                  :ARG1-of (r / right-04
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 y)))
+            :op2 (s2 / space
+                  :ARG1-of (o / on-top-03
+                        :ARG3 (c2 / cartesian-framework-91
+                              :ARG1 (b2 / build-space)))))
+      :time (n / now))
+
+# ::id minecraft-3-30-diagonal-ls_1104.11 ::date 2018-08-09T17:37:08
+# ::snt [Builder puts down a purple block at X:4 Y:1 Z:5]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 5)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.12 ::date 2018-08-09T17:37:51
+# ::snt [Builder puts down a purple block at X:5 Y:2 Z:5]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_12.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 2 :z 5)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.13 ::date 2018-08-09T17:38:40
+# ::snt <Architect> ok now repeat that shape but in blue and offset the starting block one space to the right and one space down
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_13.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (r / repeat-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (t2 / thing
+                  :ARG2-of (s / shape-01)
+                  :mod (t / that))
+            :time (n / now)
+            :concession (a2 / and
+                  :op1 (h / have-color-91
+                        :ARG1 (t3 / thing)
+                        :ARG2 (b / blue))
+                  :op2 (o2 / offset-02 :mode imperative
+                        :ARG0 y
+                        :ARG1 (b2 / block
+                              :ARG2-of (s3 / start-01
+                                    :ARG1 t3))
+                        :ARG3 (s4 / space
+                              :ARG1-of (r2 / right-04
+                                    :ARG3 (c / cartesian-framework-91
+                                          :ARG1 y)
+                                    :quant (d / distance-quantity :quant 1
+                                          :unit (s5 / space)))
+                              :ARG1-of (d2 / down-03
+                                    :ARG5 (c2 / cartesian-framework-91
+                                          :ARG1 (w / white-square))
+                                    :quant (d3 / distance-quantity :quant 1
+                                          :unit s5)))))))
+
+# ::id minecraft-3-30-diagonal-ls_1104.14 ::date 2018-08-09T18:33:56
+# ::snt <Architect> from the original block
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_14.txt
+(b / block
+      :mod (o2 / original))
+
+# ::id minecraft-3-30-diagonal-ls_1104.15 ::date 2018-08-09T18:35:11
+# ::snt [Builder puts down a purple block at X:4 Y:1 Z:3]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_15.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 3)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.16 ::date 2018-08-09T18:35:54
+# ::snt [Builder picks up a purple block at X:4 Y:1 Z:3]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1104_16.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 3)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.17 ::date 2018-08-09T18:37:11
+# ::snt [Builder puts down a blue block at X:4 Y:1 Z:3]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_17.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 3)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.18 ::date 2018-08-09T18:37:58
+# ::snt [Builder puts down a blue block at X:3 Y:1 Z:3]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 3)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.19 ::date 2018-08-09T18:38:38
+# ::snt [Builder puts down a blue block at X:4 Y:2 Z:3]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 2 :z 3)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.20 ::date 2018-08-09T18:39:13
+# ::snt <Builder> like that?
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_20.txt
+(r / resemble-01
+      :ARG2 (t / that)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-3-30-diagonal-ls_1104.21 ::date 2018-08-09T18:39:35
+# ::snt <Architect> close, move the structure up one space
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_21.txt
+(a / and
+      :op1 (c / close-10)
+      :op2 (m / move-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (s / structure)
+            :ARG2 (s3 / space
+                  :ARG1-of (u / up-03
+                        :ARG3 (d / distance-quantity :quant 1
+                              :unit (s2 / space))
+                        :ARG5 (c2 / cartesian-framework-91
+                              :ARG1 (w / white-square))))
+            :ARG1-of (i2 / instead-of-91)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.22 ::date 2018-08-09T18:41:28
+# ::snt <Builder> so they are touching?
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_22.txt
+(c / cause-01
+      :ARG1 (t / touch-01
+            :ARG0 (t2 / they))
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-3-30-diagonal-ls_1104.23 ::date 2018-08-09T18:43:38
+# ::snt [Builder picks up a blue block at X:4 Y:2 Z:3]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1104_23.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 2 :z 3)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.24 ::date 2018-08-09T18:44:12
+# ::snt [Builder picks up a blue block at X:4 Y:1 Z:3]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1104_24.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 3)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.25 ::date 2018-08-09T18:45:00
+# ::snt [Builder picks up a blue block at X:3 Y:1 Z:3]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1104_25.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 3)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.26 ::date 2018-08-09T18:45:36
+# ::snt [Builder puts down a blue block at X:4 Y:1 Z:4]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_26.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 4)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.27 ::date 2018-08-09T18:46:14
+# ::snt [Builder puts down a blue block at X:3 Y:1 Z:4]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_27.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 4)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.28 ::date 2018-08-09T18:46:49
+# ::snt [Builder puts down a blue block at X:4 Y:2 Z:4]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_28.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 2 :z 4)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.29 ::date 2018-08-09T18:47:27
+# ::snt <Architect> yes
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_29.txt
+(c / confirm-01)
+
+# ::id minecraft-3-30-diagonal-ls_1104.30 ::date 2018-08-09T18:47:43
+# ::snt <Architect> now do that four more times in the order green, yellow, orange, and red
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_30.txt
+(d / do-02 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / that)
+      :time (n / now)
+      :frequency (r / rate-entity-91
+            :ARG1 (h / have-quant-91
+                  :ARG2 4
+                  :ARG3 (m / more)))
+      :ARG1-of (o / order-03
+            :ARG2 (s / spatial-sequence-91
+                  :ARG2 (t2 / thing
+                        :color (g / green))
+                  :ARG3 (t3 / thing
+                        :color (y2 / yellow))
+                  :ARG4 (t4 / thing
+                        :color (o2 / orange))
+                  :ARG4 (t5 / thing
+                        :color (r2 / red)))))
+
+# ::id minecraft-3-30-diagonal-ls_1104.31 ::date 2018-08-09T18:55:39
+# ::snt [Builder puts down a green block at X:3 Y:1 Z:3]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_31.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 3)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.32 ::date 2018-08-09T18:56:21
+# ::snt [Builder puts down a green block at X:2 Y:1 Z:3]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_32.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 3)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.33 ::date 2018-08-09T18:57:02
+# ::snt [Builder puts down a green block at X:3 Y:2 Z:3]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_33.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z 3)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.34 ::date 2018-08-09T18:57:46
+# ::snt [Builder puts down a yellow block at X:2 Y:1 Z:2]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_34.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 2)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.35 ::date 2018-08-09T18:58:39
+# ::snt [Builder puts down a yellow block at X:1 Y:1 Z:2]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_35.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 2)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.36 ::date 2018-08-09T18:59:19
+# ::snt [Builder puts down a yellow block at X:2 Y:2 Z:2]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_36.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z 2)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.37 ::date 2018-08-09T18:59:58
+# ::snt [Builder puts down a orange block at X:1 Y:1 Z:1]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_37.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 1)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.38 ::date 2018-08-09T19:00:42
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:1]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_38.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.39 ::date 2018-08-09T19:01:20
+# ::snt [Builder puts down a orange block at X:1 Y:2 Z:1]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_39.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 1)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.40 ::date 2018-08-09T19:01:58
+# ::snt [Builder puts down a red block at X:0 Y:1 Z:0]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_40.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.41 ::date 2018-08-09T19:02:41
+# ::snt [Builder puts down a red block at X:-1 Y:1 Z:0]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_41.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-1" :y 1 :z 0)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.42 ::date 2018-08-09T19:03:20
+# ::snt [Builder puts down a red block at X:0 Y:2 Z:0]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_42.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 0)))
+
+# ::id minecraft-3-30-diagonal-ls_1104.43 ::date 2018-08-09T19:04:01
+# ::snt <Builder> like that?
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_43.txt
+(r / resemble-01
+      :ARG2 (t / that)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-3-30-diagonal-ls_1104.44 ::date 2018-08-09T19:04:20
+# ::snt <Architect> excellent
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1104_44.txt
+(c / confirm-01
+      :ARG1 (e / excellent-02))
+      

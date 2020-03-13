@@ -1,0 +1,3011 @@
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-3-sickles-difficult_1121.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (s / sickle :pl +)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c11 / cartesian-framework-91
+                  :ARG2 (x8 / x-axis)
+                  :ARG3 (y8 / y-axis)
+                  :ARG4 (z8 / z-axis)
+                  :FR (f / front-towards-center))
+            :part (s2 / sickle
+                  :color (r5 / red)
+                  :part (h / handle)
+                  :part (b / blade)
+                  :ARG1-of (c9 / cartesian-framework-91
+                        :ARG2 (x6 / x-axis)
+                        :ARG3 (y6 / y-axis)
+                        :ARG4 (z6 / z-axis
+                              :part (p / positive
+                                    :domain b)
+                              :part (n / negative
+                                    :domain h))
+                        :FR (i4 / intrinsic)))
+            :part (s3 / sickle
+                  :color (o / orange)
+                  :part (h2 / handle)
+                  :part (b2 / blade)
+                  :ARG1-of (c10 / cartesian-framework-91
+                        :ARG2 (x7 / x-axis)
+                        :ARG3 (y7 / y-axis)
+                        :ARG4 (z7 / z-axis
+                              :part (p2 / positive
+                                    :domain b2)
+                              :part (n2 / negative
+                                    :domain h2))
+                        :FR (i5 / intrinsic))))
+      :snt9 (d / diagonal-02
+            :ARG1 z6
+            :ARG3 (s4 / slope-entity
+                  :rise-axis y
+                  :run-axis x
+                  :quant "-1")))
+      :snt10 (d2 / diagonal-02
+            :ARG1 z7
+            :ARG3 (s4 / slope-entity
+                  :rise-axis y
+                  :run-axis z
+                  :quant 1)))
+      :snt11 (p3 / parallel-01
+            :ARG0 z
+            :ARG1 x6)
+      :snt12 (p4 / parallel-01
+            :ARG0 x
+            :ARG1 x7)
+      :snt13 (t / toward-01
+            :ARG2 o
+            :ARG4 z8))
+
+# ::id minecraft-4-3-sickles-difficult_1121.1 ::date 2018-09-25T11:12:33
+# ::snt <Builder> Mission has started.
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-3-sickles-difficult_1121.2 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-5 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_2.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -5 :y 1 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.3 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a blue block at X:5 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_3.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 1 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.4 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:1 Y:1 Z:-5]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_4.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -5)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.5 ::date 2018-09-25T11:13:44
+# ::snt <Builder> lets do this
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_5.txt
+(d / do-02
+      :ARG0 (w / we)
+      :ARG1 (t / this))
+
+# ::id minecraft-4-3-sickles-difficult_1121.6 ::date 2018-09-25T11:13:54
+# ::snt <Architect> place a red block in front of the blue block
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_6.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block)
+      :ARG2 (s / space
+            :ARG1-of (f / front-03
+                  :ARG2 (b2 / block
+                        :color (b3 / blue))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (c2 / composite-entity)
+                        :FR (f2 / front-towards-center)))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.7 ::date 2018-09-25T11:24:28
+# ::snt <Architect> along the line toward the purple block
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_7.txt
+(a2 / along-01
+      :ARG2 (l / line
+            :ARG4-of (t / toward-01
+                  :ARG2 (b / block
+                        :color (p / purple)))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.8 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:4 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_8.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.9 ::date 2018-09-25T11:25:58
+# ::snt <Architect> place another red block along that line
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_9.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :mod (a / another)
+            :color (r / red))
+      :ARG2 (s / space
+            :ARG1-of (a2 / along-01
+                  :ARG2 (l / line
+                        :mod (t / that)))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.10 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:3 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_10.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.11 ::date 2018-09-25T11:26:35
+# ::snt <Architect> place a red block on top of the block you just palce
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_11.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (r / red))
+      :ARG2 (s / space
+            :ARG1-of (o / on-top-03
+                  :ARG2 (b2 / block
+                        :ARG1-of (p2 / place-01
+                              :ARG0 y
+                              :time (j / just)))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b3 / build-space)))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.12 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:3 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_12.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.13 ::date 2018-09-25T11:27:46
+# ::snt <Architect> placed
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_13.txt
+(m / mean-01
+      :ARG2 (s / string-entity :value "placed"))
+
+# ::id minecraft-4-3-sickles-difficult_1121.14 ::date 2018-09-25T11:28:57
+# ::snt <Builder> don't worry about minor typos i get what youre going for
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_14.txt
+(w / worry-02 :mode imperative :polarity -
+      :ARG0 (y / you)
+      :ARG1 (t / typo :pl +
+            :ARG1-of (m / minor-01))
+      :ARG1-of (c / cause-01
+            :ARG0 (g / get-30
+                  :ARG0 (i / i)
+                  :ARG1 (t2 / thing
+                        :ARG1-of (g2 / go-03
+                              :ARG0 y)))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.15 ::date 2018-09-25T22:01:20
+# ::snt <Architect> place 4 stacks of red blocks 2 high
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_15.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (s / stack :quant 4
+            :consist-of (b / block :pl +
+                  :color (r / red))
+            :ARG1-of (h / high-05
+                  :ARG2 (d / distance-quantity :quant 2)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.16 ::date 2018-09-25T22:16:11
+# ::snt <Architect> along the same line
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_16.txt
+(s2 / space
+      :ARG1-of (a / along-01
+            :ARG2 (l / line
+                  :ARG1-of (s / same-01))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.17 ::date 2018-09-25T22:16:31
+# ::snt <Architect> 5 stacks
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_17.txt
+(s / stack :quant 5
+      :ARG1-of (i2 / instead-of-91))
+
+# ::id minecraft-4-3-sickles-difficult_1121.18 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:2 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.19 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:2 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.20 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:1 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.21 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:1 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_21.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.22 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-1 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_22.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.23 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-1 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_23.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.24 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:0 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_24.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.25 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:0 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_25.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.26 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-2 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_26.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.27 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-2 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_27.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.28 ::date 2018-09-25T22:16:52
+# ::snt <Architect> place 1 more red block on the 2nd and third stacks
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_28.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :pl +
+            :color (r / red))
+      :ARG2 (s / space :pl +
+            :ARG1-of (o / on-top-03
+                  :ARG2 (a / and
+                        :op1 (s2 / stack
+                              :ord (o2 / ordinal-entity :value 2))
+                        :op2 (s3 / stack
+                              :ord (o3 / ordinal-entity :value 3)))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space))))
+      :frequency (r2 / rate-entity-91
+            :ARG1 (b3 / block
+                  :ARG1-of (h / have-quant-91
+                        :ARG2 1
+                        :ARG3 (m / more))
+                  :ARG1-of (i2 / include-91
+                        :ARG2 b))
+            :ARG2 (s4 / stack
+                  :ARG1-of (i3 / include-91
+                        :ARG2 a))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.29 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:2 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_29.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.30 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:1 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_30.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.31 ::date 2018-09-25T22:19:45
+# ::snt <Architect> remove the bottom block from the first 3 high stack
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_31.txt
+(r / remove-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :ARG1-of (b2 / bottom-03
+                  :ARG2 s
+                  :ARG3 c))
+      :ARG2 (s / stack
+            :ord (o / ordinal-entity :value 1
+                  :range (s2 / stack :pl +
+                        :ARG1-of (h / high-05
+                              :ARG2 3
+                              :ARG3 (c / cartesian-framework-91
+                                    :ARG1 (b3 / build-space)))))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.32 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:2 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_32.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.33 ::date 2018-09-25T22:22:52
+# ::snt <Architect> remove the two bottom blocks from the second 3 high stack
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_33.txt
+(r / remove-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :quant 2
+            :ARG1-of (b2 / bottom-03
+                  :ARG2 s
+                  :ARG3 c))
+      :ARG2 (s / stack
+            :ord (o / ordinal-entity :value 2
+                  :range (s2 / stack :pl +
+                        :ARG1-of (h / high-05
+                              :ARG2 3
+                              :ARG3 (c / cartesian-framework-91
+                                    :ARG1 (b3 / build-space)))))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.34 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:1 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_34.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.35 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:1 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_35.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.36 ::date 2018-09-25T22:25:33
+# ::snt <Architect> remove the bottom block from the last 3 stacks
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_36.txt
+(r / remove-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :pl +
+            :ARG1-of (b2 / bottom-03
+                  :ARG3 (c / cartesian-framework-91)))
+      :ARG2 (a / and
+            :op1 (s / stack :pl +
+                  :ord (o / ordinal-entity
+                        :value (v / value-interval :op1 "-1" :op2 "-3"))))
+      :frequency (r2 / rate-entity-91
+            :ARG1 (b3 / block :quant 1
+                  :ARG1-of (i2 / include-91
+                        :ARG2 b))
+            :ARG2 (s2 / stack :quant 1
+                  :ARG1-of (i3 / include-91
+                        :ARG2 s))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.37 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:0 Y:1 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_37.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.38 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:0 Y:1 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_38.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.39 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:0 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_39.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.40 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:-1 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_40.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.41 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:-2 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_41.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.42 ::date 2018-09-25T22:29:54
+# ::snt <Architect> build an orange staircase next
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_42.txt
+(b / build-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (s / staircase
+            :color (o / orange))
+      :time (n / next))
+
+# ::id minecraft-4-3-sickles-difficult_1121.43 ::date 2018-09-25T22:31:29
+# ::snt <Architect> starting one block up and over from the yellow block
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_43.txt
+(s / start-01
+      :location (s2 / space
+            :ARG1-of (u / up-03
+                  :ARG2 (b / block
+                        :color (y / yellow))
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (w / white-square))
+                  :quant (d / distance-quantity :quant 1
+                        :unit (b2 / block)))
+            :ARG1-of (o / over-04
+                  :ARG2 b
+                  :ARG5 (c2 / cartesian-framework-91
+                        :ARG1 (b3 / builder))
+                  :quant d)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.44 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:-4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_44.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.45 ::date 2018-09-25T22:34:14
+# ::snt <Architect> yes
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_45.txt
+(c / confirm-01)
+
+# ::id minecraft-4-3-sickles-difficult_1121.46 ::date 2018-09-25T22:34:30
+# ::snt <Architect> toward the red blocks
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_46.txt
+(h / have-direction-91
+      :ARG2 (t2 / trajectory
+            :ARG4-of (t / toward-01
+                  :ARG2 (b / block :pl +
+                        :color (r / red)))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.47 ::date 2018-09-25T22:34:51
+# ::snt <Builder> how many blocks wide
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_47.txt
+(w / wide-02
+      :ARG3 (d / distance-quantity
+            :quant (a / amr-unknown)
+            :unit (b / block))
+      :ARG5 (c / cartesian-framework-91
+            :FR (i2 / intrinsic)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.48 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_48.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.49 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:2 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_49.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.50 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_50.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.51 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:2 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_51.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.52 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_52.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.53 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:2 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_53.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.54 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:3 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_54.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.55 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:3 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_55.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.56 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:4 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_56.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z -1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.57 ::date 2018-09-25T22:35:51
+# ::snt <Architect> i messed up
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_57.txt
+(m / mess-up-02
+      :ARG0 (i / i))
+
+# ::id minecraft-4-3-sickles-difficult_1121.58 ::date 2018-09-25T22:36:12
+# ::snt <Builder> thats alright what do i need to fix
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_58.txt
+(a / and
+      :op1 (a2 / all-right
+            :domain (t / that))
+      :op2 (n / need-01
+            :ARG0 (i / i)
+            :ARG1 (f / fix-02
+                  :ARG0 i
+                  :ARG1 (a3 / amr-unknown))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.59 ::date 2018-09-25T22:38:08
+# ::snt <Architect> the staircase needs to be shifted over one block away from the yellow block
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_59.txt
+(n / need-01
+      :ARG1 (s / shift-01
+            :ARG1 (s2 / staircase)
+            :ARG2 (s3 / space :pl +
+                  :ARG1-of (a / away-01
+                        :ARG2 (b / block
+                              :color (y / yellow))
+                        :quant (d / distance-quantity :quant 1
+                              :unit (b2 / block))))
+            :direction (t / trajectory
+                  :ARG4-of (o / over-04
+                        :ARG2 b
+                        :ARG5 (c / cartesian-framework-91
+                              :ARG1 (b3 / build-space))))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.60 ::date 2018-09-25T22:42:34
+# ::snt <Builder> this doesn't count towards our GPA :)
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_60.txt
+(c / count-04 :polarity -
+      :ARG1 (t / this)
+      :purpose (g / grade-point-average
+            :poss (w / we))
+      :mod (e / emoticon :value ":)"))
+
+# ::id minecraft-4-3-sickles-difficult_1121.61 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:1 Z:-4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_61.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.62 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:1 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_62.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.63 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:2 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_63.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z -3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.64 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:1 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_64.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.65 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:2 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_65.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z -2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.66 ::date 2018-09-25T22:45:21
+# ::snt <Architect> no no
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_66.txt
+(c / confirm-01 :polarity -)
+
+# ::id minecraft-4-3-sickles-difficult_1121.67 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:1 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_67.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.68 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:2 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_68.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z -1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.69 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:2 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_69.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z -1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.70 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:1 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_70.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.71 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:2 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_71.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z -2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.72 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:1 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_72.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.73 ::date 2018-09-25T22:46:01
+# ::snt <Architect> sorry
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_73.txt
+(s / sorry-01)
+
+# ::id minecraft-4-3-sickles-difficult_1121.74 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:2 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_74.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z -3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.75 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:1 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_75.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.76 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:1 Z:-4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_76.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.77 ::date 2018-09-25T22:46:32
+# ::snt <Architect> shift along the line it is on
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_77.txt
+(s / shift-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1-of (a / along-01
+            :ARG2 (l / line
+                  :location-of (i2 / it))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.78 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:4 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_78.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z -2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.79 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:4 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_79.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z -2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.80 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:4 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_80.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z -1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.81 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:3 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_81.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.82 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:2 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_82.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.83 ::date 2018-09-25T22:48:44
+# ::snt <Architect> perfect
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_83.txt
+(c / confirm-01
+      :ARG1 (p / perfect-02))
+
+# ::id minecraft-4-3-sickles-difficult_1121.84 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:1 Z:-4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_84.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.85 ::date 2018-09-25T22:49:12
+# ::snt <Architect> now fill in the line with orange blocks
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_85.txt
+(f / fill-in-05 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (l / line)
+      :ARG2 (b / block :pl +
+            :color (o / orange))
+      :time (n / now))
+
+# ::id minecraft-4-3-sickles-difficult_1121.86 ::date 2018-09-25T22:50:21
+# ::snt <Architect> at the same height
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_86.txt
+(b / be-destined-for-91
+      :ARG2 (s2 / space :pl +
+            :ARG3-of (h / high-02
+                  :ARG6 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))
+            :ARG1-of (s / same-01)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.87 ::date 2018-09-25T22:51:25
+# ::snt <Builder> which line
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_87.txt
+(l / line
+      :mod (a / amr-unknown))
+
+# ::id minecraft-4-3-sickles-difficult_1121.88 ::date 2018-09-25T22:51:39
+# ::snt <Architect> the orange block line
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_88.txt
+(l / line
+      :consist-of (b / block :pl +
+            :color (o / orange)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.89 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_89.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.90 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_90.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.91 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_91.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.92 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_92.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.93 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:2 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_93.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.94 ::date 2018-09-25T22:52:22
+# ::snt <Architect> we need them all the way to four blocks past the red
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_94.txt
+(n / need-01
+      :ARG0 (w / we)
+      :ARG1 (e / extend-01
+            :ARG1 (t / they)
+            :ARG2 (a / all-the-way)
+            :ARG4 (s / space
+                  :ARG1-of (p / past-01
+                        :ARG2 (t2 / thing
+                              :color (r / red))
+                        :quant (d / distance-quantity :quant 4
+                              :unit (b / block))))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.95 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:5]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_95.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 5)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.96 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_96.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.97 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:1 Z:5]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_97.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 5)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.98 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:1 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_98.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.99 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_99.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.100 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:1 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_100.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.101 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_101.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.102 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:2 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_102.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.103 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:2 Z:3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_103.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.104 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:2 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_104.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.105 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_105.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.106 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:3 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_106.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.107 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:3 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_107.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.108 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:3 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_108.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.109 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:3 Z:3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_109.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.110 ::date 2018-09-25T23:01:20
+# ::snt <Architect> remove the bottom orange block at the last stair on the yellow block side
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_110.txt
+(r / remove-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :ARG1-of (b2 / bottom-03
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b4 / build-space)))
+            :location (s / stair
+                  :ord (o2 / ordinal-entity :value "-1"
+                        :range (s2 / side
+                              :location-of (b3 / block
+                                    :color (y2 / yellow)))))
+            :color (o / orange)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.111 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:1 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_111.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.112 ::date 2018-09-25T23:04:56
+# ::snt <Architect> not that one
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_112.txt
+(c / confirm-01 :polarity -
+      :ARG1 (o / one
+            :mod (t / that)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.113 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_113.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.114 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:1 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_114.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.115 ::date 2018-09-25T23:05:46
+# ::snt <Architect> exactly
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_115.txt
+(c / confirm-01
+      :ARG1 (h / have-degree-91
+            :ARG3 (e / exact)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.116 ::date 2018-09-25T23:06:06
+# ::snt <Architect> now make a red stack 4 high
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_116.txt
+(m / make-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (s / stack
+            :ARG1-of (h / high-05
+                  :ARG2 4
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b / build-space)))
+            :color (r / red))
+      :time (n / now))
+
+# ::id minecraft-4-3-sickles-difficult_1121.117 ::date 2018-09-25T23:07:06
+# ::snt <Architect> at the end of the red line
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_117.txt
+(b / be-destined-for-91
+      :ARG2 (s / space
+            :ARG1-of (n / next-to-02
+                  :ARG2 (t / thing
+                        :ARG1-of (e / end-05
+                              :ARG2 (l / line
+                                    :color (r / red))))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / builder)))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.118 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-3 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_118.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.119 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-3 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_119.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.120 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-3 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_120.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.121 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-3 Y:4 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_121.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 4 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.122 ::date 2018-09-25T23:07:46
+# ::snt <Architect> add one more to the top
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_122.txt
+(a / add-02 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :ARG1-of (h / have-quant-91
+                  :ARG2 1
+                  :ARG3 (m / more)))
+      :ARG2 (t2 / thing
+            :ARG1-of (t3 / top-06
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b / build-space)))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.123 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-3 Y:5 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_123.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 5 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.124 ::date 2018-09-25T23:09:32
+# ::snt <Architect> remove the bottom two
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_124.txt
+(r / remove-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing :quant 2
+            :ARG1-of (b / bottom-03
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.125 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:-3 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_125.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.126 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:-3 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_126.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.127 ::date 2018-09-25T23:10:15
+# ::snt <Architect> ok
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_127.txt
+(o / okay-04)
+
+# ::id minecraft-4-3-sickles-difficult_1121.128 ::date 2018-09-25T23:10:22
+# ::snt <Architect> now for some bad news
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_128.txt
+(c / concern-02
+      :ARG1 (n / news
+            :quant (s / some)
+            :ARG1-of (b / bad-07))
+      :time (n2 / now))
+
+# ::id minecraft-4-3-sickles-difficult_1121.129 ::date 2018-09-25T23:12:05
+# ::snt <Builder> hit me
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_129.txt
+(h / hit-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (i / i))
+
+# ::id minecraft-4-3-sickles-difficult_1121.130 ::date 2018-09-25T23:13:53
+# ::snt <Architect> the whole orange block structure needs to be shifted up one block toward the purple block
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_130.txt
+(n / need-01
+      :ARG1 (s / shift-01
+            :ARG1 (s2 / structure
+                  :mod (w / whole)
+                  :consist-of (b / block :pl +
+                        :color (o / orange)))
+            :direction (t2 / trajectory
+                  :ARG2-of (u / up-09
+                        :ARG3 b3
+                        :ARG5 (c / cartesian-framework-91
+                              :ARG1 (b4 / build-space)))
+                  :ARG4-of (t / toward-01
+                        :ARG2 (b3 / block
+                              :color (p / purple))))
+            :extent (d / distance-quantity :quant 1
+                  :unit (b2 / block))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.131 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-1 Y:1 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_131.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.132 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:-1 Y:1 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_132.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.133 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-1 Y:1 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_133.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.134 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:-1 Y:1 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_134.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.135 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:1 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_135.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.136 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:1 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_136.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.137 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:1 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_137.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.138 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:1 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_138.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.139 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:1 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_139.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.140 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:2 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_140.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.141 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:1 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_141.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.142 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:2 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_142.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z -2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.143 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:2 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_143.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.144 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:3 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_144.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.145 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:2 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_145.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z -1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.146 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:2 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_146.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z -1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.147 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:2 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_147.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z -1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.148 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:3 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_148.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z -1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.149 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_149.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.150 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_150.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.151 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_151.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.152 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:1 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_152.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.153 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:1 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_153.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.154 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_154.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.155 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:3 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_155.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.156 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:2 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_156.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.157 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:1 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_157.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.158 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:3 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_158.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.159 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:2 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_159.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.160 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:1 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_160.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.161 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:3 Z:3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_161.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.162 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:2 Z:3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_162.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.163 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:1 Z:3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_163.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.164 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:3 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_164.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.165 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:2 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_165.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.166 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:0 Y:1 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_166.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.167 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_167.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.168 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_168.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.169 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:3 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_169.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.170 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:2 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_170.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.171 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:1 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_171.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.172 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:1 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_172.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.173 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:2 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_173.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.174 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:3 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_174.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.175 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:3 Z:3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_175.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.176 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:2 Z:3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_176.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.177 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:1 Z:3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_177.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.178 ::date 2018-09-25T23:18:10
+# ::snt <Architect> excellent
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_178.txt
+(c / confirm-01
+      :ARG1 (e / excellent-02))
+
+# ::id minecraft-4-3-sickles-difficult_1121.179 ::date 2018-09-25T23:18:34
+# ::snt <Architect> now
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_179.txt
+(n / now)
+
+# ::id minecraft-4-3-sickles-difficult_1121.180 ::date 2018-09-25T23:18:49
+# ::snt <Architect> place one more red block two red blocks away from the orange blocks on the blue block side
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_180.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (r / red)
+            :ARG1-of (h / have-quant-91
+                  :ARG2 1
+                  :ARG3 (m / more)))
+      :ARG2 (s / space
+            :ARG1-of (a / away-01
+                  :ARG2 (b3 / block :pl +
+                        :color (o / orange))
+                  :quant (d / distance-quantity :quant 2
+                        :unit (b2 / block
+                              :color (r2 / red))))
+            :location (s2 / side
+                  :location-of (b4 / block
+                        :color (b5 / blue)))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.181 ::date 2018-09-25T23:21:41
+# ::snt <Builder> which orange block
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_181.txt
+(b / block
+      :color (o / orange)
+      :mod (a / amr-unknown))
+
+# ::id minecraft-4-3-sickles-difficult_1121.182 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:2 Y:1 Z:3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_182.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.183 ::date 2018-09-25T23:22:19
+# ::snt <Architect> sorry
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_183.txt
+(s / sorry-01)
+
+# ::id minecraft-4-3-sickles-difficult_1121.184 ::date 2018-09-25T23:22:28
+# ::snt <Architect> on the red block line
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_184.txt
+(o / on-top-03
+      :ARG2 (l / line
+            :consist-of (b / block :pl +
+                  :color (r / red)))
+      :ARG3 (c / cartesian-framework-91
+            :ARG1 (b2 / build-space)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.185 ::date 2018-09-25T23:23:24
+# ::snt <Architect> but one block closer to the orange blocks
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_185.txt
+(c / contrast-01
+      :ARG2 (c3 / close-10
+            :ARG2 (b / block :pl +
+                  :color (o / orange))
+            :ARG2-of (h / have-degree-91
+                  :ARG3 (m / more
+                        :quant (d / distance-quantity :quant 1
+                              :unit (b2 / block))))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.186 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:1 Y:1 Z:3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_186.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.187 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:2 Y:1 Z:3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_187.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.188 ::date 2018-09-25T23:26:41
+# ::snt <Architect> it needs to go no top of the red blocks that are already there
+# ::save-date Wed Sep 26, 2018 ::user jbonn ::file col_1121_188.txt
+(n / need-01
+      :ARG1 (g / go-35
+            :ARG1 (i2 / it)
+            :ARG2 (s / space
+                  :ARG1-of (o / on-top-03
+                        :ARG2 (b / block :pl +
+                              :ARG1-of (b2 / be-located-at-91
+                                    :ARG2 (t / there)
+                                    :time (a / already))
+                              :color (r / red))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b3 / build-space))))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.189 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:2 Y:4 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_189.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 4 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.190 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:1 Y:1 Z:3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_190.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.191 ::date 2018-09-25T23:28:44
+# ::snt <Architect> one more closer to the orange blocks
+# ::save-date Wed Sep 26, 2018 ::user jbonn ::file col_1121_191.txt
+(c / close-10
+      :ARG2 (b / block :pl +
+            :color (o / orange))
+      :ARG2-of (h / have-degree-91
+            :ARG1 (t / thing)
+            :ARG3 (m / more))
+      :extent (d / distance-quantity
+            :ARG1-of (h2 / have-quant-91
+                  :ARG2 1
+                  :ARG3 (m2 / more))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.192 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:1 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_192.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.193 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:2 Y:4 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_193.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 4 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.194 ::date 2018-09-25T23:29:52
+# ::snt <Architect> exactly
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_194.txt
+(c / confirm-01
+      :ARG1 (h / have-degree-91
+            :ARG2 (e / exact)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.195 ::date 2018-09-25T23:30:13
+# ::snt <Architect> now remove the red block beneath the one you just placed
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_195.txt
+(r / remove-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (r2 / red)
+            :ARG1-of (b2 / beneath-01
+                  :ARG2 (o / one
+                        :ARG1-of (p / place-01
+                              :ARG0 y
+                              :time (j / just)))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b4 / build-space))))
+      :time (n / now))
+
+# ::id minecraft-4-3-sickles-difficult_1121.196 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:1 Y:2 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_196.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.197 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:1 Y:2 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_197.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.198 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:1 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_198.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.199 ::date 2018-09-25T23:31:40
+# ::snt <Architect> perfect
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_199.txt
+(c / confirm-01
+      :ARG1 (p / perfect-02))
+
+# ::id minecraft-4-3-sickles-difficult_1121.200 ::date 2018-09-25T23:31:54
+# ::snt <Architect> now, place 3 red blocks
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_200.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :quant 3
+            :color (r / red))
+      :time (n / now))
+
+# ::id minecraft-4-3-sickles-difficult_1121.201 ::date 2018-09-25T23:32:26
+# ::snt <Architect> on top of the orange block that is on the red block line
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_201.txt
+(s / space
+      :ARG1-of (o / on-top-03
+            :ARG2 (b / block
+                  :color (o2 / orange)
+                  :ARG1-of (o3 / on-top-03
+                        :ARG2 (l / line
+                              :consist-of (b2 / block :pl +
+                                    :color (r / red)))
+                        :ARG3 c))
+            :ARG3 (c / cartesian-framework-91
+                  :ARG1 (b3 / build-space))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.202 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-1 Y:4 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_202.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.203 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-1 Y:5 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_203.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 5 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.204 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-1 Y:6 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_204.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 6 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.205 ::date 2018-09-25T23:33:54
+# ::snt <Architect> great, now remove the bottom two you just placed
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_205.txt
+(a / and
+      :op1 (h / have-mod-91
+            :ARG2 (g / great))
+      :op2 (r / remove-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (t / thing :quant 2
+                  :ARG1-of (b / bottom-03
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b2 / build-space)))
+                  :ARG1-of (p / place-01
+                        :ARG0 y
+                        :time (j / just)))
+            :time (n / now)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.206 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:-1 Y:4 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_206.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.207 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:-1 Y:5 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_207.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 5 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.208 ::date 2018-09-25T23:35:57
+# ::snt <Architect> on top of the red block that is one block closer to the purple block
+# ::save-date Wed Sep 26, 2018 ::user jbonn ::file col_1121_208.txt
+(o / on-top-03
+      :ARG2 (b / block
+            :color (r / red)
+            :ARG1-of (c / close-10
+                  :ARG2 (b3 / block
+                        :color (p / purple))
+                  :ARG2-of (h / have-degree-91
+                        :ARG1 b
+                        :ARG3 (m / more
+                              :quant (d / distance-quantity :quant 1
+                                    :unit (b2 / block))))))
+      :ARG3 (c2 / cartesian-framework-91
+            :ARG1 (b4 / build-space)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.209 ::date 2018-09-25T23:41:08
+# ::snt <Architect> place 4 more red blocks
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_209.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (r / red)
+            :ARG1-of (h / have-quant-91
+                  :ARG2 4
+                  :ARG3 (m / more))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.210 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-2 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_210.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.211 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-2 Y:4 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_211.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 4 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.212 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-2 Y:5 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_212.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 5 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.213 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-2 Y:6 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_213.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 6 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.214 ::date 2018-09-25T23:41:56
+# ::snt <Architect> remove the bottom 3
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_214.txt
+(r / remove-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing :quant 3
+            :ARG1-of (b / bottom-03
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.215 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:-2 Y:5 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_215.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 5 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.216 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:-2 Y:4 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_216.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 4 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.217 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:-2 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_217.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.218 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:-2 Y:6 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_218.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 6 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.219 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-2 Y:6 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_219.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 6 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.220 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-2 Y:6 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_220.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 6 :z 1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.221 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:-2 Y:6 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_221.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 6 :z 1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.222 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-2 Y:6 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_222.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 6 :z 1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.223 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:-2 Y:6 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_223.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 6 :z 1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.224 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-3 Y:6 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_224.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 6 :z 1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.225 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:-3 Y:6 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_225.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 6 :z 1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.226 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:-2 Y:6 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_226.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 6 :z 1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.227 ::date 2018-09-25T23:42:41
+# ::snt <Architect> now we're going to work exclusively with the orange blocks
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_227.txt
+(w / work-01
+      :ARG0 (w2 / we)
+      :ARG4 (b / block :pl +
+            :color (o / orange))
+      :time (n / now)
+      :ARG2-of (e / exclude-01))
+
+# ::id minecraft-4-3-sickles-difficult_1121.228 ::date 2018-09-25T23:44:35
+# ::snt <Architect> on the opposite side of the yellow block
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_228.txt
+(b2 / be-located-at-91
+      :ARG2 (s / side
+            :part-of (b / block
+                  :color (y / yellow))
+            :ARG1-of (o / opposite-03)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.229 ::date 2018-09-25T23:46:22
+# ::snt <Architect> place a 5 stack of orange blocks
+# ::save-date Tue Sep 25, 2018 ::user jbonn ::file col_1121_229.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (s / stack
+            :consist-of (b / block :pl +
+                  :color (o / orange))
+            :size (d / dimension-entity :value 5)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.230 ::date 2018-09-25T23:47:29
+# ::snt <Architect> at the end of that line of orange blocks
+# ::save-date Wed Sep 26, 2018 ::user jbonn ::file col_1121_230.txt
+(s / space
+      :ARG1-of (n / next-to-02
+            :ARG2 (t2 / thing
+                  :ARG1-of (e / end-05
+                        :ARG2 (l / line
+                              :mod (t / that)
+                              :consist-of (b / block :pl +
+                                    :color (o / orange)))))
+            :ARG3 (c / cartesian-framework-91
+                  :ARG1 (b2 / build-space))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.231 ::date 2018-09-26T09:30:16
+# ::snt <Builder> i only have four orange blocks left
+# ::save-date Wed Sep 26, 2018 ::user jbonn ::file col_1121_231.txt
+(h / have-03
+      :ARG0 (i / i)
+      :ARG1 (b / block :quant 4
+            :color (o / orange)
+            :ARG1-of (l / leave-17)
+            :mod (o2 / only)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.232 ::date 2018-09-26T09:31:11
+# ::snt <Architect> i see
+# ::save-date Wed Sep 26, 2018 ::user jbonn ::file col_1121_232.txt
+(s / see-01
+      :ARG0 (i / i))
+
+# ::id minecraft-4-3-sickles-difficult_1121.233 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:1 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_233.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.234 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:2 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_234.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.235 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:3 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_235.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.236 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:2 Z:5]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_236.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 5)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.237 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:3 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_237.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.238 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:2 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_238.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.239 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:1 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_239.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.240 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:1 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_240.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.241 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:2 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_241.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.242 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:3 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_242.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.243 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:4 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_243.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.244 ::date 2018-09-26T09:31:55
+# ::snt <Architect> remove the stack adjacent to the red blocks
+# ::save-date Wed Sep 26, 2018 ::user jbonn ::file col_1121_244.txt
+(r / remove-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (s / stack
+            :ARG1-of (a / adjacent-01
+                  :ARG2 (b / block :pl +
+                        :color (r2 / red)))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.245 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:3 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_245.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.246 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:3 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_246.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.247 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:3 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_247.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.248 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:2 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_248.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.249 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:1 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_249.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.250 ::date 2018-09-26T09:33:02
+# ::snt <Architect> place them all on the next stack
+# ::save-date Wed Sep 26, 2018 ::user jbonn ::file col_1121_250.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / they
+            :mod (a / all))
+      :ARG2 (s2 / stack
+            :mod (n / next)
+            :ARG3-of (s / spatial-sequence-91)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.251 ::date 2018-09-26T09:34:09
+# ::snt <Architect> so it will be 6 high
+# ::save-date Wed Sep 26, 2018 ::user jbonn ::file col_1121_251.txt
+(c / cause-01
+      :ARG1 (i2 / it
+            :ARG1-of (h / high-05
+                  :ARG2 6
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 (b / build-space)))))
+
+# ::id minecraft-4-3-sickles-difficult_1121.252 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:4 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_252.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z 2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.253 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:5 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_253.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 5 :z 2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.254 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:6 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_254.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 6 :z 2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.255 ::date 2018-09-26T09:36:54
+# ::snt <Architect> then remove the 1st, 3rd, 4th and 5th blocks
+# ::save-date Wed Sep 26, 2018 ::user jbonn ::file col_1121_255.txt
+(r / remove-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (a / and
+            :op1 (b / block
+                  :ord (o / ordinal-entity :value 1))
+            :op2 (b2 / block
+                  :ord (o2 / ordinal-entity :value 3))
+            :op3 (b3 / block
+                  :ord (o3 / ordinal-entity :value 4))
+            :op4 (b4 / block
+                  :ord (o4 / ordinal-entity :value 5)))
+      :time (t / then))
+
+# ::id minecraft-4-3-sickles-difficult_1121.256 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:1 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_256.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.257 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:3 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_257.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.258 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:4 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_258.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z 2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.259 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:5 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_259.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 5 :z 2)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.260 ::date 2018-09-26T09:38:24
+# ::snt <Architect> now completely remove the next stack
+# ::save-date Wed Sep 26, 2018 ::user jbonn ::file col_1121_260.txt
+(r / remove-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (s / stack
+            :mod (n / next)
+            :ARG4-of (s2 / spatial-sequence-91))
+      :ARG1-of (c / complete-02))
+
+# ::id minecraft-4-3-sickles-difficult_1121.261 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-2 Y:3 Z:3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_261.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.262 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-2 Y:3 Z:3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_262.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.263 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:3 Z:3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_263.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.264 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:2 Z:3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_264.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.265 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:1 Z:3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_265.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 3)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.266 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:5 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_266.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 5 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.267 ::date 2018-09-26T09:39:28
+# ::snt <Architect> now remove the 1st, 2nd, and 4th from the last stack
+# ::save-date Wed Sep 26, 2018 ::user jbonn ::file col_1121_267.txt
+(r / remove-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (a / and
+            :op1 (t / thing
+                  :ord (o / ordinal-entity :value 1))
+            :op2 (t2 / thing
+                  :ord (o2 / ordinal-entity :value 2))
+            :op3 (t3 / thing
+                  :ord (o3 / ordinal-entity :value 4)))
+      :ARG2 (s / stack
+            :ord (o4 / ordinal-entity :value "-1"))
+      :time (n / now))
+
+# ::id minecraft-4-3-sickles-difficult_1121.268 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:1 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_268.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.269 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:2 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_269.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.270 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:4 Z:4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_270.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z 4)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.271 ::date 2018-09-26T09:40:42
+# ::snt <Architect> now remove reference blocks
+# ::save-date Wed Sep 26, 2018 ::user jbonn ::file col_1121_271.txt
+(r / remove-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :pl +
+            :ARG1-of (r2 / refer-03))
+      :time (n / now))
+
+# ::id minecraft-4-3-sickles-difficult_1121.272 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a purple block at X:-5 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_272.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -5 :y 1 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.273 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a yellow block at X:1 Y:1 Z:-5]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_273.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -5)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.274 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a blue block at X:5 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_274.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 1 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.275 ::date 2018-09-26T09:41:39
+# ::snt <Architect> remove the orange block
+# ::save-date Wed Sep 26, 2018 ::user jbonn ::file col_1121_275.txt
+(r / remove-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (o / orange)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.276 ::date 2018-09-26T09:42:00
+# ::snt <Architect> beneath the red ones
+# ::save-date Wed Sep 26, 2018 ::user jbonn ::file col_1121_276.txt
+(b / beneath-01
+      :ARG2 (o / one :pl +
+            :color (r / red))
+      :ARG3 (c / cartesian-framework-91
+            :ARG1 (b2 / build-space)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.277 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_277.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.278 ::date 2018-09-26T09:42:42
+# ::snt <Architect> never mind
+# ::save-date Wed Sep 26, 2018 ::user jbonn ::file col_1121_278.txt
+(m / mind-15 :polarity - :mode imperative
+      :ARG0 (y / you)
+      :time (e / ever))
+
+# ::id minecraft-4-3-sickles-difficult_1121.279 ::date 2018-09-26T09:43:39
+# ::snt <Architect> eye tricks
+# ::save-date Wed Sep 26, 2018 ::user jbonn ::file col_1121_279.txt
+(t / trick-01
+      :ARG1 (e / eye))
+
+# ::id minecraft-4-3-sickles-difficult_1121.280 ::date 2018-09-26T09:43:58
+# ::snt <Architect> no there is one
+# ::save-date Wed Sep 26, 2018 ::user jbonn ::file col_1121_280.txt
+(a / and
+      :op1 (c / confirm-01 :polarity -)
+      :op2 (t / thing :quant 1))
+
+# ::id minecraft-4-3-sickles-difficult_1121.281 ::date 2018-09-26T09:47:12
+# ::snt <Architect> please remove it
+# ::save-date Wed Sep 26, 2018 ::user jbonn ::file col_1121_281.txt
+(r / remove-01 :polite + :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (i2 / it))
+
+# ::id minecraft-4-3-sickles-difficult_1121.282 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-1 Y:1 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_282.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.283 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:1 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_283.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -1)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.284 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-1 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1121_284.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 0)))
+
+# ::id minecraft-4-3-sickles-difficult_1121.285 ::date 2018-09-26T09:47:44
+# ::snt <Architect> we're done
+# ::save-date Wed Sep 26, 2018 ::user jbonn ::file col_1121_285.txt
+(b / be-done-08
+      :ARG0 (w / we))

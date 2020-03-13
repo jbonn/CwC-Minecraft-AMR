@@ -1,0 +1,1791 @@
+# workset Minecraft-3-30-suspension-bridge (generated on Sat Nov 3, 2018 at 21:37:05 for user jbonn)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-3-30-suspension-bridge_1111.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (b3 / bridge
+                  :ARG1-of (s / suspend-02))
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))))
+
+# ::id minecraft-3-30-suspension-bridge_1111.1 ::date 2018-08-30T19:52:07
+# ::snt <Builder> Mission has started.
+# ::save-date Thu Aug 30, 2018 ::user jbonn ::file col_1111_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-3-30-suspension-bridge_1111.2 ::date 2018-08-30T19:52:40
+# ::snt <Builder> hello architect
+# ::save-date Thu Aug 30, 2018 ::user jbonn ::file col_1111_2.txt
+(s / say-01
+      :ARG1 (h / hello)
+      :ARG2 (a / architect))
+
+# ::id minecraft-3-30-suspension-bridge_1111.3 ::date 2018-08-30T19:52:52
+# ::snt <Builder> i am born again
+# ::save-date Thu Aug 30, 2018 ::user jbonn ::file col_1111_3.txt
+(b / bear-02
+      :ARG1 (i / i)
+      :mod (a / again))
+
+# ::id minecraft-3-30-suspension-bridge_1111.4 ::date 2018-08-30T19:53:22
+# ::snt <Architect> rise my son
+# ::save-date Thu Aug 30, 2018 ::user jbonn ::file col_1111_4.txt
+(s / say-01
+      :ARG1 (r / rise-01 :mode imperative
+            :ARG1 p)
+      :ARG2 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 (i / i)
+                  :ARG2 (s2 / son))))
+
+# ::id minecraft-3-30-suspension-bridge_1111.5 ::date 2018-08-30T19:54:34
+# ::snt <Builder> i am ready to build father
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1111_5.txt
+(s / say-01
+      :ARG1 (r / ready-02
+            :ARG1 (i / i)
+            :ARG2 (b / build-01
+                  :ARG0 i))
+      :ARG2 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG1 i
+                  :ARG2 (f / father))))
+
+# ::id minecraft-3-30-suspension-bridge_1111.6 ::date 2018-08-30T19:55:15
+# ::snt <Architect> ok this thing looks kind of like a suspensionn bridge
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1111_6.txt
+(l / look-02
+      :ARG0 (t / thing
+            :mod (t2 / this))
+      :ARG1 (b / bridge
+            :ARG1-of (s / suspend-02))
+      :degree (k / kind-of))
+
+# ::id minecraft-3-30-suspension-bridge_1111.7 ::date 2018-08-30T19:56:13
+# ::snt <Builder> ok, my knowledge in engineering is limited so please use much detail
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1111_7.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (u / use-01 :mode imperative :polite +
+            :ARG0 (y / you)
+            :ARG1 (d / detail
+                  :quant (m / much))
+            :ARG1-of (c / cause-01
+                  :ARG0 (l / limit-01
+                        :ARG1 (k / know-03
+                              :ARG0 (i / i)
+                              :ARG1 (e / engineer-01))))))
+
+# ::id minecraft-3-30-suspension-bridge_1111.8 ::date 2018-08-30T19:58:11
+# ::snt <Architect> okie dokie
+# ::save-date Thu Aug 30, 2018 ::user jbonn ::file col_1111_8.txt
+(o / okay-04)
+
+# ::id minecraft-3-30-suspension-bridge_1111.9 ::date 2018-08-30T19:59:25
+# ::snt <Architect> start with two red blocks along the side of the domain
+# ::save-date Sat Nov 3, 2018 ::user jbonn ::file col_1111_9.txt
+(s / start-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (b / block :quant 2
+            :color (r / red))
+      :location (s3 / space :pl +
+            :ARG1-of (a / along-01
+                  :ARG2 (s2 / side
+                        :part-of (d / domain)))))
+
+# ::id minecraft-3-30-suspension-bridge_1111.10 ::date 2018-09-03T13:37:40
+# ::snt <Builder> does it matter which side?
+# ::save-date Mon Sep 3, 2018 ::user jbonn ::file col_1111_10.txt
+(m / matter-01
+      :ARG1 (s / side
+            :mod (a2 / amr-choice))
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-3-30-suspension-bridge_1111.11 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-5 Y:1 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -5 :y 1 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.12 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-5 Y:1 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_12.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -5 :y 1 :z -3)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.13 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:-5 Y:1 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_13.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -5 :y 1 :z -3)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.14 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:-5 Y:1 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_14.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -5 :y 1 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.15 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-5 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_15.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -5 :y 1 :z 0)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.16 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-5 Y:1 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -5 :y 1 :z -1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.17 ::date 2018-09-03T13:38:36
+# ::snt <Architect> no
+# ::save-date Mon Sep 3, 2018 ::user jbonn ::file col_1111_17.txt
+(n / no)
+
+# ::id minecraft-3-30-suspension-bridge_1111.18 ::date 2018-09-03T13:39:37
+# ::snt <Architect> ok now you want to do that exactly opposite but one block in this time
+# ::save-date Sat Nov 3, 2018 ::user jbonn ::file col_1111_18.txt
+(a / and
+      :op1 (o2 / okay-04)
+      :op2 (w / want-01
+            :ARG0 y
+            :ARG1 (d / do-02
+                  :ARG0 (y / you)
+                  :ARG1 (t / thing
+                        :mod (t4 / that))
+                  :time (n / now)
+                  :location (s / space :pl +
+                        :ARG1-of (o / opposite-03
+                              :degree (e / exact))
+                        :ARG1-of (i2 / inward-02
+                              :quant (d2 / distance-quantity :quant 1
+                                    :unit (b2 / block))))
+                  :time (t2 / time
+                        :mod (t3 / this)))
+            :time (n2 / now)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.19 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:4 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 0)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.20 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:4 Y:1 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z -1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.21 ::date 2018-09-03T13:51:31
+# ::snt <Builder> like that?
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1111_21.txt
+(r / resemble-01
+      :ARG2 (t / that)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-3-30-suspension-bridge_1111.22 ::date 2018-09-03T13:51:45
+# ::snt <Architect> yes, now add a purple layer on top that connects the two bases
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1111_22.txt
+(a2 / and
+      :op1 (c2 / confirm-01)
+      :op2 (a / add-02 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (l / layer
+                  :ARG3-of (c / connect-01
+                        :ARG1 (t / thing
+                              :ARG2-of (b / base-03
+                                    :ARG3 c3))
+                        :ARG2 (t2 / thing
+                              :ARG2-of (b2 / base-03
+                                    :ARG3 c3)))
+                  :color (p / purple))
+            :ARG2 (s / space
+                  :ARG1-of (o / on-top-03
+                        :ARG3 (c3 / cartesian-framework-91
+                              :ARG1 (b3 / build-space))))
+            :time (n / now)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.23 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:4 Y:2 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_23.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 2 :z -1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.24 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:4 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_24.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 2 :z 0)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.25 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:3 Y:2 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_25.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z -1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.26 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:3 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_26.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z 0)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.27 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:2 Y:2 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_27.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z -1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.28 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:2 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_28.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z 0)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.29 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:1 Y:2 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_29.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z -1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.30 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:1 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_30.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 0)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.31 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:0 Y:2 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_31.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.32 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:0 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_32.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 0)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.33 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-1 Y:2 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_33.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z -1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.34 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-1 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_34.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 0)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.35 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-2 Y:2 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_35.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z -1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.36 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-2 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_36.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 0)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.37 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-3 Y:2 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_37.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z -1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.38 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-3 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_38.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z 0)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.39 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-4 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_39.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 2 :z 0)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.40 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-4 Y:2 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_40.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 2 :z -1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.41 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-5 Y:2 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_41.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -5 :y 2 :z -1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.42 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-5 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_42.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -5 :y 2 :z 0)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.43 ::date 2018-09-03T13:54:18
+# ::snt <Architect> great
+# ::save-date Mon Sep 3, 2018 ::user jbonn ::file col_1111_43.txt
+(h / have-mod-91
+      :ARG2 (g / great))
+
+# ::id minecraft-3-30-suspension-bridge_1111.44 ::date 2018-09-03T13:54:30
+# ::snt <Architect> ok now we are going to make the bridge towers
+# ::save-date Mon Sep 3, 2018 ::user jbonn ::file col_1111_44.txt
+(m / make-01
+      :ARG0 (w / we)
+      :ARG1 (t / tower :pl +
+            :part-of (b / bridge))
+      :time (n / now))
+
+# ::id minecraft-3-30-suspension-bridge_1111.45 ::date 2018-09-03T13:55:06
+# ::snt <Builder> ok
+# ::save-date Mon Sep 3, 2018 ::user jbonn ::file col_1111_45.txt
+(o / okay-04)
+
+# ::id minecraft-3-30-suspension-bridge_1111.46 ::date 2018-09-03T13:55:14
+# ::snt <Architect> place an orange brick to the lower right corner of the left bottom red block
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1111_46.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / brick
+            :color (o / orange))
+      :ARG2 (s / space
+            :ARG1-of (c / corner-04
+                  :ARG2 (b2 / block
+                        :color (r2 / red)
+                        :ARG1-of (l2 / left-24
+                              :ARG3 (c2 / cartesian-framework-91
+                                    :ARG1 y))
+                        :ARG1-of (b3 / bottom-03
+                              :ARG3 (c3 / cartesian-framework-91
+                                    :ARG1 (w / white-square)))))
+            :ARG1-of (r / right-10
+                  :ARG2 b2
+                  :ARG3 c2)
+            :ARG1-of (l / low-04
+                  :ARG2 b2
+                  :ARG6 c3)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.47 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:3 Y:1 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_47.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.48 ::date 2018-09-03T14:01:06
+# ::snt <Architect> yeah!
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1111_48.txt
+(c / confirm-01)
+
+# ::id minecraft-3-30-suspension-bridge_1111.49 ::date 2018-09-03T14:01:13
+# ::snt <Architect> ok put three more orange blocks on top
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1111_49.txt
+(a / and
+      :op1 (o3 / okay-04)
+      :op2 (p / put-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block
+                  :color (o / orange)
+                  :ARG1-of (h / have-quant-91
+                        :ARG2 3
+                        :ARG3 (m / more)))
+            :ARG2 (s / space
+                  :ARG1-of (o2 / on-top-03
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b2 / build-space))))))
+
+# ::id minecraft-3-30-suspension-bridge_1111.50 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:3 Y:2 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_50.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.51 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:3 Y:3 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_51.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.52 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:3 Y:4 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_52.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 4 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.53 ::date 2018-09-03T14:01:54
+# ::snt <Architect> now cross over the top of the bridge with three more orange blocks
+# ::save-date Mon Sep 3, 2018 ::user jbonn ::file col_1111_53.txt
+(c / cross-over-06 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b2 / block
+            :color (o / orange)
+            :ARG1-of (h / have-quant-91
+                  :ARG2 3
+                  :ARG3 (m / more)))
+      :ARG2 (t2 / thing
+            :ARG2-of (t / top-06
+                  :ARG1 (b / bridge)
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 (b3 / build-space)))))
+
+# ::id minecraft-3-30-suspension-bridge_1111.54 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:3 Y:4 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_54.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 4 :z -1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.55 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:3 Y:4 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_55.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 4 :z 0)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.56 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:3 Y:4 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_56.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 4 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.57 ::date 2018-09-03T14:16:51
+# ::snt <Architect> these are attached to the top most orange block
+# ::save-date Mon Sep 3, 2018 ::user jbonn ::file col_1111_57.txt
+(a / attach-01
+      :ARG1 (t / thing :pl +
+            :mod (t3 / this))
+      :ARG2 (b / block
+            :ARG1-of (h / have-degree-91
+                  :ARG2 (t2 / top-06
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b2 / build-space)))
+                  :ARG3 (m / most))
+            :color (o / orange)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.58 ::date 2018-09-03T14:17:35
+# ::snt <Architect> nice
+# ::save-date Mon Sep 3, 2018 ::user jbonn ::file col_1111_58.txt
+(n / nice-01)
+
+# ::id minecraft-3-30-suspension-bridge_1111.59 ::date 2018-09-03T14:17:47
+# ::snt <Architect> now build that down to the ground like on the other side
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1111_59.txt
+(b / build-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :mod (t3 / that))
+      :time (n / now)
+      :manner (r / resemble-01
+            :ARG1 t
+            :ARG2 (s / side
+                  :ARG1-of (o / other-01)))
+      :direction (t2 / trajectory
+            :ARG4-of (d / down-03
+                  :ARG3 (g / ground)
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id minecraft-3-30-suspension-bridge_1111.60 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:3 Y:3 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_60.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.61 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:3 Y:2 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_61.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.62 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:3 Y:1 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_62.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.63 ::date 2018-09-03T14:21:25
+# ::snt <Builder> shall we do the same on the other side of the bridge?
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1111_63.txt
+(d / do-02
+      :ARG0 (w / we)
+      :ARG1 (t / thing
+            :ARG1-of (s / same-01))
+      :polarity (a / amr-unknown)
+      :location (s2 / space
+            :ARG1-of (n / next-to-02
+                  :ARG2 (s3 / side
+                        :part-of (b / bridge)
+                        :ARG1-of (o / other-01))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id minecraft-3-30-suspension-bridge_1111.64 ::date 2018-09-03T14:24:33
+# ::snt <Architect> we shall
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1111_64.txt
+(c / confirm-01)
+
+# ::id minecraft-3-30-suspension-bridge_1111.65 ::date 2018-09-03T14:24:47
+# ::snt <Builder> same color?
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1111_65.txt
+(s / same-01
+      :ARG3 (t / thing
+            :ARG2-of (h / have-color-91))
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-3-30-suspension-bridge_1111.66 ::date 2018-09-03T14:25:24
+# ::snt <Architect> yes
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1111_66.txt
+(c / confirm-01)
+
+# ::id minecraft-3-30-suspension-bridge_1111.67 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-4 Y:1 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_67.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 1 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.68 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-4 Y:2 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_68.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 2 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.69 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-4 Y:3 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_69.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 3 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.70 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-4 Y:4 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_70.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 4 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.71 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-4 Y:4 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_71.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 4 :z -1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.72 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-5 Y:4 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_72.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -5 :y 4 :z 0)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.73 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-5 Y:4 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_73.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -5 :y 4 :z 0)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.74 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-4 Y:4 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_74.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 4 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.75 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-4 Y:3 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_75.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 3 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.76 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-4 Y:2 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_76.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 2 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.77 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a orange block at X:-4 Y:1 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_77.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 1 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.78 ::date 2018-09-03T14:26:12
+# ::snt <Architect> great
+# ::save-date Mon Sep 3, 2018 ::user jbonn ::file col_1111_78.txt
+(h / have-mod-91
+      :ARG2 (g / great))
+
+# ::id minecraft-3-30-suspension-bridge_1111.79 ::date 2018-09-03T14:26:18
+# ::snt <Builder> have we completed our goal?
+# ::save-date Mon Sep 3, 2018 ::user jbonn ::file col_1111_79.txt
+(c / complete-01
+      :ARG0 (w / we)
+      :ARG1 (g / goal
+            :poss w)
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-3-30-suspension-bridge_1111.80 ::date 2018-09-03T14:27:03
+# ::snt <Architect> not yet
+# ::save-date Mon Sep 3, 2018 ::user jbonn ::file col_1111_80.txt
+(b / be-temporally-at-91 :polarity -
+      :ARG2 (y / yet))
+
+# ::id minecraft-3-30-suspension-bridge_1111.81 ::date 2018-09-03T14:27:44
+# ::snt <Builder> standing by
+# ::save-date Mon Sep 3, 2018 ::user jbonn ::file col_1111_81.txt
+(s / stand-by-05
+      :ARG1 (i / i))
+
+# ::id minecraft-3-30-suspension-bridge_1111.82 ::date 2018-09-03T14:28:01
+# ::snt <Architect> now we need to place a yellow block on top of the four orange posts
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1111_82.txt
+(n / need-01
+      :ARG0 (w / we)
+      :ARG1 (p / place-01
+            :ARG0 w
+            :ARG1 (b / block :pl +
+                  :color (y / yellow))
+            :ARG2 (s / space :pl +
+                  :ARG1-of (o / on-top-03
+                        :ARG2 (p2 / post :quant 4
+                              :color (o2 / orange))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b3 / build-space))))
+            :frequency (r / rate-entity-91
+                  :ARG1 (b2 / block :quant 1
+                        :ARG1-of (i3 / include-91
+                              :ARG2 b))
+                  :ARG2 (p3 / post :quant 1
+                        :ARG1-of (i2 / include-91
+                              :ARG2 p2))))
+      :time (n2 / now))
+
+# ::id minecraft-3-30-suspension-bridge_1111.83 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:-4 Y:5 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_83.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 5 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.84 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:-4 Y:5 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_84.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 5 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.85 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:3 Y:5 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_85.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 5 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.86 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:3 Y:5 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_86.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 5 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.87 ::date 2018-09-03T14:29:23
+# ::snt <Architect> great
+# ::save-date Mon Sep 3, 2018 ::user jbonn ::file col_1111_87.txt
+(h / have-mod-91
+      :ARG2 (g / great))
+
+# ::id minecraft-3-30-suspension-bridge_1111.88 ::date 2018-09-03T14:29:35
+# ::snt <Architect> add yellow blocks on top and connect them across the bridge
+# ::save-date Mon Sep 3, 2018 ::user jbonn ::file col_1111_88.txt
+(a / and
+      :op1 (a2 / add-02 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block :pl +
+                  :color (y2 / yellow))
+            :ARG2 (s / space :pl +
+                  :ARG1-of (o / on-top-03
+                        :ARG3 (c2 / cartesian-framework-91
+                              :ARG1 (b3 / build-space)))))
+      :op2 (c / connect-01 :mode imperative
+            :ARG0 y
+            :ARG1 b
+            :manner (a3 / across-01
+                  :ARG1 b
+                  :ARG2 (b2 / bridge)
+                  :ARG5 c2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.89 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:3 Y:6 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_89.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 6 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.90 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:2 Y:6 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_90.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 6 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.91 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:1 Y:6 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_91.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 6 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.92 ::date 2018-09-03T14:30:26
+# ::snt <Architect> wait
+# ::save-date Sat Nov 3, 2018 ::user jbonn ::file col_1111_92.txt
+(w / wait-01 :mode imperative
+      :ARG1 (y / you))
+
+# ::id minecraft-3-30-suspension-bridge_1111.93 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a yellow block at X:1 Y:6 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_93.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 6 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.94 ::date 2018-09-03T14:33:08
+# ::snt <Architect> other way
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1111_94.txt
+(w / way
+      :ARG1-of (o / other-01)
+      :ARG1-of (i2 / instead-of-91))
+
+# ::id minecraft-3-30-suspension-bridge_1111.95 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a yellow block at X:3 Y:6 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_95.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 6 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.96 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a orange block at X:-4 Y:1 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_96.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 1 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.97 ::date 2018-09-03T14:34:08
+# ::snt <Architect> basically like the orange ones
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1111_97.txt
+(r / resemble-01
+      :ARG2 (t / thing :pl +
+            :color (o2 / orange))
+      :mod (b / basic))
+
+# ::id minecraft-3-30-suspension-bridge_1111.98 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:3 Y:6 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_98.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 6 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.99 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:3 Y:6 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_99.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 6 :z -1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.100 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:3 Y:6 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_100.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 6 :z 0)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.101 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:3 Y:6 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_101.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 6 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.102 ::date 2018-09-03T14:35:04
+# ::snt <Builder> like that?
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1111_102.txt
+(r / resemble-01
+      :ARG2 (t / that)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-3-30-suspension-bridge_1111.103 ::date 2018-09-03T14:35:24
+# ::snt <Architect> yeah nice
+# ::save-date Mon Sep 3, 2018 ::user jbonn ::file col_1111_103.txt
+(c / confirm-01
+      :ARG1 (n / nice-01))
+
+# ::id minecraft-3-30-suspension-bridge_1111.104 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:-4 Y:6 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_104.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 6 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.105 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:-4 Y:6 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_105.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 6 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.106 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:-4 Y:6 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_106.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 6 :z 0)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.107 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:-4 Y:6 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_107.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 6 :z -1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.108 ::date 2018-09-03T14:35:42
+# ::snt <Architect> ok now we need to build the suspension rigging
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1111_108.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (n / need-01
+            :ARG0 (w / we)
+            :ARG1 (b / build-01
+                  :ARG0 w
+                  :ARG1 (r / rigging
+                        :instrument-of (s / suspend-02)))
+            :time (n2 / now)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.109 ::date 2018-09-03T14:36:37
+# ::snt <Builder> ok i don't know what that means but i trust you architect
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1111_109.txt
+(s / say-01
+      :ARG1 (t3 / trust-02
+            :ARG0 i
+            :ARG1 a
+            :concession (k / know-01 :polarity -
+                  :ARG0 (i / i)
+                  :ARG1 (t / thing
+                        :ARG2-of (m / mean-01
+                              :ARG1 (t2 / that)))))
+      :ARG2 (a / architect))
+
+# ::id minecraft-3-30-suspension-bridge_1111.110 ::date 2018-09-03T14:37:56
+# ::snt <Architect> start with red blocks
+# ::save-date Mon Sep 3, 2018 ::user jbonn ::file col_1111_110.txt
+(s / start-01
+      :ARG0 (y / you)
+      :ARG2 (b / block :pl +
+            :color (r / red)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.111 ::date 2018-09-03T14:38:20
+# ::snt <Architect> place them next to the top yellow blocks on the posts so they are on the inside of the bridge
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1111_111.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / they)
+      :ARG2 (s / space :pl +
+            :ARG1-of (n / next-to-02
+                  :ARG2 (b / block :pl +
+                        :ARG2-of (t2 / top-06
+                              :ARG1 (p2 / post :pl +)
+                              :ARG3 c)
+                        :color (y2 / yellow))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b3 / build-space))))
+      :manner (i2 / inside-01
+            :ARG1 t
+            :ARG2 (b2 / bridge)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.112 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:2 Y:6 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_112.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 6 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.113 ::date 2018-09-04T08:54:15
+# ::snt <Architect> that wasn't clear sorry
+# ::save-date Tue Sep 4, 2018 ::user jbonn ::file col_1111_113.txt
+(c / clear-06 :polarity -
+      :ARG1 (t / that)
+      :ARG2-of (s / sorry-01))
+
+# ::id minecraft-3-30-suspension-bridge_1111.114 ::date 2018-09-04T08:55:43
+# ::snt <Builder> here?
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1111_114.txt
+(b / be-located-at-91
+      :ARG2 (h / here)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-3-30-suspension-bridge_1111.115 ::date 2018-09-04T08:56:09
+# ::snt <Architect> oh yeah great
+# ::save-date Tue Sep 4, 2018 ::user jbonn ::file col_1111_115.txt
+(a / and
+      :op1 (c / confirm-01
+            :mod (o / oh :mode expressive))
+      :op2 (h / have-mod-91
+            :ARG2 (g / great)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.116 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:2 Y:6 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_116.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 6 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.117 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-3 Y:6 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_117.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 6 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.118 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-3 Y:6 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_118.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 6 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.119 ::date 2018-09-04T09:03:17
+# ::snt <Architect> ok we are going to need a placeholder block so use green or blue
+# ::save-date Tue Sep 4, 2018 ::user jbonn ::file col_1111_119.txt
+(a / and
+      :op1 (o2 / okay-04)
+      :op2 (n / need-01
+            :ARG0 (w / we)
+            :ARG1 (b / block
+                  :ARG0-of (h / hold-01
+                        :ARG1 (p / place)))
+            :ARG0-of (c / cause-01
+                  :ARG1 (u / use-01 :mode imperative
+                        :ARG0 (y / you)
+                        :ARG1 (o / or
+                              :op1 (t / thing
+                                    :color (g / green))
+                              :op2 (t2 / thing
+                                    :color (b2 / blue)))
+                        :ARG2 b))))
+
+# ::id minecraft-3-30-suspension-bridge_1111.120 ::date 2018-09-04T09:11:47
+# ::snt <Builder> roger that
+# ::save-date Sat Nov 3, 2018 ::user jbonn ::file col_1111_120.txt
+(c / concern-02
+      :ARG0 (r / roger)
+      :ARG1 (t / that))
+
+# ::id minecraft-3-30-suspension-bridge_1111.121 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a green block at X:1 Y:6 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_121.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 6 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.122 ::date 2018-09-04T09:13:31
+# ::snt <Architect> cool, put it right below all of the red blocks you just added
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1111_122.txt
+(a / and
+      :op1 (c / cool-04)
+      :op2 (p / put-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (i2 / it)
+            :ARG2 (s / space :pl +
+                  :ARG1-of (b / below-01
+                        :ARG2 (b2 / block :pl +
+                              :mod (a2 / all)
+                              :ARG1-of (a3 / add-02
+                                    :ARG0 y
+                                    :time (j / just))
+                              :color (r / red))
+                        :ARG3 (c2 / cartesian-framework-91
+                              :ARG1 (b5 / build-space))
+                        :mod (r2 / right)))
+            :frequency (r3 / rate-entity-91
+                  :ARG1 (b3 / block :quant 1
+                        :ARG1-of (i4 / include-91
+                              :ARG2 i2))
+                  :ARG2 (b4 / block :quant 1
+                        :ARG1-of (i3 / include-91
+                              :ARG2 b2)))))
+
+# ::id minecraft-3-30-suspension-bridge_1111.123 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a green block at X:1 Y:6 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_123.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 6 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.124 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a green block at X:1 Y:6 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_124.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 6 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.125 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a green block at X:1 Y:6 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_125.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 6 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.126 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a green block at X:2 Y:5 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_126.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 5 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.127 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a green block at X:-3 Y:5 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_127.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 5 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.128 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a green block at X:-3 Y:5 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_128.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 5 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.129 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a green block at X:2 Y:5 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_129.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 5 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.130 ::date 2018-09-04T09:26:26
+# ::snt <Architect> great, now add another red block next to each green one
+# ::save-date Sat Nov 3, 2018 ::user jbonn ::file col_1111_130.txt
+(a / and
+      :op1 (h / have-mod-91
+            :ARG2 (g / great))
+      :op2 (a2 / add-02 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block :pl +
+                  :color (r / red))
+            :ARG2 (s / space :pl +
+                  :ARG1-of (n2 / next-to-02
+                        :ARG2 (o / one :pl +
+                              :color (g2 / green))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 y)))
+            :time (n / now)
+            :frequency (r2 / rate-entity-91
+                  :ARG1 (b2 / block
+                        :ARG1-of (i2 / include-91
+                              :ARG2 b)
+                        :mod (a3 / another))
+                  :ARG2 (o2 / one
+                        :mod (e / each)
+                        :ARG1-of (i3 / include-91
+                              :ARG2 o)))))
+
+# ::id minecraft-3-30-suspension-bridge_1111.131 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:1 Y:5 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_131.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 5 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.132 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:1 Y:5 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_132.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 5 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.133 ::date 2018-09-04T09:35:33
+# ::snt <Architect> yep
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1111_133.txt
+(c / confirm-01)
+
+# ::id minecraft-3-30-suspension-bridge_1111.134 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-2 Y:5 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_134.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 5 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.135 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-2 Y:5 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_135.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 5 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.136 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a green block at X:-3 Y:5 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_136.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 5 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.137 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a green block at X:2 Y:5 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_137.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 5 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.138 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a green block at X:2 Y:5 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_138.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 5 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.139 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a green block at X:-3 Y:5 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_139.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 5 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.140 ::date 2018-09-04T09:35:54
+# ::snt <Architect> add another green block below each red one you added
+# ::save-date Sat Nov 3, 2018 ::user jbonn ::file col_1111_140.txt
+(a / add-02 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :pl +
+            :color (g / green))
+      :ARG2 (s / space
+            :ARG1-of (b2 / below-01
+                  :ARG2 (b3 / block :pl +
+                        :color (r / red)
+                        :ARG1-of (a3 / add-02
+                              :ARG0 y))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b4 / build-space))))
+      :frequency (r2 / rate-entity-91
+            :ARG1 (b5 / block
+                  :mod (a2 / another)
+                  :ARG1-of (i2 / include-91
+                        :ARG2 b))
+            :ARG2 (b6 / block
+                  :mod (e / each)
+                  :ARG1-of (i3 / include-91
+                        :ARG2 b3))))
+
+# ::id minecraft-3-30-suspension-bridge_1111.141 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a green block at X:1 Y:4 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_141.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 4 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.142 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a green block at X:1 Y:4 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_142.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 4 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.143 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a green block at X:-2 Y:4 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_143.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 4 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.144 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a green block at X:-2 Y:4 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_144.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 4 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.145 ::date 2018-09-04T10:10:10
+# ::snt <Architect> then connect across with two red blocks
+# ::save-date Tue Sep 4, 2018 ::user jbonn ::file col_1111_145.txt
+(c / connect-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG3 (b / block :quant 2
+            :color (r / red))
+      :time (t / then)
+      :manner (a / across-01
+            :ARG1 b
+            :ARG5 (c2 / cartesian-framework-91
+                  :ARG1 (b2 / build-space))))
+
+# ::id minecraft-3-30-suspension-bridge_1111.146 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:0 Y:4 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_146.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.147 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-1 Y:4 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_147.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.148 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:0 Y:5 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_148.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.149 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-1 Y:5 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_149.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 5 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.150 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a green block at X:1 Y:4 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_150.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 4 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.151 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a green block at X:-2 Y:4 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_151.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 4 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.152 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a green block at X:-2 Y:4 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_152.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 4 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.153 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a green block at X:1 Y:4 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_153.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 4 :z -2)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.154 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a green block at X:-2 Y:4 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_154.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 4 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.155 ::date 2018-09-04T10:12:07
+# ::snt <Architect> what a masterpiece!
+# ::save-date Tue Sep 4, 2018 ::user jbonn ::file col_1111_155.txt
+(m / masterpiece
+      :degree (s / so))
+
+# ::id minecraft-3-30-suspension-bridge_1111.156 ::date 2018-09-04T10:12:19
+# ::snt <Builder> wait
+# ::save-date Sat Nov 3, 2018 ::user jbonn ::file col_1111_156.txt
+(w / wait-01 :mode imperative
+      :ARG1 (y / you))
+
+# ::id minecraft-3-30-suspension-bridge_1111.157 ::date 2018-09-04T10:12:40
+# ::snt <Builder> i think i messed up
+# ::save-date Tue Sep 4, 2018 ::user jbonn ::file col_1111_157.txt
+(t / think-01
+      :ARG0 (i / i)
+      :ARG1 (m / mess-up-02
+            :ARG0 i))
+
+# ::id minecraft-3-30-suspension-bridge_1111.158 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:-1 Y:5 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_158.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 5 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.159 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:0 Y:5 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_159.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.160 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a green block at X:1 Y:4 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_160.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 4 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.161 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:0 Y:4 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_161.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.162 ::date 2018-09-04T10:13:15
+# ::snt <Architect> lols yeah the one side is correct
+# ::save-date Tue Sep 4, 2018 ::user jbonn ::file col_1111_162.txt
+(l / laugh-01 :mode expressive
+      :ARG0 (i / i)
+      :ARG2 (c / correct-02
+            :ARG1 (s / side
+                  :mod (o / one)))
+      :manner (l2 / loud))
+
+# ::id minecraft-3-30-suspension-bridge_1111.163 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-1 Y:4 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_163.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.164 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a green block at X:-2 Y:4 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_164.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 4 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.165 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a green block at X:1 Y:4 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1111_165.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 4 :z 1)))
+
+# ::id minecraft-3-30-suspension-bridge_1111.166 ::date 2018-09-04T10:14:42
+# ::snt <Architect> yay!
+# ::save-date Tue Sep 4, 2018 ::user jbonn ::file col_1111_166.txt
+(y / yay)
+
+# ::id minecraft-3-30-suspension-bridge_1111.167 ::date 2018-09-04T10:15:09
+# ::snt <Builder> we good now?
+# ::save-date Tue Sep 4, 2018 ::user jbonn ::file col_1111_167.txt
+(g / good-02
+      :ARG1 (w / we)
+      :time (n / now)
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-3-30-suspension-bridge_1111.168 ::date 2018-09-04T10:15:31
+# ::snt <Architect> yep
+# ::save-date Tue Sep 4, 2018 ::user jbonn ::file col_1111_168.txt
+(y / yep)
+
+# ::id minecraft-3-30-suspension-bridge_1111.169 ::date 2018-09-04T10:15:37
+# ::snt <Builder> awesome!
+# ::save-date Tue Sep 4, 2018 ::user jbonn ::file col_1111_169.txt
+(a / awe-01)

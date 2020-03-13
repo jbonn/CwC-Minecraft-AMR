@@ -1,0 +1,1303 @@
+# ::snt <DocumentInitialization>
+# ::id minecraft-3-30-overlapping-chain-links_1099.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (c10 / chain-link :pl +)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :part (c11 / composite-entity
+                  :configuration (c12 / chain-link
+                        :color (p / purple))
+                  :ARG1-of (c9 / cartesian-framework-91
+                        :ARG2 (x6 / x-axis)
+                        :ARG3 (y6 / y-axis
+                              :size (d / dimension-entity :value 5))
+                        :ARG4 (z6 / z-axis)
+                        :FR (i4 / intrinsic)))
+            :part (c13 / composite-entity
+                  :configuration (c14 / chain-link
+                        :color (r5 / red))
+                  :ARG1-of (c15 / cartesian-framework-91
+                        :ARG2 (x7 / x-axis)
+                        :ARG3 (y7 / y-axis
+                              :size (d2 / dimension-entity :value 5))
+                        :ARG4 (z7 / z-axis)
+                        :FR (i5 / intrinsic))))
+      :snt9 (p / parallel-01
+            :ARG0 x
+            :ARG1 (a6 / and
+                  :op1 x6
+                  :op2 y7))
+      :snt10 (p2 / parallel-01
+            :ARG0 z
+            :ARG1 a7 / and
+                  :op1 z6
+                  :op2 z7)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.1 ::date 2018-08-27T15:30:35
+# ::snt <Builder> Mission has started.
+# ::save-date Mon Aug 27, 2018 ::user jbonn ::file col_1099_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.2 ::date 2018-08-27T15:31:03
+# ::snt <Builder> hello. Whats our mission this time?
+# ::save-date Mon Aug 27, 2018 ::user jbonn ::file col_1099_2.txt
+(m / multi-sentence
+      :snt1 (h / hello)
+      :snt2 (m2 / mission-01
+            :ARG0 (w / we)
+            :ARG1 (a / amr-unknown)
+            :time (t / time
+                  :mod (t2 / this))))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.3 ::date 2018-08-27T15:31:46
+# ::snt <Architect> we have a difficult one ahead of us this time builder. bear with me
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1099_3.txt
+(s / say-01
+      :ARG1 (a2 / and
+            :op1 (b / bear-01 :mode imperative
+                  :ARG0 (y / you)
+                  :accompanier (i / i))
+            :op2 (h / have-03
+                  :ARG0 (w / we)
+                  :ARG1 (o / one
+                        :mod (d / difficult)
+                        :time (a / ahead
+                              :op1 w))
+                  :time (t / time
+                        :mod (t2 / this))))
+      :ARG2 (b2 / builder))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.4 ::date 2018-08-27T15:34:10
+# ::snt <Builder> describe the structure?
+# ::save-date Tue Aug 28, 2018 ::user jbonn ::file col_1099_4.txt
+(d / describe-01 :mode imperative :polite +
+      :ARG0 (y / you)
+      :ARG1 (s / structure))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.5 ::date 2018-08-28T10:03:07
+# ::snt <Architect> we will start using red blocks.
+# ::save-date Wed Aug 29, 2018 ::user jbonn ::file col_1099_5.txt
+(s / start-01
+      :ARG0 (w / we)
+      :ARG2 (u / use-01
+            :ARG0 w
+            :ARG1 (b / block :pl +
+                  :color (r / red))))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.6 ::date 2018-08-29T13:53:04
+# ::snt <Architect> if you recall from our previous mission we built an open 3x3 square as the second level of our "table
+# ::save-date Sat Nov 3, 2018 ::user jbonn ::file col_1099_6.txt
+(b / build-01
+      :ARG0 (w / we)
+      :ARG1 (s / square
+            :ARG1-of (o / open-06)
+            :size (d / dimension-entity :value 3)
+            :size (d2 / dimension-entity :value 3))
+      :ARG4 (l / level
+            :ord (o2 / ordinal-entity :value 2)
+            :part-of (t / table
+                  :poss w))
+      :ARG2-of (r / recall-02
+            :ARG0 (y / you)
+            :ARG1 (m / mission-01
+                  :ARG0 w
+                  :time (p / previous))
+            :ARG1-of (p2 / possible-01)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.7 ::date 2018-08-29T13:59:30
+# ::snt <Architect> this shape is now extending upwards instead of laying flat
+# ::save-date Sat Nov 3, 2018 ::user jbonn ::file col_1099_7.txt
+(e / extend-01
+      :ARG1 (t3 / thing
+            :ARG1-of (s / shape-01)
+            :mod (t / this))
+      :direction (t2 / trajectory
+            :ARG2-of (u / up-03
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (b / build-space))))
+      :time (n / now)
+      :ARG1-of (i2 / instead-of-91
+            :ARG2 (l / lie-07
+                  :ARG1 s
+                  :manner (f / flat-06
+                        :ARG1 s))))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.8 ::date 2018-08-29T14:01:50
+# ::snt <Builder> okay
+# ::save-date Wed Aug 29, 2018 ::user jbonn ::file col_1099_8.txt
+(o / okay-04)
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.9 ::date 2018-08-29T14:02:02
+# ::snt <Architect> sort of like a window
+# ::save-date Wed Aug 29, 2018 ::user jbonn ::file col_1099_9.txt
+(r / resemble-01
+      :ARG2 (w / window)
+      :degree (s / sort-of))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.10 ::date 2018-08-29T14:02:24
+# ::snt <Builder> can i build anywhere?
+# ::save-date Wed Aug 29, 2018 ::user jbonn ::file col_1099_10.txt
+(p / possible-01
+      :ARG1 (b / build-01
+            :ARG0 (i / i)
+            :location (a / anywhere))
+      :polarity (a2 / amr-unknown))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.11 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:1 Y:1 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.12 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:0 Y:1 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_12.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.13 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-1 Y:1 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_13.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.14 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-1 Y:2 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_14.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.15 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:1 Y:2 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_15.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.16 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:1 Y:3 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.17 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:0 Y:3 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_17.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.18 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-1 Y:3 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.19 ::date 2018-08-30T08:30:22
+# ::snt <Architect> yes i think that will work
+# ::save-date Sat Nov 3, 2018 ::user jbonn ::file col_1099_19.txt
+(c / confirm-01
+      :ARG1 (t / think-01
+            :ARG0 (i / i)
+            :ARG1 (w / work-09
+                  :ARG1 (t2 / that))))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.20 ::date 2018-08-30T08:30:53
+# ::snt <Architect> now please place a red block on the left and right sides of the window, in the middle of each side
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1099_20.txt
+(p / place-01 :mode imperative :polite +
+      :ARG0 (y / you)
+      :ARG1 (b / block :pl +
+            :color (r / red))
+      :ARG2 (a / and
+            :op1 (s / space
+                  :ARG1-of (o / on-06
+                        :ARG2 (t / thing
+                              :ARG1-of (m / middle-01
+                                    :ARG2 (s3 / side
+                                          :part-of (w / window)
+                                          :ARG1-of (l / left-24
+                                                :ARG2 w
+                                                :ARG3 (c / cartesian-framework-91
+                                                      :ARG1 y)))))))
+            :op2 (s2 / space
+                  :ARG1-of (o2 / on-06
+                        :ARG2 (t2 / thing
+                              :ARG1-of (m2 / middle-01
+                                    :ARG2 (s4 / side
+                                          :part-of w
+                                          :ARG1-of (r2 / right-10
+                                                :ARG2 w
+                                                :ARG3 c)))))))
+      :time (n / now)
+      :frequency (r3 / rate-entity-91
+            :ARG1 (b2 / block :quant 1
+                  :ARG1-of (i2 / include-91
+                        :ARG2 b))
+            :ARG2 (s5 / side
+                  :mod (e / each))))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.21 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:1 Y:2 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_21.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.22 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:-1 Y:2 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_22.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.23 ::date 2018-08-30T12:40:03
+# ::snt <Builder> these ones?
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1099_23.txt
+(o / one :pl +
+      :mod (t / this)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.24 ::date 2018-08-30T12:41:28
+# ::snt <Architect> yes place them adjacent to those you just removed
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1099_24.txt
+(a2 / and
+      :op1 (c / confirm-01)
+      :op2 (p / place-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (t / they)
+            :ARG2 (s / space :pl +
+                  :ARG1-of (a / adjacent-01
+                        :ARG2 (t2 / thing :pl +
+                              :mod (t3 / that)
+                              :ARG1-of (r / remove-01
+                                    :ARG0 y
+                                    :time (j / just)))))))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.25 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a red block at X:-1 Y:1 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_25.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.26 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-1 Y:1 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_26.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.27 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-1 Y:2 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_27.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.28 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:1 Y:2 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_28.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.29 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:-2 Y:2 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_29.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.30 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a red block at X:2 Y:2 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_30.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z 1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.31 ::date 2018-08-30T12:44:43
+# ::snt <Architect> perfect
+# ::save-date Thu Aug 30, 2018 ::user jbonn ::file col_1099_31.txt
+(p / perfect-02)
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.32 ::date 2018-08-30T12:44:55
+# ::snt <Architect> the second half of this structure is the same using purple blocks, but oriented differently.
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1099_32.txt
+(s / same-01
+      :ARG1 (h / half
+            :ord (o / ordinal-entity :value 2)
+            :part-of (s2 / structure
+                  :mod (t / this)))
+      :concession (u / use-01
+            :ARG1 (b / block :pl +
+                  :color (p / purple))
+            :ARG2 h)
+      :concession (o2 / orient-01
+            :ARG1 h
+            :ARG1-of (d / differ-02)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.33 ::date 2018-08-30T12:47:36
+# ::snt <Architect> i will attempt to start you off step by step though
+# ::save-date Thu Aug 30, 2018 ::user jbonn ::file col_1099_33.txt
+(a / attempt-01
+      :ARG0 (i / i)
+      :ARG1 (s / start-off-02
+            :ARG0 i
+            :beneficiary (y / you)
+            :manner (s2 / step-by-step))
+      :ARG1-of (h / have-concession-91))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.34 ::date 2018-08-30T12:51:57
+# ::snt <Builder> so parallel?
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1099_34.txt
+(i2 / infer-01
+      :ARG0 (p / parallel-01)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.35 ::date 2018-08-30T12:54:09
+# ::snt <Builder> or perpendicular?
+# ::save-date Thu Aug 30, 2018 ::user jbonn ::file col_1099_35.txt
+(a / amr-choice
+      :op2 (p / perpendicular-01))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.36 ::date 2018-08-30T12:57:10
+# ::snt <Architect> it is attached to our current structure sort of parallel and rotated 90 degrees.
+# ::save-date Thu Aug 30, 2018 ::user jbonn ::file col_1099_36.txt
+(a / attach-01
+      :ARG1 (i2 / it)
+      :ARG2 (s / structure
+            :mod (c / current)
+            :poss (w / we))
+      :manner (a3 / and
+            :op1 (p / parallel-01
+                  :ARG0 i2
+                  :ARG1 s)
+            :op2 (r / rotate-01
+                  :ARG1 i2
+                  :extent (a2 / angle-quantity :quant 90
+                        :unit (d / degree)))
+            :degree (s2 / sort-of)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.37 ::date 2018-08-30T13:00:14
+# ::snt <Architect> anyway please place the first purple block on the rightmost red block
+# ::save-date Tue Oct 16, 2018 ::user jbonn ::file col_1099_37.txt
+(p / place-01 :mode imperative :polite +
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :ord (o / ordinal-entity :value 1)
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :ARG1-of (o2 / on-06
+                  :ARG2 (b2 / block
+                        :ARG1-of (h / have-degree-91
+                              :ARG2 (r2 / right-10
+                                    :ARG3 (c / cartesian-framework-91
+                                          :ARG1 y))
+                              :ARG3 (m / most))
+                        :color (r / red))))
+      :mod (a / anyway))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.38 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-2 Y:1 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_38.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 2)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.39 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-2 Y:1 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_39.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.40 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-2 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_40.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.41 ::date 2018-08-30T13:02:47
+# ::snt <Builder> is it connected?
+# ::save-date Thu Aug 30, 2018 ::user jbonn ::file col_1099_41.txt
+(c / connect-01
+      :ARG1 (i2 / it)
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.42 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-2 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_42.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.43 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-2 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_43.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.44 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-2 Y:3 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_44.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.45 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-2 Y:2 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_45.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 2)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.46 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-2 Y:3 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_46.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 2)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.47 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-2 Y:2 Z:3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_47.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 3)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.48 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-2 Y:2 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_48.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z -1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.49 ::date 2018-08-30T13:03:14
+# ::snt <Architect> not quite
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1099_49.txt
+(c / confirm-01
+      :degree (q / quite :polarity -))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.50 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a purple block at X:-2 Y:2 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_50.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z -1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.51 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a purple block at X:-2 Y:2 Z:3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_51.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 3)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.52 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a purple block at X:-2 Y:3 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_52.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.53 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a purple block at X:-2 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_53.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.54 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a purple block at X:-2 Y:3 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_54.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 2)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.55 ::date 2018-08-30T13:04:23
+# ::snt <Architect> its as if they were laying side by side and the purple one gets tilted up 90 degrees so it faces the sky
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1099_55.txt
+(r / resemble-01
+      :ARG1 (i2 / it)
+      :ARG2 (a / and
+            :op1 (l / lie-07
+                  :ARG1 (a2 / and
+                        :op1 o
+                        :op2 t3)
+                  :manner (n / next-to-02
+                        :ARG1 o
+                        :ARG2 (t3 / thing)))
+            :op2 (t2 / tilt-01
+                  :ARG1 (o / one
+                        :color (p / purple))
+                  :ARG2 (t5 / trajectory
+                        :ARG2-of (u / up-03
+                              :ARG5 (c / cartesian-framework-91
+                                    :ARG1 (b / build-space))))
+                  :ARG4 (f / face-01
+                        :ARG0 o
+                        :ARG1 (s2 / sky))
+                  :extent (a3 / angle-quantity :quant 90
+                        :unit (d / degree)))))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.56 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a purple block at X:-2 Y:2 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_56.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 2)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.57 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a purple block at X:-2 Y:1 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_57.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 2)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.58 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a purple block at X:-2 Y:1 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_58.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.59 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a purple block at X:-2 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_59.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.60 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a purple block at X:-2 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_60.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.61 ::date 2018-08-30T13:12:39
+# ::snt <Builder> oh so its on the ground?
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1099_61.txt
+(i2 / infer-01
+      :ARG1 (o / on-top-03
+            :ARG1 (i3 / it)
+            :ARG2 (g / ground)
+            :ARG3 (c / cartesian-framework-91
+                  :ARG1 (b / build-space)))
+      :ARG1-of (r / request-confirmation-91)
+      :mod (o2 / oh :mode expressive))
+
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.62 ::date 2018-08-30T13:13:28
+# ::snt <Architect> we can start off with the first few blocks and you will see soon
+# ::save-date Thu Aug 30, 2018 ::user jbonn ::file col_1099_62.txt
+(p / possible-01
+      :ARG1 (s / start-off-02
+            :ARG0 (w / we)
+            :instrument (b / block
+                  :quant (f / few)
+                  :ord (o / ordinal-entity :value 1))
+            :condition-of (s2 / see-01
+                  :ARG0 (y / you)
+                  :time (s3 / soon))))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.63 ::date 2018-08-30T13:19:24
+# ::snt <Architect> the first purple block needs to be attached to the rightmost block, so that it hangs in the air and is closer to you
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1099_63.txt
+(n / need-01
+      :ARG1 (a / attach-01
+            :ARG1 (b / block
+                  :ord (o / ordinal-entity :value 1)
+                  :color (p / purple))
+            :ARG2 (b2 / block
+                  :ARG1-of (h / have-degree-91
+                        :ARG2 (r / right-10
+                              :ARG1 b2
+                              :ARG3 (c2 / cartesian-framework-91
+                                    :ARG1 y))
+                        :ARG3 (m / most)))
+            :manner (h2 / hang-01
+                  :ARG1 b
+                  :location (a2 / air))
+            :manner (c / close-10
+                  :ARG1 b
+                  :ARG2 (y / you)
+                  :ARG2-of (h3 / have-degree-91
+                        :ARG1 b
+                        :ARG3 (m2 / more)))))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.64 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-3 Y:2 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_64.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z 1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.65 ::date 2018-08-30T13:21:45
+# ::snt <Builder> here?
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1099_65.txt
+(b / be-located-at-91
+      :ARG2 (h / here)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.66 ::date 2018-08-30T13:22:04
+# ::snt <Architect> if you move that block to the other side of that red block so that it is on your side and not just an extension
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1099_66.txt
+(h / have-condition-91
+      :ARG2 (m / move-01
+            :ARG0 (y / you)
+            :ARG1 (b / block
+                  :mod (t / that))
+            :ARG2 (s / space
+                  :ARG1-of (n / next-to-02
+                        :ARG2 (s2 / side
+                              :part-of (b2 / block
+                                    :mod (t2 / that)
+                                    :color (r / red))
+                              :ARG1-of (o / other-01))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b3 / build-space))))
+            :manner (i2 / instead-of-91
+                  :ARG1 (n2 / next-to-02
+                        :ARG1 b
+                        :ARG2 (s3 / side
+                              :location-of y)
+                        :ARG3 c)
+                  :ARG2 (t3 / thing
+                        :ARG1-of (e / extend-01)
+                        :mod (j / just)
+                        :domain b))))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.67 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a purple block at X:-3 Y:2 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_67.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z 1)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.68 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-2 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_68.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.69 ::date 2018-08-30T13:27:41
+# ::snt <Architect> yes
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1099_69.txt
+(c / confirm-01)
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.70 ::date 2018-08-30T13:27:50
+# ::snt <Builder> is this the arm of the window?
+# ::save-date Thu Aug 30, 2018 ::user jbonn ::file col_1099_70.txt
+(a / arm
+      :part-of (w / window)
+      :domain (t / this)
+      :polarity (a2 / amr-unknown))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.71 ::date 2018-08-30T13:28:24
+# ::snt <Architect> now please make the open square (window) on top of that new purple block
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1099_71.txt
+(m / make-01 :mode imperative :polite +
+      :ARG0 (y / you)
+      :ARG1 (s / square
+            :ARG1-of (o / open-06)
+            :domain (w / window))
+      :time (n / now)
+      :location (s2 / space
+            :ARG1-of (o2 / on-top-03
+                  :ARG2 (b / block
+                        :ARG1-of (n2 / new-02)
+                        :mod (t / that)
+                        :color (p / purple))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.72 ::date 2018-08-30T13:30:20
+# ::snt <Architect> yes it is
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1099_72.txt
+(c / confirm-01)
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.73 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-2 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_73.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.74 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-3 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_74.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.75 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-1 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_75.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.76 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-3 Y:4 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_76.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 4 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.77 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-3 Y:5 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_77.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 5 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.78 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-2 Y:5 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_78.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 5 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.79 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-1 Y:5 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_79.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 5 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.80 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-1 Y:4 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_80.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.81 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:-2 Y:6 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_81.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 6 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.82 ::date 2018-08-30T13:31:02
+# ::snt <Builder> is this good?
+# ::save-date Thu Aug 30, 2018 ::user jbonn ::file col_1099_82.txt
+(g / good-02
+      :ARG1 (t / this)
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.83 ::date 2018-08-30T13:31:15
+# ::snt <Architect> ok builder i have bad news but it's an easy fix
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1099_83.txt
+(s / say-01
+      :ARG1 (c / contrast-01
+            :ARG1 (h / have-03
+                  :ARG0 (i / i)
+                  :ARG1 (n / news
+                        :ARG1-of (b2 / bad-07)))
+            :ARG2 (e / easy-05
+                  :ARG1 (f / fix-02
+                        :ARG1 n)))
+      :ARG2 (b / builder))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.84 ::date 2018-08-30T13:32:47
+# ::snt <Architect> i gave you the wrong side
+# ::save-date Thu Aug 30, 2018 ::user jbonn ::file col_1099_84.txt
+(g / give-01
+      :ARG0 (i / i)
+      :ARG1 (s / side
+            :ARG2-of (w / wrong-04
+                  :ARG1 i))
+      :ARG2 (y / you))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.85 ::date 2018-08-30T13:33:24
+# ::snt <Builder> on the back or other side?
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1099_85.txt
+(a / amr-choice
+      :op1 (b / back-12
+            :ARG3 (c / cartesian-framework-91
+                  :ARG1 (c2 / composite-entity)
+                  :FR (r / relative-to-builder)))
+      :op2 (n / next-to-02
+            :ARG2 (s / side
+                  :ARG1-of (o / other-01))
+            :ARG3 (c3 / cartesian-framework-91
+                  :ARG1 (b2 / build-space))))m :
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.86 ::date 2018-08-30T13:42:05
+# ::snt <Architect> if you could do that exact structure so that its on the left side of the red square from where you were standing it will be correct
+# ::save-date Tue Oct 16, 2018 ::user jbonn ::file col_1099_86.txt
+(c / correct-02
+      :ARG1 (i2 / it)
+      :condition (d / do-02
+            :ARG0 y
+            :ARG1 (s / structure
+                  :mod (e / exact)
+                  :mod (t / that))
+            :manner (l / left-20
+                  :ARG1 s
+                  :ARG2 (s2 / square
+                        :color (r / red))
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 (y / you
+                              :ARG0-of (s3 / stand-01
+                                    :ARG2 (s4 / space)
+                                    :time (b / before)))))))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.87 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:2 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_87.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.88 ::date 2018-08-30T13:50:57
+# ::snt <Builder> here?
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1099_88.txt
+(b / be-located-at-91
+      :ARG2 (h / here)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.89 ::date 2018-08-30T13:51:11
+# ::snt <Architect> yes
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1099_89.txt
+(c / confirm-01)
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.90 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:2 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_90.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.91 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:1 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_91.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.92 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:1 Y:4 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_92.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 4 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.93 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a purple block at X:-1 Y:5 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_93.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 5 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.94 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a purple block at X:-2 Y:5 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_94.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 5 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.95 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a purple block at X:-2 Y:6 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_95.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 6 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.96 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a purple block at X:-3 Y:5 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_96.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 5 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.97 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a purple block at X:-3 Y:4 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_97.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 4 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.98 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a purple block at X:-1 Y:4 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_98.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.99 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a purple block at X:-1 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_99.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.100 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a purple block at X:-2 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_100.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.101 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a purple block at X:-3 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_101.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.102 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a purple block at X:-2 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_102.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.103 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:3 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_103.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.104 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:3 Y:4 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_104.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 4 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.105 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:1 Y:5 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_105.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 5 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.106 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:2 Y:5 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_106.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 5 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.107 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:3 Y:5 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_107.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 5 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.108 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a purple block at X:2 Y:6 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1099_108.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 6 :z 0)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.109 ::date 2018-08-30T13:51:23
+# ::snt <Builder> is this it?
+# ::save-date Thu Aug 30, 2018 ::user jbonn ::file col_1099_109.txt
+(b / be-it-08
+      :ARG1 (t / this)
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.110 ::date 2018-08-30T13:51:49
+# ::snt <Architect> good job builder, i am sorry for the incorrect instructions
+# ::save-date Thu Aug 30, 2018 ::user jbonn ::file col_1099_110.txt
+(s / say-01
+      :ARG1 (a / and
+            :op1 (g / good-02
+                  :ARG1 (j / job))
+            :op2 (s2 / sorry-01
+                  :ARG1 (i / i)
+                  :ARG2 (i2 / instruct-01
+                        :ARG0 i
+                        :ARG1-of (c / correct-02 :polarity -))))
+      :ARG2 (b / builder))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.111 ::date 2018-08-30T13:53:14
+# ::snt <Architect> that is correct
+# ::save-date Thu Aug 30, 2018 ::user jbonn ::file col_1099_111.txt
+(c / correct-02
+      :ARG1 (t / that))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.112 ::date 2018-08-30T13:53:24
+# ::snt <Builder> you did a good job!
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1099_112.txt
+(d / do-02
+      :ARG0 (y / you)
+      :ARG1 (j / job
+            :ARG1-of (g / good-02)))
+
+# ::id minecraft-3-30-overlapping-chain-links_1099.113 ::date 2018-08-30T13:53:47
+# ::snt <Architect> thank you for being my builder
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1099_113.txt
+(t / thank-01
+      :ARG0 i
+      :ARG1 (y / you)
+      :ARG2 (h / have-rel-role-91
+            :ARG0 y
+            :ARG1 (i / i)
+            :ARG2 (b / builder)))

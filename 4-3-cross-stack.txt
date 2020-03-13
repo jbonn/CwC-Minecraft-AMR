@@ -1,0 +1,322 @@
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-3-cross-stack_1116.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (r5 / rainbow-lasso)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))))
+
+# ::id minecraft-4-3-cross-stack_1116.1 ::date 2018-10-08T10:24:10
+# ::snt <Builder> Mission has started.
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1116_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-3-cross-stack_1116.2 ::date 2018-11-04T19:17:03
+# ::snt <Architect> this one is more complicated
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1116_2.txt
+(h / have-degree-91
+      :ARG1 (o / one
+            :mod (t / this))
+      :ARG2 (c / complicate-01
+            :ARG1 o)
+      :ARG3 (m / more))
+
+# ::id minecraft-4-3-cross-stack_1116.3 ::date 2018-11-04T19:18:06
+# ::snt <Architect> start with one red block
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1116_3.txt
+(s / start-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (b / block :quant 1
+            :color (r / red)))
+
+# ::id minecraft-4-3-cross-stack_1116.4 ::date 2018-11-04T19:18:32
+# ::snt <Architect> place it down
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1116_4.txt
+(p / place-down-02 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (i2 / it))
+
+# ::id minecraft-4-3-cross-stack_1116.5 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a red block at X:0 Y:1 Z:1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1116_5.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-3-cross-stack_1116.6 ::date 2018-11-04T19:19:08
+# ::snt <Architect> orange on top
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1116_6.txt
+(o / on-top-03
+      :ARG1 (t / thing
+            :color (o2 / orange))
+      :ARG3 (c / cartesian-framework-91
+            :ARG1 (b / build-space)))
+
+# ::id minecraft-4-3-cross-stack_1116.7 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1116_7.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-3-cross-stack_1116.8 ::date 2018-11-04T19:19:47
+# ::snt <Architect> delete that
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1116_8.txt
+(d / delete-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / that))
+
+# ::id minecraft-4-3-cross-stack_1116.9 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a orange block at X:0 Y:1 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1116_9.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-3-cross-stack_1116.10 ::date 2018-11-04T19:20:06
+# ::snt <Architect> literally on top of red
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1116_10.txt
+(b / be-destined-for-91
+      :ARG2 (s / space
+            :ARG1-of (o / on-top-03
+                  :ARG2 (t / thing
+                        :color (r / red))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space))))
+      :mod (l / literal))
+
+# ::id minecraft-4-3-cross-stack_1116.11 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a orange block at X:0 Y:2 Z:1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1116_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 1)))
+
+# ::id minecraft-4-3-cross-stack_1116.12 ::date 2018-11-04T19:20:43
+# ::snt <Architect> now yellow on top of that
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1116_12.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing
+            :color (y / yellow))
+      :ARG2 (s / space
+            :ARG1-of (o / on-top-03
+                  :ARG2 (t2 / that)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space))))
+      :time (n / now))
+
+# ::id minecraft-4-3-cross-stack_1116.13 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a yellow block at X:0 Y:3 Z:1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1116_13.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 1)))
+
+# ::id minecraft-4-3-cross-stack_1116.14 ::date 2018-11-04T19:21:21
+# ::snt <Architect> put one green on one side of yellow
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1116_14.txt
+(p / put-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing :quant 1
+            :color (g / green))
+      :ARG2 (s / space
+            :ARG1-of (n / next-to-02
+                  :ARG2 (s2 / side :quant 1
+                        :part-of (t2 / thing
+                              :color (y2 / yellow)))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 y))))
+
+# ::id minecraft-4-3-cross-stack_1116.15 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:1 Y:3 Z:1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1116_15.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 1)))
+
+# ::id minecraft-4-3-cross-stack_1116.16 ::date 2018-11-04T19:22:29
+# ::snt <Architect> one on opposite side of yellow
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1116_16.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing :quant 1)
+      :ARG2 (s / space
+            :ARG1-of (n / next-to-02
+                  :ARG2 (s2 / side
+                        :part-of (t2 / thing
+                              :color (y / yellow))
+                        :ARG1-of (o / opposite-03))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / builder)))))
+
+# ::id minecraft-4-3-cross-stack_1116.17 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:-1 Y:3 Z:1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1116_17.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 1)))
+
+# ::id minecraft-4-3-cross-stack_1116.18 ::date 2018-11-04T19:23:26
+# ::snt <Architect> okay, now a blue block will be attached to orange
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1116_18.txt
+(a / attach-01
+      :ARG1 (b / block
+            :color (b2 / blue))
+      :ARG2 (t / thing
+            :color (o / orange))
+      :time (n / now))
+
+# ::id minecraft-4-3-cross-stack_1116.19 ::date 2018-11-04T19:23:56
+# ::snt <Architect> NOT under green
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1116_19.txt
+(u / under-01 :polarity -
+      :ARG2 (t / thing
+            :color (g / green))
+      :ARG3 (c / cartesian-framework-91
+            :ARG1 (b / build-space)))
+
+# ::id minecraft-4-3-cross-stack_1116.20 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a blue block at X:0 Y:2 Z:2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1116_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 2)))
+
+# ::id minecraft-4-3-cross-stack_1116.21 ::date 2018-11-04T19:24:57
+# ::snt <Architect> one on the other side
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1116_21.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing :quant 1)
+      :ARG2 (s / space
+            :ARG1-of (n / next-to-02
+                  :ARG2 (s2 / side
+                        :ARG1-of (o / other-01))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id minecraft-4-3-cross-stack_1116.22 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a blue block at X:0 Y:2 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1116_22.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 0)))
+
+# ::id minecraft-4-3-cross-stack_1116.23 ::date 2018-11-04T19:25:49
+# ::snt <Architect> purple attached to red
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1116_23.txt
+(a / attach-01
+      :ARG1 (t / thing
+            :color (p / purple))
+      :ARG2 (t2 / thing
+            :color (r / red)))
+
+# ::id minecraft-4-3-cross-stack_1116.24 ::date 2018-11-04T19:26:09
+# ::snt <Architect> NOT under blue
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1116_24.txt
+(u / under-01 :polarity -
+      :ARG2 (t / thing
+            :color (b / blue))
+      :ARG3 (c / cartesian-framework-91
+            :ARG1 (b2 / build-space)))
+
+# ::id minecraft-4-3-cross-stack_1116.25 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a purple block at X:-1 Y:1 Z:1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1116_25.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 1)))
+
+# ::id minecraft-4-3-cross-stack_1116.26 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a purple block at X:1 Y:1 Z:1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1116_26.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 1)))
+
+# ::id minecraft-4-3-cross-stack_1116.27 ::date 2018-11-04T19:26:32
+# ::snt <Architect> we got it
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1116_27.txt
+(g / get-04
+      :ARG0 (w / we)
+      :ARG1 (i2 / it))
+
+# ::id minecraft-4-3-cross-stack_1116.28 ::date 2018-11-04T19:27:16
+# ::snt <Builder> nice
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1116_28.txt
+(n / nice-01)

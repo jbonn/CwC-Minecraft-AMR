@@ -1,0 +1,1759 @@
+# workset Minecraft-belltower-1522435497386-1 (generated on Fri Nov 2, 2018 at 14:20:46 for user jbonn)
+
+#frameworks
+# ::snt <DocumentInitialization>
+# ::id minecraft-3-30-black-hole_1091.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (b4 / black-hole)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))))
+
+# ::id minecraft-3-30-black-hole_1091.1 ::date 2018-05-18T09:21:48
+# ::snt <Builder> Mission has started.
+# ::save-date Fri May 18, 2018 ::user jbonn ::file col_1091_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-3-30-black-hole_1091.2 ::date 2018-05-18T09:22:06
+# ::snt <Builder> hello. What are we building this time?
+# ::save-date Fri May 18, 2018 ::user jbonn ::file col_1091_2.txt
+(a / and
+      :op1 (h / hello)
+      :op2 (b / build-01
+            :ARG0 (w / we)
+            :ARG1 (a2 / amr-unknown)
+            :time (t / time
+                  :mod (t2 / this))))
+
+# ::id minecraft-3-30-black-hole_1091.3 ::date 2018-05-18T09:22:42
+# ::snt <Architect> hello builder.
+# ::save-date Fri May 18, 2018 ::user jbonn ::file col_1091_3.txt
+(s / say-01
+      :ARG1 (h / hello)
+      :ARG2 (b / builder))
+
+# ::id minecraft-3-30-black-hole_1091.4 ::date 2018-05-18T09:22:59
+# ::snt <Architect> we will start with red blocks.
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_4.txt
+(s / start-01
+      :ARG0 (w / we)
+      :ARG2 (b / block :pl +
+            :color (r / red)))
+
+# ::id minecraft-3-30-black-hole_1091.5 ::date 2018-05-18T09:23:53
+# ::snt <Architect> please build a 4x4 open window so that a 2x2 space is open in the middle
+# ::save-date Tue Jan 8, 2019 ::user jbonn ::file col_1091_5.txt
+(b / build-01 :polite + :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (w / window
+            :ARG1-of (o / open-09)
+            :part (s2 / space
+                  :ARG1-of (o2 / open-09)
+                  :ARG1-of (m / middle-01
+                        :ARG2 w)
+                  :size (d2 / dimension-entity :value 2)
+                  :size (d3 / dimension-entity :value 2))
+            :size (d / dimension-entity :value 4)
+            :size (d4 / dimension-entity :value 4)))
+
+# ::id minecraft-3-30-black-hole_1091.6 ::date 2018-05-18T09:31:35
+# ::snt <Builder> flat on the ground?
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_6.txt
+(f / flat-06
+      :ARG2 (g / ground)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-3-30-black-hole_1091.7 ::date 2018-05-18T09:51:04
+# ::snt <Builder> anywhere?
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_7.txt
+(b / be-located-at-91
+      :ARG2 (a / anywhere)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-3-30-black-hole_1091.8 ::date 2018-05-18T09:53:54
+# ::snt <Architect> yes flat on the ground, preferably centered in the middle
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_8.txt
+(c2 / confirm-01
+      :ARG1 (a / and
+            :op1 (f / flat-06
+                  :ARG2 (g / ground))
+            :op2 (c / center-01
+                  :ARG2 (s / space
+                        :ARG1-of (m / middle-01))
+                  :ARG1-of (p / prefer-01))))
+
+# ::id minecraft-3-30-black-hole_1091.9 ::date 2018-05-18T09:57:33
+# ::snt [Builder puts down a red block at X:1 Y:1 Z:-1]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_9.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z "-1")))
+
+# ::id minecraft-3-30-black-hole_1091.10 ::date 2018-05-18T10:02:02
+# ::snt [Builder puts down a red block at X:0 Y:1 Z:-1]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_10.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z "-1")))
+
+# ::id minecraft-3-30-black-hole_1091.11 ::date 2018-08-09T09:27:31
+# ::snt [Builder puts down a red block at X:-1 Y:1 Z:-1]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-1" :y 1 :z "-1")))
+
+# ::id minecraft-3-30-black-hole_1091.12 ::date 2018-08-09T19:06:16
+# ::snt [Builder puts down a red block at X:-2 Y:1 Z:-1]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_12.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 1 :z "-1")))
+
+# ::id minecraft-3-30-black-hole_1091.13 ::date 2018-08-09T19:08:38
+# ::snt [Builder puts down a red block at X:-2 Y:1 Z:0]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_13.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 1 :z 0)))
+
+# ::id minecraft-3-30-black-hole_1091.14 ::date 2018-08-09T19:09:27
+# ::snt [Builder puts down a red block at X:-2 Y:1 Z:1]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_14.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 1 :z 1)))
+
+# ::id minecraft-3-30-black-hole_1091.15 ::date 2018-08-09T19:10:13
+# ::snt [Builder puts down a red block at X:-2 Y:1 Z:2]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_15.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 1 :z 2)))
+
+# ::id minecraft-3-30-black-hole_1091.16 ::date 2018-08-09T19:11:03
+# ::snt [Builder puts down a red block at X:-1 Y:1 Z:2]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-1" :y 1 :z 2)))
+
+# ::id minecraft-3-30-black-hole_1091.17 ::date 2018-08-09T19:11:44
+# ::snt [Builder puts down a red block at X:1 Y:1 Z:2]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_17.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 2)))
+
+# ::id minecraft-3-30-black-hole_1091.18 ::date 2018-08-09T19:12:19
+# ::snt [Builder puts down a red block at X:0 Y:1 Z:2]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 2)))
+
+# ::id minecraft-3-30-black-hole_1091.19 ::date 2018-08-09T19:12:59
+# ::snt [Builder puts down a red block at X:1 Y:1 Z:1]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 1)))
+
+# ::id minecraft-3-30-black-hole_1091.20 ::date 2018-08-09T19:14:08
+# ::snt [Builder puts down a red block at X:1 Y:1 Z:0]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 0)))
+
+# ::id minecraft-3-30-black-hole_1091.21 ::date 2018-05-18T10:02:11
+# ::snt <Builder> go it
+# ::save-date Fri May 18, 2018 ::user jbonn ::file col_1091_21.txt
+(g / get-04
+      :ARG1 (i2 / it))
+
+# ::id minecraft-3-30-black-hole_1091.22 ::date 2018-05-18T10:06:15
+# ::snt <Architect> good job builder.
+# ::save-date Fri May 18, 2018 ::user jbonn ::file col_1091_22.txt
+(s / say-01
+      :ARG1 (g / good-02
+            :ARG1 (j / job))
+      :ARG2 (b / builder))
+
+# ::id minecraft-3-30-black-hole_1091.23 ::date 2018-05-18T10:09:18
+# ::snt <Architect> i need a moment to inspect the structure.
+# ::save-date Fri May 18, 2018 ::user jbonn ::file col_1091_23.txt
+(n / need-01
+      :ARG0 (i / i)
+      :ARG1 (m / moment)
+      :purpose (i2 / inspect-01
+            :ARG0 i
+            :ARG1 (s / structure)))
+
+# ::id minecraft-3-30-black-hole_1091.24 ::date 2018-05-18T10:11:13
+# ::snt <Architect> we will be removing this first layer in the future, but we need to build on top of it first.
+# ::save-date Tue Jan 8, 2019 ::user jbonn ::file col_1091_24.txt
+(n / need-01
+      :ARG0 (w / we)
+      :ARG1 (b / build-01
+            :ARG0 w
+            :time (b2 / before
+                  :op1 r)
+            :location (s / space :pl +
+                  :ARG1-of (o / on-top-03
+                        :ARG2 l
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b3 / build-space)))))
+      :concession (r / remove-01
+            :ARG0 w
+            :ARG1 (l / layer
+                  :ord (o2 / ordinal-entity :value 1)
+                  :mod (t / this))
+            :time (f / future)))
+
+# ::id minecraft-3-30-black-hole_1091.25 ::date 2018-05-18T20:13:55
+# ::snt <Architect> please place 2 red blocks on top of each side of the square, leaving the corners empty
+# ::save-date Tue Jan 8, 2019 ::user jbonn ::file col_1091_25.txt
+(p / place-01 :polite + :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b2 / block :pl +
+            :color (r / red))
+      :ARG2 (s3 / space :pl +
+            :ARG1-of (o / on-top-03
+                  :ARG2 (s / side
+                        :part-of (s2 / square))
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 (b / build-space))))
+      :frequency (r2 / rate-entity-91
+            :ARG1 (b3 / block :quant 2
+                  :ARG1-of (i2 / include-91
+                        :ARG2 b2))
+            :ARG2 (s4 / space
+                  :mod (e2 / each)
+                  :ARG1-of (i3 / include-91
+                        :ARG2 s)))
+      :manner (l / leave-14
+            :ARG0 y
+            :ARG1 (e / empty-02
+                  :ARG1 (t / thing :pl +
+                        :ARG1-of (c / corner-02
+                              :ARG2 s2)))))
+
+# ::id minecraft-3-30-black-hole_1091.26 ::date 2018-05-18T20:26:47
+# ::snt [Builder puts down a red block at X:0 Y:2 Z:-1]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_26.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z "-1")))
+
+# ::id minecraft-3-30-black-hole_1091.27 ::date 2018-05-18T20:30:00
+# ::snt [Builder puts down a red block at X:-1 Y:2 Z:-1]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_27.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-1" :y 2 :z "-1")))
+
+# ::id minecraft-3-30-black-hole_1091.28 ::date 2018-08-09T19:15:31
+# ::snt [Builder puts down a red block at X:-2 Y:2 Z:0]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_28.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 2 :z 0)))
+
+# ::id minecraft-3-30-black-hole_1091.29 ::date 2018-08-09T19:16:07
+# ::snt [Builder puts down a red block at X:-2 Y:2 Z:1]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_29.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 2 :z 1)))
+
+# ::id minecraft-3-30-black-hole_1091.30 ::date 2018-08-09T19:16:44
+# ::snt [Builder puts down a red block at X:-1 Y:2 Z:2]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_30.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-1" :y 2 :z 2)))
+
+# ::id minecraft-3-30-black-hole_1091.31 ::date 2018-08-09T19:17:26
+# ::snt [Builder puts down a red block at X:0 Y:2 Z:2]
+# ::save-date Thu Oct 25, 2018 ::user jbonn ::file col_1091_31.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 2)))
+
+# ::id minecraft-3-30-black-hole_1091.32 ::date 2018-08-09T19:18:04
+# ::snt [Builder puts down a red block at X:1 Y:2 Z:1]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_32.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 1)))
+
+# ::id minecraft-3-30-black-hole_1091.33 ::date 2018-08-09T19:18:41
+# ::snt [Builder puts down a red block at X:1 Y:2 Z:0]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_33.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 0)))
+
+# ::id minecraft-3-30-black-hole_1091.34 ::date 2018-05-18T20:30:07
+# ::snt <Architect> perfect.
+# ::save-date Fri May 18, 2018 ::user jbonn ::file col_1091_34.txt
+(p / perfect-02)
+
+# ::id minecraft-3-30-black-hole_1091.35 ::date 2018-05-18T20:31:54
+# ::snt <Builder> okay
+# ::save-date Fri May 18, 2018 ::user jbonn ::file col_1091_35.txt
+(o / okay-04)
+
+# ::id minecraft-3-30-black-hole_1091.36 ::date 2018-05-18T20:32:38
+# ::snt <Architect> there is a 3rd layer that is floating, so please made a 6x6 square that extends upwards of 2 blocks to support the 3rd layer
+# ::save-date Tue Jan 8, 2019 ::user jbonn ::file col_1091_36.txt
+(c / cause-01
+      :ARG0 (l / layer
+            :ord (o / ordinal-entity :value 3)
+            :ARG1-of (f / float-01))
+      :ARG1 (m / make-01 :mode imperative :polite +
+            :ARG0 (y / you)
+            :ARG1 (s / square
+                  :ARG1-of (e / extend-01
+                        :ARG3 (b2 / block :quant 2)
+                        :direction (t / trajectory
+                              :ARG2-of (u / up-03
+                                    :ARG5 (c2 / cartesian-framework-91
+                                          :ARG1 (b / build-space)))))
+                  :size (d / dimension-entity :value 6)
+                  :size (d2 / dimension-entity :value 6))
+            :purpose (s3 / support-01
+                  :ARG0 s
+                  :ARG1 (l3 / layer))))
+
+# ::id minecraft-3-30-black-hole_1091.37 ::date 2018-05-21T12:02:43
+# ::snt <Architect> these will use purple blocks
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_37.txt
+(u / use-01
+      :ARG1 (b / block :pl +
+            :color (p / purple))
+      :ARG2 (t / this :pl +))
+
+# ::id minecraft-3-30-black-hole_1091.38 ::date 2018-08-01T10:12:06
+# ::snt <Builder> can you give me an instruction for a single purple block first?
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_38.txt
+(i2 / instruct-01 :mode imperative :polite +
+      :ARG0 (y / you)
+      :ARG1 (i / i)
+      :ARG3 (b / block
+            :ARG1-of (s / single-02)
+            :color (p / purple))
+      :time (b2 / before))
+
+# ::id minecraft-3-30-black-hole_1091.39 ::date 2018-08-09T19:33:26
+# ::snt <Architect> how about this, please make a 6x6 purple ring around the first layer of the red square
+# ::save-date Tue Jan 8, 2019 ::user jbonn ::file col_1091_39.txt
+(s / suggest-01
+      :ARG1 (m / make-01 :polite + :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (r / ring
+                  :size (d / dimension-entity :value 6)
+                  :size (d2 / dimension-entity :value 6)
+                  :color (p / purple)
+                  :ARG1-of (a / around-02
+                        :ARG2 (l / layer
+                              :ord (o / ordinal-entity :value 1)
+                              :part-of (s2 / square
+                                    :color (r2 / red)))))))
+
+# ::id minecraft-3-30-black-hole_1091.40 ::date 2018-08-09T19:49:36
+# ::snt <Builder> okay
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_40.txt
+(o / okay-04)
+
+# ::id minecraft-3-30-black-hole_1091.41 ::date 2018-08-09T19:49:47
+# ::snt [Builder puts down a purple block at X:1 Y:1 Z:-2]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_41.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z "-2")))
+
+# ::id minecraft-3-30-black-hole_1091.42 ::date 2018-08-09T19:50:33
+# ::snt [Builder puts down a purple block at X:0 Y:1 Z:-2]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_42.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z "-2")))
+
+# ::id minecraft-3-30-black-hole_1091.43 ::date 2018-08-09T19:51:13
+# ::snt [Builder puts down a purple block at X:-1 Y:1 Z:-2]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_43.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-1" :y 1 :z "-2")))
+
+# ::id minecraft-3-30-black-hole_1091.44 ::date 2018-08-09T19:51:52
+# ::snt [Builder puts down a purple block at X:-2 Y:1 Z:-2]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_44.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 1 :z "-2")))
+
+# ::id minecraft-3-30-black-hole_1091.45 ::date 2018-08-09T19:52:41
+# ::snt [Builder puts down a purple block at X:-3 Y:1 Z:-2]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_45.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 1 :z "-2")))
+
+# ::id minecraft-3-30-black-hole_1091.46 ::date 2018-08-09T19:53:18
+# ::snt [Builder puts down a purple block at X:2 Y:1 Z:-2]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_46.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z "-2")))
+
+# ::id minecraft-3-30-black-hole_1091.47 ::date 2018-08-09T19:53:58
+# ::snt [Builder puts down a purple block at X:2 Y:1 Z:-1]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_47.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z "-1")))
+
+# ::id minecraft-3-30-black-hole_1091.48 ::date 2018-08-09T19:54:40
+# ::snt [Builder puts down a purple block at X:2 Y:1 Z:0]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_48.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 0)))
+
+# ::id minecraft-3-30-black-hole_1091.49 ::date 2018-08-09T19:55:25
+# ::snt [Builder puts down a purple block at X:2 Y:1 Z:1]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_49.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 1)))
+
+# ::id minecraft-3-30-black-hole_1091.50 ::date 2018-08-09T19:56:09
+# ::snt [Builder puts down a purple block at X:2 Y:1 Z:2]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_50.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 2)))
+
+# ::id minecraft-3-30-black-hole_1091.51 ::date 2018-08-09T19:56:43
+# ::snt [Builder puts down a purple block at X:2 Y:1 Z:3]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_51.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 3)))
+
+# ::id minecraft-3-30-black-hole_1091.52 ::date 2018-08-09T19:57:18
+# ::snt [Builder puts down a purple block at X:1 Y:1 Z:3]
+# ::save-date Thu Oct 25, 2018 ::user jbonn ::file col_1091_52.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 3)))
+
+# ::id minecraft-3-30-black-hole_1091.53 ::date 2018-08-09T19:57:54
+# ::snt [Builder puts down a purple block at X:0 Y:1 Z:3]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_53.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 3)))
+
+# ::id minecraft-3-30-black-hole_1091.54 ::date 2018-08-09T19:58:29
+# ::snt [Builder puts down a purple block at X:-1 Y:1 Z:3]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_54.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-1" :y 1 :z 3)))
+
+# ::id minecraft-3-30-black-hole_1091.55 ::date 2018-08-09T19:59:08
+# ::snt [Builder puts down a purple block at X:-3 Y:1 Z:3]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_55.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 1 :z 3)))
+
+# ::id minecraft-3-30-black-hole_1091.56 ::date 2018-08-09T19:59:54
+# ::snt [Builder puts down a purple block at X:-2 Y:1 Z:3]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_56.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 1 :z 3)))
+
+# ::id minecraft-3-30-black-hole_1091.57 ::date 2018-08-09T20:01:15
+# ::snt [Builder puts down a purple block at X:-3 Y:1 Z:2]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_57.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 1 :z 2)))
+
+# ::id minecraft-3-30-black-hole_1091.58 ::date 2018-08-09T20:01:53
+# ::snt [Builder puts down a purple block at X:-3 Y:1 Z:1]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_58.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 1 :z 1)))
+
+# ::id minecraft-3-30-black-hole_1091.59 ::date 2018-08-09T20:02:29
+# ::snt [Builder puts down a purple block at X:-3 Y:1 Z:0]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_59.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 1 :z 0)))
+
+# ::id minecraft-3-30-black-hole_1091.60 ::date 2018-08-09T20:03:16
+# ::snt [Builder puts down a purple block at X:-3 Y:1 Z:-1]
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_60.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 1 :z "-1")))
+
+# ::id minecraft-3-30-black-hole_1091.61 ::date 2018-08-09T20:03:55
+# ::snt <Architect> yes, awesome.
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_61.txt
+(c / confirm-01
+      :ARG1 (a2 / awe-01))
+
+# ::id minecraft-3-30-black-hole_1091.62 ::date 2018-08-09T20:04:31
+# ::snt now place add another layer to that ring
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_62.txt
+(a / add-02 :mode imperative :polite +
+      :ARG0 (y / you)
+      :ARG1 (l / layer
+            :mod (a2 / another))
+      :ARG2 (r / ring
+            :mod (t / that))
+      :time (n / now))
+
+# ::id minecraft-3-30-black-hole_1091.63 ::date 2018-08-09T20:05:49
+# ::snt <Architect> please*
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_63.txt
+(m / mean-01
+      :ARG2 (s / string-entity :value "please"))
+
+# ::id minecraft-3-30-black-hole_1091.64 ::date 2018-08-09T20:08:21
+# ::snt <Builder> purple?
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_64.txt
+(h / have-color-91
+      :ARG2 (p / purple)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-3-30-black-hole_1091.65 ::date 2018-08-09T20:08:49
+# ::snt <Builder> i am out of blocks
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1091_65.txt
+(o / out-05
+      :ARG1 (i / i)
+      :ARG2 (b / block :pl +))
+
+# ::id minecraft-3-30-black-hole_1091.66 ::date 2018-08-09T20:09:22
+# ::snt <Architect> oh, do you have any colors that are not purple or red?
+# ::save-date Tue Jan 8, 2019 ::user jbonn ::file col_1091_66.txt
+(h / have-03
+      :ARG0 (y / you)
+      :ARG1 (t / thing :pl +
+            :mod (a2 / any)
+            :color (p / purple :polarity -)
+            :color (r / red :polarity -))
+      :polarity (a / amr-unknown)
+      :mod (o / oh :mode expressive))
+
+# ::id minecraft-3-30-black-hole_1091.67 ::date 2018-08-09T20:10:28
+# ::snt <Builder> yes
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_67.txt
+(y / yes)
+
+# ::id minecraft-3-30-black-hole_1091.68 ::date 2018-08-09T20:10:44
+# ::snt <Architect> ok, my mistake.
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_68.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (m / mistake-02
+            :ARG0 (i / i)))
+
+# ::id minecraft-3-30-black-hole_1091.69 ::date 2018-08-09T20:11:24
+# ::snt <Architect> i am a failure of an architect
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_69.txt
+(f / fail-01
+      :ARG1 (i / i)
+      :ARG2 (h / have-org-role-91
+            :ARG0 i
+            :ARG2 (a / architect)))
+
+# ::id minecraft-3-30-black-hole_1091.70 ::date 2018-08-09T20:12:46
+# ::snt <Architect> we will use other colors to support the final structure
+# ::save-date Tue Jan 8, 2019 ::user jbonn ::file col_1091_70.txt
+(u / use-01
+      :ARG0 (w / we)
+      :ARG1 (t / thing :pl +
+            :color (c / color
+                  :ARG1-of (o / other-01)))
+      :ARG2 (s / support-01
+            :ARG0 t
+            :ARG1 (s2 / structure
+                  :mod (f / final))))
+
+# ::id minecraft-3-30-black-hole_1091.71 ::date 2018-08-09T20:14:04
+# ::snt <Builder> is the purple supposed to be on the third level?
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_71.txt
+(s / suppose-02
+      :ARG1 (t / thing
+            :color (p / purple)
+            :location (l / level
+                  :ord (o / ordinal-entity :value 3)))
+      :polarity (a / amr-unknown))
+      
+# ::id minecraft-3-30-black-hole_1091.72 ::date 2018-08-09T20:15:02
+# ::snt <Builder> i think i could make it float..
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_72.txt
+(t / think-01
+      :ARG0 (i / i)
+      :ARG1 (p / possible-01
+            :ARG1 (m / make-01
+                  :ARG0 i
+                  :ARG1 (f / float-01
+                        :ARG1 (i2 / it)))))
+
+# ::id minecraft-3-30-black-hole_1091.73 ::date 2018-08-09T20:15:48
+# ::snt <Architect> let's use blue to replace the purple ring.
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_73.txt
+(u / use-01
+      :ARG0 (w / we)
+      :ARG1 (t / thing
+            :color (b / blue))
+      :ARG2 (r / replace-01
+            :ARG0 w
+            :ARG1 (r2 / ring
+                  :color (p / purple))
+            :ARG2 t))
+
+# ::id minecraft-3-30-black-hole_1091.74 ::date 2018-08-09T20:19:09
+# ::snt yes purple is supposed to be the final structure
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_74.txt
+(c / confirm-01
+      :ARG1 (s / suppose-02
+            :ARG2 (s2 / structure
+                  :mod (f / final)
+                  :color (p / purple))))
+
+# ::id minecraft-3-30-black-hole_1091.75 ::date 2018-08-09T20:21:06
+# ::snt <Builder> okay
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_75.txt
+(o / okay-04)
+
+# ::id minecraft-3-30-black-hole_1091.76 ::date 2018-08-09T20:21:15
+# ::snt <Builder> let me try it
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_76.txt
+(l / let-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / try-01
+            :ARG0 (i / i)
+            :ARG1 (i2 / it)))
+
+# ::id minecraft-3-30-black-hole_1091.77 ::date 2018-08-09T20:21:52
+# ::snt [Builder picks up a purple block at X:-1 Y:1 Z:-2]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_77.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-1" :y 1 :z "-2")))
+
+# ::id minecraft-3-30-black-hole_1091.78 ::date 2018-08-09T20:22:55
+# ::snt [Builder picks up a purple block at X:-2 Y:1 Z:-2]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_78.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 1 :z "-2")))
+
+# ::id minecraft-3-30-black-hole_1091.79 ::date 2018-08-09T20:23:46
+# ::snt [Builder picks up a purple block at X:-3 Y:1 Z:-2]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_79.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 1 :z "-2")))
+
+# ::id minecraft-3-30-black-hole_1091.80 ::date 2018-08-09T20:24:22
+# ::snt [Builder picks up a purple block at X:-3 Y:1 Z:-1]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_80.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 1 :z "-1")))
+
+# ::id minecraft-3-30-black-hole_1091.81 ::date 2018-08-09T20:25:17
+# ::snt [Builder picks up a purple block at X:-3 Y:1 Z:0]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_81.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 1 :z 0)))
+
+# ::id minecraft-3-30-black-hole_1091.82 ::date 2018-08-09T20:25:53
+# ::snt [Builder picks up a purple block at X:-3 Y:1 Z:1]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_82.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 1 :z 1)))
+
+# ::id minecraft-3-30-black-hole_1091.83 ::date 2018-08-09T20:26:31
+# ::snt [Builder picks up a purple block at X:-3 Y:1 Z:2]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_83.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 1 :z 2)))
+
+# ::id minecraft-3-30-black-hole_1091.84 ::date 2018-08-09T20:27:08
+# ::snt [Builder picks up a purple block at X:-2 Y:1 Z:3]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_84.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 1 :z 3)))
+
+# ::id minecraft-3-30-black-hole_1091.85 ::date 2018-08-09T20:27:44
+# ::snt [Builder picks up a purple block at X:-3 Y:1 Z:3]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_85.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 1 :z 3)))
+
+# ::id minecraft-3-30-black-hole_1091.86 ::date 2018-08-09T20:28:19
+# ::snt [Builder picks up a purple block at X:-1 Y:1 Z:3]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_86.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-1" :y 1 :z 3)))
+
+# ::id minecraft-3-30-black-hole_1091.87 ::date 2018-08-09T20:29:03
+# ::snt [Builder picks up a purple block at X:0 Y:1 Z:3]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_87.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 3)))
+
+# ::id minecraft-3-30-black-hole_1091.88 ::date 2018-08-09T20:29:38
+# ::snt [Builder picks up a purple block at X:1 Y:1 Z:3]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_88.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 3)))
+
+# ::id minecraft-3-30-black-hole_1091.89 ::date 2018-08-09T20:30:16
+# ::snt [Builder picks up a purple block at X:2 Y:1 Z:3]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_89.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 3)))
+
+# ::id minecraft-3-30-black-hole_1091.90 ::date 2018-08-09T20:30:54
+# ::snt [Builder picks up a purple block at X:2 Y:1 Z:2]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_90.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 2)))
+
+# ::id minecraft-3-30-black-hole_1091.91 ::date 2018-08-09T20:31:41
+# ::snt [Builder picks up a purple block at X:2 Y:1 Z:1]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_91.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 1)))
+
+# ::id minecraft-3-30-black-hole_1091.92 ::date 2018-08-09T20:32:15
+# ::snt [Builder picks up a purple block at X:2 Y:1 Z:0]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_92.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 0)))
+
+# ::id minecraft-3-30-black-hole_1091.93 ::date 2018-08-09T20:32:58
+# ::snt [Builder picks up a purple block at X:2 Y:1 Z:-1]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_93.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z "-1")))
+
+# ::id minecraft-3-30-black-hole_1091.94 ::date 2018-08-09T20:33:50
+# ::snt [Builder picks up a purple block at X:2 Y:1 Z:-2]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_94.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z "-2")))
+
+# ::id minecraft-3-30-black-hole_1091.95 ::date 2018-08-09T20:34:29
+# ::snt [Builder picks up a purple block at X:1 Y:1 Z:-2]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_95.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z "-2")))
+
+# ::id minecraft-3-30-black-hole_1091.96 ::date 2018-08-09T20:35:11
+# ::snt [Builder picks up a purple block at X:0 Y:1 Z:-2]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_96.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z "-2")))
+
+# ::id minecraft-3-30-black-hole_1091.97 ::date 2018-08-09T20:35:46
+# ::snt [Builder puts down a purple block at X:0 Y:3 Z:-1]
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_97.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z "-1")))
+
+# ::id minecraft-3-30-black-hole_1091.98 ::date 2018-08-09T20:36:23
+# ::snt [Builder puts down a purple block at X:0 Y:3 Z:-2]
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_98.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z "-2")))
+
+# ::id minecraft-3-30-black-hole_1091.99 ::date 2018-08-09T20:37:03
+# ::snt [Builder picks up a purple block at X:0 Y:3 Z:-1]
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1091_99.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z "-1")))
+
+# ::id minecraft-3-30-black-hole_1091.100 ::date 2018-08-09T20:37:48
+# ::snt [Builder puts down a purple block at X:-1 Y:3 Z:-2]
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_100.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-1" :y 3 :z "-2")))
+
+# ::id minecraft-3-30-black-hole_1091.101 ::date 2018-08-09T20:38:29
+# ::snt [Builder puts down a purple block at X:-2 Y:3 Z:-2]
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_101.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 3 :z "-2")))
+
+# ::id minecraft-3-30-black-hole_1091.102 ::date 2018-08-09T20:39:05
+# ::snt [Builder puts down a purple block at X:-3 Y:3 Z:-2]
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_102.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 3 :z "-2")))
+
+# ::id minecraft-3-30-black-hole_1091.103 ::date 2018-08-09T20:39:45
+# ::snt [Builder puts down a purple block at X:-3 Y:3 Z:-1]
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_103.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 3 :z "-1")))
+
+# ::id minecraft-3-30-black-hole_1091.104 ::date 2018-08-09T20:40:58
+# ::snt [Builder puts down a purple block at X:-3 Y:3 Z:0]
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_104.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 3 :z 0)))
+
+# ::id minecraft-3-30-black-hole_1091.105 ::date 2018-08-09T20:41:38
+# ::snt [Builder puts down a purple block at X:-3 Y:3 Z:1]
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_105.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 3 :z 1)))
+
+# ::id minecraft-3-30-black-hole_1091.106 ::date 2018-08-09T20:42:16
+# ::snt [Builder puts down a purple block at X:-3 Y:3 Z:2]
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_106.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 3 :z 2)))
+
+# ::id minecraft-3-30-black-hole_1091.107 ::date 2018-08-09T20:42:48
+# ::snt <Architect> oh that is magnificent builder
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_107.txt
+(s / say-01
+      :ARG1 (m / magnificent
+            :domain (t / that))
+      :ARG2 (b / builder)
+      :mod (o / oh :mode expressive))
+
+# ::id minecraft-3-30-black-hole_1091.108 ::date 2018-08-09T20:43:11
+# ::snt [Builder puts down a purple block at X:-3 Y:3 Z:3]
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_108.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 3 :z 3)))
+
+# ::id minecraft-3-30-black-hole_1091.109 ::date 2018-08-10T09:09:08
+# ::snt [Builder puts down a purple block at X:-2 Y:3 Z:3]
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_109.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 3 :z 3)))
+
+# ::id minecraft-3-30-black-hole_1091.110 ::date 2018-08-10T09:09:58
+# ::snt [Builder puts down a purple block at X:-1 Y:3 Z:3]
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_110.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-1" :y 3 :z 3)))
+
+# ::id minecraft-3-30-black-hole_1091.111 ::date 2018-08-10T09:10:46
+# ::snt [Builder puts down a purple block at X:0 Y:3 Z:3]
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_111.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 3)))
+
+# ::id minecraft-3-30-black-hole_1091.112 ::date 2018-08-10T09:11:23
+# ::snt [Builder puts down a purple block at X:1 Y:3 Z:3]
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_112.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 3)))
+
+# ::id minecraft-3-30-black-hole_1091.113 ::date 2018-08-10T09:12:05
+# ::snt [Builder puts down a purple block at X:2 Y:3 Z:3]
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_113.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 3)))
+
+# ::id minecraft-3-30-black-hole_1091.114 ::date 2018-08-10T09:12:44
+# ::snt [Builder puts down a purple block at X:2 Y:3 Z:2]
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_114.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 2)))
+
+# ::id minecraft-3-30-black-hole_1091.115 ::date 2018-08-10T09:13:39
+# ::snt [Builder puts down a purple block at X:2 Y:3 Z:1]
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_115.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 1)))
+
+# ::id minecraft-3-30-black-hole_1091.116 ::date 2018-08-10T09:14:17
+# ::snt [Builder puts down a purple block at X:2 Y:3 Z:0]
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_116.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 0)))
+
+# ::id minecraft-3-30-black-hole_1091.117 ::date 2018-08-10T09:14:54
+# ::snt [Builder puts down a purple block at X:2 Y:3 Z:-1]
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_117.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z "-1")))
+
+# ::id minecraft-3-30-black-hole_1091.118 ::date 2018-08-10T09:15:27
+# ::snt <Architect> i am not familiar with minecraft, so my understanding is not as great as your own
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_118.txt
+(c / cause-01
+      :ARG0 (f / familiarize-01
+            :ARG1 (i / i)
+            :ARG2 (p / product :wiki "Minecraft" :name (n / name :op1 "Minecraft")))
+      :ARG1 (h / have-degree-91
+            :ARG1 (u / understand-01
+                  :ARG0 i)
+            :ARG2 (g / great)
+            :ARG3 (l / less)
+            :ARG4 (u2 / understand-01
+                  :ARG0 (y / you))))
+
+# ::id minecraft-3-30-black-hole_1091.119 ::date 2018-08-10T09:24:39
+# ::snt [Builder puts down a purple block at X:2 Y:3 Z:-2]
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_119.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z "-2")))
+
+# ::id minecraft-3-30-black-hole_1091.120 ::date 2018-08-10T09:25:16
+# ::snt [Builder puts down a purple block at X:1 Y:3 Z:-2]
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_120.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z "-2")))
+
+# ::id minecraft-3-30-black-hole_1091.121 ::date 2018-08-10T09:25:48
+# ::snt <Builder> like this?
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_121.txt
+(r / resemble-01
+      :ARG2 (t / this)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-3-30-black-hole_1091.122 ::date 2018-08-10T09:26:10
+# ::snt <Architect> yes, we will need to cut some pieces form that and add a few but that is great.
+# ::save-date Tue Oct 23, 2018 ::user jbonn ::file col_1091_122.txt
+(c2 / confirm-01
+      :ARG1 (g / great
+            :domain (t / that)
+            :concession (n / need-01
+                  :ARG0 (w / we)
+                  :ARG1 (a / and
+                        :op1 (c / cut-01
+                              :ARG0 w
+                              :ARG1 (p / piece
+                                    :quant (s / some))
+                              :ARG2 (t2 / that))
+                        :op2 (a2 / add-02
+                              :ARG0 w
+                              :ARG1 (p2 / piece
+                                    :quant (f / few))
+                              :ARG2 t2)))))
+
+# ::id minecraft-3-30-black-hole_1091.123 ::date 2018-08-10T09:28:26
+# ::snt <Architect> can you add purple blocks at each inner corner of that structure?
+# ::save-date Tue Jan 8, 2019 ::user jbonn ::file col_1091_123.txt
+(a / add-02 :polite + :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :pl +
+            :color (p / purple))
+      :ARG2 (s2 / space
+            :ARG1-of (i2 / inside-01
+                  :ARG2 s)
+            :ARG1-of (c / corner-03
+                  :ARG2 (s / structure
+                        :mod (t / that)))
+            :mod (e / each)))
+
+# ::id minecraft-3-30-black-hole_1091.124 ::date 2018-08-10T09:30:02
+# ::snt <Architect> if not, please remove the corner pieces of the purple ring
+# ::save-date Thu Oct 25, 2018 ::user jbonn ::file col_1091_124.txt
+(r / remove-01 :polite + :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (p / piece :pl +
+            :ARG1-of (c / corner-02
+                  :ARG2 (r2 / ring
+                        :color (p2 / purple))))
+      :condition (h / have-polarity-91
+            :ARG2 -))
+
+# ::id minecraft-3-30-black-hole_1091.125 ::date 2018-08-10T09:31:50
+# ::snt <Builder> i only have 20 blocks of each color.
+# ::save-date Tue Jan 8, 2019 ::user jbonn ::file col_1091_125.txt
+(h / have-03
+      :ARG0 (i / i)
+      :ARG1 (b / block :pl +)
+      :mod (o / only)
+      :frequency (r / rate-entity-91
+            :ARG1 (b2 / block :quant 20
+                  :ARG1-of (i2 / include-91
+                        :ARG2 b))
+            :ARG2 (c2 / color
+                  :mod (e / each)
+                  :ARG2-of (h2 / have-color-91
+                        :ARG1 b))))
+
+# ::id minecraft-3-30-black-hole_1091.126 ::date 2018-08-10T09:38:39
+# ::snt <Builder> i used them up.
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_126.txt
+(u / use-up-04
+      :ARG0 (i / i)
+      :ARG1 (t / they))
+
+# ::id minecraft-3-30-black-hole_1091.127 ::date 2018-08-10T09:39:04
+# ::snt <Builder> okay i will remove some
+# ::save-date Thu Oct 25, 2018 ::user jbonn ::file col_1091_127.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (r / remove-01
+            :ARG0 (i / i)
+            :ARG1 (s / some)))
+
+# ::id minecraft-3-30-black-hole_1091.128 ::date 2018-08-10T09:39:28
+# ::snt [Builder picks up a purple block at X:2 Y:3 Z:-2]
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_128.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z "-2")))
+
+# ::id minecraft-3-30-black-hole_1091.129 ::date 2018-08-10T09:40:12
+# ::snt [Builder picks up a purple block at X:-3 Y:3 Z:-2]
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_129.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 3 :z "-2")))
+
+# ::id minecraft-3-30-black-hole_1091.130 ::date 2018-08-10T09:40:47
+# ::snt [Builder picks up a purple block at X:-3 Y:3 Z:3]
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_130.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 3 :z 3)))
+
+# ::id minecraft-3-30-black-hole_1091.131 ::date 2018-08-10T09:41:24
+# ::snt [Builder picks up a purple block at X:2 Y:3 Z:3]
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_131.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 3)))
+
+# ::id minecraft-3-30-black-hole_1091.132 ::date 2018-08-10T09:42:02
+# ::snt [Builder puts down a purple block at X:1 Y:3 Z:2]
+# ::save-date Thu Oct 25, 2018 ::user jbonn ::file col_1091_132.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 2)))
+
+# ::id minecraft-3-30-black-hole_1091.133 ::date 2018-08-10T09:42:46
+# ::snt [Builder puts down a purple block at X:-2 Y:3 Z:2]
+# ::save-date Thu Oct 25, 2018 ::user jbonn ::file col_1091_133.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 3 :z 2)))
+
+# ::id minecraft-3-30-black-hole_1091.134 ::date 2018-08-10T09:43:19
+# ::snt [Builder puts down a purple block at X:-2 Y:3 Z:-1]
+# ::save-date Thu Oct 25, 2018 ::user jbonn ::file col_1091_134.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 3 :z "-1")))
+
+# ::id minecraft-3-30-black-hole_1091.135 ::date 2018-08-10T09:43:57
+# ::snt [Builder puts down a purple block at X:1 Y:3 Z:-1]
+# ::save-date Thu Oct 25, 2018 ::user jbonn ::file col_1091_135.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z "-1")))
+
+# ::id minecraft-3-30-black-hole_1091.136 ::date 2018-08-10T09:44:30
+# ::snt <Builder> like this?
+# ::save-date Thu Oct 25, 2018 ::user jbonn ::file col_1091_136.txt
+(r / resemble-01
+      :ARG2 (t / this)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-3-30-black-hole_1091.137 ::date 2018-08-10T09:44:46
+# ::snt <Architect> yes, all that's left now is removing
+# ::save-date Tue Jan 8, 2019 ::user jbonn ::file col_1091_137.txt
+(a / and
+      :op1 (c / confirm-01)
+      :op2 (l / leave-17
+            :ARG1 (r / remove-01)
+            :time (n / now)
+            :mod (o / only)))
+
+# ::id minecraft-3-30-black-hole_1091.138 ::date 2018-08-10T09:48:20
+# ::snt <Architect> we need to remove the pieces that were directly next to the old corners you just removed
+# ::save-date Thu Oct 25, 2018 ::user jbonn ::file col_1091_138.txt
+(n / need-01
+      :ARG0 (w / we)
+      :ARG1 (r / remove-01
+            :ARG0 w
+            :ARG1 (p / piece :pl +
+                  :ARG1-of (n2 / next-to-02
+                        :ARG2 (t / thing :pl +
+                              :ARG1-of (c / corner-02)
+                              :mod (o / old)
+                              :ARG1-of (r2 / remove-01
+                                    :ARG0 (y / you)
+                                    :time (j / just)))
+                        :ARG3 (c2 / cartesian-framework-91
+                              :ARG1 (b / build-space))
+                        :ARG1-of (d / direct-02)))))
+
+# ::id minecraft-3-30-black-hole_1091.139 ::date 2018-08-10T10:40:00
+# ::snt <Builder> the purple ones?
+# ::save-date Tue Jan 8, 2019 ::user jbonn ::file col_1091_139.txt
+(o / one :pl +
+      :color (p / purple)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-3-30-black-hole_1091.140 ::date 2018-08-10T10:43:46
+# ::snt <Architect> while leaving the new inner corners intact
+# ::save-date Thu Oct 25, 2018 ::user jbonn ::file col_1091_140.txt
+(c / contrast-01
+      :ARG2 (l / leave-14
+            :ARG2 (i2 / intact
+                  :domain (t / thing
+                        :ARG1-of (c2 / corner-02)
+                        :ARG1-of (n / new-01)
+                        :ARG1-of (i3 / inside-01)))))
+
+# ::id minecraft-3-30-black-hole_1091.141 ::date 2018-08-10T10:50:09
+# ::snt <Architect> yes
+# ::save-date Thu Oct 25, 2018 ::user jbonn ::file col_1091_141.txt
+(c / confirm-01)
+
+# ::id minecraft-3-30-black-hole_1091.142 ::date 2018-08-10T10:50:22
+# ::snt [Builder picks up a purple block at X:1 Y:3 Z:-2]
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_142.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z "-2")))
+
+# ::id minecraft-3-30-black-hole_1091.143 ::date 2018-08-10T10:51:00
+# ::snt [Builder picks up a purple block at X:2 Y:3 Z:-1]
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_143.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z "-1")))
+
+# ::id minecraft-3-30-black-hole_1091.144 ::date 2018-08-10T10:51:33
+# ::snt [Builder picks up a purple block at X:-2 Y:3 Z:-2]
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_144.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 3 :z "-2")))
+
+# ::id minecraft-3-30-black-hole_1091.145 ::date 2018-08-10T10:52:16
+# ::snt [Builder picks up a purple block at X:-3 Y:3 Z:-1]
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_145.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 3 :z "-1")))
+
+# ::id minecraft-3-30-black-hole_1091.146 ::date 2018-08-10T10:52:50
+# ::snt [Builder picks up a purple block at X:-3 Y:3 Z:2]
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_146.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 3 :z 2)))
+
+# ::id minecraft-3-30-black-hole_1091.147 ::date 2018-08-10T10:53:24
+# ::snt [Builder picks up a purple block at X:-2 Y:3 Z:3]
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_147.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 3 :z 3)))
+
+# ::id minecraft-3-30-black-hole_1091.148 ::date 2018-08-10T10:54:02
+# ::snt [Builder picks up a purple block at X:1 Y:3 Z:3]
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_148.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 3)))
+
+# ::id minecraft-3-30-black-hole_1091.149 ::date 2018-08-10T10:54:37
+# ::snt [Builder picks up a purple block at X:2 Y:3 Z:2]
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_149.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 2)))
+
+# ::id minecraft-3-30-black-hole_1091.150 ::date 2018-08-10T10:55:13
+# ::snt <Architect> builder, you are awesome.
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_150.txt
+(s / say-01
+      :ARG1 (a / awe-01
+            :ARG0 b)
+      :ARG2 (b / builder))
+
+# ::id minecraft-3-30-black-hole_1091.151 ::date 2018-08-10T10:55:34
+# ::snt <Architect> now all we need to do is remove the first red layer and the structure should be complete.
+# ::save-date Tue Jan 8, 2019 ::user jbonn ::file col_1091_151.txt
+(n / need-01
+      :ARG0 (w / we)
+      :ARG1 (r / remove-01
+            :ARG0 w
+            :ARG1 (l / layer
+                  :ord (o2 / ordinal-entity :value 1)
+                  :color (r2 / red))
+            :condition-of (c / complete-01
+                  :ARG1 (s / structure)
+                  :ARG1-of (l2 / likely-01)))
+      :mod (o / only)
+      :time (n2 / now))
+
+# ::id minecraft-3-30-black-hole_1091.152 ::date 2018-08-10T11:01:53
+# ::snt <Architect> please standby for me to inspect at the end
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_152.txt
+(s / stand-by-05 :mode imperative :polite +
+      :ARG1 (y / you)
+      :purpose (i2 / inspect-01
+            :ARG0 (i / i)
+            :time (e / end-01)))
+
+# ::id minecraft-3-30-black-hole_1091.153 ::date 2018-08-10T11:02:49
+# ::snt <Builder> okay
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_153.txt
+(o / okay-04)
+
+# ::id minecraft-3-30-black-hole_1091.154 ::date 2018-08-10T11:02:57
+# ::snt <Builder> all of the first red layer?
+# ::save-date Thu Oct 25, 2018 ::user jbonn ::file col_1091_154.txt
+(l / layer
+      :ord (o / ordinal-entity :value 1)
+      :color (r / red)
+      :mod (a / all)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-3-30-black-hole_1091.155 ::date 2018-08-10T11:04:29
+# ::snt [Builder picks up a red block at X:1 Y:1 Z:-1]
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_155.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z "-1")))
+
+# ::id minecraft-3-30-black-hole_1091.156 ::date 2018-08-10T11:05:17
+# ::snt [Builder picks up a red block at X:0 Y:1 Z:-1]
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_156.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z "-1")))
+
+# ::id minecraft-3-30-black-hole_1091.157 ::date 2018-08-10T11:05:48
+# ::snt [Builder picks up a red block at X:-1 Y:1 Z:-1]
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_157.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-1" :y 1 :z "-1")))
+
+# ::id minecraft-3-30-black-hole_1091.158 ::date 2018-08-10T11:06:20
+# ::snt [Builder picks up a red block at X:-2 Y:1 Z:-1]
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_158.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 1 :z "-1")))
+
+# ::id minecraft-3-30-black-hole_1091.159 ::date 2018-08-10T11:06:51
+# ::snt [Builder picks up a red block at X:-2 Y:1 Z:0]
+# ::save-date Thu Oct 25, 2018 ::user jbonn ::file col_1091_159.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 1 :z 0)))
+
+# ::id minecraft-3-30-black-hole_1091.160 ::date 2018-08-10T11:07:20
+# ::snt [Builder picks up a red block at X:-2 Y:1 Z:1]
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_160.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 1 :z 1)))
+
+# ::id minecraft-3-30-black-hole_1091.161 ::date 2018-08-10T11:07:52
+# ::snt [Builder picks up a red block at X:-2 Y:1 Z:2]
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_161.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 1 :z 2)))
+
+# ::id minecraft-3-30-black-hole_1091.162 ::date 2018-08-10T11:08:25
+# ::snt <Architect> yes all of it
+# ::save-date Thu Oct 25, 2018 ::user jbonn ::file col_1091_162.txt
+(c / confirm-01
+      :ARG1 (i2 / it
+            :mod (a / all)))
+
+# ::id minecraft-3-30-black-hole_1091.163 ::date 2018-08-10T11:08:38
+# ::snt [Builder picks up a red block at X:-1 Y:1 Z:2]
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_163.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-1" :y 1 :z 2)))
+
+# ::id minecraft-3-30-black-hole_1091.164 ::date 2018-08-10T11:09:44
+# ::snt [Builder picks up a red block at X:0 Y:1 Z:2]
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_164.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 2)))
+
+# ::id minecraft-3-30-black-hole_1091.165 ::date 2018-08-10T11:10:25
+# ::snt [Builder picks up a red block at X:1 Y:1 Z:2]
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_165.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 2)))
+
+# ::id minecraft-3-30-black-hole_1091.166 ::date 2018-08-10T11:10:57
+# ::snt [Builder picks up a red block at X:1 Y:1 Z:1]
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_166.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 1)))
+
+# ::id minecraft-3-30-black-hole_1091.167 ::date 2018-08-10T11:11:30
+# ::snt [Builder picks up a red block at X:1 Y:1 Z:0]
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_167.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 0)))
+
+# ::id minecraft-3-30-black-hole_1091.168 ::date 2018-08-10T11:12:17
+# ::snt <Builder> is this it?
+# ::save-date Thu Oct 25, 2018 ::user jbonn ::file col_1091_168.txt
+(b / be-it-08
+      :ARG1 (t / this)
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-3-30-black-hole_1091.169 ::date 2018-08-10T11:12:37
+# ::snt <Architect> yes, we've done it builder!
+# ::save-date Thu Oct 25, 2018 ::user jbonn ::file col_1091_169.txt
+(s / say-01
+      :ARG1 (c / confirm-01
+            :ARG1 (d / do-02
+                  :ARG0 (w / we)
+                  :ARG1 (i2 / it)))
+      :ARG2 (b / builder))
+
+# ::id minecraft-3-30-black-hole_1091.170 ::date 2018-08-10T11:13:40
+# ::snt <Builder> good job!
+# ::save-date Fri Aug 10, 2018 ::user jbonn ::file col_1091_170.txt
+(g / good-02
+      :ARG1 (j / job))

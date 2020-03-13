@@ -1,0 +1,959 @@
+# workset Minecraft-4-3-street-lamps (generated on Sun Nov 4, 2018 at 18:39:48 for user jbonn)
+
+#frameworks
+# ::id minecraft-4-3-street-lamps_1126.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6
+                  :op5 y7))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (s / streetlamp :pl +)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :part (l4 / lamp
+                  :color (g2 / green)
+                  :ARG1-of (c9 / cartesian-framework-91
+                        :ARG2 (x6 / x-axis)
+                        :ARG3 (y6 / y-axis)
+                        :ARG4 (z6 / z-axis)
+                        :FR (i4 / intrinsic)))
+            :part (l5 / lamp
+                  :color (b3 / blue)
+                  :ARG1-of (c10 / cartesian-framework-91
+                        :ARG2 (x7 / x-axis)
+                        :ARG3 (y7 / y-axis)
+                        :ARG4 (z7 / z-axis)
+                        :FR (i5 / intrinsic))))
+      :snt9 (c11 / codirectional-01
+            :ARG1 z
+            :ARG2 z6)
+      :snt10 (a6 / antiparallel-01
+            :ARG1 x
+            :ARG2 z7))
+
+# ::id minecraft-4-3-street-lamps_1126.1 ::date 2018-10-08T10:34:41
+# ::snt <Builder> Mission has started.
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1126_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-3-street-lamps_1126.2 ::date 2018-10-22T12:37:27
+# ::snt <Builder> hello
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1126_2.txt
+(h / hello)
+
+# ::id minecraft-4-3-street-lamps_1126.3 ::date 2018-10-22T12:37:36
+# ::snt <Architect> this is a demented playground
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1126_3.txt
+(t2 / thing
+      :mod (t / this)
+      :configuration (p / playground
+            :mod (d / demented)))
+
+# ::id minecraft-4-3-street-lamps_1126.4 ::date 2018-10-22T12:38:13
+# ::snt <Builder> okay
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1126_4.txt
+(o / okay-04)
+
+# ::id minecraft-4-3-street-lamps_1126.5 ::date 2018-10-22T12:38:22
+# ::snt <Architect> start with green
+# ::save-date Mon Oct 22, 2018 ::user jbonn ::file col_1126_5.txt
+(s / start-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (t / thing
+            :color (g / green)))
+
+# ::id minecraft-4-3-street-lamps_1126.6 ::date 2018-10-22T12:40:25
+# ::snt <Architect> close to one of the edges of the building surface
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_6.txt
+(c / close-10
+      :ARG2 (e2 / edge
+            :ARG1-of (i2 / include-91
+                  :ARG2 (e / edge :pl +
+                        :part-of (s / surface
+                              :purpose (b / build-01)))
+                  :ARG3 1)))
+
+# ::id minecraft-4-3-street-lamps_1126.7 ::date 2018-11-04T18:03:44
+# ::snt <Architect> it's a tower 6 tall
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_7.txt
+(h / have-configuration-91
+      :ARG1 (i2 / it)
+      :ARG2 (t / tower
+            :ARG1-of (t2 / tall-01
+                  :ARG2 6
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (b / build-space)))))
+
+# ::id minecraft-4-3-street-lamps_1126.8 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a green block at X:-2 Y:1 Z:-5]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_8.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z -5)))
+
+# ::id minecraft-4-3-street-lamps_1126.9 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a green block at X:-2 Y:2 Z:-5]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_9.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z -5)))
+
+# ::id minecraft-4-3-street-lamps_1126.10 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a green block at X:-2 Y:3 Z:-5]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_10.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z -5)))
+
+# ::id minecraft-4-3-street-lamps_1126.11 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a green block at X:-2 Y:4 Z:-5]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 4 :z -5)))
+
+# ::id minecraft-4-3-street-lamps_1126.12 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a green block at X:-2 Y:5 Z:-5]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_12.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 5 :z -5)))
+
+# ::id minecraft-4-3-street-lamps_1126.13 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a green block at X:-2 Y:6 Z:-5]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_13.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 6 :z -5)))
+
+# ::id minecraft-4-3-street-lamps_1126.14 ::date 2018-11-04T18:08:26
+# ::snt <Builder> is here fine?
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_14.txt
+(f / fine-04
+      :ARG1 (b / be-located-at-91
+            :ARG2 (h / here))
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-4-3-street-lamps_1126.15 ::date 2018-11-04T18:09:06
+# ::snt <Architect> yeah that's fine; now two blocks in towards the center
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_15.txt
+(a / and
+      :op1 (c / confirm-01
+            :ARG1 (f / fine-04
+                  :ARG1 (t2 / that)))
+      :op2 (b / be-destined-for-91
+            :ARG1 (b2 / block :quant 2)
+            :ARG2 (s / space :pl +
+                  :ARG1-of (i2 / inward-02
+                        :ARG3 (t / thing
+                              :ARG1-of (c2 / center-03))))
+            :time (n / now)))
+
+# ::id minecraft-4-3-street-lamps_1126.16 ::date 2018-11-04T18:16:28
+# ::snt <Architect> at the top of hte tower
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_16.txt
+(n / next-to-02
+      :ARG2 (t / thing
+            :ARG1-of (t2 / top-06
+                  :ARG2 (t3 / tower)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b / build-space)))))
+
+# ::id minecraft-4-3-street-lamps_1126.17 ::date 2018-11-04T18:17:15
+# ::snt <Builder> ok
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_17.txt
+(o / okay-04)
+
+# ::id minecraft-4-3-street-lamps_1126.18 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a green block at X:-1 Y:6 Z:-5]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 6 :z -5)))
+
+# ::id minecraft-4-3-street-lamps_1126.19 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a green block at X:0 Y:6 Z:-5]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z -5)))
+
+# ::id minecraft-4-3-street-lamps_1126.20 ::date 2018-11-04T18:17:29
+# ::snt <Architect> towards the center of the build surface
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_20.txt
+(t / toward-01
+      :ARG2 (t2 / thing
+            :ARG1-of (c / center-03
+                  :ARG1 (s / surface
+                        :purpose (b / build-01)))))
+
+# ::id minecraft-4-3-street-lamps_1126.21 ::date 2018-11-04T18:18:06
+# ::snt <Builder> i see
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_21.txt
+(s / see-01
+      :ARG0 (i / i))
+
+# ::id minecraft-4-3-street-lamps_1126.22 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a green block at X:0 Y:6 Z:-5]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_22.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z -5)))
+
+# ::id minecraft-4-3-street-lamps_1126.23 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a green block at X:-1 Y:6 Z:-5]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_23.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 6 :z -5)))
+
+# ::id minecraft-4-3-street-lamps_1126.24 ::date 2018-11-04T18:18:28
+# ::snt <Architect> rotate the top 90 degrees
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_24.txt
+(r / rotate-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :ARG1-of (t2 / top-06
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b / build-space))))
+      :extent (a / angle-quantity :quant 90
+            :unit (d / degree)))
+
+# ::id minecraft-4-3-street-lamps_1126.25 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a green block at X:-2 Y:6 Z:-4]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_25.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 6 :z -4)))
+
+# ::id minecraft-4-3-street-lamps_1126.26 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a green block at X:-2 Y:6 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_26.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 6 :z -3)))
+
+# ::id minecraft-4-3-street-lamps_1126.27 ::date 2018-11-04T18:19:25
+# ::snt <Architect> good
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_27.txt
+(g / good-02)
+
+# ::id minecraft-4-3-street-lamps_1126.28 ::date 2018-11-04T18:19:31
+# ::snt <Architect> now yellow
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_28.txt
+(t / thing
+      :time (n / now)
+      :color (y / yellow))
+
+# ::id minecraft-4-3-street-lamps_1126.29 ::date 2018-11-04T18:20:13
+# ::snt <Architect> this is a2x3 rectangle hanging from that outcrop
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_29.txt
+(h2 / have-configuration-91
+      :ARG1 (t2 / thing
+            :mod (t3 / this))
+      :ARG2 (r / rectangle
+            :size (d / dimension-entity :value 2)
+            :size (d2 / dimension-entity :value 3)
+            :ARG1-of (h / hang-01
+                  :ARG2 (o / outcrop
+                        :mod (t / that)))))
+
+# ::id minecraft-4-3-street-lamps_1126.30 ::date 2018-11-04T18:20:56
+# ::snt <Architect> build 2 yellow blocks down from the tip
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_30.txt
+(b / build-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (b2 / block :quant 2
+            :color (y2 / yellow))
+      :direction (t2 / trajectory
+            :ARG4-of (d / down-03
+                  :ARG2 (t / tip)
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (b3 / build-space)))))
+
+# ::id minecraft-4-3-street-lamps_1126.31 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:-2 Y:5 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_31.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 5 :z -3)))
+
+# ::id minecraft-4-3-street-lamps_1126.32 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:-2 Y:4 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_32.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 4 :z -3)))
+
+# ::id minecraft-4-3-street-lamps_1126.33 ::date 2018-11-04T18:22:02
+# ::snt <Architect> good
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_33.txt
+(g / good-02)
+
+# ::id minecraft-4-3-street-lamps_1126.34 ::date 2018-11-04T18:22:07
+# ::snt <Builder> here?
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_34.txt
+(b / be-located-at-91
+      :ARG2 (h / here)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-3-street-lamps_1126.35 ::date 2018-11-04T18:22:25
+# ::snt <Architect> now fill in two blocks on either side of hte yellows
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_35.txt
+(f / fill-in-05 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (s / space :pl +
+            :ARG1-of (n / next-to-02
+                  :ARG2 (s2 / side :pl +
+                        :ARG1-of (e / either-01)
+                        :part-of (t / thing :pl +
+                              :color (y2 / yellow)))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b3 / build-space))))
+      :ARG2 (b / block :pl +)
+      :time (n2 / now)
+      :frequency (r / rate-entity-91
+            :ARG1 (b2 / block :quant 2
+                  :ARG1-of (i2 / include-91
+                        :ARG2 b))
+            :ARG2 (s3 / side
+                  :ARG1-of (i3 / include-91
+                        :ARG2 s2))))
+
+# ::id minecraft-4-3-street-lamps_1126.36 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:-1 Y:5 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_36.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 5 :z -3)))
+
+# ::id minecraft-4-3-street-lamps_1126.37 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:-1 Y:4 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_37.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z -3)))
+
+# ::id minecraft-4-3-street-lamps_1126.38 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:-3 Y:5 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_38.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 5 :z -3)))
+
+# ::id minecraft-4-3-street-lamps_1126.39 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:-3 Y:4 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_39.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 4 :z -3)))
+
+# ::id minecraft-4-3-street-lamps_1126.40 ::date 2018-11-04T18:23:58
+# ::snt <Architect> great
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_40.txt
+(h / have-mod-91
+      :ARG2 (g / great))
+
+# ::id minecraft-4-3-street-lamps_1126.41 ::date 2018-11-04T18:24:12
+# ::snt <Architect> switch to blue
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_41.txt
+(s / switch-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (t / thing
+            :color (b / blue)))
+
+# ::id minecraft-4-3-street-lamps_1126.42 ::date 2018-11-04T18:24:35
+# ::snt <Architect> you're building another tower
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_42.txt
+(b / build-01
+      :ARG0 (y / you)
+      :ARG1 (t / tower
+            :mod (a / another)))
+
+# ::id minecraft-4-3-street-lamps_1126.43 ::date 2018-11-04T18:24:50
+# ::snt <Architect> i need to figure out how far
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_43.txt
+(n / need-01
+      :ARG0 (i / i)
+      :ARG1 (f / figure-out-05
+            :ARG0 i
+            :ARG1 (d / distance-quantity)))
+
+# ::id minecraft-4-3-street-lamps_1126.44 ::date 2018-11-04T18:26:38
+# ::snt <Builder> okay
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_44.txt
+(o / okay-04)
+
+# ::id minecraft-4-3-street-lamps_1126.45 ::date 2018-11-04T18:26:45
+# ::snt <Architect> 2 blocks right and 6 blocks down from the base of the green tower
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_45.txt
+(b / be-destined-for-91
+      :ARG2 (s / space
+            :ARG1-of (r / right-04
+                  :ARG2 (t / thing
+                        :ARG1-of (b4 / base-03
+                              :ARG2 (t2 / tower
+                                    :color (g / green))
+                              :ARG3 (c2 / cartesian-framework-91
+                                    :ARG1 (b6 / build-space))))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b5 / builder))
+                  :quant (d / distance-quantity :quant 2
+                        :unit (b2 / block)))
+            :ARG1-of (d2 / down-03
+                  :ARG2 t
+                  :ARG5 (c3 / cartesian-framework-91
+                        :ARG1 (w / white-square))
+                  :quant (d3 / distance-quantity :quant 6
+                        :unit (b3 / block)))))
+
+# ::id minecraft-4-3-street-lamps_1126.46 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a blue block at X:0 Y:1 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_46.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-3-street-lamps_1126.47 ::date 2018-11-04T18:29:00
+# ::snt <Builder> here?
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_47.txt
+(b / be-located-at-91
+      :ARG2 (h / here)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-3-street-lamps_1126.48 ::date 2018-11-04T18:29:20
+# ::snt <Architect> yep
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_48.txt
+(c / confirm-01)
+
+# ::id minecraft-4-3-street-lamps_1126.49 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a blue block at X:0 Y:2 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_49.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 0)))
+
+# ::id minecraft-4-3-street-lamps_1126.50 ::date 2018-11-04T18:29:34
+# ::snt <Architect> 8 tall
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_50.txt
+(t / tall-01
+      :ARG2 8
+      :ARG5 (c / cartesian-framework-91
+            :ARG1 (b / build-space)))
+
+# ::id minecraft-4-3-street-lamps_1126.51 ::date 2018-11-04T18:29:47
+# ::snt <Builder> the same looking tower thing?
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_51.txt
+(h2 / have-configuration-91
+      :ARG2 (t / thing
+            :ARG0-of (l / look-02
+                  :ARG1 (s / same-01))
+            :configuration (t2 / tower))
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-3-street-lamps_1126.52 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a blue block at X:0 Y:3 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_52.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 0)))
+
+# ::id minecraft-4-3-street-lamps_1126.53 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a blue block at X:0 Y:4 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_53.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z 0)))
+
+# ::id minecraft-4-3-street-lamps_1126.54 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a blue block at X:0 Y:5 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_54.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z 0)))
+
+# ::id minecraft-4-3-street-lamps_1126.55 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a blue block at X:0 Y:6 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_55.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z 0)))
+
+# ::id minecraft-4-3-street-lamps_1126.56 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a blue block at X:0 Y:7 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_56.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 7 :z 0)))
+
+# ::id minecraft-4-3-street-lamps_1126.57 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a blue block at X:0 Y:8 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_57.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 8 :z 0)))
+
+# ::id minecraft-4-3-street-lamps_1126.58 ::date 2018-11-04T18:30:58
+# ::snt <Architect> now an overhang three long
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_58.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing
+            :ARG0-of (o / overhang-09)
+            :ARG1-of (l / long-03
+                  :ARG2 3))
+      :time (n / now))
+
+# ::id minecraft-4-3-street-lamps_1126.59 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a blue block at X:0 Y:8 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_59.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 8 :z 1)))
+
+# ::id minecraft-4-3-street-lamps_1126.60 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a blue block at X:0 Y:8 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_60.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 8 :z 2)))
+
+# ::id minecraft-4-3-street-lamps_1126.61 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a blue block at X:0 Y:8 Z:3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_61.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 8 :z 3)))
+
+# ::id minecraft-4-3-street-lamps_1126.62 ::date 2018-11-04T18:31:54
+# ::snt <Builder> here?
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_62.txt
+(b / be-located-at-91
+      :ARG2 (h / here)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-3-street-lamps_1126.63 ::date 2018-11-04T18:32:18
+# ::snt <Architect> rotate 90 degrees toward the green tower
+# ::save-date Wed Jan 9, 2019 ::user jbonn ::file col_1126_63.txt
+(r / rotate-01 :mode imperative
+      :ARG0 (y / you)
+      :extent (a / angle-quantity :quant 90
+            :unit (d / degree))
+      :direction (t3 / trajectory
+            :ARG4-of (t / toward-01
+                  :ARG2 (t2 / tower
+                        :color (g / green)))))
+
+# ::id minecraft-4-3-street-lamps_1126.64 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a blue block at X:0 Y:8 Z:3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_64.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 8 :z 3)))
+
+# ::id minecraft-4-3-street-lamps_1126.65 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a blue block at X:0 Y:8 Z:2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_65.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 8 :z 2)))
+
+# ::id minecraft-4-3-street-lamps_1126.66 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a blue block at X:0 Y:8 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_66.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 8 :z 1)))
+
+# ::id minecraft-4-3-street-lamps_1126.67 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a blue block at X:0 Y:8 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_67.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 8 :z -1)))
+
+# ::id minecraft-4-3-street-lamps_1126.68 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a blue block at X:0 Y:8 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_68.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 8 :z -2)))
+
+# ::id minecraft-4-3-street-lamps_1126.69 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a blue block at X:0 Y:8 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_69.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 8 :z -3)))
+
+# ::id minecraft-4-3-street-lamps_1126.70 ::date 2018-11-04T18:33:31
+# ::snt <Architect> that's 180 degrees
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_70.txt
+(a / angle-quantity :quant 180
+      :unit (d / degree)
+      :domain (t / that))
+
+# ::id minecraft-4-3-street-lamps_1126.71 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a blue block at X:0 Y:8 Z:-3]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_71.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 8 :z -3)))
+
+# ::id minecraft-4-3-street-lamps_1126.72 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a blue block at X:0 Y:8 Z:-2]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_72.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 8 :z -2)))
+
+# ::id minecraft-4-3-street-lamps_1126.73 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a blue block at X:0 Y:8 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_73.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 8 :z -1)))
+
+# ::id minecraft-4-3-street-lamps_1126.74 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a blue block at X:-1 Y:8 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_74.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 8 :z 0)))
+
+# ::id minecraft-4-3-street-lamps_1126.75 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a blue block at X:-2 Y:8 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_75.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 8 :z 0)))
+
+# ::id minecraft-4-3-street-lamps_1126.76 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a blue block at X:-3 Y:8 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_76.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 8 :z 0)))
+
+# ::id minecraft-4-3-street-lamps_1126.77 ::date 2018-11-04T18:34:08
+# ::snt <Builder> is this good?
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_77.txt
+(g / good-02
+      :ARG1 (t / this)
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-4-3-street-lamps_1126.78 ::date 2018-11-04T18:34:25
+# ::snt <Architect> sorry delete one. total length is three
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_78.txt
+(m / multi-sentence
+      :snt1 (a / and
+            :op1 (s / sorry-01)
+            :op2 (d / delete-01 :mode imperative
+                  :ARG0 (y / you)
+                  :ARG1 (t / thing :quant 1)))
+      :snt2 (l / long-03
+            :ARG2 3
+            :ARG1-of (t2 / total-01)))
+
+# ::id minecraft-4-3-street-lamps_1126.79 ::date 2018-11-04T18:36:06
+# ::snt <Builder> ok
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_79.txt
+(o / okay-04)
+
+# ::id minecraft-4-3-street-lamps_1126.80 ::date 2018-10-09T15:49:52
+# ::snt [Builder picks up a blue block at X:-3 Y:8 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_80.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 8 :z 0)))
+
+# ::id minecraft-4-3-street-lamps_1126.81 ::date 2018-11-04T18:36:21
+# ::snt <Architect> now build one block below the tip
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_81.txt
+(b / build-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (b2 / block :quant 1)
+      :location (s / space
+            :ARG1-of (b3 / below-01
+                  :ARG2 (t / tip)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b4 / build-space)))))
+
+# ::id minecraft-4-3-street-lamps_1126.82 ::date 2018-11-04T18:36:54
+# ::snt <Builder> still blue?
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_82.txt
+(t / thing
+      :color (b / blue)
+      :mod (s / still)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-3-street-lamps_1126.83 ::date 2018-11-04T18:37:21
+# ::snt <Architect> yes
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_83.txt
+(c / confirm-01)
+
+# ::id minecraft-4-3-street-lamps_1126.84 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a blue block at X:-2 Y:7 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_84.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 7 :z 0)))
+
+# ::id minecraft-4-3-street-lamps_1126.85 ::date 2018-11-04T18:37:37
+# ::snt <Architect> now switch to yellow
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_85.txt
+(s / switch-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (t / thing
+            :color (y2 / yellow))
+      :time (n / now))
+
+# ::id minecraft-4-3-street-lamps_1126.86 ::date 2018-11-04T18:37:56
+# ::snt <Architect> make the same structure
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_86.txt
+(m / make-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (s / structure
+            :ARG1-of (s2 / same-01)))
+
+# ::id minecraft-4-3-street-lamps_1126.87 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:-2 Y:6 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_87.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 6 :z 0)))
+
+# ::id minecraft-4-3-street-lamps_1126.88 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:-2 Y:5 Z:0]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_88.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 5 :z 0)))
+
+# ::id minecraft-4-3-street-lamps_1126.89 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:-2 Y:6 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_89.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 6 :z 1)))
+
+# ::id minecraft-4-3-street-lamps_1126.90 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:-2 Y:5 Z:1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_90.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 5 :z 1)))
+
+# ::id minecraft-4-3-street-lamps_1126.91 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:-2 Y:6 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_91.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 6 :z -1)))
+
+# ::id minecraft-4-3-street-lamps_1126.92 ::date 2018-10-09T15:49:52
+# ::snt [Builder puts down a yellow block at X:-2 Y:5 Z:-1]
+# ::save-date Tue Oct 09, 2018::user jbonn ::file col_1126_92.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 5 :z -1)))
+
+# ::id minecraft-4-3-street-lamps_1126.93 ::date 2018-11-04T18:38:23
+# ::snt <Architect> great
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_93.txt
+(h / have-mod-91
+      :ARG2 (g / great))
+
+# ::id minecraft-4-3-street-lamps_1126.94 ::date 2018-11-04T18:38:32
+# ::snt <Builder> cool
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1126_94.txt
+(c / cool-04)

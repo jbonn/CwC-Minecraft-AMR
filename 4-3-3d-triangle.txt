@@ -1,0 +1,864 @@
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-3-3d-triangle_1117.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 z6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (t / triangle
+                  :ARG1-of (d / dimensional-03))
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :FR (i4 / intrinsic)))
+      :snt9 (a6 / antiparallel-01
+            :ARG1 x
+            :ARG2 y6))
+
+# ::id minecraft-4-3-3d-triangle_1117.1 ::date 2018-09-14T13:38:09
+# ::snt <Builder> Mission has started.
+# ::save-date Wed Nov 14, 2018 ::user jbonn ::file col_1117_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-3-3d-triangle_1117.2 ::date 2018-11-14T11:41:25
+# ::snt <Architect> please place reference blocks
+# ::save-date Wed Nov 14, 2018 ::user jbonn ::file col_1117_2.txt
+(p / place-01 :mode imperative :polite +
+      :ARG0 (y / you)
+      :ARG1 (b / block :pl +
+            :ARG1-of (r / refer-03)))
+
+# ::id minecraft-4-3-3d-triangle_1117.3 ::date 2018-11-14T11:42:28
+# ::snt <Builder> okay
+# ::save-date Wed Nov 14, 2018 ::user jbonn ::file col_1117_3.txt
+(o / okay-04)
+
+# ::id minecraft-4-3-3d-triangle_1117.4 ::date 2018-11-14T11:42:34
+# ::snt <Architect> one is enough
+# ::save-date Wed Nov 14, 2018 ::user jbonn ::file col_1117_4.txt
+(h / have-quant-91
+      :ARG2 1
+      :ARG3 (e / enough))
+
+# ::id minecraft-4-3-3d-triangle_1117.5 ::date 2018-11-14T11:43:49
+# ::snt <Builder> sorry talking to aid
+# ::save-date Tue Dec 4, 2018 ::user jbonn ::file col_1117_5.txt
+(s / sorry-01
+      :ARG1 i
+      :ARG2 (t / talk-01
+            :ARG0 (i / i)
+            :ARG2 (a / aid)))
+
+# ::id minecraft-4-3-3d-triangle_1117.6 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a purple block at X:5 Y:1 Z:5]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_6.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 1 :z 5)))
+
+# ::id minecraft-4-3-3d-triangle_1117.7 ::date 2018-11-14T11:44:19
+# ::snt <Architect> okay here we go
+# ::save-date Wed Nov 14, 2018 ::user jbonn ::file col_1117_7.txt
+(g / go-06
+      :ARG0 (w / we)
+      :location (h / here))
+
+# ::id minecraft-4-3-3d-triangle_1117.8 ::date 2018-11-14T11:44:53
+# ::snt <Builder> lets do this
+# ::save-date Wed Nov 14, 2018 ::user jbonn ::file col_1117_8.txt
+(d / do-02
+      :ARG0 (w / we)
+      :ARG1 (t / this))
+
+# ::id minecraft-4-3-3d-triangle_1117.9 ::date 2018-11-14T11:45:04
+# ::snt <Architect> walk forward 3 steps
+# ::save-date Mon Jan 7, 2019 ::user jbonn ::file col_1117_9.txt
+(w / walk-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (t / trajectory
+            :ARG4-of (f / forward-02
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 y)))
+      :extent (d / distance-quantity :quant 3
+            :unit (s / step)))
+
+# ::id minecraft-4-3-3d-triangle_1117.10 ::date 2018-11-14T11:47:11
+# ::snt <Architect> place a yellow block
+# ::save-date Wed Nov 14, 2018 ::user jbonn ::file col_1117_10.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (y2 / yellow)))
+
+# ::id minecraft-4-3-3d-triangle_1117.11 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a yellow block at X:2 Y:1 Z:2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 2)))
+
+# ::id minecraft-4-3-3d-triangle_1117.12 ::date 2018-11-14T11:47:41
+# ::snt <Architect> place another yellow block next to it but away from the purple block
+# ::save-date Wed Nov 14, 2018 ::user jbonn ::file col_1117_12.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :mod (a / another)
+            :color (y2 / yellow))
+      :ARG2 (s / space
+            :ARG1-of (n / next-to-02
+                  :ARG2 (i2 / it)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b3 / build-space)))
+            :ARG1-of (a2 / away-01
+                  :ARG2 (b2 / block
+                        :color (p2 / purple)))))
+
+# ::id minecraft-4-3-3d-triangle_1117.13 ::date 2018-11-14T11:48:45
+# ::snt <Builder> north or east?
+# ::save-date Wed Nov 14, 2018 ::user jbonn ::file col_1117_13.txt
+(a / amr-choice
+      :op1 (n / north-01
+            :ARG3 (c / cartesian-framework-91
+                  :ARG1 (w / white-square)))
+      :op2 (e / east-01
+            :ARG3 c))
+
+# ::id minecraft-4-3-3d-triangle_1117.14 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a yellow block at X:2 Y:1 Z:1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_14.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 1)))
+
+# ::id minecraft-4-3-3d-triangle_1117.15 ::date 2018-11-14T11:49:40
+# ::snt <Architect> either is ok
+# ::save-date Mon Jan 7, 2019 ::user jbonn ::file col_1117_15.txt
+(o / okay-04
+      :ARG1 (t / thing
+            :ARG1-of (e / either-01)))
+
+# ::id minecraft-4-3-3d-triangle_1117.16 ::date 2018-11-14T11:49:54
+# ::snt <Architect> place 3 more yellow blocks along that line
+# ::save-date Tue Dec 4, 2018 ::user jbonn ::file col_1117_16.txt
+(p / place-01
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (y2 / yellow)
+            :ARG1-of (h / have-quant-91
+                  :ARG2 3
+                  :ARG3 (m / more)))
+      :ARG2 (s / space :pl +
+            :ARG1-of (a / along-01
+                  :ARG2 (l / line
+                        :mod (t / that)))))
+
+# ::id minecraft-4-3-3d-triangle_1117.17 ::date 2018-11-14T11:50:29
+# ::snt <Architect> away from the purple block
+# ::save-date Wed Nov 14, 2018 ::user jbonn ::file col_1117_17.txt
+(a / away-01
+      :ARG2 (b / block
+            :color (p / purple)))
+
+# ::id minecraft-4-3-3d-triangle_1117.18 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a yellow block at X:2 Y:1 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 0)))
+
+# ::id minecraft-4-3-3d-triangle_1117.19 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a yellow block at X:2 Y:1 Z:-1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -1)))
+
+# ::id minecraft-4-3-3d-triangle_1117.20 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a yellow block at X:3 Y:1 Z:-3]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z -3)))
+
+# ::id minecraft-4-3-3d-triangle_1117.21 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a yellow block at X:3 Y:1 Z:-3]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_21.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z -3)))
+
+# ::id minecraft-4-3-3d-triangle_1117.22 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a yellow block at X:2 Y:1 Z:-2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_22.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -2)))
+
+# ::id minecraft-4-3-3d-triangle_1117.23 ::date 2018-09-14T13:41:24
+# ::snt <Builder> good?
+# ::save-date Fri Sep 14, 2018 ::user jbonn ::file col_1117_23.txt
+(g / good-02
+      :ARG1 (r / request-confirmation-91))
+
+# ::id minecraft-4-3-3d-triangle_1117.24 ::date 2018-09-14T13:41:40
+# ::snt <Architect> yes
+# ::save-date Tue Dec 4, 2018 ::user jbonn ::file col_1117_24.txt
+(c / confirm-01)
+
+# ::id minecraft-4-3-3d-triangle_1117.25 ::date 2018-09-14T13:42:06
+# ::snt <Architect> place a green block on each of the yellow blocks
+# ::save-date Mon Jan 7, 2019 ::user jbonn ::file col_1117_25.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :pl +
+            :color (g / green))
+      :ARG2 (s / space :pl +
+            :ARG1-of (o / on-top-03
+                  :ARG2 (b2 / block
+                        :color (y2 / yellow))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b3 / build-space))))
+      :frequency (r / rate-entity-91
+            :ARG1 (b4 / block :quant 1
+                  :ARG1-of (i2 / include-91
+                        :ARG2 b))
+            :ARG2 (b5 / block
+                  :ARG1-of (i3 / include-91
+                        :ARG2 b2)
+                  :mod (e / each))))
+
+# ::id minecraft-4-3-3d-triangle_1117.26 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a yellow block at X:2 Y:1 Z:2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_26.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 2)))
+
+# ::id minecraft-4-3-3d-triangle_1117.27 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a yellow block at X:2 Y:1 Z:2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_27.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 2)))
+
+# ::id minecraft-4-3-3d-triangle_1117.28 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:2 Y:2 Z:2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_28.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z 2)))
+
+# ::id minecraft-4-3-3d-triangle_1117.29 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:2 Y:2 Z:1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_29.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z 1)))
+
+# ::id minecraft-4-3-3d-triangle_1117.30 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:2 Y:2 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_30.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z 0)))
+
+# ::id minecraft-4-3-3d-triangle_1117.31 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:2 Y:2 Z:-1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_31.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z -1)))
+
+# ::id minecraft-4-3-3d-triangle_1117.32 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:2 Y:2 Z:-2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_32.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z -2)))
+
+# ::id minecraft-4-3-3d-triangle_1117.33 ::date 2018-09-14T13:43:19
+# ::snt <Architect> place a red block on the side opposite the purple block
+# ::save-date Mon Oct 1, 2018 ::user jbonn ::file col_1117_33.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (r / red))
+      :ARG2 (s / space
+            :ARG1-of (n / next-to-02
+                  :ARG2 (s2 / side
+                        :ARG1-of (o / opposite-03
+                              :ARG2 (b2 / block
+                                    :color (p2 / purple))))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b3 / build-space)))))
+
+# ::id minecraft-4-3-3d-triangle_1117.34 ::date 2018-09-14T13:52:40
+# ::snt <Architect> by the furthest yellow block
+# ::save-date Wed Nov 14, 2018 ::user jbonn ::file col_1117_34.txt
+(b / by-01
+      :ARG2 (b2 / block
+            :color (y / yellow)
+            :ARG1-of (h / have-degree-91
+                  :ARG2 (f / far-01
+                        :ARG1 b2)
+                  :ARG3 (m / most))))
+
+# ::id minecraft-4-3-3d-triangle_1117.35 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a red block at X:2 Y:1 Z:-3]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_35.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -3)))
+
+# ::id minecraft-4-3-3d-triangle_1117.36 ::date 2018-11-14T11:54:28
+# ::snt <Architect> not there
+# ::save-date Wed Nov 14, 2018 ::user jbonn ::file col_1117_36.txt
+(b / be-located-at-91 :polarity -
+      :ARG2 (t / there))
+
+# ::id minecraft-4-3-3d-triangle_1117.37 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a red block at X:2 Y:1 Z:-3]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_37.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -3)))
+
+# ::id minecraft-4-3-3d-triangle_1117.38 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a red block at X:1 Y:1 Z:-2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_38.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -2)))
+
+# ::id minecraft-4-3-3d-triangle_1117.39 ::date 2018-11-14T11:54:55
+# ::snt <Architect> on the other opposite side
+# ::save-date Wed Nov 14, 2018 ::user jbonn ::file col_1117_39.txt
+(b / be-located-at-91
+      :ARG2 (s / space
+            :ARG1-of (n / next-to-02
+                  :ARG2 (s2 / side
+                        :ARG1-of (o / opposite-03)
+                        :ARG1-of (o2 / other-01))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id minecraft-4-3-3d-triangle_1117.40 ::date 2018-11-14T11:56:01
+# ::snt <Architect> exactly
+# ::save-date Wed Nov 14, 2018 ::user jbonn ::file col_1117_40.txt
+(h / have-mod-91
+      :ARG2 (e / exact))
+
+# ::id minecraft-4-3-3d-triangle_1117.41 ::date 2018-11-14T11:56:13
+# ::snt <Architect> now place a purple block on top of that one
+# ::save-date Tue Dec 4, 2018 ::user jbonn ::file col_1117_41.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :ARG1-of (o / on-top-03
+                  :ARG2 (o2 / one
+                        :mod (t2 / that))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space))))
+      :time (n / now))
+
+# ::id minecraft-4-3-3d-triangle_1117.42 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a red block at X:-5 Y:1 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_42.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -5 :y 1 :z 0)))
+
+# ::id minecraft-4-3-3d-triangle_1117.43 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a red block at X:1 Y:1 Z:-2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_43.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -2)))
+
+# ::id minecraft-4-3-3d-triangle_1117.44 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a red block at X:1 Y:1 Z:-2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_44.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -2)))
+
+# ::id minecraft-4-3-3d-triangle_1117.45 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a purple block at X:1 Y:2 Z:-2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_45.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z -2)))
+
+# ::id minecraft-4-3-3d-triangle_1117.46 ::date 2018-11-14T11:57:01
+# ::snt <Architect> place another red block along the diagonal toward the purple block
+# ::save-date Mon Jan 7, 2019 ::user jbonn ::file col_1117_46.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :mod (a / another)
+            :color (r / red))
+      :ARG2 (s / space
+            :ARG1-of (a2 / along-01
+                  :ARG2 (t2 / trajectory
+                        :ARG1-of (d / diagonal-02)
+                        :ARG4-of (t / toward-01
+                              :ARG1 s
+                              :ARG2 (b2 / block
+                                    :color (p2 / purple)))))))
+
+# ::id minecraft-4-3-3d-triangle_1117.47 ::date 2018-11-14T12:04:21
+# ::snt <Builder> red for reference
+# ::save-date Tue Dec 4, 2018 ::user jbonn ::file col_1117_47.txt
+(r2 / red
+      :ARG1-of (r / refer-03))
+
+# ::id minecraft-4-3-3d-triangle_1117.48 ::date 2018-11-14T12:07:11
+# ::snt <Architect> understood
+# ::save-date Wed Nov 14, 2018 ::user jbonn ::file col_1117_48.txt
+(u / understand-01)
+
+# ::id minecraft-4-3-3d-triangle_1117.49 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a red block at X:3 Y:1 Z:3]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_49.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 3)))
+
+# ::id minecraft-4-3-3d-triangle_1117.50 ::date 2018-11-14T12:07:24
+# ::snt <Architect> not there
+# ::save-date Wed Nov 14, 2018 ::user jbonn ::file col_1117_50.txt
+(b / be-located-at-91 :polarity -
+      :ARG2 (t / there))
+
+# ::id minecraft-4-3-3d-triangle_1117.51 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a red block at X:3 Y:2 Z:3]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_51.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z 3)))
+
+# ::id minecraft-4-3-3d-triangle_1117.52 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a red block at X:3 Y:2 Z:3]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_52.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z 3)))
+
+# ::id minecraft-4-3-3d-triangle_1117.53 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a red block at X:3 Y:1 Z:3]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_53.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 3)))
+
+# ::id minecraft-4-3-3d-triangle_1117.54 ::date 2018-11-14T12:07:50
+# ::snt <Builder> where?
+# ::save-date Wed Nov 14, 2018 ::user jbonn ::file col_1117_54.txt
+(b / be-located-at-91
+      :ARG2 (a / amr-unknown))
+
+# ::id minecraft-4-3-3d-triangle_1117.55 ::date 2018-11-14T12:08:04
+# ::snt <Architect> along the diagonal from the blocks we were working on
+# ::save-date Mon Jan 7, 2019 ::user jbonn ::file col_1117_55.txt
+(b / be-located-at-91
+      :ARG2 (s / space
+            :ARG1-of (a / along-01
+                  :ARG2 (t / trajectory
+                        :ARG4-of (d / diagonal-01
+                              :ARG2 (b2 / block :pl +
+                                    :ARG1-of (w / work-01
+                                          :ARG0 (w2 / we))))))))
+
+# ::id minecraft-4-3-3d-triangle_1117.56 ::date 2018-11-14T12:11:05
+# ::snt <Architect> the red and purple blocks
+# ::save-date Wed Nov 14, 2018 ::user jbonn ::file col_1117_56.txt
+(a / and
+      :op1 (b / block :pl +
+            :color (r / red))
+      :op2 (b2 / block :pl +
+            :color (p / purple)))
+
+# ::id minecraft-4-3-3d-triangle_1117.57 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a red block at X:0 Y:1 Z:-1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_57.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -1)))
+
+# ::id minecraft-4-3-3d-triangle_1117.58 ::date 2018-11-14T12:11:47
+# ::snt <Architect> perfect
+# ::save-date Wed Nov 14, 2018 ::user jbonn ::file col_1117_58.txt
+(p / perfect-02)
+
+# ::id minecraft-4-3-3d-triangle_1117.59 ::date 2018-11-14T12:11:53
+# ::snt <Architect> now place a purple block on top of that one
+# ::save-date Tue Dec 4, 2018 ::user jbonn ::file col_1117_59.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :ARG1-of (o / on-top-03
+                  :ARG2 (o2 / one
+                        :mod (t2 / that))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space))))
+      :time (n / now))
+
+# ::id minecraft-4-3-3d-triangle_1117.60 ::date 2018-11-14T12:12:30
+# ::snt <Builder> I wil stay right over the blocks if needed. left right work for me too
+# ::save-date Mon Jan 7, 2019 ::user jbonn ::file col_1117_60.txt
+(m / multi-sentence
+      :snt1 (s / stay-01
+            :ARG1 (i / i)
+            :ARG3 (o / over-05
+                  :ARG1 i
+                  :ARG2 (b2 / block :pl +)
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 (b / build-space))
+                  :mod (r2 / right-yy))
+            :condition (n / need-01
+                  :ARG1 s))
+      :snt2 (w / work-09
+            :ARG1 (a / and
+                  :op1 (l / left-20
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 i))
+                  :op2 (r / right-04
+                        :ARG3 c))
+            :ARG2 i
+            :mod (t / too)))
+
+# ::id minecraft-4-3-3d-triangle_1117.61 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a purple block at X:0 Y:2 Z:-1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_61.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -1)))
+
+# ::id minecraft-4-3-3d-triangle_1117.62 ::date 2018-11-14T12:15:34
+# ::snt <Architect> got it
+# ::save-date Wed Nov 14, 2018 ::user jbonn ::file col_1117_62.txt
+(g / get-30
+      :ARG1 (i2 / it))
+
+# ::id minecraft-4-3-3d-triangle_1117.63 ::date 2018-11-14T12:15:54
+# ::snt <Architect> continuing along this same diagonal
+# ::save-date Mon Jan 7, 2019 ::user jbonn ::file col_1117_63.txt
+(c / continue-01
+      :path (t / trajectory
+            :ARG1-of (a / along-01
+                  :ARG2 (t3 / trajectory
+                        :ARG4-of (d / diagonal-01)
+                        :ARG1-of (s / same-01)
+                        :mod (t2 / this)))))
+
+# ::id minecraft-4-3-3d-triangle_1117.64 ::date 2018-11-14T12:16:54
+# ::snt <Architect> place a blue block
+# ::save-date Wed Nov 14, 2018 ::user jbonn ::file col_1117_64.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (b2 / blue)))
+
+# ::id minecraft-4-3-3d-triangle_1117.65 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a blue block at X:-1 Y:1 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_65.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 0)))
+
+# ::id minecraft-4-3-3d-triangle_1117.66 ::date 2018-11-14T12:17:49
+# ::snt <Architect> now move along the diagonal away from red and toward the purple block
+# ::save-date Mon Jan 7, 2019 ::user jbonn ::file col_1117_66.txt
+(m / move-01 :mode imperative
+      :ARG1 (y / you)
+      :path (t / trajectory
+            :ARG1-of (a / along-01
+                  :ARG2 (t4 / trajectory
+                        :ARG1-of (d / diagonal-01)))
+            :ARG3-of (a2 / away-01
+                  :ARG1 y
+                  :ARG2 (t2 / thing
+                        :color (r / red)))
+            :ARG4-of (t3 / toward-01
+                  :ARG2 (b / block
+                        :color (p / purple)))))
+
+# ::id minecraft-4-3-3d-triangle_1117.67 ::date 2018-12-04T19:42:26
+# ::snt <Architect> placing two more blue blocks
+# ::save-date Mon Jan 7, 2019 ::user jbonn ::file col_1117_67.txt
+(p / place-01
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (b2 / blue)
+            :ARG1-of (h / have-quant-91
+                  :ARG2 2
+                  :ARG3 (m / more))))
+
+# ::id minecraft-4-3-3d-triangle_1117.68 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a blue block at X:0 Y:1 Z:1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_68.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-3-3d-triangle_1117.69 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a blue block at X:1 Y:1 Z:2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_69.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 2)))
+
+# ::id minecraft-4-3-3d-triangle_1117.70 ::date 2018-12-04T19:44:36
+# ::snt <Architect> now place an orange block on each blue block
+# ::save-date Mon Jan 7, 2019 ::user jbonn ::file col_1117_70.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :pl +
+            :color (o / orange))
+      :ARG2 (s / space :pl +
+            :ARG1-of (o2 / on-top-03
+                  :ARG2 (b2 / block :pl +
+                        :color (b3 / blue))))
+      :time (n / now)
+      :frequency (r / rate-entity-91
+            :ARG1 (b4 / block :quant 1
+                  :ARG1-of (i2 / include-91
+                        :ARG2 b))
+            :ARG2 (b5 / block
+                  :mod (e / each)
+                  :ARG1-of (i3 / include-91
+                        :ARG2 b2))))
+
+# ::id minecraft-4-3-3d-triangle_1117.71 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a orange block at X:-1 Y:2 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_71.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 0)))
+
+# ::id minecraft-4-3-3d-triangle_1117.72 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a orange block at X:0 Y:2 Z:1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_72.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 1)))
+
+# ::id minecraft-4-3-3d-triangle_1117.73 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a orange block at X:1 Y:2 Z:2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_73.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 2)))
+
+# ::id minecraft-4-3-3d-triangle_1117.74 ::date 2018-12-04T19:45:35
+# ::snt <Architect> now remove the reference blocks
+# ::save-date Mon Jan 7, 2019 ::user jbonn ::file col_1117_74.txt
+(r / remove-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :pl +
+            :ARG1-of (r2 / refer-03))
+      :time (n / now))
+
+# ::id minecraft-4-3-3d-triangle_1117.75 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a orange block at X:5 Y:2 Z:5]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_75.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 2 :z 5)))
+
+# ::id minecraft-4-3-3d-triangle_1117.76 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a orange block at X:5 Y:2 Z:5]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_76.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 2 :z 5)))
+
+# ::id minecraft-4-3-3d-triangle_1117.77 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a purple block at X:5 Y:1 Z:5]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_77.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 1 :z 5)))
+
+# ::id minecraft-4-3-3d-triangle_1117.78 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a red block at X:-5 Y:1 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1117_78.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -5 :y 1 :z 0)))
+
+# ::id minecraft-4-3-3d-triangle_1117.79 ::date 2018-12-04T19:46:05
+# ::snt <Architect> going to next one
+# ::save-date Tue Dec 4, 2018 ::user jbonn ::file col_1117_79.txt
+(g / go-02
+      :ARG4 (o / one
+            :mod (n / next)))
+
+# ::id minecraft-4-3-3d-triangle_1117.80 ::date 2018-12-04T19:46:37
+# ::snt <Builder> okay
+# ::save-date Tue Dec 4, 2018 ::user jbonn ::file col_1117_80.txt
+(o / okay-04)

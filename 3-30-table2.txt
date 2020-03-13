@@ -1,0 +1,372 @@
+# ::snt <DocumentInitialization>
+# ::id minecraft-3-30-table2_1101.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (t / table)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :FR (i4 / intrinsic))))
+
+# ::id minecraft-3-30-table2_1101.1 ::date 2018-08-09T13:51:17
+# ::snt <Builder> Mission has started.
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1101_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-3-30-table2_1101.2 ::date 2018-08-09T13:51:31
+# ::snt <Builder> hello. what are we building this time?
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1101_2.txt
+(m2 / multi-sentence
+      :snt1 (h / hello)
+      :snt2 (b / build-01
+            :ARG0 (w / we)
+            :ARG1 (a / amr-unknown)
+            :time (t / time
+                  :mod (t2 / this))))
+
+# ::id minecraft-3-30-table2_1101.3 ::date 2018-08-09T13:52:22
+# ::snt <Architect> hello builder, one moment
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1101_3.txt
+(s / say-01
+      :ARG1 (a / and
+            :op1 (h / hello)
+            :op2 (w / wait-01 :mode imperative
+                  :ARG1 b
+                  :duration (m / moment :quant 1)))
+      :ARG2 (b / builder))
+
+# ::id minecraft-3-30-table2_1101.4 ::date 2018-08-09T13:56:05
+# ::snt <Architect> ok, to get started we need to place 4 orange blocks as if they are the corners of a 3x3 square, all of them on the ground
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1101_4.txt
+(n / need-01
+      :ARG0 (w / we)
+      :ARG1 (p / place-01
+            :ARG0 w
+            :ARG1 (b / block :quant 4
+                  :mod (a2 / all)
+                  :color (o2 / orange))
+            :ARG2-of (s / start-01
+                  :ARG0 w)
+            :manner (a / and
+                  :op1 (c / corner-02
+                        :ARG1 b
+                        :ARG2 (s2 / square
+                              :size (d / dimension-entity :value 3)
+                              :size (d2 / dimension-entity :value 3)))
+                  :op2 (o / on-top-03
+                        :ARG1 b
+                        :ARG2 (g2 / ground)
+                        :ARG3 (c2 / cartesian-framework-91
+                              :ARG1 (b2 / build-space))))))
+
+# ::id minecraft-3-30-table2_1101.5 ::date 2018-08-09T14:02:40
+# ::snt <Builder> can i put them anywhere?
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1101_5.txt
+(p / possible-01
+      :ARG1 (p2 / put-01
+            :ARG0 (i / i)
+            :ARG1 (t / they)
+            :ARG2 (a2 / anywhere))
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-3-30-table2_1101.6 ::date 2018-08-09T14:03:18
+# ::snt [Builder puts down a orange block at X:-5 Y:1 Z:-3]
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1101_6.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-5" :y 1 :z "-3")))
+
+# ::id minecraft-3-30-table2_1101.7 ::date 2018-08-09T14:03:58
+# ::snt [Builder puts down a orange block at X:-3 Y:1 Z:-3]
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1101_7.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 1 :z "-3")))
+
+# ::id minecraft-3-30-table2_1101.8 ::date 2018-08-09T14:05:48
+# ::snt [Builder puts down a orange block at X:-5 Y:1 Z:-5]
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1101_8.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-5" :y 1 :z "-5")))
+
+# ::id minecraft-3-30-table2_1101.9 ::date 2018-08-09T14:10:03
+# ::snt <Architect> yes, the rest of the structure extends upwards
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1101_9.txt
+(a / and
+      :op1 (c / confirm-01)
+      :op2 (e / extend-01
+            :ARG1 (r / rest
+                  :part-of (s / structure))
+            :direction (t / trajectory
+                  :ARG2-of (u / up-03
+                        :ARG5 (c2 / cartesian-framework-91
+                              :ARG1 (b / build-space))))))
+
+# ::id minecraft-3-30-table2_1101.10 ::date 2018-08-09T14:11:06
+# ::snt [Builder puts down a orange block at X:-3 Y:1 Z:-5]
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1101_10.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 1 :z "-5")))
+
+# ::id minecraft-3-30-table2_1101.11 ::date 2018-08-09T14:11:47
+# ::snt <Architect> perfect
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1101_11.txt
+(p / perfect-02)
+
+# ::id minecraft-3-30-table2_1101.12 ::date 2018-08-09T14:12:01
+# ::snt <Architect> one moment while i look at the structure
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1101_12.txt
+(w / wait-01 :mode imperative
+      :ARG1 (y / you)
+      :time (l / look-01
+            :ARG0 (i / i)
+            :ARG1 (s / structure))
+      :duration (m / moment :quant 1))
+
+# ::id minecraft-3-30-table2_1101.13 ::date 2018-08-09T14:12:58
+# ::snt <Architect> the second level of the structure consists wholly of red blocks.
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1101_13.txt
+(c / consist-01
+      :ARG1 (l / level
+            :ord (o / ordinal-entity :value 2)
+            :part-of (s / structure))
+      :ARG2 (b / block :pl +
+            :color (r / red))
+      :degree (w / whole))
+
+# ::id minecraft-3-30-table2_1101.14 ::date 2018-08-09T14:14:41
+# ::snt <Architect> start by putting a red block on each orange block
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1101_14.txt
+(s / start-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (p / put-01
+            :ARG0 y
+            :ARG1 (b / block :pl +
+                  :color (r / red))
+            :ARG2 (s2 / space :pl +
+                  :ARG1-of (o / on-top-03
+                        :ARG2 (b2 / block :pl +
+                              :color (o2 / orange))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b3 / build-space))))
+            :frequency (r2 / rate-entity-91
+                  :ARG1 (b4 / block :quant 1
+                        :ARG1-of (i2 / include-91
+                              :ARG2 b))
+                  :ARG2 (b5 / block
+                        :ARG1-of (i3 / include-91
+                              :ARG2 b2)
+                        :mod (e / each)))))
+
+# ::id minecraft-3-30-table2_1101.15 ::date 2018-08-09T14:16:05
+# ::snt [Builder puts down a red block at X:-5 Y:2 Z:-5]
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1101_15.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-5" :y 2 :z "-5")))
+
+# ::id minecraft-3-30-table2_1101.16 ::date 2018-08-09T14:17:07
+# ::snt [Builder puts down a red block at X:-5 Y:2 Z:-3]
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1101_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-5" :y 2 :z "-3")))
+
+# ::id minecraft-3-30-table2_1101.17 ::date 2018-08-09T14:17:46
+# ::snt [Builder puts down a red block at X:-3 Y:2 Z:-3]
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1101_17.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 2 :z "-3")))
+
+# ::id minecraft-3-30-table2_1101.18 ::date 2018-08-09T14:18:22
+# ::snt [Builder puts down a red block at X:-3 Y:2 Z:-5]
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1101_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 2 :z "-5")))
+
+# ::id minecraft-3-30-table2_1101.19 ::date 2018-08-09T14:18:56
+# ::snt <Architect> good, now please fill in the outer sides of the second level 3x3 square but leave the middle open
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1101_19.txt
+(a / and
+      :op1 (g / good-02)
+      :op2 (f / fill-in-05 :polite + :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (s / side :pl +
+                  :ARG1-of (o / out-09
+                        :ARG2 (s2 / square
+                              :location (l / level
+                                    :ord (o2 / ordinal-entity :value 2))
+                              :size (d / dimension-entity :value 3)
+                              :size (d2 / dimension-entity :value 3))))
+            :concession (l2 / leave-14 :mode imperative
+                  :ARG0 y
+                  :ARG1 (o3 / open-06
+                        :ARG1 (s4 / space
+                              :ARG1-of (m / middle-01
+                                    :ARG2 s2))))
+            :time (n / now)))
+
+# ::id minecraft-3-30-table2_1101.20 ::date 2018-08-09T14:33:06
+# ::snt <Architect> using red blocks
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1101_20.txt
+(u / use-01
+      :ARG1 (b / block :pl +
+            :color (r / red)))
+
+# ::id minecraft-3-30-table2_1101.21 ::date 2018-08-09T14:33:26
+# ::snt <Builder> okay
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1101_21.txt
+(o / okay-04)
+
+# ::id minecraft-3-30-table2_1101.22 ::date 2018-08-09T14:33:34
+# ::snt [Builder puts down a red block at X:-3 Y:2 Z:-4]
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1101_22.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 2 :z "-4")))
+
+# ::id minecraft-3-30-table2_1101.23 ::date 2018-08-09T14:34:13
+# ::snt [Builder puts down a red block at X:-4 Y:2 Z:-3]
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1101_23.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-4" :y 2 :z "-3")))
+
+# ::id minecraft-3-30-table2_1101.24 ::date 2018-08-09T14:35:01
+# ::snt [Builder puts down a red block at X:-4 Y:2 Z:-5]
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1101_24.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-4" :y 2 :z "-5")))
+
+# ::id minecraft-3-30-table2_1101.25 ::date 2018-08-09T14:35:41
+# ::snt [Builder puts down a red block at X:-5 Y:2 Z:-4]
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1101_25.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-5" :y 2 :z "-4")))
+
+# ::id minecraft-3-30-table2_1101.26 ::date 2018-08-09T14:36:58
+# ::snt <Architect> good job builder, we have completed yet another flawless structure!
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1101_26.txt
+(s / say-01
+      :ARG1 (a / and
+            :op1 (g / good-02
+                  :ARG1 (j / job))
+            :op2 (c / complete-01
+                  :ARG0 (w / we)
+                  :ARG1 (s2 / structure
+                        :ARG1-of (f / flaw-01 :polarity -)
+                        :mod (a2 / another
+                              :mod (y / yet)))))
+      :ARG2 (b / builder))
+
+# ::id minecraft-3-30-table2_1101.27 ::date 2018-08-09T14:42:41
+# ::snt <Builder> its a table?
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1101_27.txt
+(h / have-configuration-91
+      :ARG1 (i2 / it)
+      :ARG2 (t / table)
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-3-30-table2_1101.28 ::date 2018-08-09T14:43:02
+# ::snt <Builder> good job
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1101_28.txt
+(g / good-02
+      :ARG1 (j / job))
+
+# ::id minecraft-3-30-table2_1101.29 ::date 2018-08-09T14:43:18
+# ::snt <Architect> i don't know what it is
+# ::save-date Thu Aug 9, 2018 ::user jbonn ::file col_1101_29.txt
+(k / know-01 :polarity -
+      :ARG0 (i / i)
+      :ARG1 (t / thing
+            :configuration-of (i2 / it)))

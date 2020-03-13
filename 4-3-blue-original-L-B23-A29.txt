@@ -1,0 +1,198 @@
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-3-blue-original-l-b23-a29_1113.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r4 / right-handed)
+                  :FR (r3 / relative-to-builder))))
+
+# ::id minecraft-4-3-blue-original-l-b23-a29_1113.1 ::date 2018-09-11T10:15:24
+# ::snt <Builder> Mission has started.
+(s / start-01
+      :arg1 (m / mission-01))
+
+# ::id minecraft-4-3-blue-original-l-b23-a29_1113.2 ::date 2018-11-04T18:47:36
+# ::snt <Architect> Test chat.
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1113_2.txt
+(c / chat-01
+      :purpose (t / test-01))
+
+# ::id minecraft-4-3-blue-original-l-b23-a29_1113.3 ::date 2018-11-04T18:47:58
+# ::snt <Architect> Ready?
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1113_3.txt
+(r / ready-02
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-4-3-blue-original-l-b23-a29_1113.4 ::date 2018-11-04T18:48:19
+# ::snt <Builder> ready
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1113_4.txt
+(r / ready-02)
+
+# ::id minecraft-4-3-blue-original-l-b23-a29_1113.5 ::date 2018-11-04T18:48:27
+# ::snt <Architect> ok. first let's orient ourselves.
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1113_5.txt
+(m / multi-sentence
+      :snt1 (o2 / okay-04)
+      :snt2 (o / orient-01
+            :ARG0 (w / we)
+            :ARG1 w
+            :mod (f / first)))
+
+# ::id minecraft-4-3-blue-original-l-b23-a29_1113.6 ::date 2018-11-04T18:49:01
+# ::snt <Builder> Lets first lay some bricks for a grid system.
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1113_6.txt
+(l / lay-01
+      :ARG0 (w / we)
+      :ARG1 (b / brick
+            :quant (s / some))
+      :mod (f / first)
+      :purpose (s2 / system
+            :mod (g / grid)))
+
+# ::id minecraft-4-3-blue-original-l-b23-a29_1113.7 ::date 2018-11-04T18:49:39
+# ::snt <Builder> how about we set this up like a cartesian plane and you just give me (x,Y)
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1113_7.txt
+(a / and
+      :op1 (s / set-up-03
+            :ARG0 (w / we)
+            :ARG1 (t / this)
+            :ARG2 (r / resemble-01
+                  :ARG1 t
+                  :ARG2 (c2 / cartesian-framework-91
+                        :configuration (p / plane))))
+      :op2 (g / give-01
+            :ARG0 (y / you)
+            :ARG1 (a3 / and
+                  :op1 (t3 / thing
+                        :x-of (c / cartesian-coordinate-entity))
+                  :op2 (t4 / thing
+                        :y-of c))
+            :ARG2 (i / i))
+      :polarity (a2 / amr-unknown))
+
+# ::id minecraft-4-3-blue-original-l-b23-a29_1113.8 ::date 2018-11-04T18:53:44
+# ::snt <Architect> Can we agree that you are facing north?
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1113_8.txt
+(p / possible-01
+      :ARG1 (a / agree-01
+            :ARG0 (w / we)
+            :ARG1 (f / face-01
+                  :ARG0 (y / you)
+                  :direction (t / trajectory
+                        :ARG4-of (n / north-01)
+                        :anchor (c / cartesian-framework-91
+                              :ARG1 (b / build-space)))))
+      :polarity (a2 / amr-unknown))
+
+# ::id minecraft-4-3-blue-original-l-b23-a29_1113.9 ::date 2018-11-04T18:54:40
+# ::snt <Architect> x,y is ok
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1113_9.txt
+(o / okay-04
+      :ARG1 (a / and
+            :op1 (t / thing
+                  :x-of (c / cartesian-coordinate-entity))
+            :op2 (t2 / thing
+                  :y-of c)))
+
+# ::id minecraft-4-3-blue-original-l-b23-a29_1113.10 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a purple block at X:-5 Y:1 Z:5]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1113_10.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -5 :y 1 :z 5)))
+
+# ::id minecraft-4-3-blue-original-l-b23-a29_1113.11 ::date 2018-11-04T18:55:20
+# ::snt <Builder> purple is the origin
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1113_11.txt
+(c / cartesian-framework-91
+      :ARG5 (o / origin
+            :domain (t / thing
+                  :color (p / purple))))
+
+# ::id minecraft-4-3-blue-original-l-b23-a29_1113.12 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:5 Y:1 Z:5]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1113_12.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 1 :z 5)))
+
+# ::id minecraft-4-3-blue-original-l-b23-a29_1113.13 ::date 2018-11-04T18:57:45
+# ::snt <Builder> green is x
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1113_13.txt
+(c / cartesian-framework
+      :ARG2 (x / x-axis
+            :domain (t / thing
+                  :color (g / green))))
+
+# ::id minecraft-4-3-blue-original-l-b23-a29_1113.14 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a yellow block at X:-5 Y:1 Z:-5]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1113_14.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -5 :y 1 :z -5)))
+
+# ::id minecraft-4-3-blue-original-l-b23-a29_1113.15 ::date 2018-11-04T19:00:27
+# ::snt <Builder> yellow is y
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1113_15.txt
+(c / cartesian-framework
+      :ARG3 (y3 / y-axis
+            :domain (t / thing
+                  :color (y / yellow))))
+
+# ::id minecraft-4-3-blue-original-l-b23-a29_1113.16 ::date 2018-11-04T19:00:52
+# ::snt <Builder> lets do this!
+# ::save-date Sun Nov 4, 2018 ::user jbonn ::file col_1113_16.txt
+(d / do-02
+      :ARG0 (w / we)
+      :ARG1 (t / this))

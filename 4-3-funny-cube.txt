@@ -1,0 +1,446 @@
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-3-funny-cube_1123.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (c10 / cube)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))))
+
+# ::id minecraft-4-3-funny-cube_1123.1 ::date 2018-10-04T11:49:14
+# ::snt <Builder> Mission has started.
+# ::save-date Tue Oct 9, 2018 ::user kristinwb ::file col_1123_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-3-funny-cube_1123.2 ::date 2018-10-09T10:24:20
+# ::snt <Architect> think of this as a multi colour 3x3 cube
+# ::save-date Tue Oct 9, 2018 ::user kristinwb ::file col_1123_2.txt
+(t / think-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t2 / thing
+            :mod (t3 / this))
+      :ARG2 (c / cube
+            :color (m / multicolor)
+            :size (d / dimension-entity :value 3)
+            :size (d2 / dimension-entity :value 3)))
+
+# ::id minecraft-4-3-funny-cube_1123.3 ::date 2018-10-09T10:46:49
+# ::snt <Architect> start with red
+# ::save-date Tue Oct 9, 2018 ::user kristinwb ::file col_1123_3.txt
+(s / start-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (t / thing
+            :color (r / red)))
+
+# ::id minecraft-4-3-funny-cube_1123.4 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a red block at X:-1 Y:1 Z:2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1123_4.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 2)))
+
+# ::id minecraft-4-3-funny-cube_1123.5 ::date 2018-10-09T11:03:06
+# ::snt <Architect> build 2 red up
+# ::save-date Wed Nov 14, 2018 ::user coqc ::file col_1123_5.txt
+(b / build-01
+      :ARG0 (y / you)
+      :ARG2 (t / thing :quant 2
+            :color (r / red))
+      :direction (t2 / trajectory
+            :ARG2-of (u / up-03
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id minecraft-4-3-funny-cube_1123.6 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a red block at X:-1 Y:2 Z:2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1123_6.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 2)))
+
+# ::id minecraft-4-3-funny-cube_1123.7 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a red block at X:-1 Y:3 Z:2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1123_7.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 2)))
+
+# ::id minecraft-4-3-funny-cube_1123.8 ::date 2018-10-09T11:15:02
+# ::snt <Architect> perfect starting shapr
+# ::save-date Thu Oct 25, 2018 ::user kristinwb ::file col_1123_8.txt
+(t / thing
+      :ARG1-of (p / perfect-02
+            :ARG2 (s2 / start-01
+                  :ARG2 t))
+      :ARG1-of (s / shape-01))
+
+# ::id minecraft-4-3-funny-cube_1123.9 ::date 2018-10-09T11:19:52
+# ::snt <Architect> shape*
+# ::save-date Tue Oct 30, 2018 ::user kristinwb ::file col_1123_9.txt
+(m / mean-01
+      :ARG2 (s / string-entity :value "shape"))
+
+# ::id minecraft-4-3-funny-cube_1123.10 ::date 2018-10-04T11:49:59
+# ::snt <Architect> so it's a 3x3x1 red wall
+# ::save-date Wed Nov 14, 2018 ::user coqc ::file col_1123_10.txt
+(i2 / it
+      :configuration (w / wall
+            :color (r / red)
+            :size (d / dimension-entity :value 3)
+            :size (d2 / dimension-entity :value 3)
+            :size (d3 / dimension-entity :value 1)))
+
+# ::id minecraft-4-3-funny-cube_1123.11 ::date 2018-10-09T10:16:13
+# ::snt <Architect> middle is cut out
+# ::save-date Wed Nov 14, 2018 ::user coqc ::file col_1123_11.txt
+(c / cut-out-06
+      :ARG1 (t / thing
+            :ARG1-of (m2 / middle-01)))
+
+# ::id minecraft-4-3-funny-cube_1123.12 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a red block at X:0 Y:1 Z:2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1123_12.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 2)))
+
+# ::id minecraft-4-3-funny-cube_1123.13 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a red block at X:1 Y:1 Z:2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1123_13.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 2)))
+
+# ::id minecraft-4-3-funny-cube_1123.14 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a red block at X:1 Y:2 Z:2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1123_14.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 2)))
+
+# ::id minecraft-4-3-funny-cube_1123.15 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a red block at X:1 Y:3 Z:2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1123_15.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 2)))
+
+# ::id minecraft-4-3-funny-cube_1123.16 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a red block at X:0 Y:3 Z:2]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1123_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 2)))
+
+# ::id minecraft-4-3-funny-cube_1123.17 ::date 2018-10-09T11:34:11
+# ::snt <Architect> great
+# ::save-date Wed Nov 14, 2018 ::user coqc ::file col_1123_17.txt
+(h / have-mod-91
+      :ARG2 (g / great))
+
+# ::id minecraft-4-3-funny-cube_1123.18 ::date 2018-10-09T11:34:23
+# ::snt <Architect> pick a side of the red wall
+# ::save-date Tue Oct 30, 2018 ::user kristinwb ::file col_1123_18.txt
+(p / pick-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (s / side
+            :part-of (w / wall
+                  :color (r / red))))
+
+# ::id minecraft-4-3-funny-cube_1123.19 ::date 2018-10-09T11:43:41
+# ::snt <Architect> here you'll switch to orange
+# ::save-date Wed Nov 14, 2018 ::user coqc ::file col_1123_19.txt
+(s / switch-01
+      :ARG0 (y / you)
+      :ARG2 (t / thing
+            :color (o / orange))
+      :location (h / here))
+
+# ::id minecraft-4-3-funny-cube_1123.20 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a orange block at X:1 Y:1 Z:1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1123_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 1)))
+
+# ::id minecraft-4-3-funny-cube_1123.21 ::date 2018-10-09T14:23:13
+# ::snt <Architect> and one block on the top
+# ::save-date Wed Nov 14, 2018 ::user coqc ::file col_1123_21.txt
+(a / and
+      :op2 (b / be-destined-for-91
+            :ARG1 (b2 / block :quant 1)
+            :ARG2 (s / space
+                  :ARG1-of (o / on-top-03
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b3 / build-space))))))
+
+# ::id minecraft-4-3-funny-cube_1123.22 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a orange block at X:1 Y:2 Z:1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1123_22.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 1)))
+
+# ::id minecraft-4-3-funny-cube_1123.23 ::date 2018-10-09T14:52:08
+# ::snt <Architect> sorry one higher
+# ::save-date Wed Nov 14, 2018 ::user coqc ::file col_1123_23.txt
+(a / and
+      :op1 (s2 / sorry-01)
+      :op2 (h2 / have-degree-91
+            :ARG2 (h / high-02
+                  :ARG6 (c / cartesian-framework-91
+                        :ARG1 (b / build-space))
+                  :ARG1-of (i2 / instead-of-91))
+            :ARG3 (m / more :quant 1)))
+
+# ::id minecraft-4-3-funny-cube_1123.24 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a orange block at X:1 Y:3 Z:1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1123_24.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 1)))
+
+# ::id minecraft-4-3-funny-cube_1123.25 ::date 2018-10-09T14:55:43
+# ::snt <Architect> punch out the mid
+# ::save-date Wed Nov 14, 2018 ::user coqc ::file col_1123_25.txt
+(p / punch-out-02 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :ARG1-of (m / middle-01)))
+
+# ::id minecraft-4-3-funny-cube_1123.26 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a orange block at X:1 Y:2 Z:1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1123_26.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 1)))
+
+# ::id minecraft-4-3-funny-cube_1123.27 ::date 2018-10-09T14:57:48
+# ::snt <Architect> switch to blue
+# ::save-date Wed Nov 14, 2018 ::user coqc ::file col_1123_27.txt
+(s / switch-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (t / thing
+            :color (b / blue)))
+
+# ::id minecraft-4-3-funny-cube_1123.28 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a blue block at X:1 Y:1 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1123_28.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 0)))
+
+# ::id minecraft-4-3-funny-cube_1123.29 ::date 2018-10-09T14:59:01
+# ::snt <Architect> fiyup
+# ::save-date Wed Nov 14, 2018 ::user coqc ::file col_1123_29.txt
+(f / fiyup :mode expressive)
+
+# ::id minecraft-4-3-funny-cube_1123.30 ::date 2018-10-09T15:01:47
+# ::snt <Architect> so blue looks like red
+# ::save-date Tue Oct 9, 2018 ::user kristinwb ::file col_1123_30.txt
+(l / look-02
+      :ARG0 (t / thing
+            :color (b / blue))
+      :ARG1 (t2 / thing
+            :color (r / red)))
+
+# ::id minecraft-4-3-funny-cube_1123.31 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a blue block at X:1 Y:2 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1123_31.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 0)))
+
+# ::id minecraft-4-3-funny-cube_1123.32 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a blue block at X:1 Y:3 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1123_32.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 0)))
+
+# ::id minecraft-4-3-funny-cube_1123.33 ::date 2018-10-09T15:10:22
+# ::snt <Architect> copy the structure for red but in blue
+# ::save-date Thu Nov 1, 2018 ::user kristinwb ::file col_1123_33.txt
+(c / copy-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (s / structure
+            :color (r / red))
+      :instrument (t / thing :pl +
+            :color (b / blue)))
+
+# ::id minecraft-4-3-funny-cube_1123.34 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a blue block at X:0 Y:1 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1123_34.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-3-funny-cube_1123.35 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a blue block at X:-1 Y:1 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1123_35.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 0)))
+
+# ::id minecraft-4-3-funny-cube_1123.36 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a blue block at X:-1 Y:2 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1123_36.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 0)))
+
+# ::id minecraft-4-3-funny-cube_1123.37 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a blue block at X:-1 Y:3 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1123_37.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id minecraft-4-3-funny-cube_1123.38 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a blue block at X:0 Y:3 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1123_38.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 0)))
+
+# ::id minecraft-4-3-funny-cube_1123.39 ::date 2018-10-09T15:14:28
+# ::snt <Architect> switch to purple
+# ::save-date Wed Nov 14, 2018 ::user coqc ::file col_1123_39.txt
+(s / switch-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (t / thing :pl +
+            :color (p / purple)))
+
+# ::id minecraft-4-3-funny-cube_1123.40 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a purple block at X:-1 Y:1 Z:1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1123_40.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 1)))
+
+# ::id minecraft-4-3-funny-cube_1123.41 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a purple block at X:-1 Y:3 Z:1]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1123_41.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 1)))
+
+# ::id minecraft-4-3-funny-cube_1123.42 ::date 2018-10-09T15:15:21
+# ::snt <Architect> yup
+# ::save-date Tue Oct 9, 2018 ::user kristinwb ::file col_1123_42.txt
+(y / yup)
+
+# ::id minecraft-4-3-funny-cube_1123.43 ::date 2018-10-09T15:16:02
+# ::snt <Architect> all good
+# ::save-date Tue Oct 9, 2018 ::user kristinwb ::file col_1123_43.txt
+(g / good-02
+      :ARG1 (a / all))

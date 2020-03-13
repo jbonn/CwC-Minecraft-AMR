@@ -1,0 +1,1042 @@
+# ::snt <DocumentInitialization>
+# ::id minecraft-3-30-belltower_1090.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (b3 / belltower)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :FR (i4 / intrinsic)))
+      :snt9 (p / parallel-01
+            :ARG0 z
+            :ARG1 z6))
+
+# ::id minecraft-3-30-belltower_1090.1 ::date 2018-04-10T11:59:17
+# ::snt <Builder> Mission has started.
+# ::save-date Tue Apr 10, 2018 ::user jbonn ::file col_1090_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-3-30-belltower_1090.2 ::date 2018-04-10T11:59:29
+# ::snt <Builder> hello.
+# ::save-date Fri Oct 26, 2018 ::user jbonn ::file col_1090_2.txt
+(h / hello)
+
+# ::id minecraft-3-30-belltower_1090.3 ::date 2018-04-10T11:59:37
+# ::snt what are we building this time?
+# ::save-date Tue Apr 10, 2018 ::user jbonn ::file col_1090_3.txt
+(b / build-01
+      :ARG0 (w / we)
+      :ARG1 (a / amr-unknown)
+      :time (t / time
+            :mod (t2 / this)))
+
+# ::id minecraft-3-30-belltower_1090.4 ::date 2018-04-10T11:59:59
+# ::snt <Architect> hello builder, i will tell you this.
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1090_4.txt
+(s / say-01
+      :ARG0 (i / i)
+      :ARG1 (a / and
+            :op1 (h / hello)
+            :op2 (t / tell-01
+                  :ARG0 i
+                  :ARG1 (t2 / this)
+                  :ARG2 b))
+      :ARG2 (b / builder))
+
+# ::id minecraft-3-30-belltower_1090.5 ::date 2018-04-10T12:01:16
+# ::snt it appears we are creating a belltower.
+# ::save-date Tue Apr 10, 2018 ::user jbonn ::file col_1090_5.txt
+(a / appear-02
+      :ARG1 (c / create-01
+            :ARG0 (w / we)
+            :ARG1 (b / belltower)))
+
+# ::id minecraft-3-30-belltower_1090.6 ::date 2018-04-10T12:16:48
+# ::snt but first i will start with step by step instructions.
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_6.txt
+(s / start-01
+      :ARG0 (i / i)
+      :ARG2 (i2 / instruct-01
+            :ARG0 i
+            :manner (s2 / step-by-step))
+      :time (f / first))
+
+# ::id minecraft-3-30-belltower_1090.7 ::date 2018-04-10T12:18:10
+# ::snt we will start with green blocks
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1090_7.txt
+(s / start-01
+      :ARG0 (w / we)
+      :ARG2 (b / block :pl +
+            :color (g / green)))
+
+# ::id minecraft-3-30-belltower_1090.8 ::date 2018-04-10T12:18:50
+# ::snt <Architect> please start with 8 green blocks extending straight up.
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_8.txt
+(s / start-01 :mode imperative :polite +
+      :ARG0 (y / you)
+      :ARG2 (c / composite-entity
+            :consist-of (b / block :quant 8
+                  :color (g / green))
+            :ARG1-of (e / extend-01
+                  :direction (t / trajectory
+                        :ARG2-of (u / up-03
+                              :ARG5 (c2 / cartesian-framework-91
+                                    :ARG1 (b2 / build-space))
+                              :ARG1-of (s2 / straight-04))))))
+
+# ::id minecraft-3-30-belltower_1090.9 ::date 2018-04-10T12:22:13
+# ::snt this will need to be placed as far right as you can, preferably centered along the other axis
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_9.txt
+(n / need-01
+      :ARG1 (p / place-01
+            :ARG0 (y / you)
+            :ARG1 (t / thing
+                  :mod (t2 / this))
+            :ARG2 (s / space
+                  :ARG1-of (r / right-04
+                        :quant (d / distance-quantity
+                              :extent-of (f / far-01
+                                    :ARG2-of (h / have-degree-91
+                                          :ARG3 (m / most)
+                                          :ARG4 (p3 / possible-01))))))
+            :manner (a / and
+                  :op1 (c / center-01
+                        :ARG1 t
+                        :ARG2 (a2 / axis
+                              :ARG1-of (o / other-01)))
+                  :op2 (a3 / along-01
+                        :ARG1 t
+                        :ARG2 a2)
+                  :ARG1-of (p2 / prefer-01))))
+
+# ::id minecraft-3-30-belltower_1090.10 ::date 2018-04-10T12:30:37
+# ::snt [Builder puts down a green block at X:-5 Y:1 Z:0]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1090_10.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-5" :y 1 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.11 ::date 2018-04-11T13:17:06
+# ::snt <Builder> here?
+# ::save-date Wed Apr 11, 2018 ::user jbonn ::file col_1090_11.txt
+(b / be-located-at-91
+      :ARG2 (h / here)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-3-30-belltower_1090.12 ::date 2018-04-11T13:26:41
+# ::snt <Architect> yes
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1090_12.txt
+(c / confirm-01)
+
+# ::id minecraft-3-30-belltower_1090.13 ::date 2018-04-11T13:26:57
+# ::snt <Builder> ok
+# ::save-date Wed Apr 11, 2018 ::user jbonn ::file col_1090_13.txt
+(o / okay-04)
+
+# ::id minecraft-3-30-belltower_1090.14 ::date 2018-04-11T13:27:12
+# ::snt [Builder puts down a green block at X:-5 Y:2 Z:0]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1090_14.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-5" :y 2 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.15 ::date 2018-05-07T10:16:34
+# ::snt [Builder puts down a green block at X:-5 Y:3 Z:0]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1090_15.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-5" :y 3 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.16 ::date 2018-05-09T07:50:24
+# ::snt [Builder puts down a green block at X:-5 Y:4 Z:0]
+# ::save-date Tue Sep 18, 2018 ::user jbonn ::file col_1090_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-5" :y 4 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.17 ::date 2018-05-09T07:51:22
+# ::snt [Builder puts down a green block at X:-5 Y:5 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_17.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-5" :y 5 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.18 ::date 2018-05-09T07:52:49
+# ::snt [Builder puts down a green block at X:-5 Y:6 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-5" :y 6 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.19 ::date 2018-05-09T07:53:51
+# ::snt [Builder puts down a green block at X:-5 Y:7 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-5" :y 7 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.20 ::date 2018-05-09T07:54:36
+# ::snt [Builder puts down a green block at X:-5 Y:8 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-5" :y 8 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.21 ::date 2018-04-11T13:27:20
+# ::snt <Builder> is this good?
+# ::save-date Wed Apr 11, 2018 ::user jbonn ::file col_1090_21.txt
+(g / good-02
+      :ARG1 (t / this)
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-3-30-belltower_1090.22 ::date 2018-04-11T13:28:04
+# ::snt <Architect> yes, one moment
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_22.txt
+(a / and
+      :op1 (c / confirm-01)
+      :op2 (w / wait-01 :mode imperative
+            :ARG1 (y2 / you)
+            :duration (m2 / moment :quant 1)))
+
+# ::id minecraft-3-30-belltower_1090.23 ::date 2018-04-11T13:34:44
+# ::snt <Architect> on the 8th block to the left of the green block, please create the same structure with red blocks
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_23.txt
+(c / create-01 :polite + :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (s / structure
+            :ARG1-of (s2 / same-01))
+      :ARG2 (b / block :pl +
+            :color (r / red))
+      :location (b5 / block
+            :ord (o2 / ordinal-entity :value 8
+                  :range-trajectory (t / trajectory
+                        :ARG4-of (l2 / left-20
+                              :ARG2 (b4 / block
+                                    :color (g / green))
+                              :ARG3 (c2 / cartesian-framework-91
+                                    :ARG2 y)
+                              :quant (d / distance-quantity :quant 8
+                                    :unit (b3 / block))))
+                  :range-start b4)))
+
+# ::id minecraft-3-30-belltower_1090.24 ::date 2018-04-11T13:41:44
+# ::snt <Builder> on top the 8th block?
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_24.txt
+(o / on-top-03
+      :ARG2 (b2 / block
+            :ord (o2 / ordinal-entity :value 8))
+      :ARG3 (c / cartesian-framework-91
+            :ARG1 (b / build-space))
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-3-30-belltower_1090.25 ::date 2018-04-11T13:42:50
+# ::snt <Architect> sorry, my mistake
+# ::save-date Wed Apr 11, 2018 ::user jbonn ::file col_1090_25.txt
+(s / sorry-01
+      :ARG1 i
+      :ARG2 (m / mistake-02
+            :ARG0 (i / i)))
+
+# ::id minecraft-3-30-belltower_1090.26 ::date 2018-04-11T13:44:55
+# ::snt [Builder puts down a red block at X:-5 Y:9 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_26.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-5" :y 9 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.27 ::date 2018-04-11T13:45:04
+# ::snt <Architect> it should start on the ground
+# ::save-date Wed Apr 11, 2018 ::user jbonn ::file col_1090_27.txt
+(r / recommend-01
+      :ARG1 (s / start-01
+            :ARG1 (i2 / it)
+            :location (g / ground)))
+
+# ::id minecraft-3-30-belltower_1090.28 ::date 2018-04-11T13:45:29
+# ::snt <Architect> i only meant 8 blocks away from the first green block, to the left
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_28.txt
+(m / mean-01
+      :ARG0 (i / i)
+      :ARG2 (s / space
+            :ARG1-of (a / away-01
+                  :ARG2 (b2 / block
+                        :ord (o2 / ordinal-entity :value 1)
+                        :color (g / green))
+                  :quant (d / distance-quantity :quant 8
+                        :unit (b3 / block)))
+            :ARG1-of (l / left-20
+                  :ARG2 b2
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b / builder))))
+      :mod (o / only))
+
+# ::id minecraft-3-30-belltower_1090.29 ::date 2018-04-11T13:48:59
+# ::snt [Builder puts down a red block at X:3 Y:1 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_29.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.30 ::date 2018-04-11T13:49:07
+# ::snt <Builder> here?
+# ::save-date Wed Apr 11, 2018 ::user jbonn ::file col_1090_30.txt
+(b / be-located-at-91
+      :ARG2 (h / here)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-3-30-belltower_1090.31 ::date 2018-04-11T13:49:26
+# ::snt <Architect> yes
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_31.txt
+(c / confirm-01)
+
+# ::id minecraft-3-30-belltower_1090.32 ::date 2018-04-11T13:49:34
+# ::snt [Builder puts down a red block at X:3 Y:2 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_32.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.33 ::date 2018-05-17T13:36:42
+# ::snt [Builder puts down a red block at X:3 Y:3 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_33.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.34 ::date 2018-05-17T13:37:32
+# ::snt [Builder puts down a red block at X:3 Y:4 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_34.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 4 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.35 ::date 2018-05-17T13:38:22
+# ::snt [Builder puts down a red block at X:3 Y:5 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_35.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 5 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.36 ::date 2018-05-17T13:39:17
+# ::snt [Builder puts down a red block at X:3 Y:6 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_36.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 6 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.37 ::date 2018-05-17T13:39:57
+# ::snt [Builder puts down a red block at X:3 Y:7 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_37.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 7 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.38 ::date 2018-05-17T13:40:36
+# ::snt [Builder puts down a red block at X:3 Y:8 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_38.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 8 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.39 ::date 2018-04-11T13:49:49
+# ::snt <Builder> like this?
+# ::save-date Wed Apr 11, 2018 ::user jbonn ::file col_1090_39.txt
+(r / resemble-01
+      :ARG2 (t / this)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-3-30-belltower_1090.40 ::date 2018-04-11T13:50:13
+# ::snt <Architect> good job builder.
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_40.txt
+(s / say-01
+      :ARG1 (g / good-02
+            :ARG1 (j / job))
+      :ARG2 (b / builder))
+
+# ::id minecraft-3-30-belltower_1090.41 ::date 2018-04-11T13:51:29
+# ::snt if you can do this without a supporting structure then please do.
+# ::save-date Wed Apr 11, 2018 ::user jbonn ::file col_1090_41.txt
+(d / do-02 :mode imperative :polite +
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :mod (t2 / this))
+      :condition (p / possible-01
+            :ARG1 d)
+      :instrument (s / structure :polarity -
+            :ARG0-of (s2 / support-01)))
+
+# ::id minecraft-3-30-belltower_1090.42 ::date 2018-04-11T13:59:33
+# ::snt we need yet another row of purple blocks that is 9 long so that it lays across the green and red, on top of them
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_42.txt
+(n / need-01
+      :ARG0 (w / we)
+      :ARG1 (r / row
+            :mod (a / another
+                  :mod (y / yet))
+            :consist-of (b / block :pl +
+                  :color (p / purple))
+            :ARG1-of (l / long-03
+                  :ARG2 (d / distance-quantity :quant 9))
+            :ARG1-of (l2 / lie-07
+                  :ARG2 (s / space :pl +
+                        :ARG1-of (o / on-top-03
+                              :op1 (a4 / and
+                                    :op1 (t / thing
+                                          :color (r2 / red))
+                                    :op2 (t2 / thing
+                                          :color (g / green)))))
+                  :ARG3 (a2 / across-01
+                        :ARG1 r
+                        :ARG2 a4))))
+
+# ::id minecraft-3-30-belltower_1090.43 ::date 2018-04-11T14:04:19
+# ::snt <Builder> starting and ending from the red and green?
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_43.txt
+(a / and
+      :op1 (s / start-01
+            :ARG2 (t / thing
+                  :color (r / red)))
+      :op2 (e / end-01
+            :ARG2 (t2 / thing
+                  :color (g / green)))
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-3-30-belltower_1090.44 ::date 2018-04-11T14:06:03
+# ::snt [Builder puts down a purple block at X:-5 Y:9 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_44.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-5" :y 9 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.45 ::date 2018-04-11T14:06:13
+# ::snt <Architect> yes
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_45.txt
+(c / confirm-01)
+
+# ::id minecraft-3-30-belltower_1090.46 ::date 2018-04-11T14:06:58
+# ::snt [Builder puts down a purple block at X:-4 Y:9 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_46.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-4" :y 9 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.47 ::date 2018-05-17T13:42:09
+# ::snt [Builder puts down a purple block at X:-3 Y:9 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_47.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-3" :y 9 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.48 ::date 2018-05-17T13:44:20
+# ::snt [Builder puts down a purple block at X:-2 Y:9 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_48.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 9 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.49 ::date 2018-05-17T13:44:59
+# ::snt [Builder puts down a purple block at X:-1 Y:9 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_49.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-1" :y 9 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.50 ::date 2018-05-17T13:45:55
+# ::snt [Builder puts down a purple block at X:0 Y:9 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_50.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 9 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.51 ::date 2018-05-17T13:46:34
+# ::snt [Builder puts down a purple block at X:1 Y:9 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_51.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 9 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.52 ::date 2018-05-17T13:47:16
+# ::snt [Builder puts down a purple block at X:2 Y:9 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_52.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 9 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.53 ::date 2018-05-17T13:47:56
+# ::snt [Builder puts down a purple block at X:3 Y:9 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_53.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 9 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.54 ::date 2018-04-11T14:07:08
+# ::snt <Architect> excellent builder
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_54.txt
+(s / say-01
+      :ARG1 (e / excellent-02)
+      :ARG2 (b / builder))
+
+# ::id minecraft-3-30-belltower_1090.55 ::date 2018-04-11T14:07:37
+# ::snt <Architect> now we must create the bell.
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_55.txt
+(o / obligate-01
+      :ARG1 (c / create-01
+            :ARG0 (w / we)
+            :ARG1 (b / bell))
+      :time (n / now))
+
+# ::id minecraft-3-30-belltower_1090.56 ::date 2018-04-11T14:07:58
+# ::snt please start by extending 4 orange blocks down from the middle purple block, as if it were hanging
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_56.txt
+(s / start-01 :polite + :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (e / extend-01
+            :ARG0 y
+            :ARG1 (c / composite-entity
+                  :consist-of (b / block :quant 4
+                        :color (o / orange)))
+            :ARG3 (b2 / block
+                  :ARG1-of (m / middle-01)
+                  :color (p / purple))
+            :direction (t / trajectory
+                  :ARG4-of (d / down-03
+                        :ARG5 (c2 / cartesian-framework-91
+                              :ARG1 (b3 / build-space))))
+            :manner (r2 / resemble-01
+                  :ARG1 c
+                  :ARG2 (h / hang-01
+                        :ARG1 c
+                        :ARG2 b2))))
+
+# ::id minecraft-3-30-belltower_1090.57 ::date 2018-04-24T11:39:13
+# ::snt [Builder puts down a orange block at X:-1 Y:8 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_57.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-1" :y 8 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.58 ::date 2018-05-17T13:49:25
+# ::snt [Builder puts down a orange block at X:-1 Y:7 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_58.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-1" :y 7 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.59 ::date 2018-05-17T13:50:07
+# ::snt [Builder puts down a orange block at X:-1 Y:6 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_59.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-1" :y 6 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.60 ::date 2018-05-17T13:50:45
+# ::snt [Builder puts down a orange block at X:-1 Y:5 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_60.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-1" :y 5 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.61 ::date 2018-04-24T11:39:26
+# ::snt <Builder> like this?
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_61.txt
+(r / resemble-01
+      :ARG2 (t / this)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-3-30-belltower_1090.62 ::date 2018-04-24T12:32:17
+# ::snt <Architect> yes.
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_62.txt
+(c / confirm-01)
+
+# ::id minecraft-3-30-belltower_1090.63 ::date 2018-05-08T12:55:18
+# ::snt now we need 3 blocks on both sides of the bottom three blocks so that is looks like a 3x3 square hanging off of the purple row
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_63.txt
+(n / need-01
+      :ARG0 (w / we)
+      :ARG1 (b / be-located-at-91
+            :ARG1 (b2 / block :pl +)
+            :ARG2 (s3 / space :pl +
+                  :ARG1-of (n3 / next-to-02
+                        :ARG2 (s / side :pl +
+                              :mod (b3 / both)
+                              :part-of (c2 / composite-entity
+                                    :consist-of (b4 / block :quant 3
+                                          :ARG1-of (b5 / bottom-03
+                                                :ARG3 (c4 / cartesian-framework-91
+                                                      :ARG1 (b7 / build-space))))))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b6 / builder))))
+            :frequency (r2 / rate-entity-91
+                  :ARG1 (b8 / block :quant 3
+                        :ARG1-of (i2 / include-91
+                              :ARG2 b2))
+                  :ARG2 (s4 / side :quant 1
+                        :ARG1-of (i3 / include-91
+                              :ARG2 s)))
+            :ARG0-of (c3 / cause-01
+                  :ARG1 (l / look-02
+                        :ARG0 (i4 / it
+                              :consist-of (a / and
+                                    :op1 b2
+                                    :op2 c2))
+                        :ARG1 (s2 / square
+                              :ARG1-of (h / hang-01
+                                    :ARG2 (r / row
+                                          :color (p / purple)))
+                              :size (d / dimension-entity :value 3)
+                              :size (d2 / dimension-entity :value 3)))))
+      :time (n2 / now))
+
+# ::id minecraft-3-30-belltower_1090.64 ::date 2018-05-08T13:16:01
+# ::snt <Builder> okay
+# ::save-date Wed May 9, 2018 ::user jbonn ::file col_1090_64.txt
+(o / okay-04)
+
+# ::id minecraft-3-30-belltower_1090.65 ::date 2018-05-09T07:42:30
+# ::snt <Builder> orange?
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_65.txt
+(h / have-color-91
+      :ARG2 (o / orange)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-3-30-belltower_1090.66 ::date 2018-05-17T13:51:48
+# ::snt [Builder puts down a orange block at X:-2 Y:7 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_66.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 7 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.67 ::date 2018-05-17T13:52:24
+# ::snt [Builder puts down a orange block at X:-2 Y:6 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_67.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 6 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.68 ::date 2018-05-17T13:53:11
+# ::snt [Builder puts down a orange block at X:-2 Y:5 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_68.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 5 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.69 ::date 2018-05-09T10:02:45
+# ::snt <Architect> yes, orange. sorry
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_69.txt
+(a / and
+      :op1 (c / confirm-01
+            :ARG1 (h / have-color-91
+                  :ARG2 (o / orange)))
+      :op2 (s / sorry-01))
+
+# ::id minecraft-3-30-belltower_1090.70 ::date 2018-05-09T10:04:05
+# ::snt [Builder puts down a orange block at X:0 Y:7 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_70.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 7 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.71 ::date 2018-05-17T13:54:36
+# ::snt [Builder puts down a orange block at X:0 Y:6 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_71.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.72 ::date 2018-05-17T13:55:16
+# ::snt [Builder puts down a orange block at X:0 Y:5 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_72.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.73 ::date 2018-05-09T10:04:16
+# ::snt <Builder> is this good?
+# ::save-date Wed May 9, 2018 ::user jbonn ::file col_1090_73.txt
+(g / good-02
+      :ARG1 (t / this)
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-3-30-belltower_1090.74 ::date 2018-05-09T10:04:38
+# ::snt <Architect> great.
+# ::save-date Wed May 16, 2018 ::user jbonn ::file col_1090_74.txt
+(h / have-mod-91
+      :ARG2 (g / great))
+
+# ::id minecraft-3-30-belltower_1090.75 ::date 2018-05-09T10:04:44
+# ::snt now please place 1 orange block on the bottom corners of the 3x3 square so that it is shaped like a bell
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1090_75.txt
+(p / place-01 :polite +
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block :pl +
+            :color (o / orange))
+      :ARG2 (s4 / space :pl +
+            :ARG1-of (o2 / on-06
+                  :ARG2 (t / thing :pl +
+                        :ARG1-of (c / corner-02
+                              :ARG2 (s / square
+                                    :size (d / dimension-entity :value 3)
+                                    :size (d2 / dimension-entity :value 3)))
+                        :ARG1-of (b3 / bottom-03
+                              :ARG2 s
+                              :ARG3 (c3 / cartesian-framework-91
+                                    :ARG1 (b4 / build-space))))))
+      :frequency (r / rate-entity-91
+            :ARG1 (b6 / block :quant 1
+                  :ARG1-of (i4 / include-91
+                        :ARG2 b2))
+            :ARG2 (t2 / thing :quant 1
+                  :ARG1-of (i3 / include-91
+                        :ARG2 t)))
+      :time (n / now)
+      :manner (s3 / shape-01
+            :ARG1 (i2 / it
+                  :consist-of (a / and
+                        :op1 b2
+                        :op2 t))
+            :ARG2 (b5 / bell)))
+
+# ::id minecraft-3-30-belltower_1090.76 ::date 2018-05-15T17:27:05
+# ::snt <Architect> yes that is good
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_76.txt
+(c / confirm-01
+      :ARG1 (g / good-02
+            :ARG1 (t / that)))
+
+# ::id minecraft-3-30-belltower_1090.77 ::date 2018-05-15T17:30:29
+# ::snt [Builder puts down a orange block at X:0 Y:4 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_77.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.78 ::date 2018-05-17T12:17:47
+# ::snt [Builder puts down a orange block at X:-2 Y:4 Z:0]
+# ::save-date Thu Nov 1, 2018 ::user jbonn ::file col_1090_78.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-2" :y 4 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.79 ::date 2018-05-15T17:31:01
+# ::snt <Builder> here?
+# ::save-date Tue May 15, 2018 ::user jbonn ::file col_1090_79.txt
+(b / be-located-at-91
+      :ARG2 (h / here)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-3-30-belltower_1090.80 ::date 2018-05-15T17:31:21
+# ::snt <Architect> not quite.
+# ::save-date Thu May 17, 2018 ::user jbonn ::file col_1090_80.txt
+(c / confirm-01
+      :degree (q / quite :polarity -))
+
+# ::id minecraft-3-30-belltower_1090.81 ::date 2018-05-15T17:37:43
+# ::snt they should be on the left and right sides, not the bottom side.
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1090_81.txt
+(r / recommend-01
+      :ARG1 (b / be-located-at-91
+            :ARG1 (t / they)
+            :ARG2 (a / and
+                  :op1 (s4 / space
+                        :ARG1-of (l / left-20
+                              :ARG3 c))
+                  :op2 (s / space
+                        :ARG1-of (r2 / right-04
+                              :ARG3 (c / cartesian-framework-91
+                                    :ARG1 (b4 / builder))))
+                  :ARG1-of (i2 / instead-of-91
+                        :ARG2 (s6 / space
+                              :ARG1-of (b3 / bottom-02
+                                    :ARG3 (c2 / cartesian-framework-91
+                                          :ARG1 (b2 / build-space))))))))
+
+# ::id minecraft-3-30-belltower_1090.82 ::date 2018-05-17T12:29:58
+# ::snt my mistake
+# ::save-date Thu May 17, 2018 ::user jbonn ::file col_1090_82.txt
+(m / mistake-02
+      :ARG0 (i / i))
+
+# ::id minecraft-3-30-belltower_1090.83 ::date 2018-05-17T12:32:09
+# ::snt [Builder picks up a orange block at X:-2 Y:4 Z:0]
+# ::save-date Thu May 17, 2018 ::user jbonn ::file col_1090_83.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (o / orange))
+      :ARG2 (l / location
+            :location (c / cartesian-coordinate-entity :x "-2" :y 4 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.84 ::date 2018-05-17T12:36:24
+# ::snt [Builder picks up a orange block at X:0 Y:4 Z:0]
+# ::save-date Thu May 17, 2018 ::user jbonn ::file col_1090_84.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (o / orange))
+      :ARG2 (l / location
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.85 ::date 2018-05-17T12:37:15
+# ::snt [Builder puts down a orange block at X:-3 Y:5 Z:0]
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1090_85.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (o / orange))
+      :ARG2 (l / location
+            :location (c / cartesian-coordinate-entity :x "-3" :y 5 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.86 ::date 2018-05-17T12:38:01
+# ::snt [Builder puts down a orange block at X:1 Y:5 Z:0]
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1090_86.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (o / orange))
+      :ARG2 (l / location
+            :location (c / cartesian-coordinate-entity :x 1 :y 5 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.87 ::date 2018-05-17T12:38:41
+# ::snt <Builder> oh i see.
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1090_87.txt
+(s / see-01
+      :ARG0 (i / i)
+      :mod (o / oh :mode expressive))
+
+# ::id minecraft-3-30-belltower_1090.88 ::date 2018-05-17T12:40:41
+# ::snt my mistake
+# ::save-date Thu May 17, 2018 ::user jbonn ::file col_1090_88.txt
+(m / mistake-02
+      :ARG0 (i / i))
+
+# ::id minecraft-3-30-belltower_1090.89 ::date 2018-05-17T12:41:32
+# ::snt <Architect> good job builder.
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1090_89.txt
+(s / say-01
+      :ARG1 (g / good-02
+            :ARG1 (j / job))
+      :ARG2 (b / builder))
+
+# ::id minecraft-3-30-belltower_1090.90 ::date 2018-05-17T12:43:18
+# ::snt we have 1 final piece
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1090_90.txt
+(h / have-03
+      :ARG0 (w / we)
+      :ARG1 (p / piece :quant 1
+            :ord (o / ordinal-entity :value "-1")))
+
+# ::id minecraft-3-30-belltower_1090.91 ::date 2018-05-17T12:44:31
+# ::snt <Architect> please place 1 yellow block on the bottom of the bell, in the middle
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1090_91.txt
+(p / place-01 :polite + :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :quant 1
+            :color (y2 / yellow))
+      :ARG2 (s / space
+            :ARG1-of (m / middle-01
+                  :ARG2 (t / thing
+                        :ARG1-of (b4 / bottom-03
+                              :ARG2 (b3 / bell)
+                              :ARG3 (c / cartesian-framework-91
+                                    :ARG1 (b2 / build-space)))))))
+
+# ::id minecraft-3-30-belltower_1090.92 ::date 2018-05-17T12:56:29
+# ::snt [Builder puts down a yellow block at X:-1 Y:4 Z:0]
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1090_92.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x "-1" :y 4 :z 0)))
+
+# ::id minecraft-3-30-belltower_1090.93 ::date 2018-05-17T13:05:14
+# ::snt <Architect> builder, we have done it
+# ::save-date Thu May 17, 2018 ::user jbonn ::file col_1090_93.txt
+(s / say-01
+      :ARG1 (d / do-02
+            :ARG0 (w / we)
+            :ARG1 (i2 / it))
+      :ARG2 (b / builder))
+
+# ::id minecraft-3-30-belltower_1090.94 ::date 2018-05-17T13:06:52
+# ::snt <Builder> good job!
+# ::save-date Fri Nov 2, 2018 ::user jbonn ::file col_1090_94.txt
+(g / good-02
+      :ARG1 (j / job))del j
+
+# ::id minecraft-3-30-belltower_1090.95 ::date 2018-05-17T13:08:32
+# ::snt <Architect> you too builder! you are a master craftsman/woman
+# ::save-date Thu May 17, 2018 ::user jbonn ::file col_1090_95.txt
+(m / multi-sentence
+      :snt1 (s / say-01
+            :ARG1 (h / have-mod-91
+                  :ARG2 (t / too))
+            :ARG2 (b / builder))
+      :snt2 (s2 / slash
+            :op1 (c / craftsman)
+            :op2 (c2 / craftswoman)
+            :domain b
+            :ARG0-of (m2 / master-01)))

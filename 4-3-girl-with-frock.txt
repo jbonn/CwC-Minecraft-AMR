@@ -1,0 +1,676 @@
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-3-girl-with-frock_1130.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (g2 / girl)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :FR (i4 / intrinsic)))
+      :snt9 (p / parallel-01
+            :ARG0 z
+            :ARG1 z6))
+
+# ::id minecraft-4-3-girl-with-frock_1130.1 ::date 2018-11-10T15:22:22
+# ::snt <Builder> Mission has started.
+# ::save-date Sat Nov 10, 2018 ::user kristinwb ::file col_1130_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-3-girl-with-frock_1130.2 ::date 2018-11-10T15:23:44
+# ::snt <Builder> hello
+# ::save-date Sat Nov 10, 2018 ::user kristinwb ::file col_1130_2.txt
+(h / hello)
+
+# ::id minecraft-4-3-girl-with-frock_1130.3 ::date 2018-11-10T15:24:31
+# ::snt <Architect> hi
+# ::save-date Sat Nov 10, 2018 ::user kristinwb ::file col_1130_3.txt
+(h / hi)
+
+# ::id minecraft-4-3-girl-with-frock_1130.4 ::date 2018-11-10T15:24:41
+# ::snt <Architect> this looks like a woman wearing a dress
+# ::save-date Mon Jan 7, 2019 ::user coqc ::file col_1130_4.txt
+(l / look-02
+      :ARG0 (t / this)
+      :ARG1 (w / woman
+            :ARG0-of (w2 / wear-01
+                  :ARG1 (d / dress))))
+
+# ::id minecraft-4-3-girl-with-frock_1130.5 ::date 2018-11-10T15:25:31
+# ::snt <Architect> start with red
+# ::save-date Sat Nov 10, 2018 ::user kristinwb ::file col_1130_5.txt
+(s / start-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (t / thing
+            :color (r / red)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.6 ::date 2018-11-10T15:26:37
+# ::snt <Architect> two feet in the center of the board
+# ::save-date Mon Jan 7, 2019 ::user coqc ::file col_1130_6.txt
+(b / be-destined-for-91
+      :ARG1 (f / foot :quant 2)
+      :ARG2 (s / space
+            :ARG1-of (c / center-03
+                  :ARG2 (b2 / board))))
+
+# ::id minecraft-4-3-girl-with-frock_1130.7 ::date 2018-11-10T15:31:35
+# ::snt <Architect> one blank space apart
+# ::save-date Thu Nov 15, 2018 ::user kristinwb ::file col_1130_7.txt
+(a / apart-01
+      :ARG3 (s / space :quant 1
+            :mod (b / blank)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.8 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a red block at X:1 Y:1 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_8.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.9 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a red block at X:-1 Y:1 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_9.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.10 ::date 2018-11-10T15:34:03
+# ::snt <Architect> good now green
+# ::save-date Sat Nov 10, 2018 ::user kristinwb ::file col_1130_10.txt
+(a / and
+      :op1 (g / good-02)
+      :op2 (t / thing
+            :color (g2 / green)
+            :time (n / now)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.11 ::date 2018-11-10T15:34:58
+# ::snt <Builder> are those the shoes?
+# ::save-date Sat Nov 10, 2018 ::user kristinwb ::file col_1130_11.txt
+(s / shoe :pl +
+      :domain (t / that)
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-4-3-girl-with-frock_1130.12 ::date 2018-11-10T15:35:45
+# ::snt <Architect> the bottom of the dress is 7 long
+# ::save-date Mon Jan 7, 2019 ::user coqc ::file col_1130_12.txt
+(l / long-03
+      :ARG1 (t / thing
+            :ARG1-of (b / bottom-03
+                  :ARG2 (d2 / dress)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space))))
+      :ARG2 7)
+
+# ::id minecraft-4-3-girl-with-frock_1130.13 ::date 2018-11-10T15:37:27
+# ::snt <Architect> yeah those are shoes
+# ::save-date Mon Jan 7, 2019 ::user coqc ::file col_1130_13.txt
+(c / confirm-01
+      :ARG1 (s / shoe :pl +
+            :domain (t / thing :pl +
+                  :mod (t2 / that))))
+
+# ::id minecraft-4-3-girl-with-frock_1130.14 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:-1 Y:2 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_14.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.15 ::date 2018-11-10T15:38:06
+# ::snt <Builder> on top?
+# ::save-date Sat Nov 10, 2018 ::user kristinwb ::file col_1130_15.txt
+(o / on-top-03
+      :ARG3 (c / cartesian-framework-91
+            :ARG1 (b / build-space))
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-3-girl-with-frock_1130.16 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:0 Y:2 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.17 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:1 Y:2 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_17.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.18 ::date 2018-11-10T15:39:27
+# ::snt <Architect> a flat line centered over teh feet
+# ::save-date Mon Jan 7, 2019 ::user coqc ::file col_1130_18.txt
+(h / have-configuration-91
+      :ARG2 (l / line
+            :ARG1-of (f / flat-06)
+            :ARG1-of (c / center-01
+                  :ARG2 (f2 / foot :pl +))
+            :ARG1-of (o / over-05
+                  :ARG2 f2
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 (b / build-space)))))
+
+# ::id minecraft-4-3-girl-with-frock_1130.19 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:-2 Y:2 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.20 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:2 Y:2 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.21 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:3 Y:2 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_21.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.22 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:-3 Y:2 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_22.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.23 ::date 2018-11-10T15:41:46
+# ::snt <Architect> now five centered above that
+# ::save-date Mon Jan 7, 2019 ::user coqc ::file col_1130_23.txt
+(c / center-01
+      :ARG1 (t / thing :quant 5)
+      :ARG2 (t3 / thing
+            :mod (t2 / that))
+      :time (n / now)
+      :location (s / space :pl +
+            :ARG1-of (a / above-01
+                  :ARG2 t3
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 (b / build-space)))))
+
+# ::id minecraft-4-3-girl-with-frock_1130.24 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:0 Y:3 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_24.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.25 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:0 Y:4 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_25.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.26 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:0 Y:5 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_26.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.27 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:0 Y:6 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_27.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.28 ::date 2018-11-10T15:49:55
+# ::snt <Architect> nah a flat line still
+# ::save-date Mon Jan 7, 2019 ::user coqc ::file col_1130_28.txt
+(a / and
+      :op1 (c / confirm-01 :polarity -)
+      :op2 (h / have-configuration-91
+            :ARG2 (l / line
+                  :ARG1-of (f / flat-06))
+            :mod (s / still)
+            :ARG1-of (i2 / instead-of-91)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.29 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a green block at X:0 Y:6 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_29.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.30 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a green block at X:0 Y:5 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_30.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.31 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a green block at X:0 Y:3 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_31.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.32 ::date 2018-11-05T03:06:29
+# ::snt [Builder picks up a green block at X:0 Y:4 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_32.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.33 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:0 Y:3 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_33.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.34 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:-1 Y:3 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_34.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.35 ::date 2018-11-10T15:53:56
+# ::snt <Architect> like a pyramid
+# ::save-date Mon Jan 7, 2019 ::user coqc ::file col_1130_35.txt
+(r / resemble-01
+      :ARG2 (p / pyramid))
+
+# ::id minecraft-4-3-girl-with-frock_1130.36 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:-2 Y:3 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_36.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.37 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:1 Y:3 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_37.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.38 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:2 Y:3 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_38.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.39 ::date 2018-11-12T14:48:02
+# ::snt <Builder> got it
+# ::save-date Mon Nov 12, 2018 ::user kristinwb ::file col_1130_39.txt
+(g / get-30
+      :ARG1 (i2 / it))
+
+# ::id minecraft-4-3-girl-with-frock_1130.40 ::date 2018-11-12T14:48:54
+# ::snt <Architect> now three above that
+# ::save-date Mon Jan 7, 2019 ::user coqc ::file col_1130_40.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing :quant 3)
+      :ARG2 (s / space :pl +
+            :ARG1-of (a / above-01
+                  :ARG2 (t2 / that)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space))))
+      :time (n / now))
+
+# ::id minecraft-4-3-girl-with-frock_1130.41 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:-1 Y:4 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_41.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.42 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:0 Y:4 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_42.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.43 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a green block at X:1 Y:4 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_43.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 4 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.44 ::date 2018-11-12T14:52:18
+# ::snt <Architect> now the shirt is yellow
+# ::save-date Mon Nov 12, 2018 ::user kristinwb ::file col_1130_44.txt
+(s / shirt
+      :color (y / yellow)
+      :time (n / now))
+
+# ::id minecraft-4-3-girl-with-frock_1130.45 ::date 2018-11-12T14:52:58
+# ::snt <Architect> 3x3 square starting from the top of the dress
+# ::save-date Mon Jan 7, 2019 ::user coqc ::file col_1130_45.txt
+(h / have-configuration-91
+      :ARG2 (s / square
+            :ARG1-of (s2 / start-01
+                  :source (t2 / thing
+                        :ARG1-of (t / top-06
+                              :ARG2 (d2 / dress)
+                              :ARG3 (c / cartesian-framework-91
+                                    :ARG1 (b / build-space)))))
+            :size (d / dimension-entity :value 3)
+            :size (d3 / dimension-entity :value 3)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.46 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a yellow block at X:0 Y:5 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_46.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.47 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a yellow block at X:-1 Y:5 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_47.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 5 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.48 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a yellow block at X:1 Y:5 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_48.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 5 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.49 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a yellow block at X:1 Y:6 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_49.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 6 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.50 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a yellow block at X:0 Y:6 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_50.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.51 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a yellow block at X:-1 Y:6 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_51.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 6 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.52 ::date 2018-11-14T10:54:39
+# ::snt <Builder> one more?
+# ::save-date Mon Jan 7, 2019 ::user coqc ::file col_1130_52.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing
+            :ARG1-of (h / have-quant-91
+                  :ARG2 1
+                  :ARG3 (m / more)))
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-3-girl-with-frock_1130.53 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a yellow block at X:-1 Y:7 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_53.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 7 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.54 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a yellow block at X:0 Y:7 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_54.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 7 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.55 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a yellow block at X:1 Y:7 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_55.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 7 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.56 ::date 2018-11-14T11:00:13
+# ::snt <Architect> good now the yellow arms
+# ::save-date Wed Nov 14, 2018 ::user kristinwb ::file col_1130_56.txt
+(a / and
+      :op1 (g / good-02)
+      :op2 (a2 / arm :pl +
+            :time (n / now)
+            :color (y / yellow)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.57 ::date 2018-11-14T11:01:04
+# ::snt <Architect> from the top of the dress
+# ::save-date Mon Jan 7, 2019 ::user coqc ::file col_1130_57.txt
+(b / be-from-91
+      :ARG2 (t2 / thing
+            :ARG1-of (t / top-06
+                  :ARG2 (d / dress)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id minecraft-4-3-girl-with-frock_1130.58 ::date 2018-11-14T11:03:23
+# ::snt <Architect> sorry shirt
+# ::save-date Mon Jan 7, 2019 ::user coqc ::file col_1130_58.txt
+(a / and
+      :op1 (s / sorry-01)
+      :op2 (m / mean-01
+            :ARG2 (s2 / shirt)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.59 ::date 2018-11-14T11:05:25
+# ::snt <Builder> ok
+# ::save-date Wed Nov 14, 2018 ::user kristinwb ::file col_1130_59.txt
+(o / okay-04)
+
+# ::id minecraft-4-3-girl-with-frock_1130.60 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a yellow block at X:-2 Y:7 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_60.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 7 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.61 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a yellow block at X:2 Y:7 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_61.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 7 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.62 ::date 2018-11-14T11:05:55
+# ::snt <Architect> good; now a red head on top of all that
+# ::save-date Mon Jan 7, 2019 ::user coqc ::file col_1130_62.txt
+(a / and
+      :op1 (g / good-02)
+      :op2 (b / be-destined-for-91
+            :ARG1 (h / head
+                  :color (r / red))
+            :ARG2 (s / space
+                  :ARG1-of (o / on-top-03
+                        :ARG2 (t / that
+                              :mod (a2 / all))
+                        :ARG3 (c / cartesian-framework-91)))
+            :time (n / now)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.63 ::date 2018-11-14T11:08:05
+# ::snt <Architect> one block
+# ::save-date Wed Nov 14, 2018 ::user kristinwb ::file col_1130_63.txt
+(b / block :quant 1)
+
+# ::id minecraft-4-3-girl-with-frock_1130.64 ::date 2018-11-05T03:06:29
+# ::snt [Builder puts down a red block at X:0 Y:8 Z:0]
+# ::save-date Mon Nov 05, 2018::user jbonn ::file col_1130_64.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 8 :z 0)))
+
+# ::id minecraft-4-3-girl-with-frock_1130.65 ::date 2018-11-14T11:08:44
+# ::snt <Architect> super
+# ::save-date Wed Nov 14, 2018 ::user kristinwb ::file col_1130_65.txt
+(s / super)
+
+# ::id minecraft-4-3-girl-with-frock_1130.66 ::date 2018-11-14T11:09:25
+# ::snt <Builder> awesome
+# ::save-date Wed Nov 14, 2018 ::user kristinwb ::file col_1130_66.txt
+(a / awe-01)
