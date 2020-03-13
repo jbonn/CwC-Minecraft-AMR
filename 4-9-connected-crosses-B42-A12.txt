@@ -1,0 +1,741 @@
+# workset Minecraft-4-9-connected-crosses-B42-A12 (generated on Fri Dec 13, 2019 at 13:59:04 for user coqc)
+
+#frameworks
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :part (c13 / cross
+                  :color (y10 / yellow)
+                  :ARG1-of (c9 / cartesian-framework-91
+                        :ARG2 (x6 / x-axis)
+                        :ARG3 (y6 / y-axis)
+                        :ARG4 (z6 / z-axis)
+                        :FR (i4 / intrinsic)))
+            :part (c14 / cross
+                  :color (g2 / green)
+                  :ARG1-of (c10 / cartesian-framework-91
+                        :ARG2 (x7 / x-axis)
+                        :ARG3 (y7 / y-axis)
+                        :ARG4 (z7 / z-axis)
+                        :FR (i5 / intrinsic)))
+            :part (c15 / cross
+                  :color (o / orange)
+                  :ARG1-of (c11 / cartesian-framework-91
+                        :ARG2 (x8 / x-axis)
+                        :ARG3 (y8 / y-axis)
+                        :ARG4 (z8 / z-axis)
+                        :FR (i6 / intrinsic)))
+            :part (c16 / cross
+                  :color (b3 / blue)
+                  :ARG1-of (c12 / cartesian-framework-91
+                        :ARG2 (x9 / x-axis)
+                        :ARG3 (y9 / y-axis)
+                        :ARG4 (z9 / z-axis)
+                        :FR (i7 / intrinsic))))
+      :snt9 (p2 / parallel-01
+            :ARG0 z
+            :ARG1 (a6 / and
+                  :op1 y6
+                  :op2 x7
+                  :op3 y8
+                  :op4 x9))
+      :snt10 (p3 / parallel-01
+            :ARG0 y
+            :ARG1 (a7 / and
+                  :op1 z6
+                  :op2 y7
+                  :op3 z8
+                  :op4 y9)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.1 ::date 2019-09-24T09:39:13
+# ::snt <Builder> Mission has started.
+# ::save-date Tue Sep 24, 2019 ::user kristinwb ::file col_1273_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.2 ::date 2019-09-24T09:40:06
+# ::snt <Builder> ready to go
+# ::save-date Tue Sep 24, 2019 ::user kristinwb ::file col_1273_2.txt
+(r / ready-02
+      :ARG2 (g / go-06))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.3 ::date 2019-09-24T09:43:40
+# ::snt <Architect> start with a yellow tower 3 high in the center
+# ::save-date Tue Sep 24, 2019 ::user kristinwb ::file col_1273_3.txt
+(s / start-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (t / tower
+            :color (y2 / yellow)
+            :ARG1-of (h / high-05
+                  :ARG2 (d / distance-quantity :quant 3)
+                  :ARG3(c2 / cartesian-framework-91
+                        :ARG1 (b / build-space))))
+      :location (t2 / thing
+            :ARG1-of (c / center-03)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.4 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a yellow block at X:0 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_4.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.5 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a yellow block at X:0 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_5.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 0)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.6 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a yellow block at X:0 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_6.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.7 ::date 2019-09-24T09:46:03
+# ::snt <Builder> good
+# ::save-date Tue Sep 24, 2019 ::user kristinwb ::file col_1273_7.txt
+(g / good-02)
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.8 ::date 2019-09-24T09:46:19
+# ::snt <Architect> make a flat plus sign
+# ::save-date Tue Sep 24, 2019 ::user kristinwb ::file col_1273_8.txt
+(m / make-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (p / plus
+            :ARG1-of (s / signal-07)
+            :ARG1-of (f / flat-06)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.9 ::date 2019-09-24T10:00:37
+# ::snt <Builder> on top?
+# ::save-date Tue Sep 24, 2019 ::user kristinwb ::file col_1273_9.txt
+(b / be-destined-for-91
+      :ARG2 (s / space :pl +
+            :ARG1-of (o / on-top-03
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space))))
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.10 ::date 2019-09-24T10:01:29
+# ::snt <Builder> and what color?
+# ::save-date Tue Sep 24, 2019 ::user kristinwb ::file col_1273_10.txt
+(a / and
+      :op2 (h / have-color-91
+            :ARG2 (a2 / amr-unknown)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.11 ::date 2019-09-24T12:59:39
+# ::snt <Architect> at the 3rd level
+# ::save-date Tue Sep 24, 2019 ::user kristinwb ::file col_1273_11.txt
+(b / be-destined-for-91
+      :ARG2 (l / level
+            :ord (o / ordinal-entity :value 3)
+            :ARG4-of (s / spatial-sequence-91)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.12 ::date 2019-09-24T13:10:13
+# ::snt <Architect> yellow
+# ::save-date Tue Sep 24, 2019 ::user kristinwb ::file col_1273_12.txt
+(h / have-color-91
+      :ARG2 (y / yellow))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.13 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a yellow block at X:-1 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_13.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.14 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a yellow block at X:0 Y:3 Z:-1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_14.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -1)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.15 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a yellow block at X:1 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_15.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.16 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a yellow block at X:0 Y:3 Z:1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 1)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.17 ::date 2019-09-24T13:10:58
+# ::snt <Builder> good?
+# ::save-date Tue Sep 24, 2019 ::user kristinwb ::file col_1273_17.txt
+(g / good-02
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.18 ::date 2019-09-24T13:11:14
+# ::snt <Architect> good.
+# ::save-date Tue Sep 24, 2019 ::user kristinwb ::file col_1273_18.txt
+(c / confirm-01
+      :ARG1 (g / good-02))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.19 ::date 2019-09-24T13:11:31
+# ::snt <Architect> One bieeger on each side
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_19.txt
+(h / have-degree-91
+      :ARG1 (s / side :pl +
+            :mod (e / each))
+      :ARG2 (b / big-01)
+      :ARG3 (m / more :quant 1))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.20 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a yellow block at X:0 Y:3 Z:2]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 2)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.21 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a yellow block at X:2 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_21.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.22 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a yellow block at X:0 Y:3 Z:-2]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_22.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -2)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.23 ::date 2019-09-27T15:28:02
+# ::snt <Architect> r
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_23.txt
+(a / amr-empty)
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.24 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a yellow block at X:-2 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_24.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.25 ::date 2019-09-27T15:28:52
+# ::snt <Architect> good
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_25.txt
+(g / good-02)
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.26 ::date 2019-09-27T15:29:04
+# ::snt <Architect> cut the 2 supporting blocks
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_26.txt
+(c / cut-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :quant 2
+            :ARG0-of (s / support-01)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.27 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a yellow block at X:0 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_27.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 0)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.28 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a yellow block at X:0 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_28.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.29 ::date 2019-09-27T15:31:55
+# ::snt <Architect> add and orange block to any side
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_29.txt
+(a / add-02 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (o / orange))
+      :ARG2 (s / side
+            :mod (a2 / any)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.30 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:-3 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_30.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.31 ::date 2019-09-27T15:33:11
+# ::snt <Builder> like so?
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_31.txt
+(r / resemble-01
+      :ARG2 (s / so)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.32 ::date 2019-09-27T15:33:32
+# ::snt <Architect> good
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_32.txt
+(g / good-02)
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.33 ::date 2019-09-27T15:34:19
+# ::snt <Architect> and a green one on the opposite end
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_33.txt
+(a / and
+      :op2 (b / be-destined-for-91
+            :ARG1 (o / one
+                  :color (g / green))
+            :ARG2 (e / end
+                  :ARG1-of (o2 / opposite-03))))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.34 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:3 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_34.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.35 ::date 2019-09-27T15:36:37
+# ::snt <Architect> make that green one into a plus
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_35.txt
+(m / make-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (p / plus)
+      :ARG2 (o / one
+            :color (g / green)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.36 ::date 2019-09-27T15:38:18
+# ::snt <Architect> a small one
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_36.txt
+(o / one
+      :mod (s / small))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.37 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:3 Y:3 Z:1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_37.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z 1)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.38 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:4 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_38.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.39 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:3 Y:3 Z:-1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_39.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z -1)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.40 ::date 2019-09-27T15:39:03
+# ::snt <Architect> vertical
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_40.txt
+(v / vertical-01
+      :ARG2 (c / cartesian-framework-91
+            :ARG1 (b / build-space)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.41 ::date 2019-09-27T15:40:16
+# ::snt <Builder> ok
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_41.txt
+(o / okay-04)
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.42 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a green block at X:3 Y:3 Z:-1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_42.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z -1)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.43 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a green block at X:4 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_43.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.44 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a green block at X:3 Y:3 Z:1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_44.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z 1)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.45 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:3 Y:4 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_45.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 4 :z 0)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.46 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:3 Y:3 Z:1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_46.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z 1)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.47 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:3 Y:3 Z:-1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_47.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z -1)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.48 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:3 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_48.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z 0)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.49 ::date 2019-09-27T15:40:37
+# ::snt <Architect> good
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_49.txt
+(g / good-02)
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.50 ::date 2019-09-27T15:40:44
+# ::snt <Architect> add 3 more orange blocks to the left of the one over there
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_50.txt
+(a / add-02 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (o / orange)
+            :ARG1-of (h / have-quant-91
+                  :ARG2 3
+                  :ARG3 (m / more)))
+      :ARG2 (t / thing
+            :ARG1-of (l / left-24
+                  :ARG2 (o2 / one
+                        :location (t2 / there
+                              :mod (o3 / over)))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 y))))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.51 ::date 2019-09-27T15:51:00
+# ::snt <Builder> you mean the other orange one?
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_51.txt
+(m / mean-01
+      :ARG0 (y / you)
+      :ARG2 (o / one
+            :color (o2 / orange)
+            :ARG1-of (o3 / other-01))
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.52 ::date 2019-09-27T15:52:16
+# ::snt <Architect> yes
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_52.txt
+(c / confirm-01)
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.53 ::date 2019-09-27T15:52:30
+# ::snt <Builder> what configuration just a line?
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_53.txt
+(a / and
+      :op1 (h / have-configuration-91
+            :ARG2 (a2 / amr-unknown))
+      :op2 (h2 / have-configuration-91
+            :ARG2 (l / line
+                  :mod (j / just))
+            :ARG1-of (r / request-confirmation-91)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.54 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:-3 Y:3 Z:1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_54.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z 1)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.55 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:-3 Y:3 Z:2]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_55.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z 2)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.56 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:-3 Y:3 Z:3]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_56.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z 3)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.57 ::date 2019-09-27T15:59:10
+# ::snt <Architect> roght
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_57.txt
+(c / confirm-01
+      :ARG1 (r / right-06))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.58 ::date 2019-09-27T15:59:31
+# ::snt <Architect> make that into a flat plus by adding 2 more orange blocks
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_58.txt
+(m / make-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (p / plus
+            :ARG1-of (f / flat-06))
+      :ARG2 (t / thing
+            :mod (t2 / that))
+      :manner (a / add-02
+            :ARG0 y
+            :ARG1 (b / block
+                  :color (o / orange)
+                  :ARG1-of (h / have-quant-91
+                        :ARG2 2
+                        :ARG3 (m2 / more)))
+            :ARG2 t))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.59 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:-2 Y:3 Z:2]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_59.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 2)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.60 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:-4 Y:3 Z:2]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_60.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 3 :z 2)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.61 ::date 2019-09-27T16:16:23
+# ::snt <Architect> not touching andy yellow
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_61.txt
+(t / touch-01 :polarity -
+      :ARG1 (t2 / thing
+            :color (y / yellow)
+            :mod (a / any)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.62 ::date 2019-09-27T16:18:08
+# ::snt <Builder> that good?
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_62.txt
+(g / good-02
+      :ARG2 (t / that)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.63 ::date 2019-09-27T16:18:36
+# ::snt <Architect> rght
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_63.txt
+(r / right-06)
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.64 ::date 2019-09-27T16:19:08
+# ::snt <Architect> extend the orange line by 3 blue blocks in the opposite direction
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_64.txt
+(e / extend-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (l / line
+            :color (o / orange))
+      :ARG2 (b / block :quant 3
+            :color (b2 / blue))
+      :direction (d / direction
+            :ARG1-of (o2 / opposite-03)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.65 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a blue block at X:-3 Y:3 Z:-1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_65.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z -1)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.66 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a blue block at X:-3 Y:3 Z:-2]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_66.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z -2)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.67 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a blue block at X:-3 Y:3 Z:-3]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_67.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z -3)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.68 ::date 2019-09-27T16:31:10
+# ::snt <Architect> and then turn it into a vertical plus
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_68.txt
+(a / and
+      :op2 (t / turn-02 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (i2 / it)
+            :ARG2 (p / plus
+                  :ARG1-of (v / vertical-01
+                        :ARG2 (c / cartesian-framework-91
+                              :ARG1 (b / build-space))))
+            :time (t2 / then)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.69 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a blue block at X:-3 Y:4 Z:-2]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_69.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 4 :z -2)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.70 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a blue block at X:-3 Y:2 Z:-2]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1273_70.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z -2)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.71 ::date 2019-09-27T16:32:33
+# ::snt <Architect> and you win
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_71.txt
+(a / and
+      :op3 (w / win-01
+            :ARG0 (y / you)))
+
+# ::id minecraft-4-9-connected-crosses-B42-A12_1273.72 ::date 2019-09-27T16:32:47
+# ::snt <Architect> !
+# ::save-date Fri Sep 27, 2019 ::user kristinwb ::file col_1273_72.txt
+(a / amr-empty)

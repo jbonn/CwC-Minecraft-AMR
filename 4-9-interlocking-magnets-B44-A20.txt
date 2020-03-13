@@ -1,0 +1,638 @@
+# workset Minecraft-4-9-interlocking-magnets-B44-A20 (generated on Thu Dec 12, 2019 at 20:02:01 for user coqc)
+
+#frameworks
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :configuration (m / magnet :pl +)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.1 ::date 2019-10-22T17:25:08
+# ::snt <Builder> Mission has started.
+# ::save-date Tue Oct 22, 2019 ::user kristinwb ::file col_1279_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.2 ::date 2019-10-22T17:25:53
+# ::snt <Builder> ready when you are
+# ::save-date Tue Oct 22, 2019 ::user kristinwb ::file col_1279_2.txt
+(r / ready-02
+      :time (r2 / ready-02
+            :ARG1 (y / you)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.3 ::date 2019-10-22T17:28:00
+# ::snt <Architect> okay so let's start in the middle-ish
+# ::save-date Tue Oct 22, 2019 ::user kristinwb ::file col_1279_3.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (s / start-01 :mode imperative
+            :ARG0 (w / we)
+            :location (t / thing
+                  :ARG1-of (m / middle-01)
+                  :degree (i2 / ish))))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.4 ::date 2019-10-22T17:30:38
+# ::snt <Architect> green
+# ::save-date Fri Nov 15, 2019 ::user kristinwb ::file col_1279_4.txt
+(h / have-color-91
+      :ARG2 (g / green))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.5 ::date 2019-11-15T14:38:46
+# ::snt <Architect> place a row of 3 on the ground
+# ::save-date Fri Nov 15, 2019 ::user kristinwb ::file col_1279_5.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (r / row
+            :consist-of (t / thing :quant 3))
+      :ARG2 (s / space :pl +
+            :ARG1-of (o / on-top-03
+                  :ARG2 (g / ground)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b / build-space)))))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.6 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:1 Y:1 Z:1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_6.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 1)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.7 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:0 Y:1 Z:1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_7.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.8 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:-1 Y:1 Z:1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_8.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 1)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.9 ::date 2019-11-15T14:44:25
+# ::snt <Architect> break the middle
+# ::save-date Fri Nov 15, 2019 ::user kristinwb ::file col_1279_9.txt
+(b / break-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :ARG1-of (m / middle-01)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.10 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a green block at X:0 Y:1 Z:1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_10.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.11 ::date 2019-11-15T14:47:50
+# ::snt <Architect> switch to blue
+# ::save-date Fri Nov 15, 2019 ::user kristinwb ::file col_1279_11.txt
+(s / switch-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (t / thing
+            :color (b / blue)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.12 ::date 2019-11-15T14:49:09
+# ::snt <Architect> one on top of each green
+# ::save-date Fri Nov 15, 2019 ::user kristinwb ::file col_1279_12.txt
+(b / be-destined-for-91
+      :ARG1 (t2 / thing :pl +)
+      :ARG2 (s / space :pl +
+            :ARG1-of (o2 / on-top-03
+                  :ARG2 (t / thing
+                        :color (g / green))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space))))
+      :frequency (r / rate-entity-91
+            :ARG1 (o / one
+                  :ARG1-of (i2 / include-91
+                        :ARG2 t2))
+            :ARG2 (t3 / thing
+                  :mod (e / each)
+                  :ARG1-of (i3 / include-91
+                        :ARG2 t))))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.13 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a blue block at X:1 Y:2 Z:1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_13.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 1)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.14 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a blue block at X:-1 Y:2 Z:1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_14.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 1)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.15 ::date 2019-11-15T14:52:57
+# ::snt <Architect> then a row of 3 blue on top of that
+# ::save-date Fri Nov 15, 2019 ::user kristinwb ::file col_1279_15.txt
+(b / be-destined-for-91
+      :ARG1 (r / row
+            :consist-of (t / thing :quant 3
+                  :color (b2 / blue)))
+      :ARG2 (s / space :pl +
+            :ARG1-of (o / on-top-03
+                  :ARG2 (t2 / that)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b3 / build-space))))
+      :time (t3 / then))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.16 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a blue block at X:1 Y:3 Z:1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 1)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.17 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a blue block at X:0 Y:3 Z:1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_17.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 1)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.18 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a blue block at X:-1 Y:3 Z:1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 1)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.19 ::date 2019-11-15T14:56:02
+# ::snt <Architect> perfect!
+# ::save-date Fri Nov 15, 2019 ::user kristinwb ::file col_1279_19.txt
+(p / perfect-02)
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.20 ::date 2019-11-15T14:56:33
+# ::snt <Architect> now to red
+# ::save-date Fri Nov 15, 2019 ::user kristinwb ::file col_1279_20.txt
+(b / be-destined-for-91
+      :ARG2 (t / thing
+            :color (r / red))
+      :time (n / now))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.21 ::date 2019-11-15T15:03:27
+# ::snt <Architect> place it between the green
+# ::save-date Fri Nov 15, 2019 ::user kristinwb ::file col_1279_21.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (i2 / it)
+      :ARG2 (s / space
+            :ARG1-of (b / between-01
+                  :ARG2 (t / thing :pl +
+                        :color (g / green)))))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.22 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:0 Y:1 Z:1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_22.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.23 ::date 2019-11-15T15:04:48
+# ::snt <Architect> and then one on the left of the left green
+# ::save-date Fri Nov 15, 2019 ::user kristinwb ::file col_1279_23.txt
+(a / and
+      :op2 (b / be-destined-for-91
+            :ARG1 (o / one)
+            :ARG2 (s / space
+                  :ARG1-of (l / left-20
+                        :ARG2 (t2 / thing
+                              :color (g / green)
+                              :ARG1-of (l2 / left-24
+                                    :ARG3 c))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b2 / builder))))
+            :time (t / then)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.24 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:2 Y:1 Z:1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_24.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 1)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.25 ::date 2019-11-15T15:11:12
+# ::snt <Architect> a row of 3 red behind the two you placed
+# ::save-date Fri Nov 15, 2019 ::user kristinwb ::file col_1279_25.txt
+(b / be-destined-for-91
+      :ARG1 (r / row
+            :consist-of (t / thing :quant 3
+                  :color (r2 / red)))
+      :ARG2 (s / space :pl +
+            :ARG1-of (b2 / behind-02
+                  :ARG2 (t2 / thing :quant 2
+                        :ARG1-of (p / place-01
+                              :ARG0 (y / you)))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (c2 / composite-entity
+                              :FR (r3 / relative-to-builder))))))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.26 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:0 Y:1 Z:2]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_26.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 2)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.27 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:1 Y:1 Z:2]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_27.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 2)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.28 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:2 Y:1 Z:2]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_28.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 2)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.29 ::date 2019-11-15T15:13:20
+# ::snt <Architect> now come back to the other side
+# ::save-date Fri Nov 15, 2019 ::user kristinwb ::file col_1279_29.txt
+(c / come-01 :mode imperative
+      :ARG1 (y / you)
+      :ARG4 (s / side
+            :ARG1-of (o / other-01))
+      :direction (b / back)
+      :time (n / now))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.30 ::date 2019-11-15T15:21:59
+# ::snt <Architect> one more red attached to those two
+# ::save-date Fri Nov 15, 2019 ::user kristinwb ::file col_1279_30.txt
+(a / attach-01
+      :ARG1 (t / thing :pl +
+            :color (r2 / red))
+      :ARG2 (t2 / thing :quant 2
+            :mod (t3 / that))
+      :frequency (r / rate-entity-91
+            :ARG1 (t4 / thing
+                  :ARG1-of (h / have-quant-91
+                        :ARG2 1
+                        :ARG3 (m / more))
+                  :ARG1-of (i2 / include-91
+                        :ARG2 t))
+            :ARG2 (t5 / thing :quant 1
+                  :ARG1-of (i3 / include-91
+                        :ARG2 t2))))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.31 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:1 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_31.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 0)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.32 ::date 2019-11-15T15:31:53
+# ::snt <Architect> the two reds you placed
+# ::save-date Fri Nov 15, 2019 ::user kristinwb ::file col_1279_32.txt
+(i2 / infer-01
+      :ARG1 (t / thing :quant 2
+            :color (r / red)
+            :ARG1-of (p / place-01
+                  :ARG0 (y / you))))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.33 ::date 2019-11-15T15:33:26
+# ::snt <Builder> here?
+# ::save-date Fri Nov 15, 2019 ::user kristinwb ::file col_1279_33.txt
+(b / be-destined-for-91
+      :ARG2 (h / here)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.34 ::date 2019-11-15T15:33:51
+# ::snt <Architect> no
+# ::save-date Fri Nov 15, 2019 ::user kristinwb ::file col_1279_34.txt
+(c / confirm-01 :polarity -)
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.35 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a red block at X:1 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_35.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 0)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.36 ::date 2019-11-15T15:34:09
+# ::snt <Architect> sorry. one red attached to each red
+# ::save-date Fri Nov 15, 2019 ::user kristinwb ::file col_1279_36.txt
+(m / multi-sentence
+      :snt1 (s / sorry-01)
+      :snt2 (t / thing :pl +
+            :color (r / red)
+            :ARG1-of (a / attach-01
+                  :ARG2 (t2 / thing
+                        :color (r2 / red)))
+            :frequency (r3 / rate-entity-91
+                  :ARG1 (t3 / thing :quant 1
+                        :ARG1-of (i2 / include-91
+                              :ARG2 t))
+                  :ARG2 (t4 / thing
+                        :mod (e / each)
+                        :ARG1-of (i3 / include-91
+                              :ARG2 t2)))
+            :ARG1-of (i4 / instead-of-91)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.37 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a red block at X:2 Y:1 Z:1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_37.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 1)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.38 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:2 Y:1 Z:1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_38.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 1)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.39 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:2 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_39.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 0)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.40 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:0 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_40.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.41 ::date 2019-11-15T15:36:58
+# ::snt <Architect> yup!
+# ::save-date Fri Nov 15, 2019 ::user kristinwb ::file col_1279_41.txt
+(c / confirm-01)
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.42 ::date 2019-11-15T15:37:08
+# ::snt <Architect> and repeat with orange
+# ::save-date Fri Nov 15, 2019 ::user kristinwb ::file col_1279_42.txt
+(a / and
+      :op2 (r / repeat-01 :mode imperative
+            :ARG0 (y / you)
+            :instrument (t / thing
+                  :color (o / orange))))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.43 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:1 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_43.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 0)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.44 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:1 Y:1 Z:-1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_44.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -1)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.45 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:-1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_45.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -1)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.46 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:-1 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_46.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 0)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.47 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:-1 Y:1 Z:-1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_47.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -1)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.48 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a orange block at X:1 Y:1 Z:-1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_48.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -1)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.49 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a orange block at X:1 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_49.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 0)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.50 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a orange block at X:0 Y:1 Z:-1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_50.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -1)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.51 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a orange block at X:-1 Y:1 Z:-1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_51.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -1)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.52 ::date 2019-11-15T15:38:49
+# ::snt <Architect> oh sorry i just meant two orange
+# ::save-date Fri Nov 15, 2019 ::user kristinwb ::file col_1279_52.txt
+(a / and
+      :op1 (s / sorry-01)
+      :op2 (m / mean-01
+            :ARG0 (i / i)
+            :ARG2 (t / thing :quant 2
+                  :mod (j / just)
+                  :color (o / orange)
+                  :ARG1-of (i2 / instead-of-91))))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.53 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a orange block at X:-1 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_53.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 0)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.54 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:-1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_54.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -1)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.55 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:2 Y:1 Z:-1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1279_55.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -1)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.56 ::date 2019-11-15T15:50:26
+# ::snt <Architect> Yes!
+# ::save-date Fri Nov 15, 2019 ::user kristinwb ::file col_1279_56.txt
+(c / confirm-01)
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.57 ::date 2019-11-15T15:50:37
+# ::snt <Builder> lol my bad
+# ::save-date Fri Nov 15, 2019 ::user kristinwb ::file col_1279_57.txt
+(b / bad-07
+      :ARG1 (i / i)
+      :mod (l / laugh-01 :mode expressive
+            :ARG0 i
+            :manner (l2 / loud)))
+
+# ::id minecraft-4-9-interlocking-magnets-B44-A20_1279.58 ::date 2019-11-15T15:51:52
+# ::snt <Architect> we got it
+# ::save-date Fri Nov 15, 2019 ::user kristinwb ::file col_1279_58.txt
+(g / get-01
+      :ARG0 (w / we)
+      :ARG1 (i2 / it))

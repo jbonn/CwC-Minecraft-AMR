@@ -1,0 +1,655 @@
+# workset Minecraft-4-6-music-notes-B1-A44 (generated on Mon Oct 7, 2019 at 19:59:10 for user kristinwb)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-6-music-notes-B1-A44_1227.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (m / music-notes)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :FR (i4 / intrinsic)))
+      :snt9 (a6 / antiparallel-01
+            :ARG1 x
+            :ARG2 z6))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.1 ::date 2019-02-26T16:41:08
+# ::snt <Builder> Mission has started.
+# ::save-date Tue Feb 26, 2019 ::user kristinwb ::file col_1227_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.2 ::date 2019-02-26T16:41:32
+# ::snt <Builder> hello
+# ::save-date Tue Feb 26, 2019 ::user kristinwb ::file col_1227_2.txt
+(h / hello)
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.3 ::date 2019-02-26T16:43:32
+# ::snt <Architect> hello
+# ::save-date Tue Feb 26, 2019 ::user kristinwb ::file col_1227_3.txt
+(h / hello)
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.4 ::date 2019-02-26T16:43:40
+# ::snt <Architect> we first begin with the color blue
+# ::save-date Tue Aug 27, 2019 ::user kristinwb ::file col_1227_4.txt
+(b / begin-01 :li 1
+      :ARG0 (w / we)
+      :ARG1 (t / thing
+            :color (b3 / blue)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.5 ::date 2019-02-26T16:44:21
+# ::snt <Architect> make a vertical 2x2 square on the platform
+# ::save-date Fri Aug 30, 2019 ::user kristinwb ::file col_1227_5.txt
+(m / make-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (s / square
+            :ARG1-of (v / vertical-01
+                  :ARG2 p
+                  :ARG2 (c / cartesian-framework-91
+                        :ARG1 (b / build-space)))
+            :mod (d / dimension-entity :value 2)
+            :mod (d2 / dimension-entity :value 2))
+      :location (s2 / space
+            :ARG1-of (o / on-top-03
+                  :ARG2 (p / platform)
+                  :ARG3 c)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.6 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:0 Y:1 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_6.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.7 ::date 2019-02-26T16:46:19
+# ::snt <Builder> anywhere?
+# ::save-date Tue Aug 27, 2019 ::user kristinwb ::file col_1227_7.txt
+(b / be-destined-for-91
+      :ARG2 (a / anywhere)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.8 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a blue block at X:0 Y:1 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_8.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.9 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:5 Y:1 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_9.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 1 :z -1)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.10 ::date 2019-02-26T16:46:45
+# ::snt <Architect> perferably more left of
+# ::save-date Tue Aug 27, 2019 ::user kristinwb ::file col_1227_10.txt
+(b / be-located-at-91
+      :ARG2 (s / space :pl +
+            :ARG1-of (l / left-20
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / builder))
+                  :ARG2-of (h / have-degree-91
+                        :ARG1 s
+                        :ARG3 (m / more))))
+      :ARG1-of (p / prefer-01))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.11 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:5 Y:1 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 1 :z 0)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.12 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:5 Y:2 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_12.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 2 :z -1)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.13 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:5 Y:2 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_13.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 2 :z 0)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.14 ::date 2019-02-26T16:49:28
+# ::snt <Architect> thats fine
+# ::save-date Tue Feb 26, 2019 ::user kristinwb ::file col_1227_14.txt
+(f / fine-04
+      :ARG1 (t / that))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.15 ::date 2019-02-26T16:49:44
+# ::snt <Architect> ok now look at the blue square from the center of the platform
+# ::save-date Mon Sep 23, 2019 ::user kristinwb ::file col_1227_15.txt
+(l / look-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (s / square
+            :color (b / blue))
+      :time (n / now)
+      :source (t / thing
+            :ARG1-of (c / center-03
+                  :ARG2 (p / platform))))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.16 ::date 2019-02-26T16:52:42
+# ::snt <Architect> place 4 blocks directly vertical of the top right blue block. these blocks are also blue
+# ::save-date Fri Aug 30, 2019 ::user kristinwb ::file col_1227_16.txt
+(m / multi-sentence
+      :snt1 (p / place-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block :quant 4)
+            :ARG2 (s / space :pl +
+                  :ARG1-of (v / vertical-02
+                        :ARG2 (b2 / block
+                              :ARG1-of (t / top-06
+                                    :ARG3 (c / cartesian-framework-91
+                                          :ARG1 (b6 / build-space)))
+                              :ARG1-of (r / right-10
+                                    :ARG3 (c2 / cartesian-framework-91
+                                          :ARG1 y))
+                              :color (b3 / blue))
+                        :ARG3 c
+                        :ARG1-of (d / direct-02))))
+      :snt2 (b4 / blue
+            :color-of (b5 / block :pl +
+                  :mod (t2 / this))
+            :mod (a / also)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.17 ::date 2019-02-26T16:56:31
+# ::snt <Builder> ok so looks like a d?
+# ::save-date Tue Aug 27, 2019 ::user kristinwb ::file col_1227_17.txt
+(i2 / infer-01
+      :ARG0 (l / look-02
+            :ARG1 (s / string-entity :value "d"))
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.18 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:5 Y:3 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 3 :z 0)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.19 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:5 Y:4 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 4 :z 0)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.20 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:5 Y:5 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 5 :z 0)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.21 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:5 Y:6 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_21.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 6 :z 0)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.22 ::date 2019-02-26T16:57:52
+# ::snt <Architect> yes like a d. place a block to the right of the highest blue block
+# ::save-date Tue Aug 27, 2019 ::user kristinwb ::file col_1227_22.txt
+(m / multi-sentence
+      :snt1 (c / confirm-01
+            :ARG1 (r / resemble-01
+                  :ARG2 (s / string-entity :value "d")))
+      :snt2 (p / place-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block)
+            :ARG2 (s2 / space
+                  :ARG1-of (r2 / right-04
+                        :ARG2 (b2 / block
+                              :ARG1-of (h / have-degree-91
+                                    :ARG2 (h2 / high-02
+                                          :ARG1 b2
+                                          :ARG6 (c3 / cartesian-framework-91
+                                                :ARG1 (b4 / build-space)))
+                                    :ARG3 (m2 / most))
+                              :mod (b3 / blue))
+                        :ARG3 (c2 / cartesian-framework-91
+                              :ARG1 y)))))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.23 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:5 Y:6 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_23.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 6 :z 1)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.24 ::date 2019-02-26T17:00:02
+# ::snt <Builder> here?
+# ::save-date Tue Feb 26, 2019 ::user kristinwb ::file col_1227_24.txt
+(b / be-destined-for-91
+      :ARG2 (h / here)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.25 ::date 2019-02-26T17:00:21
+# ::snt <Architect> yes. ok now make an exact copy of this except in purple. Additionally, the exact copy needs to be one block higher than the blue.
+# ::save-date Wed Sep 4, 2019 ::user kristinwb ::file col_1227_25.txt
+(m / multi-sentence
+      :snt1 (c / confirm-01)
+      :snt2 (m2 / make-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (t / thing
+                  :ARG2-of (c2 / copy-01
+                        :ARG1 (t2 / this))
+                  :mod (e / exact
+                        :ARG2-of (e2 / except-01
+                              :ARG1 (h3 / have-color-91
+                                    :ARG1 t
+                                    :ARG2 (p / purple)))))
+            :time (n / now))
+      :snt3 (n2 / need-01
+            :ARG0 (t3 / thing
+                  :ARG2-of (c3 / copy-01)
+                  :mod (e3 / exact))
+            :ARG1 (h / have-degree-91
+                  :ARG2 (h2 / high-02
+                        :ARG1 (s / space)
+                        :ARG6 (c4 / cartesian-framework-91
+                              :ARG1 (b / build-space)))
+                  :ARG3 (m3 / more
+                        :quant (d / distance-quantity :quant 1
+                              :unit (b3 / block)))
+                  :ARG4 (t4 / thing
+                        :color (b2 / blue)))
+            :mod (a / additional)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.26 ::date 2019-02-26T17:03:49
+# ::snt <Builder> where?
+# ::save-date Tue Aug 27, 2019 ::user kristinwb ::file col_1227_26.txt
+(b / be-destined-for-91
+      :ARG2 (a / amr-unknown))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.27 ::date 2019-02-26T17:04:10
+# ::snt <Architect> the exact copy is right next to the blue one on the right
+# ::save-date Tue Aug 27, 2019 ::user kristinwb ::file col_1227_27.txt
+(b / be-located-at-91
+      :ARG1 (t / thing
+            :ARG2-of (c / copy-01)
+            :mod (e / exact))
+      :ARG2 (s / space :pl +
+            :ARG1-of (n / next-to-02
+                  :ARG2 (o / one
+                        :color (b2 / blue))
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 (b3 / builder))
+                  :mod (r2 / right-yy
+                        :ARG3 c2))
+            :ARG1-of (r / right-04
+                  :ARG2 o)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.28 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:5 Y:1 Z:2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_28.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 1 :z 2)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.29 ::date 2019-02-26T17:07:04
+# ::snt <Builder> here?
+# ::save-date Tue Feb 26, 2019 ::user kristinwb ::file col_1227_29.txt
+(b / be-destined-for-91
+      :ARG2 (h / here)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.30 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:5 Y:1 Z:3]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_30.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 1 :z 3)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.31 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:5 Y:2 Z:2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_31.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 2 :z 2)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.32 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:5 Y:2 Z:3]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_32.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 2 :z 3)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.33 ::date 2019-02-26T17:07:36
+# ::snt <Architect> yes, but remember to move the copy up by one block
+# ::save-date Wed Feb 27, 2019 ::user kristinwb ::file col_1227_33.txt
+(c / contrast-01
+      :ARG1 (c2 / confirm-01)
+      :ARG2 (r / remember-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (m / move-01
+                  :ARG0 y
+                  :ARG1 (t / thing
+                        :ARG2-of (c3 / copy-01))
+                  :ARG2 (s / space :pl +
+                        :ARG1-of (u / up-03
+                              :ARG5 (c4 / cartesian-framework-91
+                                    :ARG1 (b2 / build-space))
+                              :quant (d / distance-quantity :quant 1
+                                    :unit (b / block)))))))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.34 ::date 2019-02-26T17:07:55
+# ::snt <Builder> so its a longer tail in the d?
+# ::save-date Wed Feb 27, 2019 ::user kristinwb ::file col_1227_34.txt
+(i2 / infer-01
+      :ARG1 (h / have-part-91
+            :ARG1 (t / thing
+                  :configuration (s / string-entity :value "d"))
+            :ARG2 (t2 / tail
+                  :ARG1-of (h2 / have-degree-91
+                        :ARG2 (l / long-03
+                              :ARG1 t2)
+                        :ARG3 (m / more))))
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.35 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:5 Y:3 Z:3]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_35.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 3 :z 3)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.36 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:5 Y:4 Z:3]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_36.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 4 :z 3)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.37 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:5 Y:5 Z:3]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_37.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 5 :z 3)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.38 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:5 Y:6 Z:3]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_38.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 6 :z 3)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.39 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:5 Y:7 Z:3]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_39.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 7 :z 3)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.40 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:5 Y:7 Z:4]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_40.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 7 :z 4)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.41 ::date 2019-02-26T17:08:21
+# ::snt <Builder> oh is the purple floating?
+# ::save-date Tue Aug 27, 2019 ::user kristinwb ::file col_1227_41.txt
+(f / float-01
+      :ARG1 (t / thing
+            :color (p2 / purple))
+      :mod (o / oh :mode expressive)
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.42 ::date 2019-02-26T17:08:55
+# ::snt <Architect> yes the purple is floating
+# ::save-date Tue Aug 27, 2019 ::user kristinwb ::file col_1227_42.txt
+(c / confirm-01
+      :ARG1 (f / float-01
+            :ARG1 (t / thing
+                  :color (p2 / purple))))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.43 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:5 Y:3 Z:2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_43.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 3 :z 2)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.44 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a purple block at X:5 Y:1 Z:2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_44.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 1 :z 2)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.45 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a purple block at X:5 Y:1 Z:3]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_45.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 1 :z 3)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.46 ::date 2019-02-26T17:09:50
+# ::snt <Architect> so remove the bottom 2 purple blocks
+# ::save-date Tue Aug 27, 2019 ::user kristinwb ::file col_1227_46.txt
+(c / cause-01
+      :ARG1 (r / remove-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block :quant 2
+                  :ARG1-of (b2 / bottom-03
+                        :ARG3 (c2 / cartesian-framework-91
+                              :ARG1 (b3 / build-space)))
+                  :color (p / purple))))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.47 ::date 2019-02-26T17:10:57
+# ::snt <Architect> ok remove the thing sticking out on the right of the purple one. my bad
+# ::save-date Tue Aug 27, 2019 ::user kristinwb ::file col_1227_47.txt
+(m / multi-sentence
+      :snt1 (r / remove-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (t / thing
+                  :ARG1-of (s / stick-out-02
+                        :source o)
+                  :ARG1-of (r2 / right-04
+                        :ARG2 (o / one
+                              :color (p / purple))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 y))))
+      :snt2 (b / bad-07
+            :ARG1 (i / i)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.48 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a purple block at X:5 Y:7 Z:4]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_48.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 7 :z 4)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.49 ::date 2019-02-26T17:37:39
+# ::snt <Architect> and just move it to the left of the highest purple block
+# ::save-date Tue Aug 27, 2019 ::user kristinwb ::file col_1227_49.txt
+(a / and
+      :op2 (m / move-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (i2 / it)
+            :ARG2 (s / space
+                  :ARG1-of (l / left-20
+                        :ARG2 (b / block
+                              :color (p / purple)
+                              :ARG1-of (h / have-degree-91
+                                    :ARG2 (h2 / high-02
+                                          :ARG1 b
+                                          :ARG6 (c2 / cartesian-framework-91
+                                                :ARG1 (b2 / build-space)))
+                                    :ARG3 (m2 / most)))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 y)))
+            :mod (j / just)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.50 ::date 2019-02-26T17:40:02
+# ::snt <Builder> on the opposite side?
+# ::save-date Tue Aug 27, 2019 ::user kristinwb ::file col_1227_50.txt
+(b / be-destined-for-91
+      :ARG2 (s / side
+            :ARG1-of (o / opposite-03))
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.51 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:5 Y:7 Z:2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1227_51.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 7 :z 2)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.52 ::date 2019-02-26T17:41:18
+# ::snt <Builder> here?
+# ::save-date Tue Feb 26, 2019 ::user kristinwb ::file col_1227_52.txt
+(b / be-destined-for-91
+      :ARG2 (h / here)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.53 ::date 2019-02-26T17:41:46
+# ::snt <Architect> ok what you have is perfect. we're done
+# ::save-date Tue Feb 26, 2019 ::user kristinwb ::file col_1227_53.txt
+(m / multi-sentence
+      :snt1 (p / perfect-02
+            :ARG1 (t / thing
+                  :ARG1-of (h / have-03
+                        :ARG0 (y / you))))
+      :snt2 (b / be-done-08
+            :ARG0 (w / we)))
+
+# ::id minecraft-4-6-music-notes-B1-A44_1227.54 ::date 2019-02-26T17:43:07
+# ::snt <Builder> good
+# ::save-date Tue Feb 26, 2019 ::user kristinwb ::file col_1227_54.txt
+(g / good-02)

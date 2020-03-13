@@ -1,0 +1,608 @@
+# workset Minecraft-4-9-tetris-B42-A12 (generated on Fri Jan 24, 2020 at 09:13:38 for user coqc)
+
+#frameworks
+# ::id minecraft-4-9-tetris-B42-A12_1267.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :FR (i4 / intrinsic))
+            :configuration (t / tetris))
+      :snt9 (p2 / parallel-01
+            :ARG0 z
+            :ARG1 z6))
+
+# ::id 4-9-tetris-B42-A12_1267.1 ::date 2019-12-09T11:28:10
+# ::snt <Builder> Mission has started.
+# ::save-date Mon Dec 9, 2019 ::user kristinwb ::file col_1267_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id 4-9-tetris-B42-A12_1267.2 ::date 2019-12-09T11:28:43
+# ::snt <Architect> this is a 2D structure
+# ::save-date Mon Dec 9, 2019 ::user kristinwb ::file col_1267_2.txt
+(s / structure
+      :ARG1-of (d / dimensional-02)
+      :domain (t / this))
+
+# ::id 4-9-tetris-B42-A12_1267.3 ::date 2019-12-09T11:35:41
+# ::snt <Architect> it looks like a tetris game
+# ::save-date Fri Jan 17, 2020 ::user kristinwb ::file col_1267_3.txt
+(l / look-02
+      :ARG0 (i2 / it)
+      :ARG1 (g / game :name (n / name :op1 "Tetris")))
+
+# ::id 4-9-tetris-B42-A12_1267.4 ::date 2019-12-09T11:37:53
+# ::snt <Architect> red block in centere
+# ::save-date Mon Dec 9, 2019 ::user kristinwb ::file col_1267_4.txt
+(b / be-destined-for-91
+      :ARG1 (b2 / block
+            :color (r / red))
+      :ARG2 (s / space
+            :ARG2-of (c / center-03)))
+
+# ::id 4-9-tetris-B42-A12_1267.5 ::date 2019-12-09T11:40:16
+# ::snt <Architect> then green on top
+# ::save-date Fri Jan 24, 2020 ::user coqc ::file col_1267_5.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing
+            :color (g / green))
+      :ARG2 (s / space
+            :ARG1-of (o / on-top-03
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space))))
+      :time (t2 / then))
+
+# ::id 4-9-tetris-B42-A12_1267.6 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:0 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_6.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.7 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:0 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_7.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.8 ::date 2019-12-09T11:41:25
+# ::snt <Architect> green tower to any side
+# ::save-date Fri Jan 24, 2020 ::user coqc ::file col_1267_8.txt
+(b / be-destined-for-91
+      :ARG1 (t / tower
+            :color (g / green))
+      :ARG2 (s / space :pl +
+            :ARG1-of (n / next-to-02
+                  :ARG2 (s2 / side
+                        :mod (a / any))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (c2 / composite-entity)
+                        :FR (r / relative-to-builder)))))
+
+# ::id 4-9-tetris-B42-A12_1267.9 ::date 2019-12-09T11:44:31
+# ::snt <Architect> 2 tall
+# ::save-date Fri Jan 24, 2020 ::user coqc ::file col_1267_9.txt
+(t / tall-01
+      :ARG2 (d / distance-quantity :quant 2)
+      :ARG5 (c / cartesian-framework-91
+            :ARG1 (b / build-space)))
+
+# ::id 4-9-tetris-B42-A12_1267.10 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:1 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_10.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.11 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:1 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.12 ::date 2019-12-09T11:45:16
+# ::snt <Architect> one more green on the floor in that direction
+# ::save-date Fri Jan 24, 2020 ::user coqc ::file col_1267_12.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing
+            :color (g / green)
+            :ARG1-of (h / have-quant-91
+                  :ARG2 1
+                  :ARG3 (m / more)))
+      :ARG2 (s / space
+            :ARG1-of (o / on-top-03
+                  :ARG2 (f / floor)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space))))
+      :direction (d / direction
+            :mod (t2 / that)))
+
+# ::id 4-9-tetris-B42-A12_1267.13 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:2 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_13.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.14 ::date 2019-12-09T11:48:30
+# ::snt <Architect> two red on the floor to the right
+# ::save-date Fri Jan 24, 2020 ::user coqc ::file col_1267_14.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing :quant 2
+            :color (r / red))
+      :ARG2 (s / space :pl +
+            :ARG1-of (o / on-top-03
+                  :ARG2 (f / floor)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))
+            :ARG1-of (r2 / right-04
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 (b3 / builder)))))
+
+# ::id 4-9-tetris-B42-A12_1267.15 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:-1 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_15.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.16 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:-1 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.17 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a red block at X:-1 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_17.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.18 ::date 2019-12-09T11:50:01
+# ::snt <Architect> both on floor
+# ::save-date Fri Jan 24, 2020 ::user coqc ::file col_1267_18.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing
+            :mod (b2 / both))
+      :ARG2 (s / space :pl +
+            :ARG1-of (o / on-top-03
+                  :ARG2 (f / floor)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b3 / build-space))))
+      :ARG1-of (i2 / instead-of-91))
+
+# ::id 4-9-tetris-B42-A12_1267.19 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:-2 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.20 ::date 2019-12-09T11:54:05
+# ::snt <Architect> then one on top of the rightmost
+# ::save-date Fri Jan 24, 2020 ::user coqc ::file col_1267_20.txt
+(b / be-destined-for-91
+      :ARG1 (o / one)
+      :ARG2 (s / space
+            :ARG1-of (o2 / on-top-03
+                  :ARG2 (t / thing
+                        :ARG1-of (h / have-degree-91
+                              :ARG2 (r / right-10
+                                    :ARG1 t
+                                    :ARG3 (c2 / cartesian-framework-91
+                                          :ARG1 (b3 / builder)))
+                              :ARG3 (m / most)))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space))))
+      :time (t2 / then))
+
+# ::id 4-9-tetris-B42-A12_1267.21 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:-2 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_21.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.22 ::date 2019-12-09T11:55:24
+# ::snt <Architect> 4 tall blue pillar to the right
+# ::save-date Fri Jan 24, 2020 ::user coqc ::file col_1267_22.txt
+(b / be-destined-for-91
+      :ARG1 (p / pillar
+            :color (b2 / blue)
+            :ARG1-of (t / tall-01
+                  :ARG2 (d / distance-quantity :quant 4)
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (b3 / build-space))))
+      :ARG2 (s / space :pl +
+            :ARG1-of (r / right-04
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 (b4 / builder)))))
+
+# ::id 4-9-tetris-B42-A12_1267.23 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a blue block at X:-3 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_23.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 1 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.24 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a blue block at X:-3 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_24.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 2 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.25 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a blue block at X:-3 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_25.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.26 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a blue block at X:-3 Y:4 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_26.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 4 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.27 ::date 2019-12-09T14:48:08
+# ::snt <Architect> orange between the red and green
+# ::save-date Mon Dec 9, 2019 ::user kristinwb ::file col_1267_27.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing
+            :color (o / orange))
+      :ARG2 (s / space
+            :ARG1-of (b2 / between-01
+                  :ARG2 (t2 / thing
+                        :color (r / red))
+                  :ARG3 (t3 / thing
+                        :color (g / green)))))
+
+# ::id 4-9-tetris-B42-A12_1267.28 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:-1 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_28.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.29 ::date 2019-12-09T14:50:17
+# ::snt <Architect> another above
+# ::save-date Fri Jan 24, 2020 ::user coqc ::file col_1267_29.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing
+            :mod (a / another))
+      :ARG2 (s / space
+            :ARG1-of (a2 / above-01
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id 4-9-tetris-B42-A12_1267.30 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:-1 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_30.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.31 ::date 2019-12-09T14:51:12
+# ::snt <Architect> another to the right
+# ::save-date Fri Jan 24, 2020 ::user coqc ::file col_1267_31.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing
+            :mod (a / another))
+      :ARG2 (s / space
+            :ARG1-of (r / right-04
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / builder)))))
+
+# ::id 4-9-tetris-B42-A12_1267.32 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:-1 Y:3 Z:-1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_32.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z -1)))
+
+# ::id 4-9-tetris-B42-A12_1267.33 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a orange block at X:-1 Y:3 Z:-1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_33.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z -1)))
+
+# ::id 4-9-tetris-B42-A12_1267.34 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:-2 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_34.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.35 ::date 2019-12-09T14:52:06
+# ::snt <Architect> another abover
+# ::save-date Fri Jan 24, 2020 ::user coqc ::file col_1267_35.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing
+            :mod (a / another))
+      :ARG2 (s / space
+            :ARG1-of (a2 / above-01
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id 4-9-tetris-B42-A12_1267.36 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:-2 Y:4 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_36.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 4 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.37 ::date 2019-12-09T14:53:11
+# ::snt <Architect> yes
+# ::save-date Mon Dec 9, 2019 ::user kristinwb ::file col_1267_37.txt
+(c / confirm-01)
+
+# ::id 4-9-tetris-B42-A12_1267.38 ::date 2019-12-09T14:53:20
+# ::snt <Architect> now the hard part
+# ::save-date Mon Dec 9, 2019 ::user kristinwb ::file col_1267_38.txt
+(p / part
+      :ARG1-of (h / hard-02)
+      :time (n / now))
+
+# ::id 4-9-tetris-B42-A12_1267.39 ::date 2019-12-09T14:54:24
+# ::snt <Architect> a falling purple block in the tetris game
+# ::save-date Fri Jan 17, 2020 ::user kristinwb ::file col_1267_39.txt
+(b / block
+      :color (p / purple)
+      :ARG1-of (f / fall-01)
+      :mod (g / game :name (n / name :op1 "Tetris")))
+
+# ::id 4-9-tetris-B42-A12_1267.40 ::date 2019-12-09T15:05:53
+# ::snt <Architect> off to the left make a purple pillar 5 high
+# ::save-date Fri Jan 24, 2020 ::user coqc ::file col_1267_40.txt
+(m / make-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (p / pillar
+            :color (p2 / purple)
+            :ARG1-of (h / high-05
+                  :ARG2 (d / distance-quantity :quant 5)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b / build-space))))
+      :location (s / space :pl +
+            :ARG1-of (o / off-06)
+            :ARG1-of (l / left-20
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 (b2 / builder)))))
+
+# ::id 4-9-tetris-B42-A12_1267.41 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a purple block at X:3 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_41.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.42 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a purple block at X:3 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_42.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.43 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a purple block at X:3 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_43.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.44 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a purple block at X:3 Y:4 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_44.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 4 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.45 ::date 2019-12-09T15:08:52
+# ::snt <Architect> chop out the bottom 2
+# ::save-date Fri Jan 24, 2020 ::user coqc ::file col_1267_45.txt
+(c / chop-out-04 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing :quant 2
+            :ARG1-of (b / bottom-03
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id 4-9-tetris-B42-A12_1267.46 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a purple block at X:3 Y:5 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_46.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 5 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.47 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a purple block at X:3 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_47.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.48 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a purple block at X:3 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_48.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z 0)))
+
+# ::id 4-9-tetris-B42-A12_1267.49 ::date 2019-12-09T15:16:21
+# ::snt <Architect> add one last purple
+# ::save-date Mon Dec 9, 2019 ::user kristinwb ::file col_1267_49.txt
+(a / add-02 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing :quant 1
+            :color (p / purple)
+            :ord (o / ordinal-entity :value "-1")))
+
+# ::id 4-9-tetris-B42-A12_1267.50 ::date 2019-12-09T15:17:58
+# ::snt <Architect> to make a t
+# ::save-date Mon Dec 9, 2019 ::user kristinwb ::file col_1267_50.txt
+(h / have-purpose-91
+      :ARG2 (m / make-01
+            :ARG1 (t / thing
+                  :configuration (s / string-entity :value "t"))))
+
+# ::id 4-9-tetris-B42-A12_1267.51 ::date 2019-12-09T15:18:38
+# ::snt <Architect> on the side where all else is
+# ::save-date Mon Dec 9, 2019 ::user kristinwb ::file col_1267_51.txt
+(b / be-located-at-91
+      :ARG2 (s / side
+            :location (e / else
+                  :mod (a / all))))
+
+# ::id 4-9-tetris-B42-A12_1267.52 ::date 2019-12-09T15:22:21
+# ::snt <Architect> the right
+# ::save-date Fri Jan 24, 2020 ::user coqc ::file col_1267_52.txt
+(i2 / infer-01
+      :ARG1 (r / right-04
+            :ARG3 (c / cartesian-framework-91
+                  :ARG1 (b / builder))))
+
+# ::id 4-9-tetris-B42-A12_1267.53 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a purple block at X:2 Y:4 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1267_53.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 4 :z 0)))

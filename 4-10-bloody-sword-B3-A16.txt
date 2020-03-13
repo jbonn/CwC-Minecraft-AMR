@@ -1,0 +1,1097 @@
+# workset Minecraft-4-10-bloody-sword-B3-A16 (generated on Wed Mar 4, 2020 at 08:45:29 for user coqc)
+
+#frameworks
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (b3 / bloody-sword)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :FR (i4 / intrinsic-3D-image)))
+      :snt9 (p / parallel-01
+            :ARG0 x
+            :ARG1 z6))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.1 ::date 2019-12-31T16:47:14
+# ::snt <Builder> Mission has started.
+# ::save-date Tue Dec 31, 2019 ::user kristinwb ::file col_1294_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.2 ::date 2019-12-31T16:59:34
+# ::snt <Architect> give me a minute to look!
+# ::save-date Tue Dec 31, 2019 ::user coqc ::file col_1294_2.txt
+(g / give-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / temporal-quantity :quant 1
+            :unit (m / minute))
+      :ARG2 (i / i)
+      :purpose (l / look-01
+            :ARG0 i))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.3 ::date 2019-12-31T17:00:27
+# ::snt <Builder> sure, take your time
+# ::save-date Tue Dec 31, 2019 ::user coqc ::file col_1294_3.txt
+(a / and
+      :op1 (s / sure-02)
+      :op2 (t / take-10 :mode imperative
+            :ARG1 (t2 / time
+                  :poss y)
+            :ARG2 (y / you)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.4 ::date 2019-12-31T17:10:36
+# ::snt <Architect> okay, so one block from the left edge of the boundary, build a red square that is 3x3
+# ::save-date Wed Mar 4, 2020 ::user coqc ::file col_1294_4.txt
+(b / build-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (s / square
+            :color (r / red)
+            :size (d / dimension-entity :value 3)
+            :size (d2 / dimension-entity :value 3))
+      :location (s2 / space :pl +
+            :ARG1-of (f / from-boundary-01
+                  :ARG2 (d3 / distance-quantity :quant 1
+                        :unit (b2 / block))
+                  :ARG3 (e / edge
+                        :ARG1-of (l / left-24
+                              :ARG2 (b3 / boundary)
+                              :ARG3 (c / cartesian-framework-91
+                                    :ARG1 y))))))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.5 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a red block at X:4 Y:1 Z:-5]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_5.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z -5)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.6 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a red block at X:3 Y:1 Z:-5]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_6.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z -5)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.7 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a red block at X:2 Y:1 Z:-5]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_7.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -5)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.8 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a red block at X:4 Y:1 Z:-4]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_8.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z -4)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.9 ::date 2019-12-31T17:19:15
+# ::snt <Builder> is that ok to start?
+# ::save-date Wed Mar 4, 2020 ::user coqc ::file col_1294_9.txt
+(o / okay-04
+      :ARG1 (t / that
+            :ARG2-of (s / start-01)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.10 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a red block at X:4 Y:1 Z:-3]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_10.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z -3)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.11 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a red block at X:4 Y:1 Z:-2]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z -2)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.12 ::date 2020-03-02T20:38:44
+# ::snt [Builder picks up a red block at X:4 Y:1 Z:-2]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_12.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z -2)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.13 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a red block at X:3 Y:1 Z:-3]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_13.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z -3)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.14 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a red block at X:2 Y:1 Z:-3]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_14.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -3)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.15 ::date 2019-12-31T17:22:11
+# ::snt <Architect> fill in the missing two block and we're good
+# ::save-date Tue Dec 31, 2019 ::user kristinwb ::file col_1294_15.txt
+(c / cause-01
+      :ARG0 (f / fill-in-05 :mode imperative
+            :ARG0 (y / you)
+            :ARG2 (b / block :quant 2
+                  :ARG1-of (m / miss-01)))
+      :ARG1 (g / good-02
+            :ARG1 (w / we)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.16 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a red block at X:3 Y:1 Z:-4]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z -4)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.17 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a red block at X:2 Y:1 Z:-4]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_17.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -4)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.18 ::date 2019-12-31T17:25:37
+# ::snt <Builder> sorry, ready for more
+# ::save-date Wed Mar 4, 2020 ::user coqc ::file col_1294_18.txt
+(a / and
+      :op1 (s / sorry-01)
+      :op2 (r / ready-02
+            :ARG2 (t / thing
+                  :ARG1-of (h / have-quant-91
+                        :ARG3 (m / more)))))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.19 ::date 2019-12-31T17:27:13
+# ::snt <Architect> now, above the center block, build a tower that is one two blue blocks, one red blck, and two yellow blocks
+# ::save-date Wed Mar 4, 2020 ::user coqc ::file col_1294_19.txt
+(b / build-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / tower
+            :configuration (s2 / spatial-sequence-91
+                  :ARG2 (b3 / block
+                        :color (b4 / blue))
+                  :ARG3 (b5 / block
+                        :color (b6 / blue))
+                  :ARG4 (b7 / block
+                        :color (r / red))
+                  :ARG5 (b8 / block
+                        :color (y2 / yellow))
+                  :ARG6 (b9 / block
+                        :color (y3 / yellow))))
+      :location (s / space :pl +
+            :ARG1-of (a / above-01
+                  :ARG2 (b2 / block
+                        :ARG1-of (c / center-03))
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 (b10 / build-space))))
+      :time (n / now))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.20 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a blue block at X:3 Y:2 Z:-4]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z -4)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.21 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a blue block at X:3 Y:3 Z:-4]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_21.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z -4)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.22 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a red block at X:3 Y:4 Z:-4]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_22.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 4 :z -4)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.23 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a yellow block at X:3 Y:5 Z:-4]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_23.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 5 :z -4)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.24 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a yellow block at X:3 Y:6 Z:-4]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_24.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 6 :z -4)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.25 ::date 2019-12-31T17:32:32
+# ::snt <Builder> like that?
+# ::save-date Tue Dec 31, 2019 ::user kristinwb ::file col_1294_25.txt
+(r / resemble-01
+      :ARG2 (t / that)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.26 ::date 2019-12-31T17:32:52
+# ::snt <Architect> yep!
+# ::save-date Tue Dec 31, 2019 ::user kristinwb ::file col_1294_26.txt
+(c / confirm-01)
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.27 ::date 2019-12-31T17:33:01
+# ::snt <Architect> sorry, glitch
+# ::save-date Tue Dec 31, 2019 ::user kristinwb ::file col_1294_27.txt
+(a / and
+      :op1 (s / sorry-01)
+      :op2 (g / glitch))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.28 ::date 2019-12-31T17:33:26
+# ::snt <Architect> now so
+# ::save-date Tue Dec 31, 2019 ::user kristinwb ::file col_1294_28.txt
+(b / be-temporally-at-91
+      :ARG2 (n / now))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.29 ::date 2019-12-31T17:33:56
+# ::snt <Builder> no worries
+# ::save-date Tue Dec 31, 2019 ::user kristinwb ::file col_1294_29.txt
+(w / worry-02 :polarity - :mode imperative
+      :ARG0 (y / you))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.30 ::date 2019-12-31T17:34:32
+# ::snt <Architect> build a tower in front of the last, on the edge near the rest of the boundary that is
+# ::save-date Wed Mar 4, 2020 ::user coqc ::file col_1294_30.txt
+(b / build-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / tower)
+      :location (s / space :pl +
+            :ARG1-of (f / front-03
+                  :ARG2 (t2 / thing
+                        :mod (l / last))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 y))
+            :ARG1-of (m / mean-01
+                  :ARG2 (s2 / space
+                        :ARG1-of (o / on-top-03
+                              :ARG2 (e / edge
+                                    :ARG1-of (n / near-02
+                                          :ARG2 (r / rest
+                                                :part-of (b2 / boundary))))
+                              :ARG3 (c2 / cartesian-framework-91
+                                    :ARG1 (b3 / build-space)))))))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.31 ::date 2020-01-03T10:37:19
+# ::snt <Architect> one blue block, one red, and then 3 yellow
+# ::save-date Fri Jan 3, 2020 ::user kristinwb ::file col_1294_31.txt
+(h / have-configuration-91
+      :ARG2 (s / spatial-sequence-91
+            :ARG2 (b / block :quant 1
+                  :color (b2 / blue))
+            :ARG3 (b3 / block :quant 1
+                  :color (r / red))
+            :ARG4 (b4 / block
+                  :color (y / yellow))
+            :ARG5 (b5 / block
+                  :color (y2 / yellow))
+            :ARG6 (b6 / block
+                  :color (y3 / yellow))))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.32 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a blue block at X:3 Y:2 Z:-5]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_32.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z -5)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.33 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a red block at X:3 Y:3 Z:-5]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_33.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z -5)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.34 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a yellow block at X:3 Y:4 Z:-5]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_34.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 4 :z -5)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.35 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a yellow block at X:3 Y:5 Z:-5]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_35.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 5 :z -5)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.36 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a yellow block at X:3 Y:6 Z:-5]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_36.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 6 :z -5)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.37 ::date 2020-01-03T11:11:05
+# ::snt <Architect> no. the other side!
+# ::save-date Fri Jan 3, 2020 ::user kristinwb ::file col_1294_37.txt
+(m / multi-sentence
+      :snt1 (c / confirm-01 :polarity -)
+      :snt2 (b / be-destined-for-91
+            :ARG2 (s / side
+                  :ARG1-of (o / other-01))
+            :ARG1-of (i2 / instead-of-91)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.38 ::date 2020-01-03T11:13:24
+# ::snt <Builder> like that?
+# ::save-date Fri Jan 3, 2020 ::user kristinwb ::file col_1294_38.txt
+(r / resemble-01
+      :ARG2 (t / that)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.39 ::date 2020-01-03T11:13:45
+# ::snt <Builder> oh ok
+# ::save-date Fri Jan 3, 2020 ::user kristinwb ::file col_1294_39.txt
+(o / okay-04
+      :mod (o2 / oh :mode expressive))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.40 ::date 2020-01-03T11:14:12
+# ::snt <Architect> sorry about that
+# ::save-date Fri Jan 3, 2020 ::user kristinwb ::file col_1294_40.txt
+(s / sorry-01
+      :ARG2 (t / that))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.41 ::date 2020-03-02T20:38:44
+# ::snt [Builder picks up a yellow block at X:3 Y:6 Z:-5]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_41.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 6 :z -5)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.42 ::date 2020-03-02T20:38:44
+# ::snt [Builder picks up a yellow block at X:3 Y:5 Z:-5]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_42.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 5 :z -5)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.43 ::date 2020-03-02T20:38:44
+# ::snt [Builder picks up a yellow block at X:3 Y:4 Z:-5]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_43.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 4 :z -5)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.44 ::date 2020-03-02T20:38:44
+# ::snt [Builder picks up a red block at X:3 Y:3 Z:-5]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_44.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z -5)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.45 ::date 2020-03-02T20:38:44
+# ::snt [Builder picks up a blue block at X:3 Y:2 Z:-5]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_45.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z -5)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.46 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a blue block at X:3 Y:2 Z:-3]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_46.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z -3)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.47 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a red block at X:3 Y:3 Z:-3]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_47.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z -3)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.48 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a yellow block at X:3 Y:4 Z:-3]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_48.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 4 :z -3)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.49 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a yellow block at X:3 Y:5 Z:-3]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_49.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 5 :z -3)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.50 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a yellow block at X:3 Y:6 Z:-3]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_50.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 6 :z -3)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.51 ::date 2020-01-03T11:14:35
+# ::snt <Builder> so then like that?
+# ::save-date Wed Mar 4, 2020 ::user coqc ::file col_1294_51.txt
+(i2 / infer-01
+      :ARG2 (r / resemble-01
+            :ARG2 (t / that)
+            :time (t2 / then))
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.52 ::date 2020-01-03T11:15:16
+# ::snt <Architect> yep!
+# ::save-date Fri Jan 3, 2020 ::user kristinwb ::file col_1294_52.txt
+(c / confirm-01)
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.53 ::date 2020-01-03T11:15:26
+# ::snt <Builder> cool, is there more?
+# ::save-date Wed Mar 4, 2020 ::user coqc ::file col_1294_53.txt
+(a / and
+      :op1 (c / cool-04)
+      :op2 (h2 / have-quant-91
+            :ARG3 (m / more)
+            :polarity (a2 / amr-unknown)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.54 ::date 2020-01-03T11:16:22
+# ::snt <Builder> i think i see a pattern
+# ::save-date Fri Jan 3, 2020 ::user kristinwb ::file col_1294_54.txt
+(t / think-01
+      :ARG0 (i / i)
+      :ARG1 (s / see-01
+            :ARG0 i
+            :ARG1 (p / pattern-01)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.55 ::date 2020-01-03T11:17:50
+# ::snt <Architect> now to the right of that tower, build another tower from the ground up that is one blue, one red, and three yellow
+# ::save-date Wed Mar 4, 2020 ::user coqc ::file col_1294_55.txt
+(b / build-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / tower
+            :mod (a / another)
+            :configuration (s2 / spatial-sequence-91
+                  :ARG2 (t4 / thing :quant 1
+                        :color (b2 / blue))
+                  :ARG3 (t5 / thing :quant 1
+                        :color (r2 / red))
+                  :ARG4 (t6 / thing
+                        :color (y2 / yellow))
+                  :ARG5 (t7 / thing
+                        :color (y3 / yellow))
+                  :ARG6 (t8 / thing
+                        :color (y4 / yellow))))
+      :location (s / space :pl +
+            :ARG1-of (r / right-04
+                  :ARG2 (t2 / tower
+                        :mod (t3 / that))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 y)))
+      :direction (t9 / trajectory
+            :ARG2-of (u / up-03
+                  :ARG4 (g / ground)
+                  :ARG5 (c2 / cartesian-framework-91
+                        :ARG1 (b3 / build-space))))
+      :time (n / now))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.56 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a blue block at X:3 Y:1 Z:-2]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_56.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z -2)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.57 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a red block at X:3 Y:2 Z:-2]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_57.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z -2)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.58 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a yellow block at X:3 Y:3 Z:-2]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_58.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z -2)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.59 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a yellow block at X:3 Y:4 Z:-2]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_59.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 4 :z -2)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.60 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a yellow block at X:3 Y:5 Z:-2]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_60.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 5 :z -2)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.61 ::date 2020-01-03T11:34:24
+# ::snt <Architect> good!
+# ::save-date Fri Jan 3, 2020 ::user kristinwb ::file col_1294_61.txt
+(g / good-02)
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.62 ::date 2020-01-03T11:34:36
+# ::snt <Architect> yeah, it
+# ::save-date Fri Jan 3, 2020 ::user kristinwb ::file col_1294_62.txt
+(c / confirm-01)
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.63 ::date 2020-01-03T11:36:20
+# ::snt <Architect> is kinda like weird colorful stairs, but there's still a bit to go
+# ::save-date Fri Jan 3, 2020 ::user coqc ::file col_1294_63.txt
+(c2 / contrast-01
+      :ARG1 (r / resemble-01
+            :ARG2 (s / stair :pl +
+                  :mod (w / weird)
+                  :color (c / colorful))
+            :degree (k / kind-of))
+      :ARG2 (g / go-14
+            :ARG1 (t / thing
+                  :quant (b / bit))
+            :mod (s2 / still)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.64 ::date 2020-01-03T11:43:19
+# ::snt <Builder> i understand.
+# ::save-date Fri Jan 3, 2020 ::user kristinwb ::file col_1294_64.txt
+(u / understand-01
+      :ARG0 (i / i))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.65 ::date 2020-01-03T11:43:33
+# ::snt <Builder> please continue!
+# ::save-date Fri Jan 3, 2020 ::user kristinwb ::file col_1294_65.txt
+(c / continue-01 :polite + :mode imperative
+      :ARG0 (y / you))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.66 ::date 2020-01-03T11:44:20
+# ::snt <Builder> also feel free to tell me to move if you think another perspective will help
+# ::save-date Wed Mar 4, 2020 ::user coqc ::file col_1294_66.txt
+(f / feel-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (f2 / free-04
+            :ARG1 y
+            :ARG3 (t / tell-01
+                  :ARG0 y
+                  :ARG1 (m / move-01
+                        :ARG0 i
+                        :ARG1 i)
+                  :ARG2 (i / i)))
+      :mod (a / also)
+      :condition (t2 / think-01
+            :ARG0 y
+            :ARG1 (h / help-01
+                  :ARG0 (p / perspective
+                        :mod (a2 / another)))))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.67 ::date 2020-01-03T11:49:47
+# ::snt <Architect> now on to the right of that tower, build another that is one orange and three yellow tall
+# ::save-date Wed Mar 4, 2020 ::user coqc ::file col_1294_67.txt
+(b / build-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :mod (a / another)
+            :ARG1-of (t5 / tall-01
+                  :ARG2 (s2 / sum-of
+                        :op1 (d / distance-quantity :quant 1
+                              :unit (t6 / thing
+                                    :color (o2 / orange)))
+                        :op2 (d2 / distance-quantity :quant 3
+                              :unit (t7 / thing
+                                    :color (y2 / yellow))))
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space))))
+      :location (s / space :pl +
+            :ARG1-of (r / right-04
+                  :ARG2 (t3 / tower
+                        :mod (t4 / that))
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 y)))
+      :time (n / now))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.68 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a orange block at X:3 Y:1 Z:-1]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_68.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z -1)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.69 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a yellow block at X:3 Y:2 Z:-1]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_69.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z -1)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.70 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a yellow block at X:3 Y:3 Z:-1]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_70.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z -1)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.71 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a yellow block at X:3 Y:4 Z:-1]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_71.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 4 :z -1)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.72 ::date 2020-01-03T11:57:32
+# ::snt <Architect> great!
+# ::save-date Fri Jan 3, 2020 ::user kristinwb ::file col_1294_72.txt
+(h / have-mod-91
+      :ARG2 (g / great))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.73 ::date 2020-01-03T11:57:45
+# ::snt <Architect> now another tower that is one blue, one orange, and one yellow directly to the right again
+# ::save-date Wed Mar 4, 2020 ::user coqc ::file col_1294_73.txt
+(b / be-destined-for-91
+      :ARG1 (t / tower
+            :mod (a / another)
+            :configuration (s / spatial-sequence-91
+                  :ARG2 (t2 / thing :quant 1
+                        :color (b2 / blue))
+                  :ARG3 (t3 / thing :quant 1
+                        :color (o / orange))
+                  :ARG4 (t4 / thing :quant 1
+                        :color (y / yellow))))
+      :ARG2 (s2 / space :pl +
+            :ARG1-of (r / right-04
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b3 / builder))
+                  :ARG1-of (d / direct-02)
+                  :mod (a2 / again)))
+      :time (n / now))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.74 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a blue block at X:3 Y:1 Z:0]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_74.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 0)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.75 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a orange block at X:3 Y:2 Z:0]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_75.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z 0)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.76 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a yellow block at X:3 Y:3 Z:0]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_76.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z 0)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.77 ::date 2020-01-03T12:00:21
+# ::snt <Architect> great!
+# ::save-date Fri Jan 3, 2020 ::user kristinwb ::file col_1294_77.txt
+(h / have-mod-91
+      :ARG2 (g / great))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.78 ::date 2020-01-03T12:01:01
+# ::snt <Architect> now one last tower to the right again
+# ::save-date Wed Mar 4, 2020 ::user coqc ::file col_1294_78.txt
+(b / be-destined-for-91
+      :ARG1 (t / tower :quant 1
+            :ord (o / ordinal-entity :value "-1"))
+      :ARG2 (s / space :pl +
+            :ARG1-of (r / right-04
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / builder))
+                  :mod (a / again)))
+      :time (n / now))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.79 ::date 2020-01-03T12:02:16
+# ::snt <Architect> it should be one purple, one blue, and one orange
+# ::save-date Fri Jan 3, 2020 ::user kristinwb ::file col_1294_79.txt
+(r / recommend-01
+      :ARG1 (h / have-configuration-91
+            :ARG1 (i2 / it)
+            :ARG2 (s / spatial-sequence-91
+                  :ARG2 (t / thing :quant 1
+                        :color (p / purple))
+                  :ARG3 (t2 / thing :quant 1
+                        :color (b / blue))
+                  :ARG4 (t3 / thing :quant 1
+                        :color (o / orange)))))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.80 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a purple block at X:3 Y:1 Z:1]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_80.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 1)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.81 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a blue block at X:3 Y:2 Z:1]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_81.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z 1)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.82 ::date 2020-03-02T20:38:44
+# ::snt [Builder puts down a orange block at X:3 Y:3 Z:1]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_82.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z 1)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.83 ::date 2020-01-03T12:03:23
+# ::snt <Builder> that one was tough
+# ::save-date Fri Jan 3, 2020 ::user kristinwb ::file col_1294_83.txt
+(t / tough-02
+      :ARG1 (o / one
+            :mod (t2 / that)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.84 ::date 2020-01-03T12:03:44
+# ::snt <Builder> is it complete?
+# ::save-date Fri Jan 3, 2020 ::user kristinwb ::file col_1294_84.txt
+(c / complete-01
+      :ARG1 (i2 / it)
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.85 ::date 2020-01-03T12:04:30
+# ::snt <Architect> not yet, few more steps
+# ::save-date Wed Mar 4, 2020 ::user coqc ::file col_1294_85.txt
+(a / and
+      :op1 (c / confirm-01 :polarity -
+            :time (y / yet))
+      :op2 (h / have-quant-91
+            :ARG1 (t / thing
+                  :ARG4-of (s / step-01))
+            :ARG2 (f / few)
+            :ARG3 (m / more)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.86 ::date 2020-01-03T12:14:16
+# ::snt <Builder> ok sure
+# ::save-date Fri Jan 3, 2020 ::user coqc ::file col_1294_86.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (s / sure-02))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.87 ::date 2020-01-03T12:15:01
+# ::snt <Architect> remove all of the blue
+# ::save-date Wed Mar 4, 2020 ::user coqc ::file col_1294_87.txt
+(r / remove-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing :pl +
+            :mod (a / all)
+            :color (b / blue)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.88 ::date 2020-03-02T20:38:44
+# ::snt [Builder picks up a blue block at X:3 Y:2 Z:1]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_88.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z 1)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.89 ::date 2020-03-02T20:38:44
+# ::snt [Builder picks up a blue block at X:3 Y:1 Z:0]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_89.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z 0)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.90 ::date 2020-03-02T20:38:44
+# ::snt [Builder picks up a blue block at X:3 Y:1 Z:-2]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_90.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z -2)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.91 ::date 2020-03-02T20:38:44
+# ::snt [Builder picks up a blue block at X:3 Y:2 Z:-3]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_91.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z -3)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.92 ::date 2020-03-02T20:38:44
+# ::snt [Builder picks up a blue block at X:3 Y:2 Z:-4]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_92.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z -4)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.93 ::date 2020-03-02T20:38:44
+# ::snt [Builder picks up a blue block at X:3 Y:3 Z:-4]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_93.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z -4)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.94 ::date 2020-01-03T12:17:22
+# ::snt <Architect> great!
+# ::save-date Fri Jan 3, 2020 ::user kristinwb ::file col_1294_94.txt
+(h / have-mod-91
+      :ARG2 (g / great))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.95 ::date 2020-01-03T12:17:35
+# ::snt <Architect> just remove all of the blocks in the corners of the red square so that it looks like a plus sign
+# ::save-date Wed Mar 4, 2020 ::user coqc ::file col_1294_95.txt
+(r / remove-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :pl +
+            :mod (a / all)
+            :ARG1-of (c / corner-02
+                  :ARG2 (s / square
+                        :color (r2 / red))))
+      :mod (j / just)
+      :purpose (l / look-02
+            :ARG0 s
+            :ARG1 (t / thing
+                  :ARG1-of (s2 / signal-07)
+                  :mod (p / plus))))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.96 ::date 2020-03-02T20:38:44
+# ::snt [Builder picks up a red block at X:2 Y:1 Z:-5]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_96.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -5)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.97 ::date 2020-03-02T20:38:44
+# ::snt [Builder picks up a red block at X:2 Y:1 Z:-3]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_97.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -3)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.98 ::date 2020-03-02T20:38:44
+# ::snt [Builder picks up a red block at X:4 Y:1 Z:-5]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_98.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z -5)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.99 ::date 2020-03-02T20:38:44
+# ::snt [Builder picks up a red block at X:4 Y:1 Z:-3]
+# ::save-date Mon Mar 02, 2020::user jbonn ::file col_1294_99.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z -3)))
+
+# ::id minecraft-4-10-bloody-sword-b3-a16_1294.100 ::date 2020-01-03T13:40:44
+# ::snt <Architect> and we're good! great job!
+# ::save-date Fri Jan 3, 2020 ::user kristinwb ::file col_1294_100.txt
+(m / multi-sentence
+      :snt1 (a / and
+            :op2 (g / good-02
+                  :ARG1 (w / we)))
+      :snt2 (j / job
+            :mod (g2 / great)))

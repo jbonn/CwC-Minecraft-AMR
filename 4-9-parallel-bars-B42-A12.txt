@@ -1,0 +1,461 @@
+# workset Minecraft-4-9-parallel-bars-B42-A12 (generated on Wed Jan 22, 2020 at 11:33:55 for user coqc)
+
+#frameworks
+# ::id minecraft-4-9-parallel-bars-B42-A12.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6
+                  :op5 y7
+                  :op6 y8))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 (a4 / and
+                  :op1 z5
+                  :op2 z7))
+      :snt8 (c7 / composite-entity
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :FR (i4 / intrinsic))
+            :configuration (b3 / bar
+                  :color (y9 / yellow)))
+      :snt9 (c10 / composite-entity
+            :ARG1-of (c11 / cartesian-framework-91
+                  :ARG2 (x7 / x-axis)
+                  :ARG3 (y7 / y-axis)
+                  :ARG4 (z7 / z-axis)
+                  :hand (r5 / right-handed)
+                  :FR (r6 / relative-to-builder))
+            :ARG1-of (c12 / cartesian-framework-91
+                  :ARG2 (x8 / x-axis)
+                  :ARG3 (y8 / y-axis)
+                  :ARG4 (z8 / z-axis)
+                  :FR (i4 / intrinsic))
+            :configuration (b4 / bar
+                  :color (g2 / green)))
+      :snt10 (c13 / codirectional-01
+            :ARG1 z
+            :ARG2 (a6 / and
+                  :op1 z6
+                  :op2 z8)))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.1 ::date 2019-11-25T14:37:30
+# ::snt <Builder> Mission has started.
+# ::save-date Mon Nov 25, 2019 ::user kristinwb ::file col_1270_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.2 ::date 2019-11-25T14:38:27
+# ::snt <Builder> ready to go
+# ::save-date Mon Nov 25, 2019 ::user kristinwb ::file col_1270_2.txt
+(r / ready-02
+      :ARG2 (g / go-06))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.3 ::date 2019-11-25T14:42:58
+# ::snt <Architect> this looks like the uneven bars at the olympics
+# ::save-date Mon Nov 25, 2019 ::user kristinwb ::file col_1270_3.txt
+(l / look-02
+      :ARG0 (t / this)
+      :ARG1 (b / bar :pl +
+            :ARG1-of (e / even-02 :polarity -)
+            :location (g / game :name (n / name :op1 "Olympics"))))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.4 ::date 2019-11-25T14:53:02
+# ::snt <Architect> star with a red pillar 2 high in the middle
+# ::save-date Wed Jan 22, 2020 ::user coqc ::file col_1270_4.txt
+(s / start-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (p / pillar
+            :color (r / red)
+            :ARG1-of (h / high-05
+                  :ARG2 (d / distance-quantity :quant 2)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b / build-space))))
+      :location (s2 / space :pl +
+            :ARG1-of (m / middle-01)))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.5 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:0 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1270_5.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.6 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:0 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1270_6.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 0)))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.7 ::date 2019-11-25T14:59:03
+# ::snt <Architect> orange on top
+# ::save-date Wed Jan 22, 2020 ::user coqc ::file col_1270_7.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing
+            :color (o / orange))
+      :ARG2 (s / space
+            :ARG1-of (o2 / on-top-03
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.8 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:0 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1270_8.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 0)))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.9 ::date 2019-11-25T15:00:17
+# ::snt <Architect> three green in any direction
+# ::save-date Mon Nov 25, 2019 ::user kristinwb ::file col_1270_9.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing :quant 3
+            :color (g / green)
+            :consist-of-of (c / composite-entity
+                  :ARG2-of (s2 / spatial-sequence-91)))
+      :ARG2 (s / space :pl +
+            :direction (t2 / trajectory
+                  :mod (a / any))))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.10 ::date 2019-11-25T15:02:01
+# ::snt <Architect> as abar
+# ::save-date Mon Nov 25, 2019 ::user kristinwb ::file col_1270_10.txt
+(h / have-manner-91
+      :ARG2 (h2 / have-configuration-91
+            :ARG2 (b / bar)))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.11 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:1 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1270_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 0)))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.12 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:2 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1270_12.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 0)))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.13 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:3 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1270_13.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z 0)))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.14 ::date 2019-11-25T15:05:47
+# ::snt <Architect> then orange
+# ::save-date Mon Nov 25, 2019 ::user kristinwb ::file col_1270_14.txt
+(s / spatial-sequence-91
+      :ARG3 (t / thing
+            :color (o / orange))
+      :time (t2 / then))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.15 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:4 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1270_15.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 3 :z 0)))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.16 ::date 2019-11-25T15:10:08
+# ::snt <Architect> and 2 red back to earth
+# ::save-date Mon Jan 13, 2020 ::user kristinwb ::file col_1270_16.txt
+(a / and
+      :op2 (b / be-destined-for-91
+            :ARG1 (t / thing :quant 2
+                  :color (r / red))
+            :ARG2 (s / space :pl +
+                  :ARG1-of (g / go-back-19
+                        :ARG2 (e / earth)))))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.17 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:4 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1270_17.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 2 :z 0)))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.18 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:4 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1270_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z 0)))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.19 ::date 2019-11-25T19:33:08
+# ::snt <Architect> another red tower 3 high three blocks away from any previous one
+# ::save-date Wed Jan 22, 2020 ::user coqc ::file col_1270_19.txt
+(b / be-destined-for-91
+      :ARG1 (t / tower
+            :color (r / red)
+            :mod (a / another)
+            :ARG1-of (h / high-05
+                  :ARG2 (d / distance-quantity :quant 3)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b3 / build-space))))
+      :ARG2 (s / space :pl +
+            :ARG1-of (a2 / away-01
+                  :ARG2 (o / one
+                        :mod (a3 / any)
+                        :mod (p / previous))
+                  :quant (d2 / distance-quantity :quant 3
+                        :unit (b2 / block)))))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.20 ::date 2019-11-25T19:39:04
+# ::snt <Architect> to make a higher parallel bar
+# ::save-date Wed Jan 22, 2020 ::user coqc ::file col_1270_20.txt
+(h / have-purpose-91
+      :ARG2 (m / make-01
+            :ARG1 (b / bar
+                  :ARG1-of (h3 / have-degree-91
+                        :ARG2 (h2 / high-05
+                              :ARG1 b
+                              :ARG3 (c / cartesian-framework-91
+                                    :ARG1 (b2 / build-space)))
+                        :ARG3 (m2 / more))
+                  :ARG0-of (p / parallel-01))))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.21 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:0 Y:1 Z:-4]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1270_21.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -4)))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.22 ::date 2019-11-25T19:44:00
+# ::snt <Architect> 3 empty spaces
+# ::save-date Mon Nov 25, 2019 ::user kristinwb ::file col_1270_22.txt
+(m / mean-01
+      :ARG2 (s / space :quant 3
+            :ARG1-of (e / empty-02)))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.23 ::date 2019-11-25T19:49:00
+# ::snt <Architect> yes
+# ::save-date Mon Nov 25, 2019 ::user kristinwb ::file col_1270_23.txt
+(c / confirm-01)
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.24 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:0 Y:2 Z:-4]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1270_24.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -4)))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.25 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:0 Y:3 Z:-4]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1270_25.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -4)))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.26 ::date 2019-11-25T19:49:16
+# ::snt <Architect> 3 tall with orange on top
+# ::save-date Wed Jan 22, 2020 ::user coqc ::file col_1270_26.txt
+(a / and
+      :op1 (t / tall-01
+            :ARG2 (d / distance-quantity :quant 3)
+            :ARG5 (c / cartesian-framework-91
+                  :ARG1 (b2 / build-space)))
+      :op2 (b / be-destined-for-91
+            :ARG1 (t2 / thing
+                  :color (o / orange))
+            :ARG2 (s / space
+                  :ARG1-of (o2 / on-top-03
+                        :ARG3 c))))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.27 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:0 Y:4 Z:-4]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1270_27.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z -4)))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.28 ::date 2019-11-25T19:52:57
+# ::snt <Architect> 3 yelow in the middle and a similar pillar going down
+# ::save-date Mon Nov 25, 2019 ::user kristinwb ::file col_1270_28.txt
+(a / and
+      :op1 (b / be-destined-for-91
+            :ARG1 (t / thing :quant 3
+                  :color (y / yellow))
+            :ARG2 (s / space :pl +
+                  :ARG1-of (m / middle-02
+                        :ARG2 p)))
+      :op2 (b2 / be-destined-for-91
+            :ARG1 (p / pillar
+                  :ARG1-of (r / resemble-01))
+            :ARG2 (s2 / space :pl +
+                  :ARG1-of (g / go-35
+                        :direction (t2 / trajectory
+                              :ARG4-of (d / down-03
+                                    :ARG5 (c / cartesian-framework-91
+                                          :ARG1 (b3 / build-space))))))))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.29 ::date 2019-11-25T19:59:02
+# ::snt <Builder> 3 red 1 orange?
+# ::save-date Mon Nov 25, 2019 ::user kristinwb ::file col_1270_29.txt
+(a / and
+      :op1 (t / thing :quant 3
+            :color (r / red))
+      :op2 (t2 / thing :quant 1
+            :color (o / orange))
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.30 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a yellow block at X:1 Y:4 Z:-4]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1270_30.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 4 :z -4)))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.31 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a yellow block at X:2 Y:4 Z:-4]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1270_31.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 4 :z -4)))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.32 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a yellow block at X:3 Y:4 Z:-4]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1270_32.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 4 :z -4)))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.33 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:4 Y:4 Z:-4]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1270_33.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 4 :z -4)))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.34 ::date 2019-11-25T20:00:18
+# ::snt <Architect> yes
+# ::save-date Mon Nov 25, 2019 ::user kristinwb ::file col_1270_34.txt
+(c / confirm-01)
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.35 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:4 Y:3 Z:-4]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1270_35.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 3 :z -4)))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.36 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:4 Y:2 Z:-4]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1270_36.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 2 :z -4)))
+
+# ::id minecraft-4-9-parallel-bars-B42-A12.37 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a red block at X:4 Y:1 Z:-4]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1270_37.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z -4)))

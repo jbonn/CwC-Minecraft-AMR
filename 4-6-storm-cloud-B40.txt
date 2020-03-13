@@ -1,0 +1,829 @@
+# workset Minecraft-4-6-storm-cloud-B40-A14 (generated on Mon Oct 7, 2019 at 06:48:09 for user coqc)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-6-storm-cloud-B40_1254.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (s / storm-cloud)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :FR (i4 / intrinsic)))
+      :snt9 (p / parallel-01
+            :ARG0 z
+            :ARG1 z6))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.1 ::date 2019-09-11T11:24:11
+# ::snt <Builder> Mission has started.
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.2 ::date 2019-09-11T11:24:38
+# ::snt <Architect> Place two yellow blocks on the grid. This structure mostly goes upward so you don't need a lot of room. But don't go too close to the edges
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_2.txt
+(m / multi-sentence
+      :snt1 (p / place-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block :quant 2
+                  :color (y2 / yellow))
+            :ARG2 (s / space :pl +
+                  :ARG1-of (o / on-top-03
+                        :ARG2 (g / grid)
+                        :ARG3 (c4 / cartesian-framework-91
+                              :ARG1 (b2 / build-space)))))
+      :snt2 (c / cause-01
+            :ARG0 (g2 / go-35
+                  :ARG1 (s2 / structure
+                        :mod (t / this))
+                  :direction (t2 / trajectory
+                        :ARG2-of (u / up-03
+                              :ARG5 c4))
+                  :mod (m2 / most))
+            :ARG1 (n / need-01 :polarity -
+                  :ARG0 y
+                  :ARG1 (r / room
+                        :quant (l / lot))))
+      :snt3 (c2 / contrast-01
+            :ARG2 (g3 / go-02 :mode imperative :polarity -
+                  :ARG0 y
+                  :ARG4 (s3 / space
+                        :ARG1-of (h / have-degree-91
+                              :ARG2 (c3 / close-10
+                                    :ARG1 y
+                                    :ARG2 (e / edge :pl +))
+                              :ARG3 (t3 / too))))))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.3 ::date 2019-09-11T11:58:34
+# ::snt <Builder> sounds good
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_3.txt
+(s / sound-01
+      :ARG2 (g / good-02))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.4 ::date 2019-09-11T12:03:27
+# ::snt <Builder> so a stack of yellow blocks?
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_4.txt
+(i2 / infer-01
+      :ARG1 (s / stack
+            :configuration-of (b / block :pl +
+                  :color (y / yellow)))
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.5 ::date 2019-09-11T12:09:20
+# ::snt <Architect> Sorry two next to each other
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_5.txt
+(a / and
+      :op1 (s / sorry-01)
+      :op2 (b / be-destined-for-91
+            :ARG1 (t / thing :quant 2)
+            :ARG2 (a2 / and
+                  :op1 (s2 / space)
+                  :op2 (s3 / space
+                        :ARG1-of (n / next-to-02
+                              :ARG2 s2
+                              :ARG3 (c / cartesian-framework-91
+                                    :ARG1 (b2 / build-space)))))))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.6 ::date 2019-09-11T12:17:57
+# ::snt <Builder> cool
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_6.txt
+(c / cool-04)
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.7 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a yellow block at X:0 Y:1 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_7.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.8 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a yellow block at X:-1 Y:1 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_8.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.9 ::date 2019-09-11T12:18:20
+# ::snt <Architect> Great. Now stack another yellow one on top of the right one, and place another yellow one to the right of the stacked block
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_9.txt
+(m / multi-sentence
+      :snt1 (h / have-mod-91
+            :ARG2 (g / great))
+      :snt2 (a / and
+            :op1 (s / stack-01 :mode imperative
+                  :ARG0 (y / you)
+                  :ARG1 (o / one
+                        :color (y2 / yellow)
+                        :mod (a2 / another))
+                  :ARG2 (o2 / one
+                        :ARG1-of (r / right-10
+                              :ARG3 (c / cartesian-framework-91
+                                    :ARG1 y)))
+                  :time (n / now))
+            :op2 (p / place-01 :mode imperative
+                  :ARG0 y
+                  :ARG1 (o3 / one
+                        :color (y3 / yellow)
+                        :mod (a3 / another))
+                  :ARG2 (s2 / space
+                        :ARG1-of (r2 / right-04
+                              :ARG2 o
+                              :ARG3 c)))))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.10 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a yellow block at X:-1 Y:2 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_10.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.11 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a yellow block at X:-2 Y:2 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.12 ::date 2019-09-11T12:23:56
+# ::snt <Architect> Great! Now you're going to stack three yellow blocks in a row, top on top of these and then one jutting out
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_12.txt
+(m / multi-sentence
+      :snt1 (h / have-mod-91
+            :ARG2 (g / great))
+      :snt2 (s2 / stack-01 :mode imperative
+            :ARG0 (y3 / you)
+            :ARG1 (b4 / block :quant 3
+                  :color (y4 / yellow))
+            :ARG2 t5
+            :manner (a / and
+                  :op1 (h2 / have-configuration-91
+                        :ARG1 b4
+                        :ARG2 (r2 / row))
+                  :op2 (o / on-top-03
+                        :ARG1 (b6 / block :quant 2
+                              :ARG1-of (i7 / include-91
+                                    :ARG2 b4))
+                        :ARG2 (t5 / thing :pl +
+                              :mod (t4 / this))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b / build-space)))
+                  :op3 (j2 / jut-out-02
+                        :ARG1 (b7 / block :quant 1
+                              :ARG1-of (i6 / include-91
+                                    :ARG2 b4))
+                        :time (t6 / then)))
+            :time (n2 / now)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.13 ::date 2019-09-11T12:44:32
+# ::snt <Builder> on top of which block?
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_13.txt
+(o / on-top-03
+      :ARG2 (b2 / block
+            :mod (a / amr-unknown))
+      :ARG3 (c / cartesian-framework-91
+            :ARG1 (b / build-space)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.14 ::date 2019-09-11T12:49:23
+# ::snt <Architect> Oh sorry the two blocks you just stacked
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_14.txt
+(a / and
+      :op1 (s / sorry-01
+            :mod (o / oh :mode expressive))
+      :op2 (b / block :quant 2
+            :ARG1-of (s2 / stack-01
+                  :ARG0 (y / you)
+                  :time (j / just))))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.15 ::date 2019-09-11T12:50:32
+# ::snt <Builder> ah i see what you mean
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_15.txt
+(s / see-01
+      :ARG0 (i / i)
+      :ARG1 (t / thing
+            :ARG2-of (m / mean-01
+                  :ARG0 (y / you)))
+      :mod (a / ah :mode expressive))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.16 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a yellow block at X:-1 Y:3 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.17 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a yellow block at X:-2 Y:3 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_17.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.18 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a yellow block at X:-2 Y:3 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 0)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.19 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a yellow block at X:-2 Y:3 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_19.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 0)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.20 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a yellow block at X:-3 Y:3 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.21 ::date 2019-09-11T12:53:12
+# ::snt <Builder> i thought by stack you meant vertically stack
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_21.txt
+(t / think-01
+      :ARG0 (i / i)
+      :ARG1 (m / mean-01
+            :ARG0 (y / you)
+            :ARG1 (s / stack-01)
+            :ARG2 (s2 / stack-01
+                  :manner (v / vertical-01
+                        :ARG2 (c / cartesian-framework-91
+                              :ARG1 (b / build-space))))))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.22 ::date 2019-09-11T12:55:38
+# ::snt <Builder> is this what you had in mind?
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_22.txt
+(t / thing
+      :ARG1-of (h / have-in-mind-13
+            :ARG0 (y / you))
+      :domain (t2 / this)
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.23 ::date 2019-09-11T12:57:27
+# ::snt <Architect> Sorry! I meant stack one on top of each
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_23.txt
+(m / multi-sentence
+      :snt1 (s / sorry-01)
+      :snt2 (m2 / mean-01
+            :ARG0 (i / i)
+            :ARG2 (s2 / stack-01
+                  :ARG1 (t4 / thing :pl +)
+                  :ARG2 (t / thing :pl +)
+                  :frequency (r / rate-entity-91
+                        :ARG1 (t2 / thing :quant 1
+                              :ARG1-of (i2 / include-91
+                                    :ARG2 t4))
+                        :ARG2 (t3 / thing
+                              :ARG1-of (i3 / include-91
+                                    :ARG2 t)
+                              :mod (e / each)))
+                  :manner (o / on-top-03
+                        :ARG1 t4
+                        :ARG2 t
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b / build-space))))))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.24 ::date 2019-09-11T13:00:41
+# ::snt <Architect> Yes this is perfect
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_24.txt
+(c / confirm-01
+      :ARG1 (p / perfect-02
+            :ARG1 (t / this)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.25 ::date 2019-09-11T13:01:08
+# ::snt <Builder> ah!
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_25.txt
+(a / ah :mode expressive)
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.26 ::date 2019-09-11T13:01:25
+# ::snt <Builder> gotcha
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_26.txt
+(g / get-30
+      :ARG2 (y / you))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.27 ::date 2019-09-11T13:02:17
+# ::snt <Architect> Now stack a yellow block each on top of the center block and the right block
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_27.txt
+(s / stack-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :pl +
+            :color (y2 / yellow))
+      :ARG2 (b6 / block :pl +
+            :ARG2-of (i4 / include-91
+                  :ARG1 (a / and
+                        :op1 (b2 / block
+                              :ARG1-of (c / center-03))
+                        :op2 (b3 / block
+                              :ARG1-of (r / right-10
+                                    :ARG3 (c3 / cartesian-framework-91
+                                          :ARG1 y))))))
+      :frequency (r2 / rate-entity-91
+            :ARG1 (b4 / block :quant 1
+                  :ARG1-of (i2 / include-91
+                        :ARG2 b))
+            :ARG2 (b5 / block
+                  :ARG1-of (i3 / include-91
+                        :ARG2 b6)
+                  :mod (e / each)))
+      :time (n / now)
+      :manner (o / on-top-03
+            :ARG1 b
+            :ARG2 b6
+            :ARG3 (c2 / cartesian-framework-91
+                  :ARG1 (b7 / build-space))))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.28 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a yellow block at X:-1 Y:4 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_28.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.29 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a yellow block at X:-3 Y:4 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_29.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 4 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.30 ::date 2019-09-11T13:10:16
+# ::snt <Builder> just curious...what are we building?
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_30.txt
+(b / build-01
+      :ARG0 (w / we)
+      :ARG1 (a / amr-unknown)
+      :ARG1-of (c / curious-01
+            :mod (j / just)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.31 ::date 2019-09-11T13:15:01
+# ::snt <Architect> You stacked on the left and right. Can you move the left block to the center?
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_31.txt
+(m / multi-sentence
+      :snt1 (s / stack-01
+            :ARG0 (y / you)
+            :ARG2 (a / and
+                  :op1 (t / thing
+                        :ARG1-of (l / left-24
+                              :ARG3 (c2 / cartesian-framework-91
+                                    :ARG1 y)))
+                  :op2 (t2 / thing
+                        :ARG1-of (r / right-10
+                              :ARG3 c2))))
+      :snt2 (m2 / move-01 :polite + :mode imperative
+            :ARG0 y
+            :ARG1 (b / block
+                  :ARG1-of (l2 / left-20
+                        :ARG3 c2))
+            :ARG2 (s2 / space
+                  :ARG1-of (c / center-03))))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.32 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a yellow block at X:-1 Y:4 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_32.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.33 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a yellow block at X:-2 Y:4 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_33.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 4 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.34 ::date 2019-09-11T13:18:20
+# ::snt <Architect> I have no idea!
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_34.txt
+(h / have-03 :polarity -
+      :ARG0 (i / i)
+      :ARG1 (i2 / idea))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.35 ::date 2019-09-11T13:19:46
+# ::snt <Builder> ah my bad
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_35.txt
+(b / bad-07
+      :ARG1 (i / i)
+      :mod (a3 / ah :mode expressive))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.36 ::date 2019-09-11T13:20:45
+# ::snt <Builder> lol
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_36.txt
+(l / laugh-01 :mode expressive
+      :ARG0 (i / i)
+      :manner (l2 / loud))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.37 ::date 2019-09-11T13:21:11
+# ::snt <Builder> okay
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_37.txt
+(o / okay-04)
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.38 ::date 2019-09-11T13:21:19
+# ::snt <Architect> Great! Now we're going to place four purple blocks on a row on top of this. Two are stacked on the two blocks on top here
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_38.txt
+(m / multi-sentence
+      :snt1 (h / have-mod-91
+            :ARG2 (g / great))
+      :snt2 (p / place-01
+            :ARG0 (w / we)
+            :ARG1 (b / block :quant 4
+                  :color (p2 / purple))
+            :ARG2 (s / space :pl +
+                  :ARG1-of (o / on-top-03
+                        :ARG2 (t / thing
+                              :mod (t2 / this))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b3 / build-space))))
+            :time (n / now)
+            :manner (h3 / have-configuration-91
+                  :ARG1 b
+                  :ARG2 (r / row)))
+      :snt3 (s2 / stack-01
+            :ARG1 (t3 / thing :quant 2)
+            :ARG2 (b2 / block :quant 2
+                  :ARG1-of (o2 / on-top-03
+                        :ARG3 c)
+                  :location (h2 / here))))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.39 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:-2 Y:5 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_39.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 5 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.40 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:-3 Y:5 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_40.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 5 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.41 ::date 2019-09-11T13:25:02
+# ::snt <Architect> The other two jut out on either side
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_41.txt
+(j / jut-out-02
+      :ARG1 (t / thing :quant 2
+            :ARG1-of (o / other-01))
+      :location (s / side
+            :ARG1-of (e / either-02)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.42 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:-1 Y:5 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_42.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 5 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.43 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:-4 Y:5 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_43.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 5 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.44 ::date 2019-09-11T13:27:36
+# ::snt <Architect> Great! Now stack four purple blocks in a row on top of this row
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_44.txt
+(m / multi-sentence
+      :snt1 (h / have-mod-91
+            :ARG2 (g / great))
+      :snt2 (s / stack-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block :quant 4
+                  :color (p / purple))
+            :ARG2 (r2 / row
+                  :mod (t / this))
+            :manner (h2 / have-configuration-91
+                  :ARG1 b
+                  :ARG2 (r / row))
+            :time (n / now)
+            :manner (o / on-top-03
+                  :ARG1 b
+                  :ARG2 r2
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.45 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:-4 Y:6 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_45.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 6 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.46 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:-3 Y:6 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_46.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 6 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.47 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:-2 Y:6 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_47.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 6 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.48 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:-1 Y:6 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_48.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 6 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.49 ::date 2019-09-11T13:31:55
+# ::snt <Architect> Now add a block to either side so it juts out. a row of six purple blocks total
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_49.txt
+(m / multi-sentence
+      :snt1 (a / add-02 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block :pl +)
+            :ARG2 (s / side
+                  :ARG1-of (e / either-02))
+            :manner (c / cause-01
+                  :ARG1 (j / jut-out-02
+                        :ARG1 b))
+            :time (n / now)
+            :frequency (r2 / rate-entity-91
+                  :ARG1 (b3 / block :quant 1
+                        :ARG1-of (i2 / include-91
+                              :ARG2 b))
+                  :ARG2 (s2 / side
+                        :ARG1-of (i3 / include-91
+                              :ARG2 s))))
+      :snt2 (r / row
+            :consist-of (b2 / block
+                  :color (p / purple)
+                  :ARG1-of (t / total-01
+                        :ARG2 6))))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.50 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:-5 Y:6 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_50.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -5 :y 6 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.51 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:-1 Y:6 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_51.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 6 :z 0)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.52 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:0 Y:6 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_52.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.53 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a purple block at X:-1 Y:6 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_53.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 6 :z 0)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.54 ::date 2019-09-11T14:15:56
+# ::snt <Architect> Nice! Now place four more purple blocks in a row on top of the four center blocks
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_54.txt
+(m / multi-sentence
+      :snt1 (n / nice-01)
+      :snt2 (p / place-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block
+                  :color (p2 / purple)
+                  :ARG1-of (h2 / have-quant-91
+                        :ARG2 4
+                        :ARG3 (m2 / more)))
+            :ARG2 (s / space :pl +
+                  :ARG1-of (o / on-top-03
+                        :ARG2 (b2 / block :quant 4
+                              :ARG2-of (c / center-03))
+                        :ARG3 (c2 / cartesian-framework-91
+                              :ARG1 (b3 / build-space))))
+            :manner (h / have-configuration-91
+                  :ARG1 b
+                  :ARG2 (r / row))
+            :time (n2 / now)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.55 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:-1 Y:7 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_55.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 7 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.56 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:-2 Y:7 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_56.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 7 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.57 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:-3 Y:7 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_57.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 7 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.58 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:-4 Y:7 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_58.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 7 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.59 ::date 2019-09-11T14:18:30
+# ::snt <Architect> Great! Last step. Stack a purple block on each of the middle two blocks
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_59.txt
+(m / multi-sentence
+      :snt1 (h / have-mod-91
+            :ARG2 (g / great))
+      :snt2 (t / thing
+            :ARG4-of (s / step-01)
+            :ord (o / ordinal-entity :value "-1"))
+      :snt3 (s2 / stack-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block :pl +
+                  :color (p / purple))
+            :ARG2 (b2 / block :quant 2
+                  :ARG1-of (m2 / middle-01))
+            :frequency (r / rate-entity-91
+                  :ARG1 (b3 / block :quant 1
+                        :ARG1-of (i2 / include-91
+                              :ARG2 b))
+                  :ARG2 (b4 / block
+                        :ARG1-of (i3 / include-91
+                              :ARG2 b2)
+                        :mod (e / each)))))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.60 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:-2 Y:8 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_60.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 8 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.61 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:-3 Y:8 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1254_61.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 8 :z 1)))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.62 ::date 2019-09-11T14:42:16
+# ::snt <Architect> We're done!
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_62.txt
+(b / be-done-08
+      :ARG0 (w / we))
+
+# ::id minecraft-4-6-storm-cloud-B40_1254.63 ::date 2019-09-11T14:42:31
+# ::snt <Builder> gg
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1254_63.txt
+(g / game
+      :ARG1-of (g2 / good-02))

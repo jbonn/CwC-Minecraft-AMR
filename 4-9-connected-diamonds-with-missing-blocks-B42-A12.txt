@@ -1,0 +1,805 @@
+# workset Minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12 (generated on Fri Dec 13, 2019 at 14:28:16 for user coqc)
+
+#frameworks
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6
+                  :op5 y7
+                  :op6 z8))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 (a4 / and
+                  :op1 z5
+                  :op2 z7))
+      :snt8 (c7 / composite-entity
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :FR (i4 / intrinsic))
+            :configuration (d / diamond
+                  :color (o / orange)))
+      :snt9 (c10 / composite-entity
+            :ARG1-of (c11 / cartesian-framework-91
+                  :ARG2 (x7 / x-axis)
+                  :ARG3 (y7 / y-axis)
+                  :ARG4 (z7 / z-axis)
+                  :hand (r5 / right-handed)
+                  :FR (r6 / relative-to-builder))
+            :ARG1-of (c12 / cartesian-framework-91
+                  :ARG2 (x8 / x-axis)
+                  :ARG3 (y8 / y-axis)
+                  :ARG4 (z8 / z-axis)
+                  :FR (i4 / intrinsic))
+            :configuration (d2 / diamond
+                  :color (g2 / green)))
+      :snt10 (c13 / codirectional-01
+            :ARG1 z
+            :ARG2 (a6 / and
+                  :op1 z6
+                  :op2 y8)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.1 ::date 2019-09-30T16:53:01
+# ::snt <Builder> Mission has started.
+# ::save-date Mon Sep 30, 2019 ::user kristinwb ::file col_1268_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.2 ::date 2019-09-30T16:54:47
+# ::snt <Builder> ready to go
+# ::save-date Mon Sep 30, 2019 ::user kristinwb ::file col_1268_2.txt
+(r / ready-02
+      :ARG2 (g / go-06))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.3 ::date 2019-09-30T16:57:02
+# ::snt <Architect> start with adjacent orange and green towers in the middle
+# ::save-date Mon Sep 30, 2019 ::user kristinwb ::file col_1268_3.txt
+(s / start-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG2 (a / and
+            :op1 (t / tower
+                  :color (o / orange)
+                  :ARG1-of (a2 / adjacent-01
+                        :ARG2 t2))
+            :op2 (t2 / tower
+                  :color (g / green)))
+      :location (s2 / space :pl +
+            :ARG1-of (m / middle-01)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.4 ::date 2019-09-30T17:04:35
+# ::snt <Architect> 3 high
+# ::save-date Mon Sep 30, 2019 ::user kristinwb ::file col_1268_4.txt
+(h / high-05
+      :ARG2 (d / distance-quantity :quant 3)
+      :ARG3 (c / cartesian-framework-91
+            :ARG1 (b / build-space)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.5 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:1 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_5.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.6 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:-1 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_6.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.7 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:1 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_7.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.8 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:1 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_8.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.9 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:-1 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_9.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.10 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:-1 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_10.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.11 ::date 2019-09-30T17:05:22
+# ::snt <Architect> then chop all and leave the top 2 floating
+# ::save-date Mon Sep 30, 2019 ::user kristinwb ::file col_1268_11.txt
+(a / and
+      :op1 (c / chop-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (a2 / all))
+      :op2 (l / leave-14 :mode imperative
+            :ARG0 y
+            :ARG1 (f / float-01
+                  :ARG1 (t / thing :quant 2
+                        :ARG1-of (t2 / top-06
+                              :ARG3 (c2 / cartesian-framework-91
+                                    :ARG1 (b / build-space))))))
+      :time (t3 / then))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.12 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a orange block at X:1 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_12.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.13 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a orange block at X:1 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_13.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.14 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a green block at X:-1 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_14.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.15 ::date 2019-09-30T17:09:26
+# ::snt <Architect> the towers should touch
+# ::save-date Mon Sep 30, 2019 ::user kristinwb ::file col_1268_15.txt
+(r / recommend-01
+      :ARG1 (t / touch-01
+            :ARG0 (t2 / tower :pl +)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.16 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a green block at X:-1 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_16.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.17 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a green block at X:-1 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_17.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.18 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:0 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.19 ::date 2019-09-30T17:10:27
+# ::snt <Architect> good
+# ::save-date Mon Sep 30, 2019 ::user kristinwb ::file col_1268_19.txt
+(g / good-02)
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.20 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:0 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.21 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:0 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_21.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.22 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a green block at X:0 Y:1 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_22.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.23 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a green block at X:0 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_23.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.24 ::date 2019-09-30T17:11:00
+# ::snt <Architect> make the orange one into an orange bar
+# ::save-date Mon Sep 30, 2019 ::user kristinwb ::file col_1268_24.txt
+(m / make-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / bar
+            :color (o / orange))
+      :ARG2 (o2 / one
+            :color (o3 / orange)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.25 ::date 2019-09-30T17:13:24
+# ::snt <Architect> 5 long
+# ::save-date Mon Sep 30, 2019 ::user kristinwb ::file col_1268_25.txt
+(l / long-03
+      :ARG2 (d / distance-quantity :quant 5))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.26 ::date 2019-09-30T17:13:52
+# ::snt <Architect> directly away from green
+# ::save-date Tue Oct 1, 2019 ::user kristinwb ::file col_1268_26.txt
+(h / have-direction-91
+      :ARG2 (t / trajectory
+            :ARG3-of (a / away-01
+                  :ARG2 (t2 / thing
+                        :color (g / green))
+                  :ARG1-of (d / direct-02))))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.27 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:2 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_27.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.28 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:3 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_28.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.29 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:4 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_29.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.30 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:5 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_30.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.31 ::date 2019-10-01T09:36:00
+# ::snt <Builder> thats at the edge of the build space
+# ::save-date Tue Oct 1, 2019 ::user kristinwb ::file col_1268_31.txt
+(b / be-located-at-91
+      :ARG1 (t / that)
+      :ARG2 (e / edge
+            :part-of (b2 / build-space)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.32 ::date 2019-10-01T09:38:39
+# ::snt <Architect> make a tower 2 tall ffrom the middle
+# ::save-date Tue Oct 1, 2019 ::user kristinwb ::file col_1268_32.txt
+(m / make-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / tower
+            :ARG1-of (t2 / tall-01
+                  :ARG2 (d / distance-quantity :quant 2)
+                  :ARG5 (c / cartesian-framework-91
+                        :ARG1 (b / build-space))))
+      :source (t3 / thing
+            :ARG1-of (m2 / middle-01)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.33 ::date 2019-10-01T09:42:28
+# ::snt <Architect> that is OK
+# ::save-date Tue Oct 1, 2019 ::user kristinwb ::file col_1268_33.txt
+(o / okay-04
+      :ARG1 (t / that))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.34 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:3 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_34.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.35 ::date 2019-10-01T09:42:46
+# ::snt <Architect> now above also
+# ::save-date Tue Oct 1, 2019 ::user kristinwb ::file col_1268_35.txt
+(a / above-01
+      :ARG3 (c / cartesian-framework-91
+            :ARG1 (b / build-space))
+      :mod (a2 / also)
+      :time (n / now))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.36 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:3 Y:4 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_36.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 4 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.37 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:3 Y:5 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_37.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 5 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.38 ::date 2019-10-01T09:45:08
+# ::snt <Architect> a big plus
+# ::save-date Tue Oct 1, 2019 ::user kristinwb ::file col_1268_38.txt
+(p / plus
+      :mod (b / big))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.39 ::date 2019-10-01T09:45:18
+# ::snt <Architect> now make the same shape in green, but flat
+# ::save-date Wed Oct 16, 2019 ::user kristinwb ::file col_1268_39.txt
+(m / make-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :ARG1-of (s / shape-01)
+            :ARG1-of (s2 / same-01
+                  :ARG2-of (e / except-01
+                        :ARG1 (f / flat-06
+                              :ARG1 t))))
+      :ARG2 (t2 / thing
+            :color (g / green))
+      :time (n / now))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.40 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:-1 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_40.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.41 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:-2 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_41.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.42 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:-3 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_42.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.43 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:-4 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_43.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -4 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.44 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:-2 Y:3 Z:-1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_44.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z -1)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.45 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:-2 Y:3 Z:-2]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_45.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z -2)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.46 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:-2 Y:3 Z:1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_46.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 1)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.47 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:-2 Y:3 Z:2]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_47.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 2)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.48 ::date 2019-10-01T09:49:43
+# ::snt <Architect> now put a green block in every green corner
+# ::save-date Wed Oct 16, 2019 ::user kristinwb ::file col_1268_48.txt
+(p / put-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :pl +
+            :color (g / green))
+      :ARG2 (s / space :pl +
+            :ARG1-of (c / corner-03
+                  :ARG2 (t / thing
+                        :color (g2 / green))))
+      :frequency (r / rate-entity-91
+            :ARG1 (b2 / block
+                  :ARG1-of (i2 / include-91
+                        :ARG2 b))
+            :ARG2 (s2 / space
+                  :ARG1-of (i3 / include-91
+                        :ARG2 s)
+                  :mod (e / every)))
+      :time (n / now))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.49 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:-1 Y:3 Z:1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_49.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 1)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.50 ::date 2019-10-01T09:51:32
+# ::snt <Architect> to make the + a diamond
+# ::save-date Tue Oct 1, 2019 ::user kristinwb ::file col_1268_50.txt
+(h / have-purpose-91
+      :ARG2 (m / make-01
+            :ARG1 (d / diamond)
+            :ARG2 (t / thing
+                  :configuration (s / string-entity :value +))))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.51 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:-1 Y:3 Z:-1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_51.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z -1)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.52 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:-3 Y:3 Z:-1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_52.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z -1)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.53 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a green block at X:-3 Y:3 Z:1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_53.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z 1)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.54 ::date 2019-10-01T09:55:14
+# ::snt <Architect> now cut out the middle small + to make a hole
+# ::save-date Tue Oct 1, 2019 ::user kristinwb ::file col_1268_54.txt
+(c / cut-out-06 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :configuration (s / string-entity :value +)
+            :mod (s2 / small)
+            :ARG1-of (m / middle-01))
+      :purpose (m2 / make-01
+            :ARG0 y
+            :ARG1 (h / hole))
+      :time (n / now))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.55 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a green block at X:-1 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_55.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.56 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a green block at X:-2 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_56.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.57 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a green block at X:-2 Y:3 Z:1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_57.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z 1)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.58 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a green block at X:-3 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_58.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -3 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.59 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a green block at X:-2 Y:3 Z:-1]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_59.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z -1)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.60 ::date 2019-10-01T09:57:19
+# ::snt <Architect> do the same in orange
+# ::save-date Tue Oct 1, 2019 ::user kristinwb ::file col_1268_60.txt
+(d / do-02 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :ARG1-of (s / same-01))
+      :ARG3 (t2 / thing
+            :color (o / orange)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.61 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:2 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_61.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.62 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:4 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_62.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 2 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.63 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:4 Y:4 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_63.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 4 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.64 ::date 2019-12-12T21:53:01
+# ::snt [Builder puts down a orange block at X:2 Y:4 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_64.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 4 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.65 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a orange block at X:3 Y:4 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_65.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 4 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.66 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a orange block at X:3 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_66.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.67 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a orange block at X:3 Y:2 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_67.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.68 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a orange block at X:4 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_68.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.69 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a orange block at X:2 Y:3 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_69.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.70 ::date 2019-10-01T09:58:41
+# ::snt <Architect> now remove both oranges on the 4th level
+# ::save-date Tue Oct 1, 2019 ::user kristinwb ::file col_1268_70.txt
+(r / remove-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :color (o / orange)
+            :mod (b / both)
+            :location (l / level
+                  :ord (o2 / ordinal-entity :value 4)
+                  :ARG5-of (s / spatial-sequence-91)))
+      :time (n / now))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.71 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a orange block at X:2 Y:4 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_71.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 4 :z 0)))
+
+# ::id minecraft-4-9-connected-diamonds-with-missing-blocks-B42-A12_1268.72 ::date 2019-12-12T21:53:01
+# ::snt [Builder picks up a orange block at X:4 Y:4 Z:0]
+# ::save-date Thu Dec 12, 2019::user jbonn ::file col_1268_72.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 4 :z 0)))

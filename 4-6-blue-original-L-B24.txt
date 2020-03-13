@@ -1,0 +1,282 @@
+# workset Minecraft-4-6-blue-original-L-B24-A25 (generated on Mon Oct 7, 2019 at 20:11:31 for user kristinwb)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-6-blue-original-L-B24_1240.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r4 / right-handed)
+                  :FR (r3 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :hand (r5 / right-handed)
+                  :FR (i4 / intrinsic))
+            :configuration (s / string-entity :value "L"))
+      :snt9 (a6 / antiparallel-01
+            :ARG1 x
+            :ARG2 z6))
+
+# ::id minecraft-4-6-blue-original-L-B24_1240.1 ::date 2019-02-20T19:16:36
+# ::snt <Builder> Mission has started.
+# ::save-date Wed Feb 20, 2019 ::user kristinwb ::file col_1240_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-6-blue-original-L-B24_1240.2 ::date 2019-02-20T19:18:18
+# ::snt <Architect> hey homie
+# ::save-date Wed Feb 20, 2019 ::user kristinwb ::file col_1240_2.txt
+(s / say-01
+      :ARG1 (h2 / hey)
+      :ARG2 (p / person
+            :ARG0-of (h / have-rel-role-91
+                  :ARG2 (h3 / homie))))
+
+# ::id minecraft-4-6-blue-original-L-B24_1240.3 ::date 2019-02-20T19:23:35
+# ::snt <Builder> yo
+# ::save-date Wed Feb 20, 2019 ::user kristinwb ::file col_1240_3.txt
+(y / yo)
+
+# ::id minecraft-4-6-blue-original-L-B24_1240.4 ::date 2019-02-20T19:23:42
+# ::snt <Architect> ok so first you're gonna want to put down two blue blocks next to each other
+# ::save-date Tue Sep 3, 2019 ::user kristinwb ::file col_1240_4.txt
+(w / want-01
+      :ARG0 (y / you)
+      :ARG1 (p / put-down-17
+            :ARG0 y
+            :ARG1 (b / block :quant 2
+                  :color (b2 / blue))
+            :ARG2 (a2 / and
+                  :op1 (s / space
+                        :ARG1-of (n / next-to-02
+                              :ARG2 s2
+                              :ARG3 (c / cartesian-framework-91
+                                    :ARG1 (b3 / builder))))
+                  :op2 (s2 / space)))
+      :mod (f / first))
+
+# ::id minecraft-4-6-blue-original-L-B24_1240.5 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:2 Y:1 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1240_5.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -1)))
+
+# ::id minecraft-4-6-blue-original-L-B24_1240.6 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:2 Y:1 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1240_6.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z 0)))
+
+# ::id minecraft-4-6-blue-original-L-B24_1240.7 ::date 2019-02-20T19:27:33
+# ::snt <Architect> nice
+# ::save-date Wed Feb 20, 2019 ::user kristinwb ::file col_1240_7.txt
+(n / nice-01)
+
+# ::id minecraft-4-6-blue-original-L-B24_1240.8 ::date 2019-02-20T19:27:40
+# ::snt <Architect> now ontop of the left block, put another blue block
+# ::save-date Tue Sep 3, 2019 ::user kristinwb ::file col_1240_8.txt
+(p / put-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :mod (a / another)
+            :color (b2 / blue))
+      :ARG2 (s / space
+            :ARG1-of (o / on-top-03
+                  :ARG2 (b3 / block
+                        :ARG1-of (l / left-20
+                              :ARG3 (c2 / cartesian-framework-91
+                                    :ARG1 (b5 / builder))))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b4 / build-space))))
+      :time (n / now))
+
+# ::id minecraft-4-6-blue-original-L-B24_1240.9 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:2 Y:2 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1240_9.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z -1)))
+
+# ::id minecraft-4-6-blue-original-L-B24_1240.10 ::date 2019-02-20T19:29:36
+# ::snt <Architect> that's it for now
+# ::save-date Wed Feb 20, 2019 ::user kristinwb ::file col_1240_10.txt
+(b / be-it-08
+      :ARG1 (t / that)
+      :time (n / now))
+
+# ::id minecraft-4-6-blue-original-L-B24_1240.11 ::date 2019-02-20T19:30:48
+# ::snt <Architect> guess this was just a warmup
+# ::save-date Thu Feb 21, 2019 ::user kristinwb ::file col_1240_11.txt
+(g / guess-01
+      :ARG1 (t / thing
+            :instrument-of (w / warm-up-02)
+            :mod (j / just)
+            :mod (t2 / this)))
+
+# ::id minecraft-4-6-blue-original-L-B24_1240.12 ::date 2019-02-20T19:32:16
+# ::snt <Builder> lol
+# ::save-date Tue Sep 3, 2019 ::user kristinwb ::file col_1240_12.txt
+(l / laugh-01 :mode expressive
+      :ARG0 (i / i)
+      :manner (l2 / loud))
+
+# ::id minecraft-4-6-blue-original-L-B24_1240.13 ::date 2019-02-20T19:32:38
+# ::snt <Architect> i dont think ive played minecraft for like 5-6 years tbh
+# ::save-date Thu Feb 21, 2019 ::user kristinwb ::file col_1240_13.txt
+(t / think-01
+      :ARG0 (i / i)
+      :ARG1 (p / play-01 :polarity -
+            :ARG0 i
+            :ARG1 (p2 / product :wiki "Minecraft" :name (n / name :op1 "Minecraft"))
+            :ARG1-of (h / honest-01
+                  :ARG0 i)
+            :time (s / since
+                  :op1 (b2 / before
+                        :op1 (n2 / now)
+                        :quant (a / about
+                              :quant (b / between
+                                    :op1 (t2 / temporal-quantity :quant 5
+                                          :unit (y / year))
+                                    :op2 (t3 / temporal-quantity :quant 6
+                                          :unit (y2 / year))))))))
+
+# ::id minecraft-4-6-blue-original-L-B24_1240.14 ::date 2019-02-21T12:25:09
+# ::snt <Architect> except i did a study like this 2 weeks ago also
+# ::save-date Thu Feb 21, 2019 ::user kristinwb ::file col_1240_14.txt
+(e / except-01
+      :ARG1 (d / do-02
+            :ARG0 (i / i)
+            :ARG1 (s / study-01
+                  :ARG1-of (r / resemble-01
+                        :ARG2 (t / this)))
+            :mod (a / also)
+            :time (b / before
+                  :op1 (n / now)
+                  :quant (t2 / temporal-quantity :quant 2
+                        :unit (w / week)))))
+
+# ::id minecraft-4-6-blue-original-L-B24_1240.15 ::date 2019-02-21T12:39:41
+# ::snt <Architect> im diggin them
+# ::save-date Thu Feb 21, 2019 ::user kristinwb ::file col_1240_15.txt
+(d / dig-04
+      :ARG0 (i / i)
+      :ARG1 (t / they))
+
+# ::id minecraft-4-6-blue-original-L-B24_1240.16 ::date 2019-02-21T12:40:08
+# ::snt <Builder> study lmao
+# ::save-date Tue Sep 3, 2019 ::user kristinwb ::file col_1240_16.txt
+(s / study-01
+      :topic-of (l / laugh-01 :mode expressive
+            :ARG0 (i / i)
+            :ARG3 (o / off
+                  :op1 (a / ass
+                        :part-of i))))
+
+# ::id minecraft-4-6-blue-original-L-B24_1240.17 ::date 2019-02-21T12:44:27
+# ::snt <Architect> lmaooo
+# ::save-date Tue Sep 3, 2019 ::user kristinwb ::file col_1240_17.txt
+(l / laugh-01 :mode expressive
+      :ARG0 (i / i)
+      :ARG3 (o / off
+            :op1 (a / ass
+                  :part-of i)))
+
+# ::id minecraft-4-6-blue-original-L-B24_1240.18 ::date 2019-02-21T12:44:56
+# ::snt <Builder> i got my first job from minecraft
+# ::save-date Tue Sep 3, 2019 ::user kristinwb ::file col_1240_18.txt
+(g / get-01
+      :ARG0 (i / i)
+      :ARG1 (j / job
+            :ord (o / ordinal-entity :value 1)
+            :poss i)
+      :ARG2 (p / product :wiki "Minecraft" :name (n / name :op1 "Minecraft")))
+
+# ::id minecraft-4-6-blue-original-L-B24_1240.19 ::date 2019-02-21T12:46:16
+# ::snt <Builder> at a library
+# ::save-date Thu Feb 21, 2019 ::user kristinwb ::file col_1240_19.txt
+(b / be-located-at-91
+      :ARG2 (l / library))
+
+# ::id minecraft-4-6-blue-original-L-B24_1240.20 ::date 2019-02-21T12:46:34
+# ::snt <Builder> i was like "i know how to code"
+# ::save-date Wed Feb 27, 2019 ::user kristinwb ::file col_1240_20.txt
+(s / say-01
+      :ARG0 (i / i)
+      :ARG1 (k / know-03
+            :ARG0 i
+            :ARG1 (c / code-02
+                  :ARG0 i)))
+
+# ::id minecraft-4-6-blue-original-L-B24_1240.21 ::date 2019-02-21T12:57:57
+# ::snt <Builder> and they werent interested
+# ::save-date Thu Feb 21, 2019 ::user kristinwb ::file col_1240_21.txt
+(a / and
+      :op2 (i2 / interest-01 :polarity -
+            :ARG1 (t / they)))
+
+# ::id minecraft-4-6-blue-original-L-B24_1240.22 ::date 2019-02-21T12:58:23
+# ::snt <Builder> till i said i could play minecraft
+# ::save-date Thu Feb 21, 2019 ::user kristinwb ::file col_1240_22.txt
+(b / be-temporally-at-91
+      :ARG2 (u / until
+            :op1 (s / say-01
+                  :ARG0 (i / i)
+                  :ARG1 (p / possible-01
+                        :ARG1 (p2 / play-01
+                              :ARG0 i
+                              :ARG1 (p3 / product :wiki "Minecraft" :name (n / name :op1 "Minecraft")))))))

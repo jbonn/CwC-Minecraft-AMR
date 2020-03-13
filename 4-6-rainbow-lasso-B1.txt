@@ -1,0 +1,1052 @@
+# workset Minecraft-4-6-rainbow-lasso-B1-A44 (generated on Mon Oct 7, 2019 at 06:31:43 for user coqc)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-6-rainbow-lasso-B1_1126.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6
+                  :op5 y7))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (r5 / rainbow-lasso)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :FR (i4 / intrinsic)))
+            :ARG1-of (c10 / cartesian-framework-91
+                  :ARG2 (x7 / x-axis)
+                  :ARG3 (y7 / y-axis)
+                  :ARG4 (z7 / z-axis)
+                  :hand (r5 / right-handed)
+                  :FR (f / front-is-start-side))))
+      :snt9 (a6 / antiparallel-01
+            :ARG1 z
+            :ARG2 z7))
+            
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.1 ::date 2019-08-06T14:09:47
+# ::snt <Builder> Mission has started.
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.2 ::date 2019-08-27T06:33:35
+# ::snt <Builder> hello
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_2.txt
+(h / hello)
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.3 ::date 2019-08-27T08:04:28
+# ::snt <Architect> ok this one is not 2 dimensional so its gonna be a bit challenging
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_3.txt
+(c / cause-01
+      :ARG0 (d / dimensional-02 :polarity -
+            :ARG1 (o / one
+                  :mod (t / this)))
+      :ARG1 (c2 / challenge-01
+            :ARG2 o
+            :degree (b / bit)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.4 ::date 2019-09-07T16:36:33
+# ::snt <Builder> got it
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_4.txt
+(g / get-30
+      :ARG1 (i2 / it))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.5 ::date 2019-09-07T16:41:35
+# ::snt <Architect> but lets start with a 2 dimensional 2 column drawing anyways
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_5.txt
+(c / contrast-01
+      :ARG2 (s / start-01 :mode imperative
+            :ARG0 (w / we)
+            :ARG2 (t / thing
+                  :ARG1-of (d / draw-01)
+                  :ARG1-of (d2 / dimensional-02)
+                  :consist-of (c2 / column :quant 2))
+            :mod (a / anyway)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.6 ::date 2019-09-07T16:45:45
+# ::snt <Architect> red, empty, yellow
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_6.txt
+(h / have-configuration-91
+      :ARG2 (s / spatial-sequence-91
+            :ARG2 (t / thing
+                  :color (r / red))
+            :ARG3 (t2 / thing
+                  :ARG1-of (e / empty-02))
+            :ARG4 (t3 / thing
+                  :color (y / yellow))))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.7 ::date 2019-09-07T16:47:26
+# ::snt <Builder> anywhere?
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_7.txt
+(b / be-destined-for-91
+      :ARG2 (a / anywhere)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.8 ::date 2019-09-07T16:47:53
+# ::snt <Architect> anywhere
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_8.txt
+(c / confirm-01
+      :ARG1 (b / be-destined-for-91
+            :ARG2 (a / anywhere)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.9 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a red block at X:5 Y:1 Z:-5]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_9.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 1 :z -5)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.10 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a yellow block at X:5 Y:2 Z:-5]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_10.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 2 :z -5)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.11 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a yellow block at X:5 Y:3 Z:-5]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 3 :z -5)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.12 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a yellow block at X:5 Y:2 Z:-5]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_12.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 2 :z -5)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.13 ::date 2019-09-07T16:48:38
+# ::snt <Architect> ok I take that back place it in the middle
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_13.txt
+(a / and
+      :op1 (t / take-01
+            :ARG0 (i / i)
+            :ARG1 (t2 / that)
+            :ARG3 (b / back))
+      :op2 (p / place-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (i2 / it)
+            :ARG2 (s / space
+                  :ARG1-of (m / middle-01))
+            :ARG1-of (i3 / instead-of-91)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.14 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a yellow block at X:5 Y:3 Z:-5]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_14.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 3 :z -5)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.15 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a red block at X:5 Y:1 Z:-5]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_15.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 1 :z -5)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.16 ::date 2019-09-07T16:56:19
+# ::snt <Builder> ok
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_16.txt
+(o / okay-04)
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.17 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a red block at X:1 Y:1 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_17.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -1)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.18 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a red block at X:1 Y:2 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z -1)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.19 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a yellow block at X:1 Y:3 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z -1)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.20 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a red block at X:1 Y:2 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_20.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z -1)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.21 ::date 2019-09-07T16:56:38
+# ::snt <Architect> 2nd column: empty, orange
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_21.txt
+(h / have-configuration-91
+      :ARG1 (c / column
+            :ord (o / ordinal-entity :value 2))
+      :ARG2 (s / spatial-sequence-91
+            :ARG2 (t / thing
+                  :ARG1-of (e / empty-02))
+            :ARG3 (t2 / thing
+                  :color (o2 / orange))))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.22 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_22.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -1)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.23 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a orange block at X:0 Y:2 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_23.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -1)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.24 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a orange block at X:0 Y:1 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_24.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -1)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.25 ::date 2019-09-07T17:00:31
+# ::snt <Architect> ok allow me some time to think of instructions
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_25.txt
+(a / allow-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (h / have-03
+            :ARG0 (i / i)
+            :ARG1 (t / time
+                  :quant (s / some))
+            :purpose (t2 / think-01
+                  :ARG0 i
+                  :ARG1 (t3 / thing :pl +
+                        :ARG2-of (i2 / instruct-01)))))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.26 ::date 2019-09-07T17:04:23
+# ::snt <Builder> it might be easier to describe all one color?
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_26.txt
+(p / possible-01
+      :ARG1 (h / have-degree-91
+            :ARG1 d
+            :ARG2 (e / easy-05
+                  :ARG1 (d / describe-01
+                        :ARG1 (t / thing
+                              :color (c / color :quant 1))
+                              :mod (a / all))))
+            :ARG3 (m / more))
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.27 ::date 2019-09-07T17:11:39
+# ::snt <Builder> then build from there?
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_27.txt
+(b / build-01
+      :source (t / there)
+      :time (t2 / then)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.28 ::date 2019-09-07T17:12:11
+# ::snt <Architect> ok lets finish up the yellows then
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_28.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (f / finish-up-04 :mode imperative
+            :ARG0 (w / we)
+            :ARG1 (t2 / thing :pl +
+                  :color (y / yellow))
+            :condition (t / then)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.29 ::date 2019-09-07T17:25:14
+# ::snt <Architect> place one yellow a column to the right of the orange block, 1 space higher, and 1 space further back
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_29.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing :quant 1
+            :color (y2 / yellow))
+      :ARG2 (s / space
+            :ARG1-of (r / right-04
+                  :ARG2 (b / block
+                        :color (o / orange))
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 y)
+                  :quant (d / distance-quantity :quant 1
+                        :unit (c / column)))
+            :ARG1-of (h / have-degree-91
+                  :ARG2 (h2 / high-02
+                        :ARG1 s
+                        :ARG6 (c3 / cartesian-framework-91
+                              :ARG1 (b4 / build-space)))
+                  :ARG3 (m / more
+                        :quant (d2 / distance-quantity :quant 1
+                              :unit (s2 / space)))
+                  :ARG4 b)
+            :ARG1-of (h3 / have-degree-91
+                  :ARG2 (f / far-01
+                        :direction (t2 / trajectory
+                              :ARG4-of (b2 / back-12
+                                    :ARG1 s
+                                    :ARG2 b
+                                    :ARG3 (c4 / cartesian-framework-91
+                                          :ARG1 (c5 / composite-entity)
+                                          :FR (r2 / relative-to-builder)))))
+                  :ARG3 (m2 / more
+                        :quant (d3 / distance-quantity :quant 1
+                              :unit (s3 / space)))
+                  :ARG4 b)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.30 ::date 2019-09-07T17:40:15
+# ::snt <Builder> back meaning away?
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_30.txt
+(m / mean-01
+      :ARG1 (s / string-entity :value "back")
+      :ARG2 (a / amr-choice
+            :op1 (a2 / away-01
+                  :ARG4 (c / cartesian-framework-91
+                        :ARG1 (b / builder)))))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.31 ::date 2019-09-07T17:41:40
+# ::snt <Builder> or towards me?
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_31.txt
+(a / amr-choice
+      :op2 (t / toward-01
+            :ARG2 (i / i)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.32 ::date 2019-09-07T17:43:04
+# ::snt <Architect> into the page
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_32.txt
+(h / have-direction-91
+      :ARG2 (t / trajectory
+            :ARG5-of (i2 / inward-02
+                  :ARG4 (p / page))))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.33 ::date 2019-09-07T17:49:18
+# ::snt <Architect> lol
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_33.txt
+(l / laugh-01 :mode expressive
+      :ARG0 (i / i)
+      :manner (l2 / loud))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.34 ::date 2019-09-07T17:49:44
+# ::snt <Architect> away yes
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_34.txt
+(c / confirm-01
+      :ARG1 (a / away-01
+            :ARG4 (c2 / cartesian-framework-91
+                  :ARG1 (b / builder))))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.35 ::date 2019-09-07T17:50:03
+# ::snt <Builder> away?
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_35.txt
+(a / away-01
+      :ARG4 (c / cartesian-framework-91
+            :ARG1 (b / builder))
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.36 ::date 2019-09-07T17:50:17
+# ::snt <Builder> ok
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_36.txt
+(o / okay-04)
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.37 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a yellow block at X:0 Y:3 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_37.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -1)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.38 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a yellow block at X:-1 Y:3 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_38.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z -1)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.39 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a yellow block at X:-2 Y:3 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_39.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z -1)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.40 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a yellow block at X:-2 Y:3 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_40.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z -1)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.41 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a yellow block at X:-1 Y:3 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_41.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.42 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a yellow block at X:-1 Y:3 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_42.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 1)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.43 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a yellow block at X:0 Y:3 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_43.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -1)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.44 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a yellow block at X:-1 Y:3 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_44.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z -1)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.45 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a yellow block at X:-1 Y:3 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_45.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 1)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.46 ::date 2019-09-07T17:52:24
+# ::snt <Builder> here?
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_46.txt
+(b / be-destined-for-91
+      :ARG2 (h / here)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.47 ::date 2019-09-07T17:52:44
+# ::snt <Architect> ok that's it
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_47.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (b / be-it-07
+            :ARG1 (t / that)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.48 ::date 2019-09-07T17:53:26
+# ::snt <Architect> ok lets do greens now
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_48.txt
+(d / do-02 :mode imperative
+      :ARG0 (w / we)
+      :ARG1 (t / thing :pl +
+            :color (g / green))
+      :time (n / now))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.49 ::date 2019-09-07T17:54:13
+# ::snt <Architect> place 1 green block a single space behind, and a single space above the yellow block you just placed
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_49.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block :quant 1
+            :color (g / green))
+      :ARG2 (s / space
+            :ARG1-of (b2 / behind-02
+                  :ARG2 (b3 / block
+                        :color (y2 / yellow)
+                        :ARG1-of (p2 / place-01
+                              :ARG0 y
+                              :time (j / just)))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (c2 / composite-entity)
+                        :FR (r / relative-to-builder))
+                  :quant (d / distance-quantity :quant 1
+                        :unit (s2 / space)))
+            :ARG1-of (a / above-01
+                  :ARG2 b3
+                  :ARG3 (c3 / cartesian-framework-91
+                        :ARG1 (b4 / build-space))
+                  :quant (d2 / distance-quantity :quant 1
+                        :unit (s3 / space)))))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.50 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a green block at X:-1 Y:4 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_50.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z 0)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.51 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a green block at X:-1 Y:4 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_51.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z 1)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.52 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a green block at X:-1 Y:4 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_52.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z 0)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.53 ::date 2019-09-07T17:58:46
+# ::snt <Architect> yep
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_53.txt
+(c / confirm-01)
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.54 ::date 2019-09-07T17:58:55
+# ::snt <Builder> here?
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_54.txt
+(b / be-destined-for-91
+      :ARG2 (h / here)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.55 ::date 2019-09-07T17:59:14
+# ::snt <Architect> if you could return to the front of the structure every time, it wouldh elp with the instructions I think
+# ::save-date Mon Sep 9, 2019 ::user kristinwb ::file col_1226_55.txt
+(h / help-01
+      :ARG0 (r / return-01
+            :ARG1 (y / you)
+            :ARG4 (t / thing
+                  :ARG1-of (f / front-01
+                        :ARG2 (s / structure)
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (c2 / composite-entity)
+                              :FR (f2 / front-is-start-side))))
+            :frequency (r2 / rate-entity-91
+                  :ARG4 (c3 / complete-01
+                        :ARG1 (t4 / thing
+                              :ARG1-of (i3 / include-91
+                                    :ARG2 t2)))))
+      :ARG1 (t2 / thing :pl +
+            :ARG2-of (i2 / instruct-01))
+      :ARG1-of (t3 / think-01
+            :ARG0 (i / i)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.56 ::date 2019-09-07T17:59:21
+# ::snt <Architect> the other green block is 3 spaces to the left and 1 space up of the last yellow block you placed
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_56.txt
+(b / be-destined-for-91
+      :ARG1 (b2 / block
+            :color (g / green)
+            :ARG1-of (o / other-01))
+      :ARG2 (s / space
+            :ARG1-of (l / left-20
+                  :ARG2 (b3 / block
+                        :color (y / yellow)
+                        :ord (o2 / ordinal-entity :value "-1")
+                        :ARG1-of (p / place-01
+                              :ARG0 (y2 / you)))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 y2)
+                  :quant (d / distance-quantity :quant 3
+                        :unit (s2 / space)))
+            :ARG1-of (u / up-03
+                  :ARG4 b3
+                  :ARG5 (c2 / cartesian-framework-91
+                        :ARG1 (b4 / build-space))
+                  :quant (d2 / distance-quantity :quant 1
+                        :unit (s3 / space)))))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.57 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a green block at X:0 Y:3 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_57.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 0)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.58 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a green block at X:1 Y:3 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_58.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 0)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.59 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a green block at X:2 Y:3 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_59.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 0)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.60 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a green block at X:2 Y:4 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_60.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 4 :z 0)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.61 ::date 2019-09-07T18:06:27
+# ::snt <Architect> yep
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_61.txt
+(c / confirm-01)
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.62 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a green block at X:2 Y:3 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_62.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z 0)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.63 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a green block at X:1 Y:3 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_63.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 0)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.64 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a green block at X:0 Y:3 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_64.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 0)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.65 ::date 2019-09-07T18:06:48
+# ::snt <Architect> ok we're done with greens lets do blue
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_65.txt
+(a / and
+      :op1 (b / be-done-08
+            :ARG0 (w / we)
+            :ARG1 (t / thing :pl +
+                  :color (g / green)))
+      :op2 (d / do-02 :mode imperative
+            :ARG0 w
+            :ARG1 (t2 / thing
+                  :color (b2 / blue))))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.66 ::date 2019-09-07T18:08:04
+# ::snt <Architect> thers a blue block 1 space above and 1 space away from the last green block you placed
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_66.txt
+(b / be-destined-for-91
+      :ARG1 (b2 / block
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :ARG1-of (a / above-01
+                  :ARG2 (b4 / block
+                        :color (g / green)
+                        :ord (o / ordinal-entity :value "-1")
+                        :ARG1-of (p / place-01
+                              :ARG0 (y / you)))
+                  :quant (d / distance-quantity :quant 1
+                        :unit (s2 / space)))
+            :ARG1-of (a2 / away-01
+                  :ARG2 b4
+                  :ARG4 (c / cartesian-framework-91
+                        :ARG1 y)
+                  :quant (d2 / distance-quantity :quant 1
+                        :unit (s3 / space)))))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.67 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:2 Y:5 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_67.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 5 :z 0)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.68 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:2 Y:5 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_68.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 5 :z 1)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.69 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a blue block at X:2 Y:5 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_69.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 5 :z 0)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.70 ::date 2019-09-07T18:11:17
+# ::snt <Builder> here?
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_70.txt
+(b / be-destined-for-91
+      :ARG2 (h / here)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.71 ::date 2019-09-07T18:11:34
+# ::snt <Architect> yes
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_71.txt
+(c / confirm-01)
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.72 ::date 2019-09-07T18:11:43
+# ::snt <Architect> the other blue block is 1 space to the left, 1 space up, 1 space behind the first green block you placed
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_72.txt
+(b / be-destined-for-91
+      :ARG1 (b2 / block
+            :color (b3 / blue)
+            :ARG1-of (o / other-01))
+      :ARG2 (s / space
+            :ARG1-of (l / left-20
+                  :ARG2 (b4 / block
+                        :ord (o2 / ordinal-entity :value 1)
+                        :color (g / green)
+                        :ARG1-of (p / place-01
+                              :ARG0 (y / you)))
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 y)
+                  :quant (d / distance-quantity :quant 1
+                        :unit (s2 / space)))
+            :ARG1-of (u / up-03
+                  :ARG4 b4
+                  :ARG5 (c2 / cartesian-framework-91
+                        :ARG1 (b6 / build-space))
+                  :quant (d2 / distance-quantity :quant 1
+                        :unit (s3 / space)))
+            :ARG1-of (b5 / behind-02
+                  :ARG2 b4
+                  :ARG3 (c3 / cartesian-framework-91
+                        :ARG1 (c4 / composite-entity)
+                        :FR (r / relative-to-builder))
+                  :quant (d3 / distance-quantity :quant 1
+                        :unit (s4 / space)))))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.73 ::date 2019-09-07T18:15:01
+# ::snt <Architect> the left green block*
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_73.txt
+(m / mean-01
+      :ARG2 (b / block
+            :color (g / green)
+            :ARG1-of (l / left-24
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b2 / builder)))))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.74 ::date 2019-09-07T18:19:20
+# ::snt <Builder> diagonal step?
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_74.txt
+(s / step-01
+      :ARG1-of (r / request-confirmation-91)
+      :direction (t / trajectory
+            :ARG4-of (d / diagonal-01)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.75 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:-1 Y:5 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_75.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 5 :z 1)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.76 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:-1 Y:5 Z:2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_76.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 5 :z 2)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.77 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:0 Y:5 Z:2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_77.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z 2)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.78 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a blue block at X:-1 Y:5 Z:2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_78.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 5 :z 2)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.79 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a blue block at X:-1 Y:5 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_79.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 5 :z 1)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.80 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:0 Y:5 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_80.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z 1)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.81 ::date 2019-09-07T18:22:01
+# ::snt <Architect> remove that last blue one
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_81.txt
+(r / remove-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (o / one
+            :color (b / blue)
+            :mod (t / that)
+            :ord (o2 / ordinal-entity :value "-1")))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.82 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a blue block at X:0 Y:5 Z:1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_82.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z 1)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.83 ::date 2019-09-07T18:22:39
+# ::snt <Architect> ok last is purple
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_83.txt
+(t / thing
+      :color (p / purple)
+      :domain (t2 / thing
+            :ord (o / ordinal-entity :value "-1")))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.84 ::date 2019-09-07T18:25:11
+# ::snt <Architect> place a purple 1 space left, 1 space up of the last blue block you placed
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_84.txt
+(p / place-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :ARG1-of (l / left-20
+                  :ARG2 (b / block
+                        :color (b2 / blue)
+                        :ord (o / ordinal-entity :value "-1")
+                        :ARG1-of (p3 / place-01
+                              :ARG0 y))
+                  :quant (d / distance-quantity :quant 1
+                        :unit (s2 / space)))
+            :ARG1-of (u / up-03
+                  :ARG4 b
+                  :quant (d2 / distance-quantity :quant 1
+                        :unit (s3 / space)))))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.85 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:1 Y:5 Z:2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_85.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 5 :z 2)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.86 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:1 Y:6 Z:2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_86.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 6 :z 2)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.87 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a purple block at X:1 Y:5 Z:2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1226_87.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 5 :z 2)))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.88 ::date 2019-09-07T18:27:11
+# ::snt <Architect> ok we're done
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_88.txt
+(b / be-done-08
+      :ARG0 (w / we))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.89 ::date 2019-09-07T18:27:24
+# ::snt <Builder> left step?
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_89.txt
+(m / mean-01
+      :ARG1 (s / step
+            :ARG1-of (l / left-20))
+      :ARG2 (s2 / step-01
+            :direction (t / trajectory
+                  :ARG4-of (l2 / left-20
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b / builder)))
+                  :ARG2-of (u / up-03
+                        :ARG5 (c2 / cartesian-framework-91
+                              :ARG1 (b2 / build-space)))))
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.90 ::date 2019-09-07T18:28:01
+# ::snt <Architect> would you like for me to start using those terms?
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_90.txt
+(l / like-02
+      :ARG0 (y / you)
+      :ARG1 (s / start-01
+            :ARG0 (i / i)
+            :ARG1 (u / use-01
+                  :ARG0 i
+                  :ARG1 (t / term :pl +
+                        :mod (t2 / that))))
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.91 ::date 2019-09-07T18:29:28
+# ::snt <Builder> just to confirm
+# ::save-date Mon Sep 9, 2019 ::user kristinwb ::file col_1226_91.txt
+(h / have-purpose-91
+      :ARG2 (c / confirm-01)
+      :mod (j / just))
+
+# ::id minecraft-4-6-rainbow-lasso-B1_1226.92 ::date 2019-09-07T18:29:46
+# ::snt <Architect> ah ok
+# ::save-date Sat Sep 7, 2019 ::user kristinwb ::file col_1226_92.txt
+(o / okay-04
+      :mod (a / ah :mode expressive))

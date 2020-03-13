@@ -1,0 +1,745 @@
+# workset Minecraft-4-6-christmas-tree-B31-A41 (generated on Mon Oct 7, 2019 at 06:45:12 for user coqc)
+
+# ::snt <DocumentInitialization>
+# ::id minecraft-4-6-christmas-tree-B31_1250.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (c8 / christmas-tree)
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c10 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :FR (i4 / intrinsic))))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.1 ::date 2019-03-11T14:41:43
+# ::snt <Builder> Mission has started.
+# ::save-date Mon Mar 11, 2019 ::user kristinwb ::file col_1250_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.2 ::date 2019-03-11T14:43:17
+# ::snt <Architect> Okay. Make a line of three orange in the middle of the map
+# ::save-date Wed Sep 4, 2019 ::user kristinwb ::file col_1250_2.txt
+(m / multi-sentence
+      :snt1 (o / okay-04)
+      :snt2 (m2 / make-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (l / line
+                  :consist-of (t / thing :quant 3
+                        :color (o2 / orange)))
+            :ARG2 t
+            :location (s / space :pl +
+                  :ARG1-of (m3 / middle-01
+                        :ARG2 (m4 / map)))))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.3 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a orange block at X:1 Y:1 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_3.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.4 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_4.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.5 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a orange block at X:-1 Y:1 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_5.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 1 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.6 ::date 2019-03-11T14:45:11
+# ::snt <Architect> Okay, then two more orange on the ground next to the middle block, so it forms an X
+# ::save-date Wed Sep 4, 2019 ::user kristinwb ::file col_1250_6.txt
+(b / be-destined-for-91
+      :ARG1 (t / thing
+            :color (o / orange)
+            :ARG1-of (h / have-quant-91
+                  :ARG2 2
+                  :ARG3 (m / more)))
+      :ARG2 (s / space :pl +
+            :ARG1-of (o2 / on-top-03
+                  :ARG2 (g / ground)
+                  :ARG3 (c / cartesian-framework-91
+                        :ARG1 (b3 / build-space)))
+            :ARG1-of (n / next-to-02
+                  :ARG2 (b2 / block
+                        :ARG1-of (m2 / middle-01))
+                  :ARG3 c))
+      :purpose (f / form-01
+            :ARG0 (i2 / it)
+            :ARG1 (t3 / thing
+                  :configuration (s2 / string-entity :value "X")))
+      :time (t2 / then))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.7 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_7.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z -2)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.8 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a orange block at X:0 Y:1 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_8.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 1 :z 0)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.9 ::date 2019-03-11T14:49:39
+# ::snt <Architect> Cool. Now stack four more orange on top of the middle block
+# ::save-date Wed Sep 4, 2019 ::user kristinwb ::file col_1250_9.txt
+(m / multi-sentence
+      :snt1 (c / cool-04)
+      :snt2 (s / stack-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (t / thing
+                  :color (o / orange)
+                  :ARG1-of (h / have-quant-91
+                        :ARG2 4
+                        :ARG3 (m2 / more)))
+            :ARG2 (s2 / space :pl +
+                  :ARG1-of (o2 / on-top-03
+                        :ARG2 (b / block
+                              :ARG1-of (m3 / middle-01))
+                        :ARG3 (c2 / cartesian-framework-91
+                              :ARG1 (b2 / build-space))))
+            :time (n / now)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.10 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a orange block at X:0 Y:2 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_10.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.11 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a orange block at X:0 Y:3 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.12 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a orange block at X:0 Y:4 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_12.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.13 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a orange block at X:0 Y:5 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_13.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.14 ::date 2019-03-11T14:51:38
+# ::snt <Architect> Now make a platform of green squares, 3 by 3, centered around the third block from the top
+# ::save-date Thu Sep 5, 2019 ::user kristinwb ::file col_1250_14.txt
+(m / make-01 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (p / platform
+            :size (d / dimension-entity :value 3)
+            :size (d2 / dimension-entity :value 3)
+            :ARG1-of (a / around-02
+                  :ARG2 (b / block
+                        :ord (o / ordinal-entity :value 3
+                              :range-start (t / thing
+                                    :ARG1-of (t2 / top-06
+                                          :ARG3 (c2 / cartesian-framework-91
+                                                :ARG1 (b2 / build-space)))))))
+            :ARG1-of (c / center-01
+                  :ARG2 b))
+      :ARG2 (s / square :pl +
+            :color (g2 / green))
+      :time (n / now))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.15 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a green block at X:0 Y:3 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_15.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -2)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.16 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a green block at X:1 Y:3 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_16.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z -2)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.17 ::date 2019-03-11T15:11:11
+# ::snt <Builder> Is this the right height?
+# ::save-date Mon Mar 11, 2019 ::user kristinwb ::file col_1250_17.txt
+(r / right-06
+      :ARG1 (h / high-05
+            :ARG2 (t / thing
+                  :mod (t2 / this))
+            :ARG3 (c / cartesian-framework-91
+                  :ARG1 (b / build-space)))
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.18 ::date 2019-03-11T15:14:14
+# ::snt <Architect> Yes!
+# ::save-date Mon Mar 11, 2019 ::user kristinwb ::file col_1250_18.txt
+(c / confirm-01)
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.19 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a green block at X:1 Y:3 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.20 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a green block at X:0 Y:3 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_20.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z 0)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.21 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a green block at X:1 Y:3 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_21.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z 0)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.22 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a green block at X:-1 Y:3 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_22.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z -2)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.23 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a green block at X:-1 Y:3 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_23.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z 0)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.24 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a green block at X:-1 Y:3 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_24.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.25 ::date 2019-03-11T15:14:31
+# ::snt <Architect> Okay, now a X shape of green squares centered around the top block
+# ::save-date Thu Sep 5, 2019 ::user kristinwb ::file col_1250_25.txt
+(t / thing
+      :ARG1-of (s / shape-01
+            :ARG2 (s2 / string-entity :value "X"))
+      :ARG2-of (c / center-01
+            :ARG1 (b / block
+                  :ARG1-of (t2 / top-06)))
+      :ARG1-of (a / around-02
+            :ARG2 b)
+      :consist-of (s3 / square :pl +
+            :color (g / green))
+      :time (n / now))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.26 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a green block at X:-1 Y:5 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_26.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 5 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.27 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a green block at X:0 Y:5 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_27.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z 0)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.28 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a green block at X:1 Y:5 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_28.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 5 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.29 ::date 2019-03-11T15:15:15
+# ::snt <Architect> Made of four green blocks
+# ::save-date Wed Sep 4, 2019 ::user kristinwb ::file col_1250_29.txt
+(m / make-01
+      :ARG2 (b / block :quant 4
+            :color (g2 / green)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.30 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a green block at X:0 Y:5 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_30.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (g / green))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 5 :z -2)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.31 ::date 2019-03-11T15:16:04
+# ::snt <Architect> Perfect
+# ::save-date Mon Mar 11, 2019 ::user kristinwb ::file col_1250_31.txt
+(p / perfect-02)
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.32 ::date 2019-03-11T15:16:13
+# ::snt <Architect> Now we add ornaments to our tree. They are floating.
+# ::save-date Mon Mar 11, 2019 ::user kristinwb ::file col_1250_32.txt
+(m / multi-sentence
+      :snt1 (a / add-02
+            :ARG0 (w / we)
+            :ARG1 (o / ornament :pl +)
+            :ARG2 (t / tree
+                  :poss w)
+            :time (n / now))
+      :snt2 (f / float-01
+            :ARG1 (t2 / they)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.33 ::date 2019-03-11T15:17:09
+# ::snt <Architect> First add two yellow blocks to the top orange block, then remove the bottom yellow block
+# ::save-date Wed Sep 4, 2019 ::user kristinwb ::file col_1250_33.txt
+(a / and
+      :op1 (a2 / add-02 :mode imperative
+            :ARG0 (y / you)
+            :ARG1 (b / block :quant 2
+                  :color (y3 / yellow))
+            :ARG2 (b2 / block
+                  :color (o / orange)
+                  :ARG1-of (t / top-06
+                        :ARG3 (c2 / cartesian-framework-91
+                              :ARG1 (b5 / build-space))))
+            :mod (f / first))
+      :op2 (r / remove-01 :mode imperative
+            :ARG0 y
+            :ARG1 (b3 / block
+                  :ARG1-of (b4 / bottom-03
+                        :ARG2 (c / composite-entity
+                              :consist-of b)
+                        :ARG3 c2))
+            :time (t2 / then)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.34 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a yellow block at X:0 Y:6 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_34.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.35 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a yellow block at X:0 Y:7 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_35.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 7 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.36 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a yellow block at X:0 Y:6 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_36.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (y / yellow))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 6 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.37 ::date 2019-03-11T15:22:04
+# ::snt <Architect> Okay. Now on one side, in the middle, next to one of the arms of the bottom orange X, stack two purple blocks and remove the bottom block
+# ::save-date Wed Sep 4, 2019 ::user kristinwb ::file col_1250_37.txt
+(m / multi-sentence
+      :snt1 (o / okay-04)
+      :snt2 (a / and
+            :op1 (s / stack-01 :mode imperative
+                  :ARG0 (y / you)
+                  :ARG1 (b / block :quant 2
+                        :color (p2 / purple))
+                  :ARG2 (s2 / space :pl +
+                        :ARG1-of (n / next-to-02
+                              :ARG2 (a2 / arm
+                                    :ARG1-of (i2 / include-91
+                                          :ARG2 (a3 / arm :pl +
+                                                :part-of (t / thing
+                                                      :configuration (s3 / string-entity :value "X")
+                                                      :color (o2 / orange)
+                                                      :ARG1-of (b2 / bottom-03
+                                                            :ARG3 (c2 / cartesian-framework-91
+                                                                  :ARG1 (b5 / build-space)))))))
+                              :ARG3 c2)
+                        :ARG1-of (n2 / next-to-02
+                              :ARG2 (s4 / side :quant 1)
+                              :ARG3 c2)
+                        :ARG1-of (m2 / middle-01
+                              :ARG2 s4)))
+            :op2 (r / remove-01 :mode imperative
+                  :ARG0 y
+                  :ARG1 (b3 / block
+                        :ARG1-of (b4 / bottom-03
+                              :ARG2 (c / composite-entity
+                                    :consist-of b)
+                              :ARG3 c2)))
+            :time (n3 / now)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.38 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:2 Y:1 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_38.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.39 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:2 Y:2 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_39.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.40 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a purple block at X:2 Y:1 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_40.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.41 ::date 2019-03-11T15:32:28
+# ::snt <Builder> Is that right?
+# ::save-date Mon Mar 11, 2019 ::user kristinwb ::file col_1250_41.txt
+(r / right-06
+      :ARG2 (t / that)
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.42 ::date 2019-03-11T15:33:09
+# ::snt <Architect> Yes perfect
+# ::save-date Mon Mar 11, 2019 ::user kristinwb ::file col_1250_42.txt
+(c / confirm-01
+      :ARG1 (p / perfect-02))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.43 ::date 2019-03-11T15:33:22
+# ::snt <Architect> Okay now on the other side of the tree from the purple block, add a blue block so that it makes a diagonal line with the shadow on the ground
+# ::save-date Wed Sep 4, 2019 ::user kristinwb ::file col_1250_43.txt
+(a / add-02 :mode imperative
+      :ARG0 (y / you)
+      :ARG1 (b / block
+            :color (b2 / blue))
+      :location (s / space
+            :ARG1-of (n / next-to-02
+                  :ARG2 (s2 / side
+                        :part-of (t / tree)
+                        :ARG1-of (o / other-01
+                              :ARG2 (b3 / block
+                                    :color (p2 / purple))))
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 (b4 / build-space))))
+      :ARG0-of (c / cause-01
+            :ARG1 (m / make-01
+                  :ARG1 (l / line
+                        :ARG1-of (d / diagonal-02
+                              :ARG2 (s4 / shadow
+                                    :ARG1-of (o2 / on-top-03
+                                          :ARG2 (g / ground)
+                                          :ARG3 c2))))
+                  :ARG2 (a2 / and
+                        :op1 b
+                        :op2 s4)))
+      :time (n2 / now))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.44 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:-2 Y:1 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_44.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.45 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:-2 Y:2 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_45.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.46 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a blue block at X:-2 Y:1 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_46.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 1 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.47 ::date 2019-03-11T15:33:44
+# ::snt <Builder> There?
+# ::save-date Mon Mar 11, 2019 ::user kristinwb ::file col_1250_47.txt
+(b / be-destined-for-91
+      :ARG2 (t / there)
+      :ARG1-of (r / request-confirmation-91))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.48 ::date 2019-03-11T15:34:02
+# ::snt <Architect> Needs to be two spaces closer to you
+# ::save-date Mon Mar 11, 2019 ::user kristinwb ::file col_1250_48.txt
+(n / need-01
+      :ARG1 (b / be-located-at-91
+            :ARG2 (s / space
+                  :ARG1-of (h / have-degree-91
+                        :ARG2 (c / close-10
+                              :ARG2 (y / you))
+                        :ARG3 (m / more
+                              :quant (d / distance-quantity :quant 2
+                                    :unit (s2 / space)))))))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.49 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:-2 Y:2 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_49.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z -2)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.50 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:-2 Y:2 Z:-3]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_50.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z -3)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.51 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a blue block at X:-2 Y:2 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_51.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z -2)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.52 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a blue block at X:-2 Y:2 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_52.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 2 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.53 ::date 2019-03-11T19:56:46
+# ::snt <Architect> Perfect
+# ::save-date Mon Mar 11, 2019 ::user kristinwb ::file col_1250_53.txt
+(p / perfect-02)
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.54 ::date 2019-03-11T19:56:58
+# ::snt <Architect> Okay now on the side of the tree with the blue block, we need a red block to be floating in the middle of the two green layers
+# ::save-date Wed Sep 4, 2019 ::user kristinwb ::file col_1250_54.txt
+(n / need-01
+      :ARG0 (w / we)
+      :ARG1 (f / float-01
+            :ARG1 (b / block
+                  :color (r2 / red))
+            :location (s / space
+                  :ARG1-of (m / middle-02
+                        :ARG2 (l / layer :quant 2
+                              :color (g2 / green)))
+                  :ARG1-of (n2 / next-to-02
+                        :ARG2 (s2 / side
+                              :part-of (t / tree)
+                              :location-of (b2 / block
+                                    :color (b3 / blue)))
+                        :ARG3 (c / cartesian-framework-91
+                              :ARG1 (b4 / build-space)))))
+      :time (n3 / now))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.55 ::date 2019-03-11T20:00:24
+# ::snt <Architect> It will be in the center
+# ::save-date Thu Sep 5, 2019 ::user kristinwb ::file col_1250_55.txt
+(b / be-located-at-91
+      :ARG1 (i2 / it)
+      :ARG2 (s / space
+            :ARG1-of (c / center-03)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.56 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a red block at X:-2 Y:3 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_56.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.57 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a red block at X:-2 Y:4 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_57.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 4 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.58 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a red block at X:-2 Y:3 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1250_58.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -2 :y 3 :z -1)))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.59 ::date 2019-03-11T20:01:54
+# ::snt <Builder> Is this right?
+# ::save-date Mon Mar 11, 2019 ::user kristinwb ::file col_1250_59.txt
+(r / right-06
+      :ARG2 (t / this)
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-4-6-christmas-tree-B31_1250.60 ::date 2019-03-11T20:02:20
+# ::snt <Architect> Yes perfect! I think we are done
+# ::save-date Mon Mar 11, 2019 ::user kristinwb ::file col_1250_60.txt
+(m / multi-sentence
+      :snt1 (c / confirm-01
+            :ARG1 (p / perfect-02))
+      :snt2 (t / think-01
+            :ARG0 (i / i)
+            :ARG1 (b / be-done-08
+                  :ARG0 (w / we
+                        :ARG2-of (i2 / include-91
+                              :ARG1 i)))))

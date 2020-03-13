@@ -1,0 +1,136 @@
+# workset Minecraft-4-6-orange-flat-original-L-B31-A41 (generated on Mon Oct 14, 2019 at 15:07:22 for user coqc)
+
+#frameworks
+# ::id minecraft-4-6-orange-flat-original-L-B31_1243.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 z6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :hand (r4 / right-handed)
+                  :FR (i4 / intrinsic))
+            :configuration (s / string-entity :value "L"))
+      :snt9 (c10 / codirectional-01
+            :ARG1 x
+            :ARG2 y6))
+
+# ::id minecraft-4-6-orange-flat-original-L-B31_1243.1 ::date 2019-09-11T17:57:49
+# ::snt <Builder> Mission has started.
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1243_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-6-orange-flat-original-L-B31_1243.2 ::date 2019-09-11T17:58:15
+# ::snt <Architect> Hi!
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1243_2.txt
+(h / hi)
+
+# ::id minecraft-4-6-orange-flat-original-L-B31_1243.3 ::date 2019-09-11T17:58:56
+# ::snt <Builder> hello
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1243_3.txt
+(h / hello)
+
+# ::id minecraft-4-6-orange-flat-original-L-B31_1243.4 ::date 2019-09-11T17:59:02
+# ::snt <Architect> So the shape is three orange blocks on the ground, in an L shape
+# ::save-date Sat Sep 14, 2019 ::user kristinwb ::file col_1243_4.txt
+(c / consist-01
+      :ARG1 (t / thing
+            :ARG1-of (s / shape-01))
+      :ARG2 (b / block :quant 3
+            :color (o / orange)
+            :ARG1-of (o2 / on-top-03
+                  :ARG2 (g / ground)
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 (b2 / build-space)))
+            :ARG1-of (s2 / shape-01
+                  :ARG2 (s3 / string-entity :value "L"))))
+
+# ::id minecraft-4-6-orange-flat-original-L-B31_1243.5 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a orange block at X:2 Y:1 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1243_5.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -1)))
+
+# ::id minecraft-4-6-orange-flat-original-L-B31_1243.6 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a orange block at X:1 Y:1 Z:-1]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1243_6.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -1)))
+
+# ::id minecraft-4-6-orange-flat-original-L-B31_1243.7 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a orange block at X:1 Y:1 Z:0]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1243_7.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (o / orange))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z 0)))
+
+# ::id minecraft-4-6-orange-flat-original-L-B31_1243.8 ::date 2019-09-11T18:02:37
+# ::snt <Builder> like this?
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1243_8.txt
+(r / resemble-01
+      :ARG2 (t / this)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-4-6-orange-flat-original-L-B31_1243.9 ::date 2019-09-11T18:03:07
+# ::snt <Architect> Yep perfect!
+# ::save-date Wed Sep 11, 2019 ::user kristinwb ::file col_1243_9.txt
+(c / confirm-01
+      :ARG2 (p / perfect-02))

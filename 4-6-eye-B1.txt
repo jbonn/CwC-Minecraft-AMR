@@ -1,0 +1,1131 @@
+# workset Minecraft-4-6-eye-B1-A44 (generated on Wed Aug 28, 2019 at 15:46:36 for user jbonn)
+
+#frameworks
+# ::id minecraft-4-6-eye-b1_1223.0
+(m / multi-sentence
+      :snt1 (b / build-space
+            :ARG1-of (c / cartesian-framework-91
+                  :ARG2 (x / x-axis)
+                  :ARG3 (y / y-axis)
+                  :ARG4 (z / z-axis)
+                  :hand (r / right-handed)
+                  :FR (a / absolute)))
+      :snt2 (b2 / builder
+            :ARG1-of (c2 / cartesian-framework-91
+                  :ARG2 (x2 / x-axis)
+                  :ARG3 (y2 / y-axis)
+                  :ARG4 (z2 / z-axis)
+                  :hand (l / left-handed)
+                  :FR (i2 / intrinsic)))
+      :snt3 (a2 / architect
+            :ARG1-of (c3 / cartesian-framework-91
+                  :ARG2 (x3 / x-axis)
+                  :ARG3 (y3 / y-axis)
+                  :ARG4 (z3 / z-axis)
+                  :hand (l2 / left-handed)
+                  :FR (i3 / intrinsic)))
+      :snt4 (g / ground-white-square
+            :ARG1-of (c4 / cartesian-framework-91
+                  :ARG2 (x4 / x-axis)
+                  :ARG3 (y4 / y-axis)
+                  :hand (l3 / left-handed)
+                  :FR (r2 / relative-to-builder)))
+      :snt5 (c5 / codirectional-01
+            :ARG1 y
+            :ARG2 (a3 / and
+                  :op1 y2
+                  :op2 y3
+                  :op3 y5
+                  :op4 y6))
+      :snt6 (c6 / codirectional-01
+            :ARG1 z2
+            :ARG2 y4)
+      :snt7 (a5 / antiparallel-01
+            :ARG1 z2
+            :ARG2 z5)
+      :snt8 (c7 / composite-entity
+            :configuration (e / eye)
+            :ARG1-of (c8 / cartesian-framework-91
+                  :ARG2 (x5 / x-axis)
+                  :ARG3 (y5 / y-axis)
+                  :ARG4 (z5 / z-axis)
+                  :hand (r3 / right-handed)
+                  :FR (r4 / relative-to-builder))
+            :ARG1-of (c9 / cartesian-framework-91
+                  :ARG2 (x6 / x-axis)
+                  :ARG3 (y6 / y-axis)
+                  :ARG4 (z6 / z-axis)
+                  :hand (l4 / left-handed)
+                  :FR (i4 / intrinsic))))
+      :snt9 (a6 / antiparallel-01
+            :ARG1 z
+            :ARG2 z6)
+      :snt11 (a7 / antiparallel-01
+            :ARG0 x
+            :ARG1 x6))
+
+# ::id minecraft-4-6-eye-b1_1223.1 ::date 2019-03-03T23:04:19
+# ::snt <Builder> Mission has started.
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_1.txt
+(s / start-01
+      :ARG1 (m / mission-01))
+
+# ::id minecraft-4-6-eye-b1_1223.2 ::date 2019-08-26T09:26:01
+# ::snt <Builder> hello
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_2.txt
+(h / hello)
+
+# ::id minecraft-4-6-eye-b1_1223.3 ::date 2019-08-26T09:26:09
+# ::snt <Architect> hello. ok we're making a 2 d vertical drawing
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_3.txt
+(m / multi-sentence
+      :snt1 (h / hello)
+      :snt2 (m2 / make-01
+            :ARG0 (w / we)
+            :ARG1 (t / thing
+                  :ARG1-of (d / draw-01)
+                  :ARG1-of (d2 / dimensional-02)
+                  :ARG1-of (v / vertical-01
+                        :ARG2 (c / cartesian-framework-91
+                              :ARG1 (b / build-space))))))
+
+# ::id minecraft-4-6-eye-b1_1223.4 ::date 2019-08-26T09:27:10
+# ::snt <Architect> so every block will be on the same plane
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_4.txt
+(i2 / infer-01
+      :ARG1 (s / same-01
+            :ARG1 (b / block
+                  :mod (e / every))
+            :ARG3 (p / plane
+                  :location-of b)))
+
+# ::id minecraft-4-6-eye-b1_1223.5 ::date 2019-08-26T09:29:32
+# ::snt <Builder> ok
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_5.txt
+(o / okay-04)
+
+# ::id minecraft-4-6-eye-b1_1223.6 ::date 2019-08-26T09:29:41
+# ::snt <Architect> its a 7x7 drawing
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_6.txt
+(t / thing
+      :ARG1-of (d / draw-01)
+      :size (d2 / dimension-entity :value 7)
+      :size (d3 / dimension-entity :value 7)
+      :domain (i2 / it))
+
+# ::id minecraft-4-6-eye-b1_1223.7 ::date 2019-08-26T09:37:59
+# ::snt <Architect> begin at the left column and build up
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_7.txt
+(a / and
+      :op1 (b / begin-01 :mode imperative
+            :ARG0 (y / you)
+            :ARG2 (c / column
+                  :ARG1-of (l / left-24
+                        :ARG3 (c2 / cartesian-framework-91
+                              :ARG1 y))))
+      :op2 (b2 / build-01 :mode imperative
+            :ARG0 y
+            :direction (t / trajectory
+                  :ARG2-of (u / up-03
+                        :ARG5 (c3 / cartesian-framework-91
+                              :ARG1 (b3 / build-space))))))
+
+# ::id minecraft-4-6-eye-b1_1223.8 ::date 2019-08-26T09:41:50
+# ::snt <Builder> is it flat?
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_8.txt
+(f / flat-06
+      :ARG1 (i2 / it)
+      :polarity (a / amr-unknown))
+
+# ::id minecraft-4-6-eye-b1_1223.9 ::date 2019-08-26T09:42:10
+# ::snt <Architect> no it is vertical
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_9.txt
+(a / and
+      :op1 (c / confirm-01 :polarity -)
+      :op2 (v / vertical-01
+            :ARG1 (i2 / it)
+            :ARG2 (c2 / cartesian-framework-91
+                  :ARG1 (b / build-space))))
+
+# ::id minecraft-4-6-eye-b1_1223.10 ::date 2019-08-26T09:43:04
+# ::snt <Architect> ok so the left column goes (empty block), 3 purple blocks above it, 3 emepty blocks above that
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_10.txt
+(g / go-06
+      :ARG1 (c / column
+            :ARG1-of (l / left-24
+                  :ARG3 (c3 / cartesian-framework-91
+                        :ARG1 (b8 / build-space))))
+      :manner (h / have-configuration-91
+            :ARG2 (s / spatial-sequence-91
+                  :ARG1 (a / above-01)
+                  :ARG2 (b / block
+                        :ARG1-of (e / empty-02))
+                  :ARG3 (b2 / block
+                        :color (p / purple))
+                  :ARG4 (b3 / block
+                        :color (p2 / purple))
+                  :ARG5 (b4 / block
+                        :color (p3 / purple))
+                  :ARG6 (b5 / block
+                        :ARG1-of (e2 / empty-02))
+                  :ARG7 (b6 / block
+                        :ARG1-of (e3 / empty-02))
+                  :ARG8 (b7 / block
+                        :ARG1-of (e4 / empty-02)))))
+
+# ::id minecraft-4-6-eye-b1_1223.11 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:4 Y:1 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_11.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.12 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:3 Y:1 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_12.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.13 ::date 2019-08-26T09:52:58
+# ::snt <Architect> we're only building a column right now the left most column of the 7x7 drawing
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_13.txt
+(i2 / instead-of-91
+      :ARG1 (b / build-01
+            :ARG0 (w / we)
+            :ARG1 (c / column
+                  :ARG1-of (h / have-degree-91
+                        :ARG2 (l / left-24
+                              :ARG1 c
+                              :ARG2 (t / thing
+                                    :ARG1-of (d / draw-01)
+                                    :size (d2 / dimension-entity :value 7)
+                                    :size (d3 / dimension-entity :value 7))
+                              :ARG3 (c2 / cartesian-framework-91
+                                    :ARG1 (b2 / builder)))
+                        :ARG3 (m / most)))
+            :mod (o / only)
+            :time (n / now
+                  :mod (r / right-yy))))
+# ::id minecraft-4-6-eye-b1_1223.14 ::date 2019-08-26T09:56:04
+# ::snt <Builder> oh ok
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_14.txt
+(o / okay-04
+      :mod (o2 / oh :mode expressive))
+
+# ::id minecraft-4-6-eye-b1_1223.15 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a purple block at X:4 Y:1 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_15.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.16 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a purple block at X:3 Y:1 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_16.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.17 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:5 Y:1 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_17.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 1 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.18 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:5 Y:2 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_18.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 2 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.19 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:5 Y:3 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_19.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 3 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.20 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a purple block at X:5 Y:1 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_20.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 1 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.21 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:5 Y:4 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_21.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 5 :y 4 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.22 ::date 2019-08-26T09:57:12
+# ::snt <Architect> ok we're done with the first column excellent
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_22.txt
+(a / and
+      :op1 (o2 / okay-04)
+      :op2 (b / be-done-08
+            :ARG0 (w / we)
+            :ARG1 (c / column
+                  :ord (o / ordinal-entity :value 1)
+                  :ARG2-of (s / spatial-sequence-91)))
+      :ARG1-of (e / excellent-02))
+
+# ::id minecraft-4-6-eye-b1_1223.23 ::date 2019-08-26T09:57:59
+# ::snt <Builder> like this?
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_23.txt
+(r / resemble-01
+      :ARG2 (t / this)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-4-6-eye-b1_1223.24 ::date 2019-08-26T09:59:11
+# ::snt <Builder> ok
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_24.txt
+(o / okay-04)
+
+# ::id minecraft-4-6-eye-b1_1223.25 ::date 2019-08-26T09:59:19
+# ::snt <Architect> now for the columns. I'll be telling you them one column per message
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_25.txt
+(m / multi-sentence
+      :snt1 (c3 / concern-02
+            :ARG1 (c / column :pl +)
+            :time (n / now))
+      :snt2 (t / tell-01
+            :ARG0 (i / i)
+            :ARG1 c
+            :ARG2 (y / you)
+            :manner (r / rate-entity-91
+                  :ARG1 (c2 / column)
+                  :ARG2 (m2 / message-01))
+            :frequency (r2 / rate-entity-91
+                  :ARG1 (c4 / column :quant 1
+                        :ARG1-of (i2 / include-91
+                              :ARG2 c))
+                  :ARG2 (m3 / message-01 :quant 1
+                        :ARG0 i
+                        :ARG2 y))))
+
+# ::id minecraft-4-6-eye-b1_1223.26 ::date 2019-08-26T10:01:35
+# ::snt <Builder> okay
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_26.txt
+(o / okay-04)
+
+# ::id minecraft-4-6-eye-b1_1223.27 ::date 2019-08-26T10:04:21
+# ::snt <Architect> 2nd column. purple, empty, 2 purple, empty, red
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_27.txt
+(c / column
+      :ord (o / ordinal-entity :value 2)
+      :ARG3-of (s / spatial-sequence-91)
+      :configuration (s2 / spatial-sequence-91
+            :ARG2 (t / thing
+                  :color (p / purple))
+            :ARG3 (t2 / thing
+                  :ARG1-of (e / empty-02))
+            :ARG4 (t3 / thing
+                  :color (p2 / purple))
+            :ARG5 (t4 / thing
+                  :color (p3 / purple))
+            :ARG6 (t5 / thing
+                  :ARG1-of (e2 / empty-02))
+            :ARG7 (t6 / thing
+                  :color (r / red))))
+
+# ::id minecraft-4-6-eye-b1_1223.28 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:4 Y:1 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_28.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 1 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.29 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:4 Y:3 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_29.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 3 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.30 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:4 Y:4 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_30.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 4 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.31 ::date 2019-08-26T10:07:39
+# ::snt <Architect> sorry, purple, 2 empty, 2 purple, empty, red* correction
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_31.txt
+(s / sorry-01
+      :ARG2 (i2 / instead-of-91
+            :ARG1 (s2 / spatial-sequence-91
+                  :ARG2 (t / thing
+                        :color (p / purple))
+                  :ARG3 (t2 / thing
+                        :ARG1-of (e / empty-02))
+                  :ARG4 (t3 / thing
+                        :ARG1-of (e2 / empty-02))
+                  :ARG5 (t4 / thing
+                        :color (p2 / purple))
+                  :ARG6 (t5 / thing
+                        :color (p3 / purple))
+                  :ARG7 (t6 / thing
+                        :ARG1-of (e3 / empty-02))
+                  :ARG8 (t7 / thing
+                        :color (r / red)))))
+
+# ::id minecraft-4-6-eye-b1_1223.32 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a purple block at X:4 Y:3 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_32.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 3 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.33 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:4 Y:5 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_33.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 5 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.34 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a red block at X:4 Y:6 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_34.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 6 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.35 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a red block at X:4 Y:7 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_35.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 7 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.36 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a red block at X:4 Y:6 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_36.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 4 :y 6 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.37 ::date 2019-08-26T10:10:32
+# ::snt <Builder> like this?
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_37.txt
+(r / resemble-01
+      :ARG2 (t / this)
+      :ARG1-of (r2 / request-confirmation-91))
+
+# ::id minecraft-4-6-eye-b1_1223.38 ::date 2019-08-26T10:11:03
+# ::snt <Architect> yep! perfect
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_38.txt
+(c / confirm-01
+      :ARG1 (p / perfect-02))
+
+# ::id minecraft-4-6-eye-b1_1223.39 ::date 2019-08-26T10:11:18
+# ::snt <Architect> third column: purple, 3 blue, purple, empty, red
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_39.txt
+(c / column
+      :ord (o / ordinal-entity :value 3)
+      :ARG4-of (s / spatial-sequence-91)
+      :configuration (s2 / spatial-sequence-91
+            :ARG2 (t / thing
+                  :color (p / purple))
+            :ARG3 (t2 / thing
+                  :color (b / blue))
+            :ARG4 (t3 / thing
+                  :color (b2 / blue))
+            :ARG5 (t4 / thing
+                  :color (b3 / blue))
+            :ARG6 (t5 / thing
+                  :color (p2 / purple))
+            :ARG7 (t6 / thing
+                  :ARG1-of (e / empty-02))
+            :ARG8 (t7 / thing
+                  :color (r / red))))
+
+# ::id minecraft-4-6-eye-b1_1223.40 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:3 Y:1 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_40.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.41 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:3 Y:2 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_41.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.42 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:3 Y:3 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_42.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.43 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:3 Y:4 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_43.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 4 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.44 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a red block at X:3 Y:7 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_44.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 7 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.45 ::date 2019-08-26T10:13:09
+# ::snt <Architect> you forgot the purple at the very bottom of the third column
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_45.txt
+(f / forget-01
+      :ARG0 (y / you)
+      :ARG1 (t / thing
+            :color (p / purple)
+            :ARG1-of (b / bottom-03
+                  :ARG2 (c / column
+                        :ord (o / ordinal-entity :value 3))
+                  :ARG3 (c2 / cartesian-framework-91
+                        :ARG1 (b2 / build-space))
+                  :mod (v / very))))
+
+# ::id minecraft-4-6-eye-b1_1223.46 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a purple block at X:3 Y:4 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_46.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 4 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.47 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a blue block at X:3 Y:3 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_47.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.48 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a blue block at X:3 Y:2 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_48.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.49 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a blue block at X:3 Y:1 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_49.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.50 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:3 Y:1 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_50.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 1 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.51 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:3 Y:2 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_51.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 2 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.52 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:3 Y:3 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_52.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 3 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.53 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:3 Y:4 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_53.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 4 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.54 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:3 Y:5 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_54.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 3 :y 5 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.55 ::date 2019-08-26T10:41:48
+# ::snt <Builder> ok
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_55.txt
+(o / okay-04)
+
+# ::id minecraft-4-6-eye-b1_1223.56 ::date 2019-08-26T10:41:56
+# ::snt <Architect> fourth column: purp, blue, purp, blue, purp, empty, red
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_56.txt
+(c / column
+      :ord (o / ordinal-entity :value 4)
+      :ARG5-of (s / spatial-sequence-91)
+      :configuration (s2 / spatial-sequence-91
+            :ARG2 (t / thing
+                  :color (p / purple))
+            :ARG3 (t2 / thing
+                  :color (b / blue))
+            :ARG4 (t3 / thing
+                  :color (p2 / purple))
+            :ARG5 (t4 / thing
+                  :color (b2 / blue))
+            :ARG6 (t5 / thing
+                  :color (p3 / purple))
+            :ARG7 (t6 / thing
+                  :ARG1-of (e / empty-02))
+            :ARG8 (t7 / thing
+                  :color (r / red))))
+
+# ::id minecraft-4-6-eye-b1_1223.57 ::date 2019-08-26T10:44:05
+# ::snt <Builder> purp = purple
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_57.txt
+(m / mean-01
+      :ARG1 (s / string-entity :value "purp")
+      :ARG2 (p / purple))
+
+# ::id minecraft-4-6-eye-b1_1223.58 ::date 2019-08-26T10:44:37
+# ::snt <Architect> yes
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_58.txt
+(c / confirm-01)
+
+# ::id minecraft-4-6-eye-b1_1223.59 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:2 Y:1 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_59.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 1 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.60 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:2 Y:3 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_60.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 3 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.61 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:2 Y:5 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_61.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 5 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.62 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:2 Y:2 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_62.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 2 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.63 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:2 Y:4 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_63.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 4 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.64 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a red block at X:2 Y:7 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_64.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 2 :y 7 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.65 ::date 2019-08-26T10:45:05
+# ::snt <Architect> 5 th column: purp, 2 blue, empty, purp, empty, red
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_65.txt
+(c / column
+      :ARG6-of (s / spatial-sequence-91)
+      :ord (o / ordinal-entity :value 5)
+      :configuration (s2 / spatial-sequence-91
+            :ARG2 (t / thing
+                  :color (p / purple))
+            :ARG3 (t2 / thing
+                  :color (b / blue))
+            :ARG4 (t3 / thing
+                  :color (b2 / blue))
+            :ARG5 (t4 / thing
+                  :ARG1-of (e / empty-02))
+            :ARG6 (t5 / thing
+                  :color (p2 / purple))
+            :ARG7 (t6 / thing
+                  :ARG1-of (e2 / empty-02))
+            :ARG8 (t7 / thing
+                  :color (r / red))))
+
+# ::id minecraft-4-6-eye-b1_1223.66 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:1 Y:1 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_66.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 1 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.67 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:1 Y:2 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_67.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 2 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.68 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a blue block at X:1 Y:3 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_68.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (b3 / blue))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 3 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.69 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:1 Y:5 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_69.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 5 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.70 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a red block at X:1 Y:7 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_70.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 1 :y 7 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.71 ::date 2019-08-26T10:46:46
+# ::snt <Architect> 6th column, empty, purple, empty, purple, 2 empty, red
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_71.txt
+(c / column
+      :ord (o / ordinal-entity :value 6)
+      :ARG7-of (s / spatial-sequence-91)
+      :configuration (s2 / spatial-sequence-91
+            :ARG2 (t / thing
+                  :ARG1-of (e / empty-02))
+            :ARG3 (t2 / thing
+                  :color (p / purple))
+            :ARG4 (t3 / thing
+                  :ARG1-of (e2 / empty-02))
+            :ARG5 (t4 / thing
+                  :color (p2 / purple))
+            :ARG6 (t5 / thing
+                  :ARG1-of (e3 / empty-02))
+            :ARG7 (t6 / thing
+                  :ARG1-of (e4 / empty-02))
+            :ARG8 (t7 / thing
+                  :color (r / red))))
+
+# ::id minecraft-4-6-eye-b1_1223.72 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:0 Y:2 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_72.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 2 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.73 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:0 Y:3 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_73.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.74 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:0 Y:4 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_74.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 4 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.75 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a purple block at X:0 Y:3 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_75.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 3 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.76 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a red block at X:0 Y:7 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_76.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x 0 :y 7 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.77 ::date 2019-08-26T10:48:45
+# ::snt <Architect> last column, 2 empty, purple, 2 empty red
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_77.txt
+(c / column
+      :ord (o / ordinal-entity :value "-1")
+      :ARG8-of (s / spatial-sequence-91)
+      :configuration (s2 / spatial-sequence-91
+            :ARG2 (t / thing
+                  :ARG1-of (e / empty-02))
+            :ARG3 (t2 / thing
+                  :ARG1-of (e2 / empty-02))
+            :ARG4 (t3 / thing
+                  :color (p / purple))
+            :ARG5 (t4 / thing
+                  :ARG1-of (e3 / empty-02))
+            :ARG6 (t5 / thing
+                  :ARG1-of (e4 / empty-02))
+            :ARG7 (t6 / thing
+                  :color (r / red))))
+
+# ::id minecraft-4-6-eye-b1_1223.78 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:-1 Y:2 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_78.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.79 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a purple block at X:-1 Y:2 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_79.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.80 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:-1 Y:4 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_80.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.81 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:-1 Y:3 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_81.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.82 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a purple block at X:-1 Y:4 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_82.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.83 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a red block at X:-1 Y:7 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_83.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 7 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.84 ::date 2019-08-26T10:51:16
+# ::snt <Architect> there are 3 empty space between the purple and red in the last column. it should be 2
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_84.txt
+(m / multi-sentence
+      :snt1 (b / between-01
+            :ARG1 (s / space :quant 3
+                  :ARG1-of (e / empty-02))
+            :ARG2 (t / thing
+                  :color (p / purple))
+            :ARG3 (t2 / thing
+                  :color (r / red))
+            :location (c / column
+                  :ord (o / ordinal-entity :value "-1")))
+      :snt2 (r2 / recommend-01
+            :ARG1 (i2 / instead-of-91
+                  :ARG1 (s2 / space :quant 2)
+                  :ARG2 s)))
+
+# ::id minecraft-4-6-eye-b1_1223.85 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a purple block at X:-1 Y:3 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_85.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.86 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:-1 Y:4 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_86.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.87 ::date 2019-08-26T10:55:34
+# ::snt <Architect> oh sorry you were supposed to correct it by moving a red one down by 1
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_87.txt
+(a / and
+      :op1 (s / sorry-01
+            :mod (o / oh :mode expressive))
+      :op2 (s2 / suppose-02
+            :ARG1 (y / you)
+            :ARG2 (c / correct-01
+                  :ARG0 y
+                  :ARG1 (i2 / it)
+                  :manner (m / move-01
+                        :ARG0 y
+                        :ARG1 (o2 / one
+                              :color (r / red))
+                        :direction (d / down-03
+                              :ARG5 (c2 / cartesian-framework-91
+                                    :ARG1 (b / build-space)))
+                        :extent (d2 / distance-quantity :quant 1)))))
+
+# ::id minecraft-4-6-eye-b1_1223.88 ::date 2019-08-26T10:58:01
+# ::snt <Builder> ok
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_88.txt
+(o / okay-04)
+
+# ::id minecraft-4-6-eye-b1_1223.89 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a purple block at X:-1 Y:4 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_89.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 4 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.90 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:-1 Y:2 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_90.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.91 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a purple block at X:-1 Y:3 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_91.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 3 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.92 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a purple block at X:-1 Y:2 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_92.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (p2 / purple))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 2 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.93 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a red block at X:-1 Y:7 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_93.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 7 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.94 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a red block at X:-1 Y:7 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_94.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 7 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.95 ::date 2019-08-07T19:54:03
+# ::snt [Builder puts down a red block at X:-1 Y:6 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_95.txt
+(p / put-down-17
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 6 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.96 ::date 2019-08-07T19:54:03
+# ::snt [Builder picks up a red block at X:-1 Y:7 Z:-2]
+# ::save-date Wed Aug 07, 2019::user jbonn ::file col_1223_96.txt
+(p / pick-up-04
+      :ARG0 (b / builder)
+      :ARG1 (b2 / block 
+            :color (r / red))
+      :ARG2 (s / space
+            :location (c / cartesian-coordinate-entity :x -1 :y 7 :z -2)))
+
+# ::id minecraft-4-6-eye-b1_1223.97 ::date 2019-08-26T10:58:19
+# ::snt <Architect> ok we're doen
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_97.txt
+(a / and
+      :op1 (o / okay-04)
+      :op2 (b / be-done-08
+            :ARG0 (w / we)))
+
+# ::id minecraft-4-6-eye-b1_1223.98 ::date 2019-08-26T10:58:42
+# ::snt <Builder> good job
+# ::save-date Mon Aug 26, 2019 ::user jbonn ::file col_1223_98.txt
+(j / job
+      :ARG1-of (g / good-02))
