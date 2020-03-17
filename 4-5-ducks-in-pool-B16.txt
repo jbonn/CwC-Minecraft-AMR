@@ -90,7 +90,7 @@
             :ARG2 (h / here)
             :ARG1-of (r / request-confirmation-91))
       :snt2 (a / area
-            :ARG1-of (o / outline-01)
+            :ARG1-of (o / outline-02)
             :ARG1-of (r2 / request-confirmation-91)))
 
 # ::id minecraft-4-5-ducks-in-pool-b16-a41_1200.4 ::date 2019-01-15T19:19:50
